@@ -19,7 +19,7 @@ Aethernium,SKR_aethernium,Militarized Racer,High Tech,highenergyfocus,9,4000,300
 557,SKR_557,Bounty-Hunter,Midline,SKR_redline,10,4000,450,6000,,600,75,,100,80,70,50,90,350,FRONT,,135,0.4,0.8,,,40,80,70,70,2,,9,35000,5,15,300,0.25,10,10,,"rare_bp, merc",0.25,0.7,2,3,,220
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 # BULLHORN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Bullhorn,SKR_bullhorn,Assault Cruiser,Low Tech,SKR_boost,15,13000,1600,15000,,450,150,,30,30,20,20,20,1750,FRONT,,90,0.4,1.0,,,180,250,250,200,5,,8,130000,3,12,600,0.25,28,28,,"rare_bp, merc",0.25,0.1,2,3,,401
+Bullhorn,SKR_bullhorn,Assault Cruiser,Low Tech,SKR_boost,15,13000,1600,15000,,450,150,,30,30,20,20,20,1750,FRONT,,90,0.4,1,,,180,250,250,200,5,,8,130000,3,12,600,0.25,28,28,,"rare_bp, merc",0.25,0.1,2,3,,401
 # TUMBLEWEED,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Poison Ivy,SKR_poisonivy,Cruiser,Pirate,burndrive,15,7500,1000,10000,,525,125,1,45,25,15,12,20,1300,FRONT,,180,0.4,1,,,150,200,100,100,3,,8,200000,3,15,480,0.25,21,21,HIDE_IN_CODEX,,,0.75,2,3,,401
 Tumbleweed,SKR_tumbleweed,Cruiser,Midline,SKR_drone_sensor,15,7500,800,10000,,525,135,1,50,30,20,15,20,1200,FRONT,,270,0.4,0.8,,,125,200,125,125,3,,8,135000,4,16,480,0.25,21,21,,"rare_bp, merc",0.5,0.5,2,3,,401
@@ -87,21 +87,25 @@ Pillbug,SKR_pillbug,Assault drone,Plague-bearer Tech,flarelauncher_active,1,400,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 # CATACLYSM,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Cataclysm,SKR_cataclysm,Plague Titan,Plague-bearer Tech,SKR_pull,100,40000,2500,40000,,2000,420,4,35,20,10,10,5,4000,OMNI,,150,0.25,0.7,,,0,0,100,400,15,27,6,500000,3,12,720,0.25,100,100,"UNBOARDABLE, HIDE_IN_CODEX, SHIP_WITH_MODULES",restricted,,0.4,2,4,SKR_warp,509
+Gun Module,SKR_cataclysm_FL,Autonomous Section,Plague-bearer Tech,,25,10000,1000,3000,,300,100,,40,0,0,20,0,600,NONE,,45,0.5,0.8,,,,,,,,,,,4,20,600,0.25,1,1,"UNBOARDABLE, HIDE_IN_CODEX",,,0.6,2,4,SKR_warp_dummy,505
+Gun Module,SKR_cataclysm_FR,Autonomous Section,Plague-bearer Tech,,25,10000,1000,3000,,300,100,,40,0,0,20,0,600,NONE,,45,0.5,0.8,,,,,,,,,,,4,20,600,0.25,1,1,"UNBOARDABLE, HIDE_IN_CODEX",,,0.6,2,4,SKR_warp_dummy,505
 Gun Module,SKR_cataclysm_ML,Autonomous Section,Plague-bearer Tech,,25,10000,1000,3000,,300,100,,40,0,0,20,0,600,NONE,,45,0.5,0.8,,,,,,,,,,,4,20,600,0.25,1,1,"UNBOARDABLE, HIDE_IN_CODEX",,,0.6,2,4,SKR_warp_dummy,505
 Gun Module,SKR_cataclysm_MR,Autonomous Section,Plague-bearer Tech,,25,10000,1000,3000,,300,100,,40,0,0,20,0,600,NONE,,45,0.5,0.8,,,,,,,,,,,4,20,600,0.25,1,1,"UNBOARDABLE, HIDE_IN_CODEX",,,0.6,2,4,SKR_warp_dummy,505
+Gun Module,SKR_cataclysm_RL,Autonomous Section,Plague-bearer Tech,,25,10000,1000,3000,,300,100,,40,0,0,20,0,600,NONE,,45,0.5,0.8,,,,,,,,,,,4,20,600,0.25,1,1,"UNBOARDABLE, HIDE_IN_CODEX",,,0.6,2,4,SKR_warp_dummy,505
+Gun Module,SKR_cataclysm_RR,Autonomous Section,Plague-bearer Tech,,25,10000,1000,3000,,300,100,,40,0,0,20,0,600,NONE,,45,0.5,0.8,,,,,,,,,,,4,20,600,0.25,1,1,"UNBOARDABLE, HIDE_IN_CODEX",,,0.6,2,4,SKR_warp_dummy,505
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Cultist,SKR_cultist,Destroyer,Plague-bearer Tech,plasmajets,10,3000,400,6000,,400,110,,100,90,60,40,100,300,OMNI,,360,0.3,0.6,,,35,50,50,40,2,20,9,60000,5,20,300,0.25,10,10,HIDE_IN_CODEX,restricted,,.5,2,3,,309
+Cultist,SKR_cultist,Destroyer,Plague-bearer Tech,plasmajets,10,3000,400,6000,,400,110,,100,90,60,40,100,300,OMNI,,360,0.3,0.6,,,35,50,50,40,2,20,9,60000,5,20,300,0.25,10,10,HIDE_IN_CODEX,restricted,,0.5,2,3,,309
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Zealot,SKR_zealot,Cruiser,Plague-bearer Tech,entropyamplifier,16,9000,750,12000,,700,180,,60,40,30,20,25,2000,OMNI,,360,0.3,0.7,,,150,450,400,200,3,100,8,140000,3,15,420,0.25,25,25,HIDE_IN_CODEX,restricted,,.5,3,4,,403
+Zealot,SKR_zealot,Cruiser,Plague-bearer Tech,entropyamplifier,16,9000,750,12000,,700,180,,60,40,30,20,25,2000,OMNI,,360,0.3,0.7,,,150,450,400,200,3,100,8,140000,3,15,420,0.25,25,25,HIDE_IN_CODEX,restricted,,0.5,3,4,,403
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Fanatic,SKR_fanatic,Destroyer,Plague-bearer Tech,fortressshield,11,3000,300,7000,,450,105,,100,90,60,40,100,300,OMNI,,120,0.3,0.6,,,35,50,50,40,2,20,9,80000,5,20,300,0.25,12,12,HIDE_IN_CODEX,restricted,,.5,2,3,,3091
+Fanatic,SKR_fanatic,Destroyer,Plague-bearer Tech,fortressshield,11,3000,300,7000,,450,105,,100,90,60,40,100,300,OMNI,,120,0.3,0.6,,,35,50,50,40,2,20,9,80000,5,20,300,0.25,12,12,HIDE_IN_CODEX,restricted,,0.5,2,3,,3091
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Guru,SKR_guru,Cruiser,Plague-bearer Tech,plasmajets,17,7000,850,9000,,550,175,2,50,30,20,15,20,1800,OMNI,,270,0.4,0.7,,,250,550,300,150,3,100,8,150000,3,12,420,0.25,26,26,HIDE_IN_CODEX,restricted,,.5,3,4,,403
+Guru,SKR_guru,Cruiser,Plague-bearer Tech,plasmajets,17,7000,850,9000,,550,175,2,50,30,20,15,20,1800,OMNI,,270,0.4,0.7,,,250,550,300,150,3,100,8,150000,3,12,420,0.25,26,26,HIDE_IN_CODEX,restricted,,0.5,3,4,,403
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Devotee,SKR_devotee,Heavy Frigate,Plague-bearer Tech,SKR_twinShield,8,2250,500,2200,2188,175,55,,120,110,90,40,80,270,OMNI,,180,0.4,0.8,,,30,50,50,25,1,25,10,20000,8,10,240,0.25,6,6,HIDE_IN_CODEX,restricted,,.5,2,2,,
-Follower,SKR_follower,Gunship,Plague-bearer Tech,temporalshell,7,2000,450,3000,3125,250,65,,100,180,120,60,120,250,FRONT,,270,0.4,0.8,,,15,30,40,20,1,20,10,12000,8,10,300,0.25,5,5,HIDE_IN_CODEX,restricted,,.5,2,2,,
-Believer,SKR_believer,Frigate,Plague-bearer Tech,displacer,5,1500,200,2000,2250,180,60,,110,120,100,45,90,100,OMNI,,150,0.4,0.8,,,10,25,40,25,1,25,10,10000,8,10,240,0.25,5,5,HIDE_IN_CODEX,restricted,,.5,2,2,,
-Doctrinaire,SKR_doctrinaire,Combat Carrier,Plague-bearer Tech,reservewing,9,4500,250,2700,2833,170,100,1,50,35,15,25,20,400,OMNI,,150,0.4,0.7,,,55,120,100,50,2,35,9,36000,4,8,360,0.25,9,9,HIDE_IN_CODEX,restricted,,.5,2,3,,
+Devotee,SKR_devotee,Heavy Frigate,Plague-bearer Tech,SKR_twinShield,8,2250,500,2200,2188,175,55,,120,110,90,40,80,270,OMNI,,180,0.4,0.8,,,30,50,50,25,1,25,10,20000,8,10,240,0.25,6,6,HIDE_IN_CODEX,restricted,,0.5,2,2,,
+Follower,SKR_follower,Gunship,Plague-bearer Tech,temporalshell,7,2000,450,3000,3125,250,65,,100,180,120,60,120,250,FRONT,,270,0.4,0.8,,,15,30,40,20,1,20,10,12000,8,10,300,0.25,5,5,HIDE_IN_CODEX,restricted,,0.5,2,2,,
+Believer,SKR_believer,Frigate,Plague-bearer Tech,displacer,5,1500,200,2000,2250,180,60,,110,120,100,45,90,100,OMNI,,150,0.4,0.8,,,10,25,40,25,1,25,10,10000,8,10,240,0.25,5,5,HIDE_IN_CODEX,restricted,,0.5,2,2,,
+Doctrinaire,SKR_doctrinaire,Combat Carrier,Plague-bearer Tech,reservewing,9,4500,250,2700,2833,170,100,1,50,35,15,25,20,400,OMNI,,150,0.4,0.7,,,55,120,100,50,2,35,9,36000,4,8,360,0.25,9,9,HIDE_IN_CODEX,restricted,,0.5,2,3,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
