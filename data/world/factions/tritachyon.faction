@@ -1,26 +1,14 @@
 {
     "hullFrequency":{
         "hulls":{
-            "SKR_hedone":5,
+            "SKR_hedone":0.25,
 
-            "SKR_aethernium":1,
-            "SKR_butterfly":5,
+            "SKR_aethernium":0.12,
+            "SKR_butterfly":0.25,
 
-            "SKR_tumbleweed":1,
+            "SKR_tumbleweed":0.12,
         },
     },
-
-    "shipsWhenImporting":{
-        "hulls":[
-            "SKR_hedone",
-
-            "SKR_aethernium",
-            "SKR_butterfly",
-
-            "SKR_tumbleweed",
-        ],
-    },
-
     "knownShips":{
         "hulls":[
             "SKR_hedone",
@@ -28,13 +16,11 @@
             "SKR_butterfly",
         ],
     },
-
     "knownFighters":{
         "fighters":[
             "SKR_erasmus_wing",
         ],
     },
-
     "knownWeapons":{
         "weapons":[
             "SKR_ravager",

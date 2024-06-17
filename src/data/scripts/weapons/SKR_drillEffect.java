@@ -10,8 +10,8 @@ import com.fs.starfarer.api.combat.OnFireEffectPlugin;
 import com.fs.starfarer.api.combat.WeaponAPI;
 import com.fs.starfarer.api.graphics.SpriteAPI;
 import com.fs.starfarer.api.util.IntervalUtil;
-import data.scripts.plugins.MagicTrailPlugin;
-import data.scripts.util.MagicRender;
+import org.magiclib.plugins.MagicTrailPlugin;
+import org.magiclib.util.MagicRender;
 import data.scripts.util.SKR_graphicLibEffects;
 import java.awt.Color;
 import java.util.ArrayList;
@@ -163,7 +163,7 @@ public class SKR_drillEffect implements EveryFrameWeaponEffectPlugin, OnFireEffe
                     }
                     
                     //TRAIL
-                    MagicTrailPlugin.AddTrailMemberAdvanced(
+                    MagicTrailPlugin.addTrailMemberAdvanced(
                             p,
                             drills.get(p).get(0),
                             TRAIL,
@@ -191,7 +191,7 @@ public class SKR_drillEffect implements EveryFrameWeaponEffectPlugin, OnFireEffe
                     
                     Vector2f loc= new Vector2f(p.getLocation());
                     Vector2f.add(loc, p.getVelocity(), loc);
-                    MagicTrailPlugin.AddTrailMemberAdvanced(
+                    MagicTrailPlugin.addTrailMemberAdvanced(
                             p,
                             drills.get(p).get(4),
                             SHADOW,
@@ -221,7 +221,7 @@ public class SKR_drillEffect implements EveryFrameWeaponEffectPlugin, OnFireEffe
                     if(!p.isFading()){
                         for (int i=1; i<4; i++){
                             float direction = 45*(float)FastTrig.sin((MathUtils.FPI*i/3)+p.getElapsed()*i);
-                            MagicTrailPlugin.AddTrailMemberAdvanced(
+                            MagicTrailPlugin.addTrailMemberAdvanced(
                                     p,
                                     drills.get(p).get(i),
                                     Global.getSettings().getSprite("fx", "base_trail_smooth"),
@@ -489,7 +489,7 @@ public class SKR_drillEffect implements EveryFrameWeaponEffectPlugin, OnFireEffe
                         time/2
                 );
             }
-            MagicTrailPlugin.AddTrailMemberAdvanced(
+            MagicTrailPlugin.addTrailMemberAdvanced(
                     anchor,
                     ID,
                     sprite,

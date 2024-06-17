@@ -17,7 +17,7 @@ import com.fs.starfarer.api.impl.campaign.ids.Submarkets;
 import com.fs.starfarer.api.impl.campaign.ids.Tags;
 import com.fs.starfarer.api.impl.campaign.submarkets.StoragePlugin;
 import data.campaign.ids.SKR_ids;
-import data.scripts.util.MagicCampaign;
+import org.magiclib.util.MagicCampaign;
 import static data.scripts.util.SKR_plagueEffect.LPC;
 import static data.scripts.util.SKR_plagueEffect.SOURCES;
 import static data.scripts.util.SKR_plagueEffect.WEAPONS;

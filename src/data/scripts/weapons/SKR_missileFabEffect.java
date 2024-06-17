@@ -5,7 +5,7 @@ import com.fs.starfarer.api.combat.CombatEngineAPI;
 import com.fs.starfarer.api.combat.EveryFrameWeaponEffectPlugin;
 import com.fs.starfarer.api.combat.ShipSystemAPI;
 import com.fs.starfarer.api.combat.WeaponAPI;
-import data.scripts.util.MagicRender;
+import org.magiclib.util.MagicRender;
 import java.awt.Color;
 import java.util.Iterator;
 import java.util.Map;

@@ -6,7 +6,7 @@ import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.combat.CombatEngineAPI;
 import com.fs.starfarer.api.combat.EveryFrameWeaponEffectPlugin;
 import com.fs.starfarer.api.combat.WeaponAPI;
-import data.scripts.util.MagicRender;
+import org.magiclib.util.MagicRender;
 import data.scripts.util.SKR_plagueEffect;
 import java.awt.Color;
 import org.lwjgl.util.vector.Vector2f;

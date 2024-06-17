@@ -7,7 +7,7 @@ import com.fs.starfarer.api.combat.CombatEngineAPI;
 import com.fs.starfarer.api.combat.DamageType;
 import com.fs.starfarer.api.combat.EveryFrameWeaponEffectPlugin;
 import com.fs.starfarer.api.combat.WeaponAPI;
-import data.scripts.util.MagicInterference;
+import org.magiclib.util.MagicInterference;
 import java.awt.Color;
 import org.lazywizard.lazylib.MathUtils;
 import org.lazywizard.lazylib.combat.entities.SimpleEntity;
@@ -26,7 +26,7 @@ public class SKR_blackoutEffect implements EveryFrameWeaponEffectPlugin {
             
             //only affect non built-in
             if(weapon.getShip().getOriginalOwner()<0 && !weapon.getSlot().isBuiltIn()){
-                MagicInterference.ApplyInterference(weapon.getShip().getVariant());
+                MagicInterference.applyInterference(weapon.getShip().getVariant());
             }
         }
         

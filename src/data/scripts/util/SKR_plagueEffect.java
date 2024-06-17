@@ -5,6 +5,7 @@ package data.scripts.util;
 
 import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.combat.ShipVariantAPI;
+import org.magiclib.util.MagicSettings;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;

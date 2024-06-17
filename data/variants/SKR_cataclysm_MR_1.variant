@@ -32,12 +32,12 @@
             "weapons": {"WS0001": "SKR_intercept"}
         },
         {
-            "autofire": false,
+            "autofire": true,
             "mode": "LINKED",
             "weapons": {"WS0004": "SKR_burstPulse"}
         },
         {
-            "autofire": false,
+            "autofire": true,
             "mode": "LINKED",
             "weapons": {
                 "WS0003": "SKR_pdGrenade",

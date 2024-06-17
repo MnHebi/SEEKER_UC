@@ -26,8 +26,8 @@ import com.fs.starfarer.api.impl.campaign.rulecmd.newgame.NGCAddStartingShipsByF
 import com.fs.starfarer.api.impl.campaign.rulecmd.salvage.special.ShipRecoverySpecial;
 import com.fs.starfarer.api.impl.campaign.submarkets.StoragePlugin;
 import com.fs.starfarer.api.util.Misc;
-import data.scripts.util.MagicCampaign;
-import data.scripts.util.MagicVariables;
+import org.magiclib.util.MagicCampaign;
+import org.magiclib.util.MagicVariables;
 import exerelin.campaign.ExerelinSetupData;
 import exerelin.campaign.PlayerFactionStore;
 import exerelin.campaign.customstart.CustomStart;

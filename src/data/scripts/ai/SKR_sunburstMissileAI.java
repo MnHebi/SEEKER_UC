@@ -9,8 +9,8 @@ import com.fs.starfarer.api.combat.MissileAIPlugin;
 import com.fs.starfarer.api.combat.MissileAPI;
 import com.fs.starfarer.api.combat.ShipAPI;
 import com.fs.starfarer.api.combat.ShipCommand;
-import data.scripts.util.MagicLensFlare;
-import data.scripts.util.MagicTargeting;
+import org.magiclib.util.MagicLensFlare;
+import org.magiclib.util.MagicTargeting;
 import data.scripts.util.SKR_graphicLibEffects;
 import java.awt.Color;
 import org.lazywizard.lazylib.MathUtils;
@@ -145,7 +145,7 @@ public class SKR_sunburstMissileAI implements MissileAIPlugin, GuidedMissileAI {
         engine.addHitParticle(missile.getLocation(), new Vector2f(),300,0.5f,0.25f,Color.WHITE);
         
         //createSmoothFlare(CombatEngineAPI engine, ShipAPI origin, Vector2f point, float thickness, float length, float angle, Color fringeColor, Color coreColor)
-        MagicLensFlare.createSmoothFlare(engine, missile.getSource(), missile.getLocation(), 50, 1000, 0, new Color(255,75,160,255), new Color(255,175,250,255));
+        MagicLensFlare.createSharpFlare(engine, missile.getSource(), missile.getLocation(), 50, 1000, 0, new Color(255,75,160,255), new Color(255,175,250,255));
         if(SHADER){
             SKR_graphicLibEffects.customLight(missile.getLocation(), null, 500, 0.3f, new Color(255,75,160,255), 0, 0.15f, 0.25f);
         }

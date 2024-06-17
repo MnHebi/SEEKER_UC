@@ -15,7 +15,7 @@ import com.fs.starfarer.api.impl.campaign.ids.Factions;
 import com.fs.starfarer.api.impl.campaign.ids.Personalities;
 import com.fs.starfarer.api.impl.campaign.rulecmd.FireBest;
 import com.fs.starfarer.api.impl.campaign.rulecmd.newgame.NGCAddStartingShipsByFleetType;
-import data.scripts.util.MagicCampaign;
+import org.magiclib.util.MagicCampaign;
 import exerelin.campaign.ExerelinSetupData;
 import exerelin.campaign.PlayerFactionStore;
 import exerelin.campaign.customstart.CustomStart;
@@ -88,83 +88,55 @@ public class SKR_poisonStart extends CustomStart {
                     Global.getSector().getMemoryWithoutUpdate().set("$nex_startLocation", location.getId());
 
                     //spawn former asscociates
-                    PersonAPI ascociateA = MagicCampaign.createCaptain(
-                            false,
-                            null,
-                            null,
-                            null,
-                            null, 
-                            null,
-                            Factions.PIRATES,
-                            null,
-                            null,
-                            Personalities.AGGRESSIVE,
-                            4,
-                            2,
-                            OfficerManagerEvent.SkillPickPreference.GENERIC,
-                            null
-                    );                
-                    CampaignFleetAPI fleetA = MagicCampaign.createFleet(
-                            txt("poison_fleetA"),
-                            Factions.PIRATES,
-                            null,
-                            txt("poison_flagshipA"),
-                            "SKR_poisonivy_mugster",
-                            true,
-                            false,
-                            ascociateA,
-                            null,
-                            true,
-                            60,
-                            Factions.PIRATES,
-                            0.5f,
-                            location,
-                            FleetAssignment.RAID_SYSTEM,
-                            location,
-                            false,
-                            false,
-                            null
-                    );
+                    PersonAPI ascociateA = MagicCampaign.createCaptainBuilder(Factions.PIRATES)
+                            .setPersonality(Personalities.AGGRESSIVE)
+							.setFactionId(Factions.PIRATES)
+							.setLevel(4)
+							.setEliteSkillsOverride(2)
+                            .setSkillPreference(OfficerManagerEvent.SkillPickPreference.NO_ENERGY_YES_BALLISTIC_YES_MISSILE_YES_DEFENSE)
+							.create();           
+                    CampaignFleetAPI fleetA = MagicCampaign.createFleetBuilder()
+                            .setFleetName(txt("poison_fleetA"))
+                            .setFleetFaction(Factions.PIRATES)
+                            .setFlagshipName(txt("poison_flagshipA"))
+                            .setFlagshipVariant("SKR_poisonivy_mugster")
+                            .setFlagshipAlwaysRecoverable(true)
+                            .setFlagshipAutofit(false)
+                            .setCaptain(ascociateA)
+                            .setSupportAutofit(true)
+                            .setMinFP(60)
+                            .setReinforcementFaction(Factions.PIRATES)
+                            .setQualityOverride(0.5f)
+                            .setSpawnLocation(location)
+                            .setAssignment(FleetAssignment.RAID_SYSTEM)
+                            .setAssignmentTarget(location)
+							.create(); 
                     //force spawn near player                
                     fleetA.setLocation(location.getLocation().x+MathUtils.getRandomNumberInRange(-25, 25), location.getLocation().y+MathUtils.getRandomNumberInRange(-25, 25));
 
-                    PersonAPI ascociateB = MagicCampaign.createCaptain(
-                            false,
-                            null,
-                            null,
-                            null,
-                            null, 
-                            null,
-                            Factions.PIRATES,
-                            null,
-                            null,
-                            Personalities.CAUTIOUS,
-                            6,
-                            3,
-                            OfficerManagerEvent.SkillPickPreference.GENERIC,
-                            null
-                    );                
-                    CampaignFleetAPI fleetB = MagicCampaign.createFleet(
-                            txt("poison_fleetB"),
-                            Factions.PIRATES,
-                            null,
-                            txt("poison_flagshipB"),
-                            "SKR_poisonivy_highwayman",
-                            true,
-                            false,
-                            ascociateB,
-                            null,
-                            true,
-                            75,
-                            Factions.PIRATES,
-                            0.75f,
-                            location,
-                            FleetAssignment.RAID_SYSTEM,
-                            location,
-                            false,
-                            false,
-                            null
-                    );
+                    PersonAPI ascociateB = MagicCampaign.createCaptainBuilder(Factions.PIRATES)
+                            .setPersonality(Personalities.CAUTIOUS)
+							.setFactionId(Factions.PIRATES)
+                            .setLevel(6)
+                            .setEliteSkillsOverride(3)
+                            .setSkillPreference(OfficerManagerEvent.SkillPickPreference.NO_ENERGY_YES_BALLISTIC_YES_MISSILE_YES_DEFENSE)
+							.create();            
+                    CampaignFleetAPI fleetB = MagicCampaign.createFleetBuilder()
+                            .setFleetName(txt("poison_fleetB"))
+                            .setFleetFaction(Factions.PIRATES)
+                            .setFlagshipName(txt("poison_flagshipB"))
+                            .setFlagshipVariant("SKR_poisonivy_highwayman")
+                            .setFlagshipAlwaysRecoverable(true)
+                            .setFlagshipAutofit(false)
+                            .setCaptain(ascociateB)
+                            .setSupportAutofit(true)
+                            .setMinFP(75)
+                            .setReinforcementFaction(Factions.PIRATES)
+                            .setQualityOverride(0.75f)
+                            .setSpawnLocation(location)
+                            .setAssignment(FleetAssignment.RAID_SYSTEM)
+                            .setAssignmentTarget(location)
+							.create(); 
                     //force spawn near player     
                     fleetB.setLocation(location.getLocation().x+MathUtils.getRandomNumberInRange(-25, 25), location.getLocation().y+MathUtils.getRandomNumberInRange(-25, 25));
 

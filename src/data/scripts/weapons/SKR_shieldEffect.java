@@ -6,7 +6,7 @@ import com.fs.starfarer.api.combat.ShieldAPI;
 import com.fs.starfarer.api.combat.ShipAPI;
 import com.fs.starfarer.api.combat.ShipwideAIFlags;
 import com.fs.starfarer.api.combat.WeaponAPI;
-import data.scripts.util.MagicUI;
+import org.magiclib.util.MagicUI;
 import static data.scripts.util.SKR_txt.txt;
 import java.awt.Color;
 

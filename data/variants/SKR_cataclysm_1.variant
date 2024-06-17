@@ -8,12 +8,12 @@
         "turretgyros",
     ],
     "modules": [
-        {"M_FL": "SKR_cataclysm_ML_1"},
+        {"M_FL": "SKR_cataclysm_FL_1"},
         {"M_ML": "SKR_cataclysm_ML_1"},
-        {"M_RL": "SKR_cataclysm_ML_1"},
-        {"M_FR": "SKR_cataclysm_MR_1"},
+        {"M_RL": "SKR_cataclysm_RL_1"},
+        {"M_FR": "SKR_cataclysm_FR_1"},
         {"M_MR": "SKR_cataclysm_MR_1"},
-        {"M_RR": "SKR_cataclysm_MR_1"}
+        {"M_RR": "SKR_cataclysm_RR_1"}
     ],
     "permaMods": [],
     "variantId": "SKR_cataclysm_1",

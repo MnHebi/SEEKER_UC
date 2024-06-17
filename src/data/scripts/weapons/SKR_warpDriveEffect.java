@@ -11,8 +11,8 @@ import com.fs.starfarer.api.combat.WeaponAPI;
 import com.fs.starfarer.api.fleet.FleetMemberAPI;
 import com.fs.starfarer.api.mission.FleetSide;
 import static data.scripts.SKR_modPlugin.bossArrivalSounds;
-import data.scripts.util.MagicLensFlare;
-import data.scripts.util.MagicRender;
+import org.magiclib.util.MagicLensFlare;
+import org.magiclib.util.MagicRender;
 import data.scripts.util.SKR_graphicLibEffects;
 import java.awt.Color;
 import java.util.List;
@@ -52,7 +52,7 @@ public class SKR_warpDriveEffect implements EveryFrameWeaponEffectPlugin {
         }
         
         //retreating warp out check        
-        if(ship.isRetreating() && ship.getTravelDrive().isActive() && ship.getTravelDrive().getEffectLevel()==1){
+        if(ship.isAlive() && ship.isRetreating() && ship.getTravelDrive().isActive() && ship.getTravelDrive().getEffectLevel()==1){
             warpOut(ship);
         }
         

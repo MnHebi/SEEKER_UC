@@ -1,22 +1,14 @@
 {
     "hullFrequency":{
         "hulls":{
-            "SKR_fresnel":0.5,
+            "SKR_fresnel":0.25,
         },
     },
-
     "shipsWhenImporting":{
         "hulls":[
             "SKR_fresnel",
         ],
     },
-
-    "knownShips":{
-        "hulls":[
-            "SKR_fresnel",
-        ],
-    },
-
     "knownWeapons":{
         "weapons":[
             "SKR_ravager",

@@ -11,7 +11,7 @@ import com.fs.starfarer.api.combat.MissileAIPlugin;
 import com.fs.starfarer.api.combat.MissileAPI;
 import com.fs.starfarer.api.combat.ShipAPI;
 import com.fs.starfarer.api.combat.ShipCommand;
-import data.scripts.util.MagicRender;
+import org.magiclib.util.MagicRender;
 import java.awt.Color;
 import java.util.HashMap;
 import java.util.List;

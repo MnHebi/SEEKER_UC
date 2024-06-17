@@ -1,42 +1,24 @@
 {
     "hullFrequency":{
         "hulls":{
-            "SKR_hedone":0.25,
+            "SKR_hedone":0.06,
 
-            "SKR_obelisk":0.5,
-            "SKR_aethernium":0.5,
-            "SKR_butterfly":0.25,            
-            "SKR_marksman":1,
-            "SKR_557":0.5,
+            "SKR_obelisk":0.12,
+            "SKR_aethernium":0.12,
+            "SKR_butterfly":0.06,            
+            "SKR_marksman":0.12,
+            "SKR_557":0.12,
 
-            "SKR_retiarius":0.25,
-            "SKR_bullhorn":0.25,
+            "SKR_retiarius":0.06,
+            "SKR_bullhorn":0.06,
 
-            "SKR_cassowary":0.12,
+            "SKR_cassowary":0.06,
 
-            "SKR_malet":1,
-            "SKR_adze":1,
-            "SKR_halligan":1,
+            "SKR_malet":0.25,
+            "SKR_adze":0.25,
+            "SKR_halligan":0.25,
         },
     },
-
-    "shipsWhenImporting":{
-        "hulls":[
-
-            "SKR_obelisk",
-            "SKR_aethernium",
-            "SKR_butterfly",
-            "SKR_marksman",
-            "SKR_557",
-
-            "SKR_tumbleweed",
-
-            "SKR_malet",
-            "SKR_adze",
-            "SKR_halligan",
-        ],
-    },
-
     "knownShips":{
         "hulls":[
             "SKR_hedone",

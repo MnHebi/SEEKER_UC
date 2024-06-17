@@ -10,7 +10,7 @@ import com.fs.starfarer.api.combat.DamageType;
 import com.fs.starfarer.api.combat.ShipAPI;
 import com.fs.starfarer.api.impl.campaign.ids.Stats;
 import com.fs.starfarer.api.util.IntervalUtil;
-import data.scripts.util.MagicRender;
+import org.magiclib.util.MagicRender;
 import java.awt.Color;
 import org.lazywizard.lazylib.MathUtils;
 

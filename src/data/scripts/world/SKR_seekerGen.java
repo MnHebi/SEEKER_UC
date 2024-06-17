@@ -27,7 +27,7 @@ import data.campaign.bosses.SKR_rampageLoot;
 import data.campaign.bosses.SKR_safeguardLoot;
 import data.campaign.bosses.SKR_whiteDwarfLoot;
 import data.campaign.ids.SKR_ids;
-import data.scripts.util.MagicCampaign;
+import org.magiclib.util.MagicCampaign;
 import static data.scripts.util.SKR_txt.txt;
 import data.scripts.world.systems.SKR_plagueA;
 import data.scripts.world.systems.SKR_plagueB;
@@ -131,12 +131,12 @@ public class SKR_seekerGen implements SectorGeneratorPlugin {
             {
                 blacklist.add(Tags.THEME_HIDDEN);
                 blacklist.add("theme_plaguebearers");
-		blacklist.add("theme_domres");
-		blacklist.add("theme_hmi_nightmare");
-		blacklist.add("theme_hmi_mess_remnant");
-		blacklist.add("theme_messrem");
-		blacklist.add("theme_domresboss");
-		blacklist.add("theme_domres");
+				blacklist.add("theme_domres");
+				blacklist.add("theme_hmi_nightmare");
+				blacklist.add("theme_hmi_mess_remnant");
+				blacklist.add("theme_messrem");
+				blacklist.add("theme_domresboss");
+				blacklist.add("theme_domres");
             }
             
             //pick closest to the core
@@ -209,27 +209,22 @@ public class SKR_seekerGen implements SectorGeneratorPlugin {
             @Nullable String variantsPath
         )
         */
-            CampaignFleetAPI nova = MagicCampaign.createFleet(
-                    txt("nova_fleet"),
-                    Factions.REMNANTS,
-                    FleetTypes.PERSON_BOUNTY_FLEET,
-                    txt("nova_boss"),
-                    "SKR_nova_falseOmega",
-                    false,
-                    true,
-                    null, //generic remnant captain
-                    null, //no preset suport fleet
-                    true,
-                    200,
-                    null, //same reinforcement faction as the fleet
-                    2f,
-                    selected,
-                    FleetAssignment.DEFEND_LOCATION,
-                    onyx,
-                    false,
-                    true,
-                    null
-            );
+            CampaignFleetAPI nova = MagicCampaign.createFleetBuilder()
+                    .setFleetName(txt("nova_fleet"))
+                    .setFleetFaction(Factions.REMNANTS)
+                    .setFleetType(FleetTypes.PERSON_BOUNTY_FLEET)
+                    .setFlagshipName(txt("nova_boss"))
+                    .setFlagshipVariant("SKR_nova_falseOmega")
+                    .setFlagshipAutofit(true)
+                    .setSupportAutofit(true)
+                    .setMinFP(200)
+                    .setQualityOverride(2f)
+                    .setSpawnLocation(selected)
+                    .setAssignment(FleetAssignment.DEFEND_LOCATION)
+                    .setAssignmentTarget(onyx)
+                    .setIsImportant(false)
+                    .setTransponderOn(true)
+                    .create();
             nova.addTag(Tags.NEUTRINO);
             nova.addTag(Tags.NEUTRINO_HIGH);
             nova.getFlagship().getVariant().addTag(Tags.SHIP_LIMITED_TOOLTIP);
@@ -352,22 +347,21 @@ public class SKR_seekerGen implements SectorGeneratorPlugin {
         */
         MagicCampaign.addSalvage(null, fieldA, MagicCampaign.lootType.SUPPLIES, null, 231);
                 
-        PersonAPI plagueA = MagicCampaign.createCaptain(
-                true,
-                Commodities.GAMMA_CORE,
-                "",//txt("plague_A_boss"),
-                txt("plague_A_boss"),
-                "SKR_plagueA",
-                FullName.Gender.ANY,
-                "plague",
-                Ranks.SPACE_COMMANDER,
-                Ranks.POST_FLEET_COMMANDER,
-                Personalities.RECKLESS,
-                4,
-                2,
-                OfficerManagerEvent.SkillPickPreference.NO_ENERGY_YES_BALLISTIC_YES_MISSILE_NO_DEFENSE,
-                null //skills
-        );
+        PersonAPI plagueA = MagicCampaign.createCaptainBuilder("plague")
+                .setIsAI(true)
+                .setAICoreType(Commodities.GAMMA_CORE)
+                .setFirstName(txt("plague_A_boss"))
+                .setLastName(txt("plague_A_boss"))
+                .setPortraitId("SKR_plagueA")
+                .setGender(FullName.Gender.ANY)
+                .setFactionId("plague")
+                .setRankId(Ranks.SPACE_COMMANDER)
+                .setPostId(Ranks.POST_FLEET_COMMANDER)
+                .setPersonality(Personalities.RECKLESS)
+                .setLevel(4)
+                .setEliteSkillsOverride(2)
+                .setSkillPreference(OfficerManagerEvent.SkillPickPreference.NO_ENERGY_YES_BALLISTIC_YES_MISSILE_NO_DEFENSE)
+                .create();
         
         /**        
         createFleet(
@@ -392,27 +386,22 @@ public class SKR_seekerGen implements SectorGeneratorPlugin {
             @Nullable String variantsPath
         )
         */
-	CampaignFleetAPI safeguard = MagicCampaign.createFleet(
-                txt("plague_A_fleet"),
-                "plague",
-                null,
-                txt("plague_A_boss"),
-                "SKR_keep_safeguard",
-                false,
-                false,
-                plagueA,
-                null,
-                true,
-                200,
-                Factions.DERELICT,
-                0.5f,
-                null,
-                FleetAssignment.PATROL_SYSTEM,
-                targetPlagueA,
-                false,
-                true,
-                null
-        );
+	CampaignFleetAPI safeguard = MagicCampaign.createFleetBuilder()
+                .setFleetName(txt("plague_A_fleet"))
+                .setFleetFaction("plague")
+                .setFlagshipName(txt("plague_A_boss"))
+                .setFlagshipVariant("SKR_keep_safeguard")
+                .setCaptain(plagueA)
+                .setSupportAutofit(true)
+                .setMinFP(200)
+                .setReinforcementFaction(Factions.DERELICT)
+                .setQualityOverride(0.5f)
+                .setSpawnLocation(targetPlagueA)
+                .setAssignment(FleetAssignment.PATROL_SYSTEM)
+                .setAssignmentTarget(targetPlagueA)
+                .setIsImportant(false)
+                .setTransponderOn(true)
+                .create();
         safeguard.setDiscoverable(true);
         safeguard.addTag(Tags.NEUTRINO);
         safeguard.addTag(Tags.NEUTRINO_HIGH);
@@ -467,44 +456,34 @@ public class SKR_seekerGen implements SectorGeneratorPlugin {
             LOG.info("Adding RAMPAGE boss fleet in "+targetPlagueB.getStarSystem().getName());
         }        
         
-        PersonAPI plagueB = MagicCampaign.createCaptain(
-                true,
-                Commodities.ALPHA_CORE,
-                "",//txt("plague_B_boss"),
-                txt("plague_B_boss"),
-                "SKR_plagueB",
-                FullName.Gender.ANY,
-                "plague",
-                Ranks.SPACE_COMMANDER,
-                Ranks.POST_FLEET_COMMANDER,
-                Personalities.AGGRESSIVE,
-                10,
-                10,
-                OfficerManagerEvent.SkillPickPreference.NO_ENERGY_YES_BALLISTIC_NO_MISSILE_YES_DEFENSE,
-                null
-        );
+        PersonAPI plagueB = MagicCampaign.createCaptainBuilder("plague")
+                .setIsAI(true)
+                .setAICoreType(Commodities.ALPHA_CORE)
+                .setFirstName(txt("plague_B_boss"))
+                .setLastName(txt("plague_B_boss"))
+                .setPortraitId("SKR_plagueB")
+                .setGender(FullName.Gender.ANY)
+                .setFactionId("plague")
+                .setRankId(Ranks.SPACE_COMMANDER)
+                .setPostId(Ranks.POST_FLEET_COMMANDER)
+                .setPersonality(Personalities.AGGRESSIVE)
+                .setLevel(10)
+                .setEliteSkillsOverride(10)
+                .setSkillPreference(OfficerManagerEvent.SkillPickPreference.NO_ENERGY_YES_BALLISTIC_NO_MISSILE_YES_DEFENSE)
+                .create();
         
-	CampaignFleetAPI rampage = MagicCampaign.createFleet(
-                txt("plague_B_fleet"),
-                "plague",
-                null,
-                txt("plague_B_boss"),
-                "SKR_rampage_01",
-                false,
-                false,
-                plagueB, //officer
-                null, //no escort fleet
-                false,
-                -1, //no support fleet
-                null, //no support faction
-                null, //no quallity override
-                null,
-                FleetAssignment.PATROL_SYSTEM,
-                targetPlagueB,
-                false,
-                true,
-                null
-        );
+	CampaignFleetAPI rampage = MagicCampaign.createFleetBuilder()
+                .setFleetName(txt("plague_B_fleet"))
+                .setFleetFaction("plague")
+                .setFlagshipName(txt("plague_B_boss"))
+                .setFlagshipVariant("SKR_rampage_01")
+                .setCaptain(plagueB)
+                .setSpawnLocation(targetPlagueB)
+                .setAssignment(FleetAssignment.PATROL_SYSTEM)
+                .setAssignmentTarget(targetPlagueB)
+                .setIsImportant(false)
+                .setTransponderOn(true)
+                .create();
         rampage.setDiscoverable(true);
         rampage.addTag(Tags.NEUTRINO);
         rampage.addTag(Tags.NEUTRINO_HIGH);
@@ -576,22 +555,21 @@ public class SKR_seekerGen implements SectorGeneratorPlugin {
             LOG.info("Adding WHITE DWARF boss fleet in "+targetPlagueC.getStarSystem().getName());
         }        
                
-        PersonAPI plagueC = MagicCampaign.createCaptain(
-                true,
-                Commodities.ALPHA_CORE,
-                "",//txt("plague_C_boss"),
-                txt("plague_C_boss"),
-                "SKR_plagueC",
-                FullName.Gender.ANY,
-                "plague",
-                Ranks.SPACE_COMMANDER,
-                Ranks.POST_FLEET_COMMANDER,
-                Personalities.AGGRESSIVE,
-                12,
-                6,
-                OfficerManagerEvent.SkillPickPreference.YES_ENERGY_NO_BALLISTIC_YES_MISSILE_YES_DEFENSE,
-                null
-        );
+        PersonAPI plagueC = MagicCampaign.createCaptainBuilder("plague")
+                .setIsAI(true)
+                .setAICoreType(Commodities.ALPHA_CORE)
+                .setFirstName(txt("plague_C_boss"))
+                .setLastName(txt("plague_C_boss"))
+                .setPortraitId("SKR_plagueC")
+                .setGender(FullName.Gender.ANY)
+                .setFactionId("plague")
+                .setRankId(Ranks.SPACE_COMMANDER)
+                .setPostId(Ranks.POST_FLEET_COMMANDER)
+                .setPersonality(Personalities.AGGRESSIVE)
+                .setLevel(12)
+                .setEliteSkillsOverride(6)
+                .setSkillPreference(OfficerManagerEvent.SkillPickPreference.YES_ENERGY_NO_BALLISTIC_YES_MISSILE_YES_DEFENSE)
+                .create();
         
 //        Map<String,Integer> fleet = new HashMap<>();
 //        fleet.put("brilliant_Standard", 1);
@@ -600,27 +578,22 @@ public class SKR_seekerGen implements SectorGeneratorPlugin {
 //        fleet.put("scintilla_Strike", 1);
 //        fleet.put("scintilla_Support", 1);
 
-        CampaignFleetAPI whitedwarf = MagicCampaign.createFleet(
-                txt("plague_C_fleet"),
-                "plague",
-                null,
-                txt("plague_C_boss"),
-                "SKR_whiteDwarf_1",
-                false,
-                false,
-                plagueC,
-                null,
-                true,
-                200,
-                Factions.REMNANTS,
-                1f,
-                null,
-                FleetAssignment.PATROL_SYSTEM,
-                targetPlagueC,
-                false,
-                true,
-                null
-        );
+        CampaignFleetAPI whitedwarf = MagicCampaign.createFleetBuilder()
+                .setFleetName(txt("plague_C_fleet"))
+                .setFleetFaction("plague")
+                .setFlagshipName(txt("plague_C_boss"))
+                .setFlagshipVariant("SKR_whiteDwarf_1")
+                .setCaptain(plagueC)
+                .setSupportAutofit(true)
+                .setMinFP(200)
+                .setReinforcementFaction(Factions.REMNANTS)
+                .setQualityOverride(1f)
+                .setSpawnLocation(targetPlagueC)
+                .setAssignment(FleetAssignment.PATROL_SYSTEM)
+                .setAssignmentTarget(targetPlagueC)
+                .setIsImportant(false)
+                .setTransponderOn(true)
+				.create();
         whitedwarf.setDiscoverable(true);       
         whitedwarf.addTag(Tags.NEUTRINO);
         whitedwarf.addTag(Tags.NEUTRINO_HIGH); 
@@ -644,40 +617,38 @@ public class SKR_seekerGen implements SectorGeneratorPlugin {
             }
             Integer size =MathUtils.getRandomNumberInRange(1, flagships.size());
             
-            PersonAPI hackedCore = MagicCampaign.createCaptain(
-                    true,
-                    Commodities.ALPHA_CORE,
-                    "",//txt("plague_D_boss"),
-                    txt("plague_AIcore"),
-                    "SKR_AIcore",
-                    FullName.Gender.ANY,
-                    "remnant",
-                    Ranks.SPACE_CAPTAIN,
-                    Ranks.POST_PATROL_COMMANDER,
-                    Personalities.AGGRESSIVE,
-                    MathUtils.getRandomNumberInRange(2,size*2),
-                    MathUtils.getRandomNumberInRange(0,size),
-                    OfficerManagerEvent.SkillPickPreference.YES_ENERGY_NO_BALLISTIC_YES_MISSILE_YES_DEFENSE,
-                    null //defined skills
-            );
+            PersonAPI hackedCore = MagicCampaign.createCaptainBuilder("remnant")
+                    .setIsAI(true)
+                    .setAICoreType(Commodities.ALPHA_CORE)
+                    .setFirstName(txt("plague_D_boss"))
+                    .setLastName(txt("plague_AIcore"))
+                    .setPortraitId("SKR_AIcore")
+                    .setGender(FullName.Gender.ANY)
+                    .setFactionId("remnant")
+                    .setRankId(Ranks.SPACE_CAPTAIN)
+                    .setPostId(Ranks.POST_PATROL_COMMANDER)
+                    .setPersonality(Personalities.AGGRESSIVE)
+                    .setLevel(MathUtils.getRandomNumberInRange(2,size*2))
+                    .setEliteSkillsOverride(MathUtils.getRandomNumberInRange(0,size))
+                    .setSkillPreference(OfficerManagerEvent.SkillPickPreference.YES_ENERGY_NO_BALLISTIC_YES_MISSILE_YES_DEFENSE)
+                    .create();
             
-            CampaignFleetAPI hackedFleet = MagicCampaign.createFleet(
-                    txt("plague_AIFleet"),
-                    "remnant",
-                    FleetTypes.PATROL_MEDIUM,
-                    txt("plague_blank"),
-                    flagships.get(size-1),
-                    hackedCore,
-                    null,
-                    size*35,
-                    "remnant",
-                    1f,
-                    null,
-                    FleetAssignment.ORBIT_AGGRESSIVE,
-                    whitedwarf,
-                    false,
-                    true
-            );            
+            CampaignFleetAPI hackedFleet = MagicCampaign.createFleetBuilder()
+                    .setFleetName(txt("plague_AIFleet"))
+                    .setFleetFaction("remnant")
+                    .setFleetType(FleetTypes.PATROL_MEDIUM)
+                    .setFlagshipName(txt("plague_blank"))
+                    .setFlagshipVariant(flagships.get(size-1))
+                    .setCaptain(hackedCore)
+                    .setMinFP(size*35)
+                    .setReinforcementFaction("remnant")
+                    .setQualityOverride(1f)
+                    .setSpawnLocation(whitedwarf)
+                    .setAssignment(FleetAssignment.ORBIT_AGGRESSIVE)
+                    .setAssignmentTarget(whitedwarf)
+                    .setIsImportant(false)
+                    .setTransponderOn(true)
+					.create();
         }
                 
         
@@ -762,44 +733,37 @@ public class SKR_seekerGen implements SectorGeneratorPlugin {
 //        retinue.put("SKR_zealot_standard", 1);
 //        retinue.put("SKR_zealot_support", 1);
         
-        PersonAPI plagueD = MagicCampaign.createCaptain(
-                true,
-                Commodities.ALPHA_CORE,
-                "",//txt("plague_D_boss"),
-                txt("plague_D_boss"),
-                "SKR_plagueD",
-                FullName.Gender.ANY,
-                "plague",
-                Ranks.SPACE_COMMANDER,
-                Ranks.POST_FLEET_COMMANDER,
-                Personalities.AGGRESSIVE,
-                14,
-                14,
-                OfficerManagerEvent.SkillPickPreference.YES_ENERGY_YES_BALLISTIC_YES_MISSILE_YES_DEFENSE,
-                null //defined skills
-        );
+        PersonAPI plagueD = MagicCampaign.createCaptainBuilder("plague")
+                .setIsAI(true)
+                .setAICoreType(Commodities.ALPHA_CORE)
+                .setFirstName(txt("plague_D_boss"))
+                .setLastName(txt("plague_D_boss"))
+                .setPortraitId("SKR_plagueD")
+                .setGender(FullName.Gender.ANY)
+                .setFactionId("plague")
+                .setRankId(Ranks.SPACE_COMMANDER)
+                .setPostId(Ranks.POST_FLEET_COMMANDER)
+                .setPersonality(Personalities.AGGRESSIVE)
+                .setLevel(14)
+                .setEliteSkillsOverride(14)
+                .setSkillPreference(OfficerManagerEvent.SkillPickPreference.YES_ENERGY_YES_BALLISTIC_YES_MISSILE_YES_DEFENSE)
+                .create();
         
-	CampaignFleetAPI cataclysm = MagicCampaign.createFleet(
-                txt("plague_D_fleet"),
-                "plague",
-                null,
-                txt("plague_D_boss"),
-                "SKR_cataclysm_1",
-                false,
-                false,
-                plagueD,
-                retinue,
-                false,
-                0,
-                null,
-                2f,
-                null,
-                FleetAssignment.PATROL_SYSTEM,
-                targetPlagueD,
-                false,
-                true,
-                null
-        );
+	CampaignFleetAPI cataclysm = MagicCampaign.createFleetBuilder()
+                .setFleetName(txt("plague_D_fleet"))
+                .setFleetFaction("plague")
+                .setFlagshipName(txt("plague_D_boss"))
+                .setFlagshipVariant("SKR_cataclysm_1")
+                .setCaptain(plagueD)
+                .setSupportFleet(retinue)
+                .setMinFP(0)
+                .setQualityOverride(2f)
+                .setSpawnLocation(targetPlagueD)
+                .setAssignment(FleetAssignment.PATROL_SYSTEM)
+                .setAssignmentTarget(targetPlagueD)
+                .setIsImportant(false)
+                .setTransponderOn(true)
+                .create();
         cataclysm.setDiscoverable(true);
         cataclysm.addTag(Tags.NEUTRINO);
         cataclysm.addTag(Tags.NEUTRINO_HIGH);
@@ -808,6 +772,7 @@ public class SKR_seekerGen implements SectorGeneratorPlugin {
         cataclysm.getFlagship().getVariant().addTag(Tags.SHIP_UNIQUE_SIGNATURE);
         cataclysm.getFlagship().getVariant().addTag(Tags.VARIANT_UNBOARDABLE);
         Global.getSector().getMemoryWithoutUpdate().set("$SKR_cataclysm_boss", true);
+        //cataclysm.getMemoryWithoutUpdate().set(MemFlags.FLEET_FIGHT_TO_THE_LAST, true);
         cataclysm.getMemoryWithoutUpdate().set(MemFlags.FLEET_IGNORES_OTHER_FLEETS, true);
         cataclysm.getMemoryWithoutUpdate().set(MemFlags.FLEET_DO_NOT_IGNORE_PLAYER, true);
         
@@ -827,22 +792,19 @@ public class SKR_seekerGen implements SectorGeneratorPlugin {
             }
             Integer size =MathUtils.getRandomNumberInRange(1, flagships.size());
             
-            PersonAPI cultist = MagicCampaign.createCaptain(
-                    false,
-                    null,
-                    "",//txt("plague_D_boss"),
-                    txt("plague_cultist"),
-                    "SKR_cultist",
-                    FullName.Gender.ANY,
-                    "plague",
-                    Ranks.SPACE_CAPTAIN,
-                    Ranks.POST_PATROL_COMMANDER,
-                    Personalities.AGGRESSIVE,
-                    MathUtils.getRandomNumberInRange(2,Math.round(size*1.5f)),
-                    MathUtils.getRandomNumberInRange(0,size),
-                    OfficerManagerEvent.SkillPickPreference.YES_ENERGY_YES_BALLISTIC_YES_MISSILE_YES_DEFENSE,
-                    null //defined skills
-            );
+            PersonAPI cultist = MagicCampaign.createCaptainBuilder("plague")
+                    .setFirstName(txt("plague_D_boss"))
+                    .setLastName(txt("plague_cultist"))
+                    .setPortraitId("SKR_cultist")
+                    .setGender(FullName.Gender.ANY)
+                    .setFactionId("plague")
+                    .setRankId(Ranks.SPACE_CAPTAIN)
+                    .setPostId(Ranks.POST_PATROL_COMMANDER)
+                    .setPersonality(Personalities.AGGRESSIVE)
+                    .setLevel(MathUtils.getRandomNumberInRange(2,Math.round(size*1.5f)))
+                    .setEliteSkillsOverride(MathUtils.getRandomNumberInRange(0,size))
+                    .setSkillPreference(OfficerManagerEvent.SkillPickPreference.YES_ENERGY_YES_BALLISTIC_YES_MISSILE_YES_DEFENSE)
+                    .create();
             
             List <FleetAssignment> assignment = new ArrayList<>();
             {
@@ -850,23 +812,20 @@ public class SKR_seekerGen implements SectorGeneratorPlugin {
                 assignment.add(FleetAssignment.FOLLOW);
                 assignment.add(FleetAssignment.ORBIT_AGGRESSIVE);
             }            
-            CampaignFleetAPI posse = MagicCampaign.createFleet(
-                    txt("plague_cultistFleet"),
-                    "plague",
-                    FleetTypes.PATROL_MEDIUM,
-                    txt("plague_blank"),
-                    flagships.get(size-1),
-                    cultist,
-                    null,
-                    size*40,
-                    "plague",
-                    2f,
-                    null,
-                    assignment.get(MathUtils.getRandomNumberInRange(0, assignment.size()-1)),
-                    cataclysm,
-                    false,
-                    false
-            );            
+            CampaignFleetAPI posse = MagicCampaign.createFleetBuilder()
+                    .setFleetName(txt("plague_cultistFleet"))
+                    .setFleetFaction("plague")
+                    .setFleetType(FleetTypes.PATROL_MEDIUM)
+                    .setFlagshipName(txt("plague_blank"))
+                    .setFlagshipVariant(flagships.get(size-1))
+                    .setCaptain(cultist)
+                    .setMinFP(size*40)
+                    .setReinforcementFaction("plague")
+                    .setQualityOverride(2f)
+                    .setSpawnLocation(cataclysm)
+                    .setAssignment(assignment.get(MathUtils.getRandomNumberInRange(0, assignment.size()-1)))
+                    .setAssignmentTarget(cataclysm)
+					.create();         
         }
         
         targetPlagueD.getStarSystem().getTags().add(Tags.THEME_UNSAFE);
@@ -907,22 +866,19 @@ public class SKR_seekerGen implements SectorGeneratorPlugin {
             LOG.info("Adding DEMETER fleet in "+targetDemeter.getStarSystem().getName());
         }        
         
-        PersonAPI demeterCaptain = MagicCampaign.createCaptain(
-                false,
-                null,
-                txt("demeterCaptainFN"),
-                txt("demeterCaptainLN"),
-                "SKR_demeter",
-                FullName.Gender.MALE,
-                "tritachyon",
-                Ranks.SPACE_CHIEF,
-                Ranks.POST_ENTREPRENEUR,
-                Personalities.CAUTIOUS,
-                4,
-                -1,
-                OfficerManagerEvent.SkillPickPreference.YES_ENERGY_NO_BALLISTIC_NO_MISSILE_YES_DEFENSE,
-                null
-        );
+        PersonAPI demeterCaptain = MagicCampaign.createCaptainBuilder("tritachyon")
+                .setFirstName(txt("demeterCaptainFN"))
+                .setLastName(txt("demeterCaptainLN"))
+                .setPortraitId("SKR_demeter")
+                .setGender(FullName.Gender.MALE)
+                .setFactionId("tritachyon")
+                .setRankId(Ranks.SPACE_CHIEF)
+                .setPostId(Ranks.POST_ENTREPRENEUR)
+                .setPersonality(Personalities.CAUTIOUS)
+                .setLevel(4)
+                .setEliteSkillsOverride(-1)
+                .setSkillPreference(OfficerManagerEvent.SkillPickPreference.YES_ENERGY_NO_BALLISTIC_NO_MISSILE_YES_DEFENSE)
+                .create();
         
         /**        
         createFleet(
@@ -947,27 +903,24 @@ public class SKR_seekerGen implements SectorGeneratorPlugin {
             @Nullable String variantsPath
         )
         */
-	CampaignFleetAPI demeter = MagicCampaign.createFleet(
-                txt("demeterFleet"),
-                "independent",
-                FleetTypes.FOOD_RELIEF_FLEET,
-                txt("demeterShip"),
-                "CIV_demeter_standard",
-                true,
-                false,
-                demeterCaptain,
-                null,
-                false,
-                100,
-                "tritachyon",
-                2f,
-                null,
-                FleetAssignment.ORBIT_PASSIVE,
-                targetDemeter,
-                false,
-                true,
-                null
-        );
+	CampaignFleetAPI demeter = MagicCampaign.createFleetBuilder()
+                .setFleetName(txt("demeterFleet"))
+                .setFleetFaction("independent")
+                .setFleetType(FleetTypes.FOOD_RELIEF_FLEET)
+                .setFlagshipName(txt("demeterShip"))
+                .setFlagshipVariant("CIV_demeter_standard")
+                .setFlagshipAlwaysRecoverable(true)
+                .setFlagshipAutofit(false)
+                .setCaptain(demeterCaptain)
+                .setMinFP(100)
+                .setReinforcementFaction("tritachyon")
+                .setQualityOverride(2f)
+                .setSpawnLocation(targetDemeter)
+                .setAssignment(FleetAssignment.ORBIT_PASSIVE)
+                .setAssignmentTarget(targetDemeter)
+                .setIsImportant(false)
+                .setTransponderOn(true)
+                .create();
         demeter.setDiscoverable(false);
         demeter.addTag(Tags.NEUTRINO);
         demeter.getFlagship().getVariant().addTag(Tags.VARIANT_ALWAYS_RECOVERABLE);

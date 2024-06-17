@@ -11,7 +11,7 @@ import com.fs.starfarer.api.combat.MissileAPI;
 import com.fs.starfarer.api.combat.ShipAPI;
 import com.fs.starfarer.api.loading.DamagingExplosionSpec;
 import com.fs.starfarer.api.util.IntervalUtil;
-import data.scripts.util.MagicRender;
+import org.magiclib.util.MagicRender;
 import data.scripts.util.SKR_graphicLibEffects;
 import java.awt.Color;
 import org.lazywizard.lazylib.MathUtils;

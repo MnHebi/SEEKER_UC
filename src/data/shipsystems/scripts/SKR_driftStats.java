@@ -5,7 +5,7 @@ import com.fs.starfarer.api.combat.MutableShipStatsAPI;
 import com.fs.starfarer.api.combat.ShipAPI;
 //import com.fs.starfarer.api.combat.WeaponAPI;
 import com.fs.starfarer.api.impl.combat.BaseShipSystemScript;
-import data.scripts.util.MagicRender;
+import org.magiclib.util.MagicRender;
 import java.awt.Color;
 
 public class SKR_driftStats extends BaseShipSystemScript {

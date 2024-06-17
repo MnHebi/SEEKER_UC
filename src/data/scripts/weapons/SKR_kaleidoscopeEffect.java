@@ -5,8 +5,8 @@ import com.fs.starfarer.api.combat.EveryFrameWeaponEffectPlugin;
 import com.fs.starfarer.api.combat.MissileAPI;
 import com.fs.starfarer.api.combat.WeaponAPI;
 import com.fs.starfarer.api.impl.campaign.ids.Stats;
-import data.scripts.util.MagicInterference;
-import data.scripts.util.MagicTargeting;
+import org.magiclib.util.MagicInterference;
+import org.magiclib.util.MagicTargeting;
 import java.util.HashMap;
 import java.util.Map;
 import org.lazywizard.lazylib.MathUtils;
@@ -26,7 +26,7 @@ public class SKR_kaleidoscopeEffect implements EveryFrameWeaponEffectPlugin {
             
             //only affect non built-in
             if(weapon.getShip().getOriginalOwner()<0 && !weapon.getSlot().isBuiltIn()){
-                MagicInterference.ApplyInterference(weapon.getShip().getVariant());
+                MagicInterference.applyInterference(weapon.getShip().getVariant());
             }
             
             weapon.ensureClonedSpec();

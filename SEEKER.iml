@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../MagicLib/jars/MagicLib.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/../MagicLib/jars/MagicLib.jar!/" />
+          <root url="jar://$MODULE_DIR$/../MagicLib/jars/MagicLib.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../LazyLib/jars/LazyLib.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/../LazyLib/jars/LazyLib.jar!/" />
+          <root url="jar://$MODULE_DIR$/../LazyLib/jars/LazyLib.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../starsector-core/commons-compiler-jdk.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../starsector-core/commons-compiler.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../starsector-core/fs.common_obf.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../starsector-core/fs.sound_obf.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../starsector-core/janino.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../starsector-core/jinput.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../starsector-core/jogg-0.0.7.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../starsector-core/jorbis-0.0.15.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../starsector-core/json.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../starsector-core/log4j-1.2.9.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../starsector-core/lwjgl.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../starsector-core/lwjgl_util.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../starsector-core/starfarer.api.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../starsector-core/starfarer_obf.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../starsector-core/xstream-1.4.10.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/../../starsector-core/starfarer.api.zip!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../Nexerelin/jars/ExerelinCore.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/../Nexerelin/jars/ExerelinCore.jar!/" />
+          <root url="jar://$MODULE_DIR$/../Nexerelin/jars/ExerelinCore.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../GraphicsLib/jars/Graphics.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+  </component>
+</module>

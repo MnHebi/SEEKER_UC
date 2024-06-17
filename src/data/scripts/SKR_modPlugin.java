@@ -19,7 +19,7 @@ import data.scripts.ai.SKR_obsidianMissileAI;
 import data.scripts.ai.SKR_oversteerMissileAI;
 import data.scripts.ai.SKR_stepMissileAI;
 import data.scripts.ai.SKR_sunburstMissileAI;
-import data.scripts.util.MagicSettings;
+import org.magiclib.util.MagicSettings;
 import data.scripts.util.SKR_plagueEffect;
 import static data.scripts.util.SKR_txt.txt;
 import data.scripts.world.SKR_seekerGen;

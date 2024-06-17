@@ -8,7 +8,7 @@ import com.fs.starfarer.api.combat.ShipAPI;
 import com.fs.starfarer.api.combat.ShipSystemAPI;
 import com.fs.starfarer.api.combat.WeaponAPI;
 import com.fs.starfarer.api.util.IntervalUtil;
-import data.scripts.util.MagicRender;
+import org.magiclib.util.MagicRender;
 import data.scripts.util.SKR_graphicLibEffects;
 import java.awt.Color;
 import java.util.HashMap;

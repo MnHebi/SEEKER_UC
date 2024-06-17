@@ -1,24 +1,16 @@
 {
     "hullFrequency":{
         "hulls":{
-            "SKR_obelisk":1,
-            "SKR_bullhorn":0.1,
+            "SKR_obelisk":0.5,
+            "SKR_bullhorn":0.05,
         },
     },
-
-    "shipsWhenImporting":{
-        "hulls":[
-            "SKR_obelisk",
-        ],
-    },
-
     "knownShips":{
         "hulls":[
             "SKR_obelisk",
             "SKR_bullhorn",
         ],
     },
-
     "knownWeapons":{
         "weapons":[
             "SKR_minigun",

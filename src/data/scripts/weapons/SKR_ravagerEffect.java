@@ -6,7 +6,7 @@ import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.combat.CombatEngineAPI;
 import com.fs.starfarer.api.combat.EveryFrameWeaponEffectPlugin;
 import com.fs.starfarer.api.combat.WeaponAPI;
-import data.scripts.util.MagicInterference;
+import org.magiclib.util.MagicInterference;
 //import data.scripts.util.SKR_interference;
 
 public class SKR_ravagerEffect implements EveryFrameWeaponEffectPlugin {
@@ -23,7 +23,7 @@ public class SKR_ravagerEffect implements EveryFrameWeaponEffectPlugin {
             if(weapon.getShip().getOriginalOwner()<0 && !weapon.getSlot().isBuiltIn()){                
                 //INTERFERENCE CHECK
                 //SKR_interference.ApplyInterference(weapon.getShip(), weapon);
-                MagicInterference.ApplyInterference(weapon.getShip().getVariant());
+                MagicInterference.applyInterference(weapon.getShip().getVariant());
                 //INTERFERENCE CHECK
             }
             

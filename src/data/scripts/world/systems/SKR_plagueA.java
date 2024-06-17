@@ -16,7 +16,7 @@ import com.fs.starfarer.api.impl.campaign.ids.Ranks;
 import com.fs.starfarer.api.impl.campaign.ids.Tags;
 import com.fs.starfarer.api.impl.campaign.procgen.StarAge;
 import com.fs.starfarer.api.impl.campaign.procgen.StarSystemGenerator;
-import data.scripts.util.MagicCampaign;
+import org.magiclib.util.MagicCampaign;
 import java.awt.Color;
 import static data.scripts.util.SKR_txt.txt;
 import org.lazywizard.lazylib.MathUtils;
@@ -82,7 +82,7 @@ public class SKR_plagueA {
         p1.getMarket().addCondition(Conditions.HOT);
         p1.getMarket().addCondition(Conditions.THIN_ATMOSPHERE);
         
-        MagicCampaign.createJumpPoint("plagueA_jp1", systemName+txt("plague_jp"), p1, star, 0, 900, 200);
+        MagicCampaign.addJumpPoint("plagueA_jp1", systemName+txt("plague_jp"), p1, star, 0, 900, 200);
         
         SectorEntityToken s1 = system.addCustomEntity("plagueA_stable1", null, "stable_location", "neutral");
         s1.setCircularOrbit(star, -240, 900, 200);
@@ -200,23 +200,21 @@ public class SKR_plagueA {
 //        skills.put(Skills.CARRIER_COMMAND, 3);
 //        skills.put(Skills.WING_COMMANDER, 3);
         
-        PersonAPI plagueA = MagicCampaign.createCaptain(
-                true,
-                Commodities.GAMMA_CORE,
-                "Safeguard",
-                "Safeguard",
-                "SKR_plagueA",
-                FullName.Gender.ANY,
-                "plague",
-                Ranks.SPACE_COMMANDER,
-                Ranks.POST_FLEET_COMMANDER,
-                Personalities.AGGRESSIVE,
-                4,
-                4,
-                OfficerManagerEvent.SkillPickPreference.GENERIC,
-                null
-//                skills
-        );
+        PersonAPI plagueA = MagicCampaign.createCaptainBuilder("plague")
+                .setIsAI(true)
+                .setAICoreType(Commodities.GAMMA_CORE)
+                .setFirstName(txt("plague_A_boss"))
+                .setLastName(txt("plague_A_boss"))
+                .setPortraitId("SKR_plagueA")
+                .setGender(FullName.Gender.ANY)
+                .setFactionId("plague")
+                .setRankId(Ranks.SPACE_COMMANDER)
+                .setPostId(Ranks.POST_FLEET_COMMANDER)
+                .setPersonality(Personalities.AGGRESSIVE)
+                .setLevel(4)
+                .setEliteSkillsOverride(4)
+                .setSkillPreference(OfficerManagerEvent.SkillPickPreference.NO_ENERGY_YES_BALLISTIC_YES_MISSILE_NO_DEFENSE)
+				.create();
         
         /**
         * Creates a fleet with a defined flagship and optional escort
@@ -247,23 +245,21 @@ public class SKR_plagueA {
         * @param transponderOn
         * @return 
         */
-	SectorEntityToken boss = MagicCampaign.createFleet(
-                txt("plague_A_fleet"),
-                "plague",
-                null,
-                txt("plague_A_boss"),
-                "SKR_keep_safeguard",
-                plagueA,
-                null,
-                200,
-                Factions.DERELICT,
-                0.5f,
-                null,
-                FleetAssignment.ORBIT_PASSIVE,
-                p2,
-                true,
-                false
-        );
+	SectorEntityToken boss = MagicCampaign.createFleetBuilder()
+                .setFleetName(txt("plague_A_fleet"))
+                .setFleetFaction("plague")
+                .setFlagshipName(txt("plague_A_boss"))
+                .setFlagshipVariant("SKR_keep_safeguard")
+                .setCaptain(plagueA)
+                .setMinFP(200)
+                .setReinforcementFaction(Factions.DERELICT)
+                .setQualityOverride(0.5f)
+                .setSpawnLocation(p2)
+                .setAssignment(FleetAssignment.ORBIT_PASSIVE)
+                .setAssignmentTarget(p2)
+                .setIsImportant(true)
+                .setTransponderOn(false)
+				.create();
         boss.getCargo().addCommodity(Commodities.ALPHA_CORE, 1);
         boss.getCargo().addHullmods("SKR_plagueLPC", 1);
         boss.setDiscoverable(true);

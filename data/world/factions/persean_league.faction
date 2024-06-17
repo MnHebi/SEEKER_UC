@@ -1,26 +1,18 @@
 {
     "hullFrequency":{
         "hulls":{
-            "SKR_hedone":1,
+            "SKR_hedone":0.25,
 
-            "SKR_obelisk":1,
-            "SKR_aethernium":1,
-            "SKR_marksman":1,
-            "SKR_557":0.5,
+            "SKR_obelisk":0.25,
+            "SKR_aethernium":0.25,
+            "SKR_marksman":0.25,
+            "SKR_557":0.12,
 
-            "SKR_tumbleweed":1,
+            "SKR_tumbleweed":0.25,
 
-            "SKR_cassowary":0.25,
+            "SKR_cassowary":0.06,
         },
     },
-
-    "shipsWhenImporting":{
-        "hulls":[
-            "SKR_tumbleweed",
-            "SKR_557",
-        ],
-    },
-
     "knownShips":{
         "hulls":[
             "SKR_hedone",
@@ -34,20 +26,17 @@
             "SKR_cassowary",
         ],
     },
-
     "priorityShips":{
         "tags":[],
         "hulls":[
             "SKR_cassowary",
         ],
     },
-
     "knownFighters":{
         "fighters":[
             "SKR_erasmus_wing",
         ],
     },
-
     "knownWeapons":{
         "weapons":[
             "SKR_minigun",

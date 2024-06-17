@@ -6,7 +6,7 @@ import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.combat.CombatEngineAPI;
 import com.fs.starfarer.api.combat.EveryFrameWeaponEffectPlugin;
 import com.fs.starfarer.api.combat.WeaponAPI;
-import data.scripts.util.MagicInterference;
+import org.magiclib.util.MagicInterference;
 import org.lazywizard.lazylib.MathUtils;
 
 public class SKR_gatlingAnimation implements EveryFrameWeaponEffectPlugin{
@@ -39,7 +39,7 @@ public class SKR_gatlingAnimation implements EveryFrameWeaponEffectPlugin{
             
             //only affect non built-in
             if(weapon.getShip().getOriginalOwner()<0 && !weapon.getSlot().isBuiltIn()){
-                MagicInterference.ApplyInterference(weapon.getShip().getVariant());
+                MagicInterference.applyInterference(weapon.getShip().getVariant());
             }
             
             return;

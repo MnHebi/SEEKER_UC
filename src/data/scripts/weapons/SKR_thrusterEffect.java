@@ -10,7 +10,7 @@ import com.fs.starfarer.api.combat.ShipEngineControllerAPI;
 import com.fs.starfarer.api.combat.ShipEngineControllerAPI.ShipEngineAPI;
 import com.fs.starfarer.api.combat.WeaponAPI;
 import com.fs.starfarer.api.graphics.SpriteAPI;
-import data.scripts.util.MagicAnim;
+import org.magiclib.util.MagicAnim;
 //import data.scripts.plugins.SpriteRenderManager;
 import java.awt.Color;
 import org.lazywizard.lazylib.FastTrig;

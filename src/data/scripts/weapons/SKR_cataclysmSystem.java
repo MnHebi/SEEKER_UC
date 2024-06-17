@@ -9,8 +9,8 @@ import com.fs.starfarer.api.combat.ShipwideAIFlags;
 import com.fs.starfarer.api.combat.WeaponAPI;
 import com.fs.starfarer.api.util.IntervalUtil;
 import com.fs.starfarer.api.util.Misc;
-import data.scripts.plugins.MagicTrailPlugin;
-import data.scripts.util.MagicRender;
+import org.magiclib.plugins.MagicTrailPlugin;
+import org.magiclib.util.MagicRender;
 import static data.scripts.util.SKR_txt.txt;
 import data.shipsystems.scripts.SKR_pullStats;
 import java.awt.Color;
@@ -302,7 +302,7 @@ public class SKR_cataclysmSystem implements EveryFrameWeaponEffectPlugin {
 //                                Color.PINK
 //                        );                        
 
-            MagicTrailPlugin.AddTrailMemberAdvanced(
+            MagicTrailPlugin.addTrailMemberAdvanced(
                     //entity
                     ship,
                     //trail ID

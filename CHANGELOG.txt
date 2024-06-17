@@ -1,5 +1,13 @@
 SEEKER
 
+7M
+ - Attempt to fix Rampage teleporting out at 0% hull by tweaking  SKR_warpDriveEffect.java, changed retreat warp out effect to consider if ship is alive. Alternative fix is waiting, just commented out of this does not work(alternative fix thanks to JamesTripleQ).
+ - Attempt to fix Cataclysm invulnerable modules, gave each module a unique ship, variant, and graphics file(thanks JamesTripleQ)
+
+6M
+ - Recompiled all java scripts, fixed deprecated magiclib import calls and methods(4 addTrailMemberAdvanced methods are unupdated since I have no idea on what to update them to).
+ - Fixed Seeker ship hulls dominating the factions.
+
 0.53
 
  - Added 3 new Nexerelin custom starts:

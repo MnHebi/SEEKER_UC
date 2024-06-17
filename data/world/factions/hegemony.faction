@@ -1,20 +1,13 @@
 {
     "hullFrequency":{
         "hulls":{
-            "SKR_obelisk":0.25,
-            "SKR_marksman":0.5,
-            "SKR_557":0.33,
+            "SKR_obelisk":0.12,
+            "SKR_marksman":0.25,
+            "SKR_557":0.06,
 
-            "SKR_bullhorn":1,
+            "SKR_bullhorn":0.5,
         },
     },
-
-    "shipsWhenImporting":{
-        "hulls":[
-            "SKR_obelisk",
-        ],
-    },
-
     "knownShips":{
         "hulls":[
             "SKR_marksman",

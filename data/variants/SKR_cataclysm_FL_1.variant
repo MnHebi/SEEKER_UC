@@ -3,14 +3,14 @@
     "fluxCapacitors": 4,
     "fluxVents": 20,
     "goalVariant": true,
-    "hullId": "SKR_cataclysm_ML",
+    "hullId": "SKR_cataclysm_FL",
     "hullMods": [
         "turretgyros",
         "fluxbreakers"
     ],
     "permaMods": [],
     "sMods": [],
-    "variantId": "SKR_cataclysm_ML_1",
+    "variantId": "SKR_cataclysm_FL_1",
     "weaponGroups": [
         {
             "autofire": true,

@@ -16,7 +16,7 @@ import java.awt.Color;
 import org.lazywizard.lazylib.MathUtils;
 import org.lazywizard.lazylib.VectorUtils;
 import org.lwjgl.util.vector.Vector2f;
-import data.scripts.util.MagicRender;
+import org.magiclib.util.MagicRender;
 
 public class SKR_thrusterSystem implements EveryFrameWeaponEffectPlugin {
     

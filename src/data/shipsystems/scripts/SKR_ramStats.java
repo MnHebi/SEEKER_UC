@@ -3,7 +3,7 @@ package data.shipsystems.scripts;
 
 import com.fs.starfarer.api.combat.MutableShipStatsAPI;
 import com.fs.starfarer.api.impl.combat.BaseShipSystemScript;
-import data.scripts.util.MagicAnim;
+import org.magiclib.util.MagicAnim;
 import static data.scripts.util.SKR_txt.txt;
 
 public class SKR_ramStats extends BaseShipSystemScript {
