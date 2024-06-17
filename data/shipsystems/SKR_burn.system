@@ -1,0 +1,31 @@
+{
+    "id":"SKR_burn",
+    "type":"ENGINE_MOD",
+    "aiType":"CUSTOM",
+
+    "statsScript":"data.shipsystems.scripts.SKR_burnStats",
+    "aiScript":"data.shipsystems.scripts.ai.SKR_burnAI",
+
+    #"engineGlowColor":[255,175,125,255],
+    #"engineGlowContrailColor":[100,165,255,25],
+    "engineGlowLengthMult":1.25,
+    "engineGlowWidthMult":1.25,
+    "engineGlowGlowMult":1,
+
+    "flameoutOnImpactChance":0.25,
+
+    "clampTurnRateAfter":false,
+    "clampMaxSpeedAfter":false,
+    "alwaysAccelerate":true,
+
+    "useSound":"system_burn_drive_activate",
+    "loopSound":"system_burn_drive_loop",
+    "deactivateSound":"system_burn_drive_deactivate",
+    "outOfUsesSound":"engine_disabled",
+
+    "aiHints":{
+        "activeSpeedIncrease":50,
+        "burstMovementPotential":0,
+        "averageSpeedIncrease":50,
+    }
+}

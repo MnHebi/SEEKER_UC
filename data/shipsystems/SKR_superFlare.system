@@ -1,0 +1,12 @@
+{
+	"id":"SKR_superFlare",
+	"type":"WEAPON",
+	"aiType":"FLARE",
+	"weaponDataId":"SKR_superFlareLauncher",
+	
+	#"useSound":"system_flare_launcher_active",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+	}	
+}

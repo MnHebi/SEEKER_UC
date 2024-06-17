@@ -1,0 +1,43 @@
+{
+    "displayName": "Support",
+    "fluxCapacitors": 0,
+    "fluxVents": 20,
+    "goalVariant": true,
+    "hullId": "SKR_adze_pirate",
+    "hullMods": [],
+    "permaMods": [],
+    "variantId": "SKR_adze_p_support",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "heavymauler"}
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0006": "heatseeker",
+                "WS0007": "heatseeker"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "hveldriver",
+                "WS0003": "hveldriver"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0008": "lightmg",
+                "WS0009": "lightmg",
+                "WS0010": "lightmg",
+                "WS0011": "lightmg"
+            }
+        }
+    ]
+}

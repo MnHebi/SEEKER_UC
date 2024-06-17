@@ -1,0 +1,41 @@
+{
+    "displayName": "Elite",
+    "fluxCapacitors": 9,
+    "fluxVents": 20,
+    "goalVariant": false,
+    "hullId": "SKR_aethernium",
+    "hullMods": [
+        "magazines",
+        "extendedshieldemitter",
+        "hardenedshieldemitter"
+    ],
+    "permaMods": [
+        "magazines",
+        "hardenedshieldemitter"
+	],
+    "sMods": [
+        "magazines",
+        "hardenedshieldemitter"
+	],
+    "variantId": "SKR_aethernium_elite",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "SKR_ravagerBI",
+                "WS0002": "SKR_ravagerBI"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "amblaster"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0004": "vulcan"}
+        }
+    ]
+}

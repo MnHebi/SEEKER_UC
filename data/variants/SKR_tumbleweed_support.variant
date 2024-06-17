@@ -1,0 +1,43 @@
+{
+    "displayName": "Support",
+    "fluxCapacitors": 1,
+    "fluxVents": 30,
+    "goalVariant": true,
+    "hullId": "SKR_tumbleweed",
+    "hullMods": ["targetingunit"],
+    "permaMods": [],
+    "variantId": "SKR_tumbleweed_support",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "tachyonlance"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0004": "ionbeam"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "lightneedler",
+                "WS0003": "lightneedler"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "lrpdlaser",
+                "WS0006": "lrpdlaser",
+                "WS0007": "lrpdlaser",
+                "WS0008": "lrpdlaser",
+                "WS0009": "vulcan",
+                "WS0010": "vulcan"
+            }
+        }
+    ],
+    "wings": ["broadsword_wing"]
+}

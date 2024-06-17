@@ -1,0 +1,41 @@
+{
+    "baseHullId":"SKR_adze",
+    "skinHullId":"SKR_adze_pirate",
+    "hullName":"Adze (P)",
+    "descriptionId":"SKR_adze",
+    "descriptionPrefix":"This ship has been heavily modified - and poorly maintained - by its pirate crew. Despite its concerning state, a proper passage in a dry-dock could restore this ship to its original specs.",
+    "spriteName": "graphics/SEEKER/ships/gunships/SKR_adze_body_p.png",
+    "baseValueMult":0.9,
+	"fleetPoints":9,
+	"ordnancePoints":80,
+    "restoreToBaseHull":true,
+    "addHints":[],
+    "tags":["rare_bp"],
+    "tech":"Pirate",
+    "removeWeaponSlots":[],
+    "removeEngineSlots":[4,5,6,7,8,9,10,11,12,13],
+    "removeBuiltInMods":["missleracks"],
+    "removeBuiltInWeapons":[
+		"jet0",
+		"jet1",
+		"jet2",
+		"jet3",
+		"jet4",
+		"jet5",
+		"jet6",
+		"jet7",
+		"jet8",
+		"jet9",
+	],
+    "builtInMods":[],
+    "builtInWeapons":{
+		"WS0004": "SKR_Xadze_leftWisker_p",
+		"WS0005": "SKR_Xadze_rightWisker_p",
+	},
+    "systemId":"burndrive",
+    "weaponSlotChanges":{
+        "WS0001":{
+            "type": "BALLISTIC"
+        },
+	},
+}

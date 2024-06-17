@@ -1,0 +1,17 @@
+{
+	"id":"SKR_hyperpulse_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":200.0,
+	"width":12.0,
+	"hitGlowRadius":75,
+	"fadeTime":0.25,
+	"fringeColor":[50,150,255,255],
+	"coreColor":[200,230,255,255],
+	"textureType":"CHUNKY",  # only needed for BEAM spawnType
+	"textureScrollSpeed":-50.0,
+	"pixelsPerTexel":1.0,
+	#"onHitEffect":"data.scripts.weapons.",
+}

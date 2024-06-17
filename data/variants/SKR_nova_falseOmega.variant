@@ -1,0 +1,83 @@
+{
+    "displayName": "F A L S E - O M E G A",
+    "fluxCapacitors": 48,
+    "fluxVents": 50,
+    "goalVariant": true,
+    "hullId": "SKR_nova",
+    "hullMods": [
+        "hardenedshieldemitter",
+        "fluxbreakers",
+        "eccm",
+        "magazines",
+        "autorepair",
+        "SKR_plagueWarning"
+    ],
+    "modules": [
+        {"MODULE_LEFT": "SKR_nova_left_moduleA"},
+        {"MODULE_RIGHT": "SKR_nova_right_moduleA"},
+        {"MODULE_TAIL": "SKR_nova_tail_module"}
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "SKR_nova_falseOmega",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0005": "cyclone",
+                "WS0006": "cyclone",
+                "WS0007": "sabotpod",
+                "WS0008": "sabotpod",
+                "WS0009": "SKR_lightspark",
+                "WS0010": "SKR_lightspark"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "tachyonlance"}
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0002": "autopulse",
+                "WS0003": "autopulse"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0011": "phasebeam",
+                "WS0012": "phasebeam",
+                "WS0021": "ioncannon",
+                "WS0022": "ioncannon",
+                "WS0023": "phasebeam",
+                "WS0024": "phasebeam"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "guardian",
+                "WS0013": "pdburst",
+                "WS0014": "pdburst",
+                "WS0015": "pdburst",
+                "WS0016": "pdburst",
+                "WS0017": "pdburst",
+                "WS0018": "pdburst",
+                "WS0019": "pdburst",
+                "WS0020": "pdburst"
+            }
+        }
+    ],
+    "wings": [
+        "lux_wing",
+        "lux_wing",
+        "lux_wing",
+        "lux_wing"
+    ]
+}

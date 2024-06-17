@@ -1,0 +1,54 @@
+{
+    "displayName": "Assault",
+    "fluxCapacitors": 0,
+    "fluxVents": 30,
+    "goalVariant": true,
+    "hullId": "SKR_zealot",
+    "hullMods": [
+        "safetyoverrides",
+        "hardened_subsystems"
+    ],
+    "permaMods": [],
+    "variantId": "SKR_zealot_assault",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0002": "amblaster",
+                "WS0003": "amblaster"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0006": "SKR_lightspark",
+                "WS0007": "SKR_lightspark"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "chaingun"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "heavymg",
+                "WS0005": "heavymg"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0008": "SKR_pdCharger",
+                "WS0009": "SKR_pdCharger",
+                "WS0010": "SKR_pdCharger",
+                "WS0011": "SKR_pdCharger"
+            }
+        }
+    ]
+}

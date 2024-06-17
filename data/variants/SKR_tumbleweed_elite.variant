@@ -1,0 +1,46 @@
+{
+    "displayName": "Elite",
+    "fluxCapacitors": 10,
+    "fluxVents": 30,
+    "hullId": "SKR_tumbleweed",
+    "hullMods": [
+        "targetingunit",
+        "turretgyros"
+    ],
+    "permaMods": ["targetingunit"],
+    "sMods": ["targetingunit"],
+    "variantId": "SKR_tumbleweed_elite",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "gauss"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0004": "heavymauler"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "taclaser",
+                "WS0006": "taclaser",
+                "WS0007": "taclaser",
+                "WS0008": "taclaser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "vulcan",
+                "WS0003": "vulcan",
+                "WS0009": "vulcan",
+                "WS0010": "vulcan"
+            }
+        }
+    ],
+    "wings": ["perdition_wing"]
+}

@@ -1,0 +1,49 @@
+{
+    "displayName": "Vengeance",
+    "fluxCapacitors": 0,
+    "fluxVents": 7,
+    "hullId": "buffalo2",
+    "hullMods": [
+        "missleracks",
+        "frontshield"
+    ],
+    "permaMods": [
+		"erratic_injector",
+		"glitched_sensors"
+	],
+    "variantId": "SKR_buffalo2_start",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 008": "sabotpod"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 004": "harpoon",
+                "WS 005": "harpoon",
+                "WS 006": "harpoon"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 007": "ioncannon"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 001": "lrpdlaser"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "vulcan",
+                "WS 003": "vulcan"
+            }
+        }
+    ]
+}

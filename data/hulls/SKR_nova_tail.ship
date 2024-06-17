@@ -1,0 +1,44 @@
+{
+  "hullName": "Tail",
+  "hullId": "SKR_nova_tail",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/SEEKER/ships/hidden/SKR_nova_tail.png",
+  "style": "HIGH_TECH",
+  "height": 50,
+  "width": 62,
+  "center": [31, 25],
+  "collisionRadius": 35,
+  "shieldCenter": [-100, 0],
+  "shieldRadius": 305,
+  "viewOffset": 0,
+  "moduleAnchor": [
+    5,
+    0
+  ],
+  "builtInMods": [
+    "reduced_explosion",
+    "always_detaches",
+    "shield_always_on"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [13, -0]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    17, 14,
+    10, 22.5,
+    -19, 27.5,
+    -10, -0,
+    -19, -27.5,
+    10, -22.5,
+    17, -14
+  ]
+}

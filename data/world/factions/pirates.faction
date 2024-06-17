@@ -1,0 +1,40 @@
+{
+    "hullFrequency":{
+        "hulls":{
+            "SKR_tumbleweed_pirate":1,
+
+            "SKR_malet_pirate":0.1,
+            "SKR_adze_pirate":0.1,
+            "SKR_halligan_pirate":0.1,
+        },
+    },
+
+    "shipsWhenImporting":{
+        "hulls":[
+            "SKR_tumbleweed_pirate",
+
+            "SKR_malet_pirate",
+            "SKR_adze_pirate",
+            "SKR_halligan_pirate",
+        ],
+    },
+
+    "knownShips":{
+        "hulls":[
+            "SKR_tumbleweed_pirate",
+
+            "SKR_malet_pirate",
+            "SKR_adze_pirate",
+            "SKR_halligan_pirate",
+        ],
+    },
+    "knownWeapons":{
+        "weapons":[
+            "SKR_minigun",
+            "SKR_stepMissilesLauncher",
+            "SKR_stepMissilesRack",
+            "SKR_accelMissilesLauncher",
+            "SKR_accelMissileRack",
+        ],
+    },
+},

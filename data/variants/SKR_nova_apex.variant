@@ -1,0 +1,84 @@
+{
+    "displayName": "F A L S E - O M E G A",
+    "fluxCapacitors": 39,
+    "fluxVents": 50,
+    "goalVariant": true,
+    "hullId": "SKR_nova",
+    "hullMods": [
+        "hardenedshieldemitter",
+        "fluxbreakers",
+        "ML_interferenceWarning",
+        "turretgyros",
+        "advancedoptics",
+        "heavyarmor",
+        "pointdefenseai"
+    ],
+    "modules": [
+        {"MODULE_LEFT": "SKR_nova_left_moduleB"},
+        {"MODULE_RIGHT": "SKR_nova_right_moduleB"},
+        {"MODULE_TAIL": "SKR_nova_tail_module"}
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "SKR_nova_apex",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "hil",
+                "WS0006": "hil"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0004": "autopulse"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "SKR_gatlingLance",
+                "WS0003": "SKR_gatlingLance"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "ionbeam",
+                "WS0008": "ionbeam",
+                "WS0009": "taclaser",
+                "WS0010": "taclaser",
+                "WS0013": "taclaser",
+                "WS0014": "taclaser",
+                "WS0015": "taclaser",
+                "WS0016": "taclaser",
+                "WS0017": "taclaser",
+                "WS0018": "taclaser",
+                "WS0019": "taclaser",
+                "WS0020": "taclaser",
+                "WS0021": "taclaser",
+                "WS0022": "taclaser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "guardian",
+                "WS0011": "heavyburst",
+                "WS0012": "heavyburst",
+                "WS0023": "heavyburst",
+                "WS0024": "heavyburst"
+            }
+        }
+    ],
+    "wings": [
+        "spark_wing",
+        "spark_wing",
+        "spark_wing",
+        "spark_wing"
+    ]
+}

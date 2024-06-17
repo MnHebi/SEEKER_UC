@@ -1,0 +1,152 @@
+{
+  "hullName": "Malet",
+  "hullId": "SKR_malet",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/SEEKER/ships/gunships/SKR_malet_body.png",
+  "style": "LOW_TECH",
+  "height": 120,
+  "width": 90,
+  "center": [45, 69],
+  "collisionRadius": 86,
+  "shieldCenter": [-6, -0],
+  "shieldRadius": 80,
+  "viewOffset": 0,
+  "builtInMods": [
+    "missleracks"
+  ],
+  "builtInWeapons": {
+    "WS0007": "SKR_Xmalet_leftWisker",
+    "WS0008": "SKR_Xmalet_rightWisker"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [31, 9]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [19, 36]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [19, -36]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": 85,
+      "locations": [16, 34]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": -85,
+      "locations": [16, -34]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 180,
+      "locations": [-56, -0]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [20, 32.5],
+      "renderOrderMod": -10
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [20, -32.5],
+      "renderOrderMod": -10
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-30, 25.5],
+      "length": 30,
+      "width": 10,
+      "angle": 174,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-30, -25.5],
+      "length": 30,
+      "width": 10,
+      "angle": -174,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-32, 17],
+      "length": 35.66816,
+      "width": 12.005414,
+      "angle": 176,
+      "contrailSize": 12.005414,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-32, -17],
+      "length": 35.66816,
+      "width": 12.005414,
+      "angle": -176,
+      "contrailSize": 12.005414,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    35, 28,
+    26, 28,
+    21, 43,
+    10, 43,
+    3.5, 27.5,
+    -28.5, 28.5,
+    -32, 14,
+    -56, 14,
+    -67, 9,
+    -67, -9,
+    -56, -14,
+    -32, -14,
+    -28.5, -28.5,
+    3.5, -27.5,
+    10, -43,
+    21, -43,
+    26, -28,
+    35, -28,
+    41, -8.5
+  ]
+}

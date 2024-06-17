@@ -1,0 +1,31 @@
+{
+    "displayName": "Brawler",
+    "fluxCapacitors": 7,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "SKR_butterfly",
+    "hullMods": [
+        "safetyoverrides",
+        "hardened_subsystems"
+    ],
+    "permaMods": [],
+    "variantId": "SKR_butterfly_brawler",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "SKR_revolverBeam",
+                "WS0002": "SKR_revolverBeam"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0003": "sabot",
+                "WS0004": "sabot"
+            }
+        }
+    ]
+}

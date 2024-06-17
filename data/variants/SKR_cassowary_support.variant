@@ -1,0 +1,67 @@
+{
+    "displayName": "Support",
+    "fluxCapacitors": 0,
+    "fluxVents": 44,
+    "goalVariant": true,
+    "hullId": "SKR_cassowary",
+    "hullMods": [
+        "targetingunit",
+        "pointdefenseai"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "SKR_cassowary_support",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "SKR_modsL",
+                "WS0002": "SKR_modsR"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "pilum",
+                "WS0008": "pilum"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "gauss",
+                "WS0004": "gauss"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "gravitonbeam",
+                "WS0006": "gravitonbeam"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0009": "taclaser",
+                "WS0010": "taclaser",
+                "WS0011": "taclaser",
+                "WS0012": "taclaser",
+                "WS0013": "taclaser",
+                "WS0014": "taclaser",
+                "WS0015": "taclaser",
+                "WS0016": "taclaser",
+                "WS0017": "taclaser"
+            }
+        }
+    ],
+    "wings": [
+        "broadsword_wing",
+        "thunder_wing"
+    ]
+}

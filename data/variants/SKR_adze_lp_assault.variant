@@ -1,0 +1,44 @@
+{
+    "displayName": "Assault",
+    "fluxCapacitors": 6,
+    "fluxVents": 20,
+    "goalVariant": true,
+    "hullId": "SKR_adze_pather",
+    "hullMods": [],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "SKR_adze_lp_assault",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "chaingun"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0006": "atropos",
+                "WS0007": "atropos"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "lightdualmg",
+                "WS0003": "lightdualmg",
+                "WS0008": "lightdualmg",
+                "WS0009": "lightdualmg"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0010": "vulcan",
+                "WS0011": "vulcan"
+            }
+        }
+    ]
+}

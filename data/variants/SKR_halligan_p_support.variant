@@ -1,0 +1,58 @@
+{
+    "displayName": "Support",
+    "fluxCapacitors": 0,
+    "fluxVents": 15,
+    "goalVariant": true,
+    "hullId": "SKR_halligan_pirate",
+    "hullMods": ["targetingunit"],
+    "permaMods": [],
+    "variantId": "SKR_halligan_p_support",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "heavymauler",
+                "WS0002": "heavymauler"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0009": "heatseeker",
+                "WS0010": "heatseeker",
+                "WS0011": "heatseeker",
+                "WS0012": "heatseeker",
+                "WS0013": "heatseeker",
+                "WS0014": "heatseeker"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "hveldriver",
+                "WS0004": "hveldriver",
+                "WS0005": "vulcan",
+                "WS0006": "vulcan"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0015": "vulcan",
+                "WS0016": "vulcan",
+                "WS0017": "vulcan",
+                "WS0018": "vulcan",
+                "WS0019": "vulcan"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0007": "SKR_minigun"}
+        }
+    ]
+}

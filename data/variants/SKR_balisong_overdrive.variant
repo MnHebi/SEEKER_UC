@@ -1,0 +1,48 @@
+{
+    "displayName": "Overdrive",
+    "fluxCapacitors": 9,
+    "fluxVents": 30,
+    "goalVariant": true,
+    "hullId": "SKR_balisong",
+    "hullMods": [
+        "targetingunit",
+        "fluxbreakers",
+        "magazines"
+    ],
+    "modules": [
+        {"MODULE_LEFT": "SKR_balisongLeft_overdrive"},
+        {"MODULE_RIGHT": "SKR_balisongRight_overdrive"}
+    ],
+    "permaMods": [],
+    "variantId": "SKR_balisong_overdrive",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "LEFT": "SKR_balisongPulse",
+                "RIGHT": "SKR_balisongPulse"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"MAIN1": "heavyblaster"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"MAIN2": "ionpulser"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "phasebeam"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "pdburst"}
+        }
+    ]
+}

@@ -1,0 +1,51 @@
+{
+    "displayName": "Support",
+    "fluxCapacitors": 13,
+    "fluxVents": 30,
+    "goalVariant": true,
+    "hullId": "SKR_zealot",
+    "hullMods": [
+        "targetingunit",
+        "hardenedshieldemitter"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "SKR_zealot_support",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "SKR_hvBlaster",
+                "WS0003": "SKR_hvBlaster"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "pilum",
+                "WS0006": "pilum",
+                "WS0007": "pilum"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0004": "SKR_intercept",
+                "WS0005": "SKR_intercept"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0008": "SKR_pdCharger",
+                "WS0009": "SKR_pdCharger",
+                "WS0010": "SKR_pdCharger",
+                "WS0011": "SKR_pdCharger"
+            }
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+  "variantId": "SKR_pillbug_variant",
+  "hullId": "SKR_pillbug",
+  "displayName": "Pulser",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 0,
+  "permaMods": [],
+  #"hullMods": ["SKR_plagueLPC"],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "ionpulser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

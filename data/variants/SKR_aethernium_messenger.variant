@@ -1,0 +1,33 @@
+{
+    "displayName": "Messenger",
+    "fluxCapacitors": 0,
+    "fluxVents": 15,
+    "goalVariant": true,
+    "hullId": "SKR_aethernium",
+    "hullMods": [
+        "insulatedengine",
+        "extendedshieldemitter",
+        "reinforcedhull"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "SKR_aethernium_messenger",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "SKR_ravagerBI",
+                "WS0002": "SKR_ravagerBI"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "pdburst",
+                "WS0004": "vulcan"
+            }
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+	"id":"SKR_missileFab",
+	"type":"STAT_MOD",
+	"aiType":"CUSTOM",
+	
+	"aiScript":"data.shipsystems.scripts.ai.SKR_missileFabAI",
+	"statsScript":"data.shipsystems.scripts.SKR_missileFabStats",
+
+	"useSound":"SKR_missileFab_start",
+	"deactivateSound":"SKR_missileFab_stop",
+	
+	"outOfUsesSound":"gun_out_of_ammo",
+	"loopSound":"SKR_missileFab_loop",	
+}

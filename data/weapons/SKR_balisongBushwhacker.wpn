@@ -1,0 +1,29 @@
+{
+	"specClass":"projectile",
+	"id":"SKR_balisongBushwhacker",
+	"type":"ENERGY",
+	"size":"LARGE",
+	"everyFrameEffect":"data.scripts.weapons.SKR_balisongEffect",
+	"turretSprite":"graphics/SEEKER/weapons/SKR_balisongBushwhacker.png",
+	"turretGlowSprite":"",
+	"hardpointSprite":"",
+	"hardpointGlowSprite":"graphics/SEEKER/weapons/SKR_balisongPlasma_glow.png",
+	"glowColor":[255,100,150,255],
+	"turretOffsets":[0, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[0, 0],
+	"hardpointAngleOffsets":[0],
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"GLOW_AND_FLASH",
+	"muzzleFlashSpec":{"length":150.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":45.0,
+					   "particleSizeMin":15.0,
+					   "particleSizeRange":35.0,
+					   "particleDuration":0.5,
+					   "particleCount":30,
+					   "particleColor":[100,150,250,255]},
+	"interruptibleBurst":true,
+	"autocharge":false,  # whether the weapon will continue charging and fire if the LMB is tapped instead of held
+	"projectileSpecId":"SKR_bushwhacker_shot",  # projectile that will be fired
+	"fireSoundTwo":"SKR_balisongBushwhacker_05",
+}

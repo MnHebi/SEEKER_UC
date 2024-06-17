@@ -1,0 +1,26 @@
+{
+	"id":"SKR_canister_sub",
+	"specClass":"projectile",
+	"type":"BALLISTIC",
+	"size":"LARGE",
+	"turretSprite":"",
+	"turretGlowSprite":"",
+	"hardpointSprite":"",
+	"hardpointGlowSprite":"",
+	"turretOffsets":[
+0, 0
+],
+	"turretAngleOffsets":[
+0
+],
+	"hardpointOffsets":[ 
+0, 0
+],
+	"hardpointAngleOffsets":[
+0
+],
+	"barrelMode":"ALTERNATING",
+        "separateRecoilForLinkedBarrels":"TRUE",
+        "animationType":"NONE",				   
+	"projectileSpecId":"SKR_can_sub",
+}

@@ -1,0 +1,36 @@
+name,id,flux/second,f/s (base rate),f/s (base cap),flux/use,f/u (base rate),f/u (base cap),cr/u,max uses,regen,charge up,active,down,cooldown,toggle,noDissipation,noHardDissipation,hardFlux,noFiring,noTurning,noStrafing,noAccel,noShield,noVent,isPhaseCloak,tags,icon
+Sensor Drones,SKR_drone_sensor,,,,,,,,2,0.05,0,,0,0,,,,,,,,,,,,,graphics/icons/hullsys/drone_sensor.png
+Improved Sensor Drones,SKR_drone_sensor_x4,,,,,,,,6,,0,,0,0,,,,,,,,,,,,,graphics/icons/hullsys/drone_sensor.png
+Point Defense Drones,SKR_drone_pd_x4,,,,,,,,15,0.05,0,,0,0,,,,,,,,,,,,,graphics/icons/hullsys/drone_pd_mid.png
+Missile Autofab,SKR_missileFab,0,0,0,0,0,0.05,,,,2,,2,10,TRUE,TRUE,,TRUE,TRUE,,,,,,,,graphics/icons/hullsys/missile_racks.png
+Disposable Flux Sinks,SKR_fluxTorps,0,0,0,-2500,0,0,,6,0.1,,,,0.1,FALSE,,,,,,,,,,,,graphics/icons/hullsys/flare_launcher.png
+Global Flare Launcher,SKR_superFlare,,,,,,,,5,0.02,,,,10,,,,,,,,,,,,,graphics/icons/hullsys/flare_launcher.png
+Fast Shield Unfolding,SKR_fastShield,,,,,,,,2,0.02,1,1,1,10,,,,,,,,,,,,,graphics/icons/hullsys/fortress_shield.png
+Heavy Weapons Platform,ART_weaponPlatform,,,,,,,,4,0,0,,0,0,,,,,,,,,,,,,graphics/icons/hullsys/drone_pd_mid.png
+Denial Pulse,SKR_pulse,,,,,,0.15,,,,2,3,0.5,16.5,,,,,,,,,TRUE,TRUE,,,graphics/icons/hullsys/fortress_shield.png
+Overdrive sub-systems,SKR_overdrive,,,,,,,,1,,,,,,TRUE,,,,,,,,,,,,graphics/icons/hullsys/infernium_injector.png
+Blitz Skimmer,SKR_displacer,,,,,,,,9,0.2,0.05,,0.05,0,,TRUE,,TRUE,,,,,,,,,graphics/icons/hullsys/displacer.png
+Attitude Jets,SKR_attitudejets,,,,,,,,4,0.08,0.5,1,0.5,0,,,,,,,,,,,,,graphics/icons/hullsys/maneuvering_jets.png
+Twin Burn Chamber,SKR_burn,,,,,,,,,,2,,1,5,TRUE,TRUE,,,,,,,,,,,graphics/icons/hullsys/burn_drive.png
+Advanced Temporal Shell,SKR_temporalshell,,,,,,,,2,0.02,1,8,1,,,,,,,,,,,,,,graphics/icons/hullsys/temporal_shell.png
+Time Splitter,SKR_timeSplitter,,,,,,0.15,0.02,,,0.5,3,0.5,2,,,,,,,,,,,,,graphics/icons/hullsys/temporal_shell.png
+Twin-Layer Shielding,SKR_twinShield,,,,,,0.05,,,,0.25,,1,3,TRUE,,,TRUE,,,,,,,,,graphics/SEEKER/icons/hullsys/SKR_twinShield.png
+P-Teleporter (limited),SKR_phaseteleporter,,,,,,0.2,,3,0.03,0.75,0,0.75,,,TRUE,,TRUE,,,,,,,,,graphics/icons/hullsys/displacer.png
+Point Defense Drones,SKR_staffDrone,,,,,,,,6,0.05,0,,0,0,,,,,,,,,,,,,graphics/icons/hullsys/drone_pd_mid.png
+Alcubiere Bubble,SKR_alcubiere,,,,,,0.125,,3,0.02,1,0,0,5,,,,TRUE,,,,,,TRUE,,,graphics/icons/hullsys/temporal_shell.png
+Reload Clip,SKR_reload,,,,,,0.1,,,,2,0,0,8,TRUE,,,,,,,,,TRUE,,,graphics/icons/hullsys/ammo_feeder.png
+Solid Booster,SKR_boost,,,,,,,,12,,1,2,0.5,2,,,,,,,,,,,,,graphics/icons/hullsys/burn_drive.png
+EMP Discharge,SKR_emp,1,,,,,0.3,,,,0.5,0.25,1,8.25,,,,,TRUE,,,,,,,,graphics/icons/hullsys/emp_emitter.png
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Warp Drive,SKR_warp,1,,,,,,,,,2,,2,0,TRUE,,,,TRUE,TRUE,TRUE,TRUE,TRUE,,,,graphics/icons/hullsys/burn_drive.png
+Module Warp Drive,SKR_warp_dummy,1,,,,,,,,,5,,2,,TRUE,,,,TRUE,TRUE,TRUE,TRUE,TRUE,,,,graphics/icons/hullsys/burn_drive.png
+Ram,SKR_ram,,,,,,,,,,3,2,1,20,,,,,TRUE,,TRUE,,TRUE,TRUE,,restricted,graphics/icons/hullsys/burn_drive.png
+Electric Spasm,SKR_spasm,,,,,,,,,,0.4,0.1,4.5,20,,,,,,,,,,,,restricted,graphics/icons/hullsys/burn_drive.png
+Heavy Phase Grazer,SKR_drift,,,,,,,,2,0.033,1.5,3,1,15,,,,TRUE,TRUE,,,,TRUE,TRUE,,restricted,graphics/icons/hullsys/displacer.png
+Skullcrawling Lullaby,SKR_pull,,,,,,,,,,5,15,5,15,,,,,,,,,,,,restricted,graphics/icons/hullsys/interdictor_array.png
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Module Service AI,SKR_module,,,,,,,,,,,,,,TRUE,,,,TRUE,,,,,,,,graphics/icons/hullsys/high_energy_focus.png
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Systems Redline,SKR_redline,,,,,,,,,,0.5,5,2.5,10,,,,,,,,,,,,,graphics/icons/hullsys/ammo_feeder.png
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Burst Jets,SKR_burstJets,,,,,,,,4,0.08,0.5,0.25,1.25,0.5,,,,,,,,,,,,,graphics/icons/hullsys/maneuvering_jets.png

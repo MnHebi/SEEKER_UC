@@ -1,0 +1,36 @@
+{
+	"id":"SKR_flareMirv_shot",
+	"specClass":"missile",	
+	"missileType":"MISSILE",
+	"sprite":"graphics/missiles/bomblet1.png",
+	"size":[9,11],	
+	"center":[4.5,5],
+	"collisionRadius":5,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[250,200,55,100],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":150, # purely visual
+	"armingTime":5,
+	"engineSpec":{"turnAcc":0,
+                      "turnRate":0,
+                      "acc":200,
+                      "dec":250},
+	"engineSlots":[{"id":"ES1",
+                        "loc":[-5, 0],
+                        "style":"CUSTOM",
+                        "styleSpec":{
+                                "mode":"QUAD_STRIP",
+                                "engineColor":[5,5,5,1],
+                                "contrailDuration":1,
+                                "contrailWidthMult":1,
+                                "contrailWidthAddedFractionAtEnd":-0.75,
+                                "contrailMinSeg":10,
+                                "contrailMaxSpeedMult":0f,
+                                "contrailAngularVelocityMult":0f,
+                                "contrailColor":[50,50,50,255],
+                                "type":"SMOKE"
+                        },
+                        "width":10.0,
+                        "length":20.0,
+                        "angle":180.0},
+				    ]
+}

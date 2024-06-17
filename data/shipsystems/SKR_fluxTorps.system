@@ -1,0 +1,13 @@
+{
+	"id":"SKR_fluxTorps",
+	"type":"WEAPON",
+	"aiType":"CUSTOM",
+	"aiScript":"data.shipsystems.scripts.ai.SKR_fluxTorpsAI",
+	"weaponDataId":"SKR_fluxTorpLauncher",
+	
+	"useSound":"SKR_fluxTorp",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+	}	
+}

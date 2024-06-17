@@ -1,0 +1,55 @@
+{
+    "displayName": "Makeshift",
+    "fluxCapacitors": 0,
+    "fluxVents": 4,
+    "goalVariant": true,
+    "hullId": "SKR_clipper_d",
+    "hullMods": [
+        "fluxbreakers",
+        "expanded_deck_crew"
+    ],
+    "permaMods": [],
+    "quality": 0.25,
+    "variantId": "SKR_clipper_makeshift",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "swarmer",
+                "WS0002": "swarmer",
+                "WS0003": "swarmer",
+                "WS0004": "swarmer"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0005": "annihilatorpod",
+                "WS0006": "annihilatorpod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "SKR_antiMissilesLauncher",
+                "WS0008": "SKR_antiMissilesLauncher",
+                "WS0009": "SKR_antiMissilesLauncher",
+                "WS0010": "SKR_antiMissilesLauncher",
+                "WS0011": "SKR_antiMissilesLauncher",
+                "WS0012": "SKR_antiMissilesLauncher",
+                "WS0013": "SKR_antiMissilesLauncher",
+                "WS0014": "SKR_antiMissilesLauncher",
+                "WS0015": "SKR_antiMissilesLauncher",
+                "WS0016": "SKR_antiMissilesLauncher",
+                "WS0017": "SKR_antiMissilesLauncher",
+                "WS0018": "SKR_antiMissilesLauncher"
+            }
+        }
+    ],
+    "wings": [
+        "broadsword_wing",
+    ]
+}

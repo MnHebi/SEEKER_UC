@@ -1,0 +1,199 @@
+{
+  "hullName": "Gawon",
+  "hullId": "SKR_gawon",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/SEEKER/ships/hidden/SKR_gawon.png",
+  "style": "LOW_TECH",
+  "height": 497,
+  "width": 336,
+  "center": [168, 235],
+  "collisionRadius": 300,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 298,
+  "viewOffset": 0,
+  "builtInMods": [
+    "advancedshieldemitter"
+  ],
+  "builtInWeapons": {
+    "HEAT": "SKR_gawonGlow",
+    "MAIN": "SKR_gawk"
+  },
+  "weaponSlots": [
+    {
+      "id": "MAIN",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 160,
+      "angle": 0,
+      "locations": [63.5, -0]
+    },
+    {
+      "id": "LEFT",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 30,
+      "locations": [-49, 74]
+    },
+    {
+      "id": "RIGHT",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": -30,
+      "locations": [-49, -74]
+    },
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 30,
+      "locations": [2, 74],
+      "renderOrderMod": -10
+    },
+    {
+      "id": "WS0002",
+      "size": "LARGE",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -30,
+      "locations": [2, -74],
+      "renderOrderMod": -10
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 0,
+      "locations": [128, -0]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 125,
+      "locations": [-178, 125]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": -125,
+      "locations": [-178, -125]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [226, -0]
+    },
+    {
+      "id": "HEAT",
+      "size": "MEDIUM",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [63.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-60, -0],
+      "length": 159.5,
+      "width": 28,
+      "angle": 180,
+      "contrailSize": 28,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-61, 15],
+      "length": 130.158752,
+      "width": 24.09963,
+      "angle": 178,
+      "contrailSize": 24.09963,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-61, -15],
+      "length": 130.158752,
+      "width": 24.09963,
+      "angle": -178,
+      "contrailSize": 24.09963,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-66, 31],
+      "length": 96.5,
+      "width": 16,
+      "angle": 176.5,
+      "contrailSize": 16,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-66, -31],
+      "length": 96.5,
+      "width": 16,
+      "angle": -176.5,
+      "contrailSize": 16,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    242, 26,
+    231, 26,
+    98, 54,
+    79, 52,
+    72, 64,
+    49.5, 64,
+    42.5, 70,
+    19, 65,
+    3, 93,
+    17, 104,
+    -13, 105,
+    -52, 121,
+    -106, 124,
+    -160, 161,
+    -209, 165,
+    -232, 159,
+    -221, 126,
+    -198, 101,
+    -67, 40,
+    -56, -0,
+    -67, -40,
+    -198, -101,
+    -221, -126,
+    -232, -159,
+    -209, -165,
+    -160, -161,
+    -106, -124,
+    -52, -121,
+    -13, -105,
+    17, -104,
+    3, -93,
+    19, -65,
+    42.5, -70,
+    49.5, -64,
+    72, -64,
+    79, -52,
+    98, -54,
+    231, -26,
+    242, -26,
+    260.5, -0
+  ]
+}

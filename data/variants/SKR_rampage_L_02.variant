@@ -1,0 +1,62 @@
+{
+    "displayName": "World Eater",
+    "fluxCapacitors": 8,
+    "fluxVents": 50,
+    "goalVariant": true,
+    "hullId": "SKR_rampage_L",
+    "hullMods": [
+        "hardenedshieldemitter",
+        "targetingunit"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "SKR_rampage_L_02",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "SKR_sling",
+                "WS0002": "SKR_sling",
+                "WS0006": "SKR_lightstreak",
+                "WS0007": "SKR_lightstreak"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {"WS0003": "SKR_fauchard"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0004": "SKR_dainsleif"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0008": "heavyac",
+                "WS0009": "phasebeam",
+                "WS0010": "heavyac",
+                "WS0012": "ioncannon",
+                "WS0014": "SKR_burstPulse"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "guardian",
+                "WS0011": "SKR_pdCharger",
+                "WS0013": "SKR_pdGrenade",
+                "WS0015": "SKR_pdCharger",
+                "WS0016": "SKR_pdCharger"
+            }
+        }
+    ],
+    "wings": [
+        "SKR_beetle_wing",
+        "SKR_pillbug_wing"
+    ]
+}

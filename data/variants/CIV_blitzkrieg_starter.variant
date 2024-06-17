@@ -1,0 +1,42 @@
+{
+    "displayName": "Starter",
+    "fluxCapacitors": 0,
+    "fluxVents": 21,
+    "hullId": "CIV_blitzkrieg",
+    "hullMods": [
+        "expanded_cargo_holds",
+        "recovery_shuttles",
+        "solar_shielding"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "CIV_blitzkrieg_starter",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "mininglaser",
+                "WS0002": "mininglaser",
+                "WS0003": "mininglaser",
+                "WS0004": "mininglaser",
+                "WS0006": "mininglaser",
+                "WS0007": "mininglaser",
+                "WS0008": "mininglaser",
+                "WS0009": "mininglaser"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0005": "pilum",
+                "WS0010": "pilum"
+            }
+        }
+    ],
+    "wings": [
+        "talon_wing",
+        "talon_wing"
+    ]
+}

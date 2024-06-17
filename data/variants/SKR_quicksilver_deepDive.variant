@@ -1,0 +1,53 @@
+{
+    "displayName": "Deep Dive",
+    "fluxCapacitors": 50,
+    "fluxVents": 42,
+    "goalVariant": true,
+    "hullId": "SKR_quicksilver",
+    "hullMods": [
+        "fluxbreakers",
+        "hardened_subsystems"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "SKR_quicksilver_deepDive",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "pulselaser",
+                "WS0002": "autopulse",
+                "WS0013": "pulselaser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "pulselaser",
+                "WS0004": "pulselaser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0011": "irpulse",
+                "WS0012": "irpulse"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "lrpdlaser",
+                "WS0006": "lrpdlaser",
+                "WS0007": "lrpdlaser",
+                "WS0008": "lrpdlaser",
+                "WS0009": "pdlaser",
+                "WS0010": "pdlaser"
+            }
+        }
+    ]
+}

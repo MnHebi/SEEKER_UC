@@ -1,0 +1,52 @@
+{
+    "displayName": "Module",
+    "fluxCapacitors": 25,
+    "fluxVents": 30,
+    "hullId": "SKR_nova_right",
+    "hullMods": [
+        "fluxbreakers",
+        "reinforcedhull",
+        "missleracks",
+        "turretgyros"
+    ],
+    "permaMods": [],
+    "variantId": "SKR_nova_right_moduleC",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "SKR_blackout"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0007": "swarmer",
+                "WS0008": "swarmer",
+                "WS0009": "swarmer"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "ionpulser",
+                "WS0004": "ionpulser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "lrpdlaser",
+                "WS0006": "lrpdlaser",
+                "WS0010": "lrpdlaser",
+                "WS0011": "lrpdlaser"
+            }
+        }
+    ],
+    "wings": [
+        "lux_wing",
+        "lux_wing"
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "displayName": "Combat",
+    "fluxCapacitors": 16,
+    "fluxVents": 20,
+    "goalVariant": true,
+    "hullId": "SKR_marksman",
+    "hullMods": ["magazines"],
+    "permaMods": [],
+    "variantId": "SKR_marksman_combat",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "SKR_executioner"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "heavyac",
+                "WS0003": "heavyac"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "lightmg",
+                "WS0005": "lightmg",
+                "WS0006": "lightmg"
+            }
+        }
+    ]
+}

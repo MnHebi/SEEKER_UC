@@ -1,0 +1,47 @@
+{
+    "displayName": "Combat",
+    "fluxCapacitors": 3,
+    "fluxVents": 30,
+    "goalVariant": true,
+    "hullId": "SKR_bullhorn",
+    "hullMods": ["targetingunit"],
+    "permaMods": [],
+    "variantId": "SKR_bullhorn_combat",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0009": "harpoon",
+                "WS0010": "harpoon",
+                "WS0011": "harpoon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "mjolnir",
+                "WS0002": "mjolnir"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "hveldriver",
+                "WS0004": "hveldriver"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "vulcan",
+                "WS0006": "vulcan",
+                "WS0007": "vulcan",
+                "WS0008": "vulcan"
+            }
+        }
+    ]
+}

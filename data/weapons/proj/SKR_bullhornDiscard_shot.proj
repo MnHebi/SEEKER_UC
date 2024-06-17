@@ -1,0 +1,42 @@
+{
+	"id":"SKR_bullhornDiscard_shot",
+	"specClass":"missile",	
+	"missileType":"PHASE_CHARGE",
+	"sprite":"graphics/SEEKER/missiles/SKR_boostDiscard.png",
+	"glowSprite":"graphics/SEEKER/missiles/SKR_boostDiscardGlow.png",
+	"glowColor":[255,255,255,255],
+	"size":[18,11],	
+	"center":[9,5],
+	"collisionRadius":10,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[201,109,234,220],
+	"explosionRadius":50, 
+	"engineSpec":{
+                "turnAcc":720,
+                "turnRate":180,
+                "acc":25,
+                "dec":25
+                },
+	"flameoutTime":0.5f, # total time from flameout to full fadeout
+	"behaviorSpec":{
+                "behavior":"PROXIMITY_FUSE",
+                "shotRangeVariance":0.5,
+                "slowToMaxSpeed":true,
+                "range":5,
+                "vsMissileRange":5,
+                "explosionSpec":{
+                        "duration":0.15f,
+                        "radius":50,
+                        "coreRadius":75, # full damage within core radius - also equal to proximity fuse range
+                        "collisionClass":PROJECTILE_FF,
+                        "collisionClassByFighter":PROJECTILE_FIGHTER,
+                        "particleSizeMin":2.0,
+                        "particleSizeRange":5.0,
+                        "particleDuration":0.75,
+                        "particleCount":15,
+                        "particleColor":[255,200,100,128],
+                        "explosionColor":[234,209,150,255],
+			"sound":"devastator_explosion"},
+                },
+        }
+}

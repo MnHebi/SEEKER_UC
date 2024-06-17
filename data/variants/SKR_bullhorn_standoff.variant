@@ -1,0 +1,48 @@
+{
+    "displayName": "Standoff",
+    "fluxCapacitors": 10,
+    "fluxVents": 30,
+    "goalVariant": true,
+    "hullId": "SKR_bullhorn",
+    "hullMods": ["targetingunit"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "SKR_bullhorn_standoff",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0009": "atropos",
+                "WS0010": "atropos",
+                "WS0011": "atropos"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "gauss",
+                "WS0002": "gauss"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "heavymauler",
+                "WS0004": "heavymauler"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "lightmg",
+                "WS0006": "lightmg",
+                "WS0007": "lightmg",
+                "WS0008": "lightmg"
+            }
+        }
+    ]
+}

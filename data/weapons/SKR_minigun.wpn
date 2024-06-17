@@ -1,0 +1,38 @@
+{
+	"id":"SKR_minigun",
+	"specClass":"projectile",
+	"type":"BALLISTIC",
+	"size":"MEDIUM",
+	"displayArcRadius":1000,	
+	"turretSprite":"graphics/SEEKER/weapons/minigun/SKR_minigunT_00.png",
+	"hardpointSprite":"graphics/SEEKER/weapons/minigun/SKR_minigunH_00.png",
+	"turretGunSprite":"graphics/SEEKER/weapons/minigun/SKR_minigunT_body.png",
+	"hardpointGunSprite":"graphics/SEEKER/weapons/minigun/SKR_minigunH_body.png",
+	"numFrames":16,	
+	"frameRate":40,
+
+	"turretOffsets":[34, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[39, 0],
+	"hardpointAngleOffsets":[0],
+
+	"visualRecoil":12.0,  # the gun sprites are only used if this is non-0
+	"renderHints":[SUSPEND_RECOIL],
+
+	"interruptibleBurst":true,
+	"barrelMode":"ALTERNATING",
+	"animationType":"MUZZLE_FLASH",
+	"muzzleFlashSpec":{
+                        "length":54.0, 
+                        "spread":15.0,
+                        "particleSizeMin":18.0,
+                        "particleSizeRange":24.0,
+                        "particleDuration":0.05,
+                        "particleCount":12,
+                        "particleColor":[199,93,76,215]},
+	#"projectileSpecId":"chaingun_shot",
+	"projectileSpecId":"SKR_minigun_tracer",
+	"fireSoundOne":"thumper_spinup",
+	"fireSoundTwo":"SKR_minigun_fire",	
+        "everyFrameEffect":"data.scripts.weapons.SKR_minigunEffect",
+}

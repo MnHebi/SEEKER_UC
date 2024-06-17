@@ -1,0 +1,61 @@
+{
+    "displayName": "New Moon",
+    "fluxCapacitors": 0,
+    "fluxVents": 50,
+    "goalVariant": true,
+    "hullId": "SKR_onyx",
+    "hullMods": [
+        "targetingunit",
+        "fluxbreakers",
+        "advancedoptics"
+    ],
+    "permaMods": [],
+    "variantId": "SKR_onyx_newMoon",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0022": "tachyonlance",
+                "WS0023": "tachyonlance"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "SKR_gatlingLance"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "gravitonbeam",
+                "WS0006": "gravitonbeam",
+                "WS0020": "gravitonbeam",
+                "WS0021": "gravitonbeam"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "pdlaser",
+                "WS0002": "pdlaser",
+                "WS0004": "pdlaser",
+                "WS0007": "pdlaser",
+                "WS0008": "pdlaser",
+                "WS0009": "pdlaser",
+                "WS0010": "pdlaser",
+                "WS0011": "pdlaser",
+                "WS0012": "pdlaser",
+                "WS0013": "pdlaser",
+                "WS0014": "pdlaser",
+                "WS0015": "pdlaser",
+                "WS0016": "pdlaser",
+                "WS0017": "pdlaser",
+                "WS0018": "pdlaser",
+                "WS0019": "pdlaser"
+            }
+        }
+    ]
+}

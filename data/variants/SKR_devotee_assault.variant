@@ -1,0 +1,38 @@
+{
+    "displayName": "Assault",
+    "fluxCapacitors": 7,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "SKR_devotee",
+    "hullMods": [
+        "stabilizedshieldemitter",
+        "hardenedshieldemitter",
+        "extendedshieldemitter"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "SKR_devotee_assault",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "SKR_burstPulse",
+                "WS0003": "SKR_burstPulse"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "SKR_tusk_medium"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "SKR_pdCharger",
+                "WS0005": "SKR_pdCharger"
+            }
+        }
+    ]
+}

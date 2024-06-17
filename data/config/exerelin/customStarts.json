@@ -1,0 +1,65 @@
+{
+	"starts":[
+		{
+			"id":"redHandStart",
+			"name":"Avatar of Vengeance",
+			"difficulty":"Hard",
+			"desc":"The Commander is dead, long live the Commander. You are now at the helm of the famed Red Hand, a cursed ship handed from Captain to Second when vengeance upon a great slight has been exacted.\n \n Your former superior just died in battle while completing his deed, and now you can start working your own goal: the elimination of Admiral Andrada, founder of the Sindrian Diktat, for ordering the massacre of your people.\n\n With a fleet in tatter, a bounty on your flagship, a hideout low on supplies and very few allies left, there is a long road ahead of you but your will is implacable.",
+			"className":"data.campaign.customstart.SKR_redHandStart",
+			"factionId":"player",
+            "randomSector":0,
+		},
+
+
+		{
+			"id":"balisongStart",
+			"name":"Emergence",
+			"difficulty":"Medium",
+			"desc":"Your mind thrashes in darkness, gasping for thoughts. You reflexively try to open your eyes but your vision hurts as if you had not seen the light for ages. The mist clouding your conscience slowly recedes, you realize you are shivering.\n\nThe cryotube finally opens, nobody comes to help you out. Seating yourself leaves you panting, every muscle hurts but each breath is a relief from the ice. Looking around, you notice other tubes opening up, many do not. You recognize the woman next to you, she is part of your crew!\n\nFragments of memories rush back: The fleet, the system, the Remnants, the battle, the ejection, the long wait in the dark, hoping that one ship would come back to pick survivors, the cold sleep...\n\nYou are back on your feet, familiar markings indicate you are on board a ship, but where is the crew? A few hours pass, you organized your people into exploration parties, slowly the vessel reveals itself. By the end of the day, you know for certain there is nobody else. You seek answers but the few you find raise more questions. Who saved you and the others? Why? When? An excited sailor delivers word that hot meals appeared in the mess, enough to feed everyone. One answer, more questions.\n\nYou are standing on the bridge as your crew completes the startup procedure. In the past week you decided to stop wondering and start acting. Manuals conveniently left around allowed everyone to familiarize themselves with the ship, it is now time to move on. You cannot shake the feeling of being a mouse in a maze observed by some larger entity, but if you are to get a formidable cruiser out of it you will play along.",
+			"className":"data.campaign.customstart.SKR_balisongStart",
+			"factionId":"player",
+            "randomSector":0,
+		},
+
+
+		{
+			"id":"cultistStart",
+			"name":"Lucky Strike",
+			"difficulty":"Medium",
+			"desc":"At the end of your rope and the end of the sector, your is crew exhausted, your supplies are running out, your finances are in shambles. Was it bravado that made you choose such a risky gamble? Or pure folly. \"Fate favors the bold\", say those that come back!\n\nYet here you are, staring at a debris field full of supplies and hardware. Among the remains, sensors have detected several potentially salvageable hulls. You don't recognize the types, which can means one of two things: valuable antiques, or powerful exotic tech.\n\nLuck is a fickle mistress.",
+			"className":"data.campaign.customstart.SKR_cultistStart",
+			"factionId":"player",
+            "randomSector":0,
+		},
+
+        {
+			"id":"clipperStart",
+			"name":"Mulligan!",
+			"difficulty":"Easy",
+			"desc":"A familiar shiver runs down your spine as the auto-doc regurgitates its reports about your deceased superior: faulty Cryo-tube thermal blanket, deep sleep necrosis. The smell haunts all the ship's corridors. This somber news is overshadowed by your bafflement: How lucky one can be during their lifetime? Surely you must be a statistical freak event.\n\nComfortable childhood, easy corporate life, then the thrill-seeking adventures, the treasure hunts, the not-so-recommendable friends, the side-hustles, the scheming, the outright scams... Every time chance was involved, events took a turn for the better.\n\nEven now, after taking an icy leap of faith in space and time to escape both angry mobsters and the IRS (all the while hidden long-term investments were supposed to fructify), you wake up having dodged the collapse of the Domain and inherited the command of a mighty Explorarium ship.\n\nOnce again you get a fresh new start, and you are eager to see where your silver tongue and good fortune will lead you this time.",
+			"className":"data.campaign.customstart.SKR_clipperStart",
+			"factionId":"player",
+            "randomSector":0,
+		},
+
+        {
+			"id":"poisonStart",
+			"name":"Break-up hanghover",
+			"difficulty":"Medium",
+			"desc":"\"You double-faced cowards! Lying pieces of sh...\" The opening door interrupts your rabid tirade at a blank screen, the young sailor is taken aback by your glare. You quickly recompose yourself, public outbursts can do wonders to keep a rowdy crew in line, but fume at the wrong time and it will shatter your all-important aura of authority. \"Get on the horn. Captains and First-officers meeting in 30!\"\n\nThe last pair enters the briefing room and you stop pretending to study the sensor readings of your former associates' fleets leaving the area. \"We are in a less-than-ideal situation. Without coordinated deceptions and our main source of intel, I'm canceling the next raid.\" Reserved nods confirm most of the team expected this announcement. \"However this is a mere temporary setback and a learning experience: Never rely on flaky people!\" The following shared grunt brings a thin grin to your face. \"This means we are back to the basics. I have a few ideas in mind for our next move, but before making a final decision I'm open to suggestions.\"\n\nMost officers are leaning forward, datapads connected to the briefing room network. A perfect exhibit about the benefits of hiring mainly disgruntled military types instead of psychopaths for higher positions: they are used to cooperative planning sessions like this one and for the most part won't try to undermine the chain of command. Smuggling, commerce raiding, exploration, rapidly several paths forward take shape. The next move is yours to make.",
+			"className":"data.campaign.customstart.SKR_poisonStart",
+			"factionId":"pirates",
+            "randomSector":0,
+		},
+
+        {
+			"id":"voulgeStart",
+			"name":"A Knight's Tale",
+			"difficulty":"Medium",
+			"desc":"Launch day finally arrived, a momentous occasion for sure: after decades of slow decay, desperately scrambling to avoid a total technological and societal collapse, your small world is ready to take back its place as a starfaring nation and hopefully revert the damage caused by its isolation. The orbital transmitter had finally been repaired just a few days ago, and now the ISS Snowpiercer is leaving the last operating dry-dock for its maiden flight.\n\nNobody has any delusion about the kind of welcome to expect from the core worlds. Your world may have been unable to communicate, but listening stations had kept everyone well appraised of the dire state of the Sector. As soon as your existence will be known, Pirates are bound to rush in and try to secure new turf, as well as the bigger factions vying for influence. This is why your brand new flagship was needed, and why no call for help had been sent yet.\n\nThe Oath of Governorship not only asked from you to guide your people with wisdom, but also demanded the courage and might to protect them. Today, on the bridge of a potent battlecruiser, the weight of your responsibilities gets ever so lighter and you feel imbued by a resolute optimism about the future. ",
+			"className":"data.campaign.customstart.SKR_voulgeStart",
+			"factionId":"player",
+            "randomSector":0,
+		},
+	],
+}

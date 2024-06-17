@@ -1,0 +1,49 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 21,
+    "fluxVents": 30,
+    "goalVariant": true,
+    "hullId": "SKR_tumbleweed_pirate",
+    "hullMods": ["heavyarmor"],
+    "permaMods": [],
+    "variantId": "SKR_tumbleweed_p_standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "hellbore"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0004": "sabotpod"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "lightdualac",
+                "WS0003": "lightdualac"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "lrpdlaser",
+                "WS0008": "lrpdlaser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "vulcan",
+                "WS0006": "vulcan",
+                "WS0009": "vulcan",
+                "WS0010": "vulcan"
+            }
+        }
+    ],
+    "wings": ["talon_wing"]
+}

@@ -1,0 +1,46 @@
+{
+    "baseHullId":"SKR_tumbleweed",
+    "skinHullId":"SKR_tumbleweed_pirate",
+    "hullName":"Tumbleweed (P)",
+    "descriptionId":"SKR_tumbleweed",
+    "descriptionPrefix":"This ship has been heavily modified - and poorly maintained - by its pirate crew. Despite its concerning state, a proper passage in a dry-dock could restore this ship to its original specs.",
+    "spriteName":"graphics/SEEKER/ships/SKR_tumbleweed_pirate.png",
+    "baseValueMult":1,
+    "restoreToBaseHull":true,
+    "addHints":[],
+    "tags":["rare_bp"],
+    "tech":"Pirate",
+    "removeWeaponSlots":[], 		# ids
+    "removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+    "removeBuiltInMods":["hiressensors","surveying_equipment"], 		# hullmod ids
+    "removeBuiltInWeapons":[], 		# weapon slot ids
+    "builtInMods":[],
+    "builtInWeapons":{},
+    "systemId":"flarelauncher",
+    "weaponSlotChanges":{
+        "WS0001":{
+            "type": "BALLISTIC"
+        },
+        "WS0004":{
+            "type": "UNIVERSAL"                
+        },
+        "DRONE1":{
+            "type": "DECORATIVE"
+        },
+        "DRONE2":{
+            "type": "DECORATIVE"
+        },
+        "FLARE1":{
+            "type": "SYSTEM"
+        },
+        "FLARE2":{
+            "type": "SYSTEM"
+        },
+        "FLARE3":{
+            "type": "SYSTEM"
+        },
+        "FLARE4":{
+            "type": "SYSTEM"
+        },
+    },
+}

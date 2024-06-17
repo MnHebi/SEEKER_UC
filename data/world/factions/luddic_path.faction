@@ -1,0 +1,31 @@
+{    
+    "hullFrequency":{
+        "hulls":{
+            "SKR_malet_pather":0.1,
+            "SKR_adze_pather":0.1,
+            "SKR_halligan_pather":0.1,
+        },
+    },
+
+    "shipsWhenImporting":{
+        "hulls":[
+            "SKR_malet_pather",
+            "SKR_adze_pather",
+            "SKR_halligan_pather",
+        ],
+    },
+
+    "knownShips":{
+        "hulls":[
+            "SKR_malet_pather",
+            "SKR_adze_pather",
+            "SKR_halligan_pather",
+        ],
+    },
+
+    "knownWeapons":{
+        "weapons":[
+            "SKR_minigun",
+        ],
+    },
+},

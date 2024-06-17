@@ -1,0 +1,47 @@
+{
+    "displayName": "Support",
+    "fluxCapacitors": 26,
+    "fluxVents": 50,
+    "goalVariant": true,
+    "hullId": "SKR_voulge",
+    "hullMods": [
+        "targetingunit",
+        "hardenedshieldemitter"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "SKR_voulge_support",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "LEFT": "gauss",
+                "MAIN": "gauss",
+                "RIGHT": "gauss"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "pilum",
+                "WS0002": "pilum"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0010": "hveldriver"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "flak",
+                "WS0006": "dualflak",
+                "WS0007": "dualflak"
+            }
+        }
+    ]
+}

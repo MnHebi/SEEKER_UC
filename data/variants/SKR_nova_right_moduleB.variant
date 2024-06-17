@@ -1,0 +1,57 @@
+{
+    "displayName": "Module",
+    "fluxCapacitors": 25,
+    "fluxVents": 30,
+    "hullId": "SKR_nova_right",
+    "hullMods": [
+        "fluxbreakers",
+        "autorepair",
+        "expanded_deck_crew",
+        "turretgyros",
+        "pointdefenseai"
+    ],
+    "permaMods": [],
+    "variantId": "SKR_nova_right_moduleB",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "SKR_gatlingLance"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0007": "heatseeker",
+                "WS0008": "heatseeker",
+                "WS0009": "heatseeker"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "taclaser",
+                "WS0006": "taclaser",
+                "WS0010": "taclaser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0011": "taclaser"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "heavyburst",
+                "WS0004": "heavyburst"
+            }
+        }
+    ],
+    "wings": [
+        "spark_wing",
+        "spark_wing"
+    ]
+}

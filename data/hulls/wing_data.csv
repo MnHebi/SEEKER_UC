@@ -1,0 +1,6 @@
+id,variant,tags,tier,rarity,fleet pts,op cost,formation,range,attackRunRange,attackPositionOffset,num,role,role desc,refit,base value,,,,,,,,,,,,,number
+SKR_erasmus_wing,SKR_erasmus_standard,"bomber3, bomber, no_sell, high, rare_bp, hist2t",2,0.5,8,9,BOX,4000,500,-200,2,BOMBER,Support Bomber,8,8000,,,,,,,,,,,,,1
+SKR_balisongDrone_wing,SKR_balisongDrone_standard,"no_drop, no_sell, support, high, auto_fighter, restricted",4,1,6,8,CLAW,500,100,100,3,SUPPORT,PD drone,15,5000,,,,,,,,,,,,,
+SKR_beetle_wing,SKR_beetle_variant,"no_sell, fighter, high, fighter9, auto_fighter, restricted",4,1,10,1012,BOX,3000,200,100,2,BOMBER,Assault drone,25,15000,,,,,,,,,,,,,
+SKR_fireant_wing,SKR_fireant_variant,"no_sell, fighter, high, fighter5, auto_fighter, restricted",4,1,8,1008,BOX,4000,300,200,4,FIGHTER,Escort drone,10,13000,,,,,,,,,,,,,
+SKR_pillbug_wing,SKR_pillbug_variant,"no_sell, fighter, high, fighter7, auto_fighter, restricted",4,1,9,1010,BOX,3000,300,0,1,FIGHTER,Close Support drone,20,14000,,,,,,,,,,,,,

@@ -1,0 +1,471 @@
+{
+  "bounds": [
+    169.5,
+    15.5,
+    211.5,
+    15.5,
+    211.5,
+    33.5,
+    245.5,
+    33.5,
+    253.5,
+    53.5,
+    193.5,
+    71.5,
+    181.5,
+    57.5,
+    168.5,
+    79.5,
+    133.5,
+    59.5,
+    119.5,
+    67.5,
+    53.5,
+    67.5,
+    24,
+    79.5,
+    -27.5,
+    79.5,
+    -98.5,
+    93.5,
+    -105.5,
+    83.5,
+    -131.5,
+    83.5,
+    -126.5,
+    14.5,
+    -106.5,
+    11.5,
+    -106.5,
+    -11.5,
+    -126.5,
+    -14.5,
+    -131.5,
+    -83.5,
+    -105.5,
+    -83.5,
+    -98.5,
+    -93.5,
+    -27.5,
+    -79.5,
+    24,
+    -79.5,
+    53.5,
+    -67.5,
+    119.5,
+    -67.5,
+    133.5,
+    -59.5,
+    168.5,
+    -79.5,
+    181.5,
+    -57.5,
+    193.5,
+    -71.5,
+    253.5,
+    -53.5,
+    245.5,
+    -33.5,
+    211.5,
+    -33.5,
+    211.5,
+    -15.5,
+    169.5,
+    -15.5
+  ],
+  "builtInMods": [
+    "civgrade"
+  ],
+  "builtInWeapons": {
+    "WS0011": "CIV_blitzkrieg_bays",
+    "WS0012": "SKR_blinkerGreenB",
+    "WS0013": "SKR_blinkerRedB",
+    "WS0014": "SKR_blinkerGreenB",
+    "WS0015": "SKR_blinkerRedB"
+  },
+  "builtInWings": [],
+  "center": [
+    95,
+    138
+  ],
+  "collisionRadius": 285,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 128,
+      "length": 58,
+      "location": [
+        -129,
+        21
+      ],
+      "style": "MIDLINE",
+      "width": 16
+    },
+    {
+      "angle": -180,
+      "contrailSize": 128,
+      "length": 58,
+      "location": [
+        -129,
+        -21
+      ],
+      "style": "MIDLINE",
+      "width": 16
+    },
+    {
+      "angle": 180,
+      "contrailSize": 12,
+      "length": 39.5,
+      "location": [
+        -136.5,
+        39
+      ],
+      "style": "MIDLINE",
+      "width": 12
+    },
+    {
+      "angle": -180,
+      "contrailSize": 12,
+      "length": 39.5,
+      "location": [
+        -136.5,
+        -39
+      ],
+      "style": "MIDLINE",
+      "width": 12
+    },
+    {
+      "angle": 180,
+      "contrailSize": 12,
+      "length": 39.5,
+      "location": [
+        -136,
+        53
+      ],
+      "style": "MIDLINE",
+      "width": 12
+    },
+    {
+      "angle": -180,
+      "contrailSize": 12,
+      "length": 39.5,
+      "location": [
+        -136,
+        -53
+      ],
+      "style": "MIDLINE",
+      "width": 12
+    },
+    {
+      "angle": 180,
+      "contrailSize": 12,
+      "length": 39.5,
+      "location": [
+        -134,
+        63.5
+      ],
+      "style": "MIDLINE",
+      "width": 12
+    },
+    {
+      "angle": -180,
+      "contrailSize": 12,
+      "length": 39.5,
+      "location": [
+        -134,
+        -63.5
+      ],
+      "style": "MIDLINE",
+      "width": 12
+    },
+    {
+      "angle": 165,
+      "contrailSize": 12,
+      "length": 30,
+      "location": [
+        -133,
+        81
+      ],
+      "style": "MIDLINE",
+      "width": 12
+    },
+    {
+      "angle": -165,
+      "contrailSize": 12,
+      "length": 30,
+      "location": [
+        -133,
+        -81
+      ],
+      "style": "MIDLINE",
+      "width": 12
+    },
+    {
+      "angle": 172.5,
+      "contrailSize": 12,
+      "length": 30,
+      "location": [
+        -135,
+        72.5
+      ],
+      "style": "MIDLINE",
+      "width": 12
+    },
+    {
+      "angle": -172.5,
+      "contrailSize": 12,
+      "length": 30,
+      "location": [
+        -135,
+        -72.5
+      ],
+      "style": "MIDLINE",
+      "width": 12
+    },
+    {
+      "angle": -154.5,
+      "contrailSize": 128,
+      "length": 30,
+      "location": [
+        152.5,
+        -77.5
+      ],
+      "style": "MIDLINE",
+      "width": 12
+    },
+    {
+      "angle": 154.5,
+      "contrailSize": 128,
+      "length": 30,
+      "location": [
+        152.5,
+        77.5
+      ],
+      "style": "MIDLINE",
+      "width": 12
+    }
+  ],
+  "height": 400,
+  "hullId": "CIV_blitzkrieg",
+  "hullName": "Blitzkrieg",
+  "hullSize": "CAPITAL_SHIP",
+  "shieldCenter": [
+    57,
+    -0
+  ],
+  "shieldRadius": 225,
+  "spriteName": "graphics/SEEKER/ships/hidden/CIV_blitzkrieg.png",
+  "style": "MIDLINE",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 135,
+      "arc": 225,
+      "id": "WS0002",
+      "locations": [
+        -96,
+        53
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -135,
+      "arc": 225,
+      "id": "WS0003",
+      "locations": [
+        -96,
+        -53
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -90,
+      "arc": 225,
+      "id": "WS0006",
+      "locations": [
+        -48,
+        -78
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 90,
+      "arc": 225,
+      "id": "WS0007",
+      "locations": [
+        -48,
+        78
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -45,
+      "arc": 225,
+      "id": "WS0001",
+      "locations": [
+        167,
+        -71
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 45,
+      "arc": 225,
+      "id": "WS0008",
+      "locations": [
+        167,
+        71
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 180,
+      "id": "WS0004",
+      "locations": [
+        239,
+        -42
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": -0,
+      "arc": 180,
+      "id": "WS0009",
+      "locations": [
+        239,
+        42
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": 0,
+      "arc": 5.01,
+      "id": "WS0005",
+      "locations": [
+        220,
+        -20
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "MISSILE"
+    },
+    {
+      "angle": -0,
+      "arc": 5,
+      "id": "WS0010",
+      "locations": [
+        220,
+        20
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0011",
+      "locations": [
+        133.5,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "LB 1",
+      "locations": [
+        114.5,
+        7.5,
+        114.5,
+        -7.5
+      ],
+      "mount": "HIDDEN",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "LB 2",
+      "locations": [
+        135.5,
+        7.5,
+        135.5,
+        -7.5
+      ],
+      "mount": "HIDDEN",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0012",
+      "locations": [
+        141.5,
+        69.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": -0,
+      "arc": 0,
+      "id": "WS0013",
+      "locations": [
+        141.5,
+        -69.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0014",
+      "locations": [
+        -91.5,
+        81.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": -0,
+      "arc": 0,
+      "id": "WS0015",
+      "locations": [
+        -91.5,
+        -81.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    }
+  ],
+  "width": 190
+}

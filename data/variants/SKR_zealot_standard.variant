@@ -1,0 +1,53 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 16,
+    "fluxVents": 30,
+    "goalVariant": true,
+    "hullId": "SKR_zealot",
+    "hullMods": ["missleracks"],
+    "permaMods": [],
+    "variantId": "SKR_zealot_standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "ionpulser",
+                "WS0003": "ionpulser"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "SKR_lightstreak",
+                "WS0006": "SKR_lightstreak",
+                "WS0007": "SKR_lightstreak"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "SKR_assaultRevolver",
+                "WS0005": "SKR_assaultRevolver"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0008": "SKR_pdGrenade",
+                "WS0009": "SKR_pdGrenade"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0010": "SKR_pdCharger",
+                "WS0011": "SKR_pdCharger"
+            }
+        }
+    ]
+}

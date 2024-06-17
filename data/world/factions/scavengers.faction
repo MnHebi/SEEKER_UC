@@ -1,0 +1,70 @@
+{
+    "hullFrequency":{
+        "hulls":{
+            "SKR_butterfly":0.5,
+            "SKR_557":0.5,
+
+            "SKR_tumbleweed":1,
+            "SKR_bullhorn":0.5,
+
+            "SKR_cassowary":0.1,
+
+            "SKR_malet":2,
+            "SKR_adze":2,
+            "SKR_halligan":2,
+        },
+    },
+
+    "shipsWhenImporting":{
+        "hulls":[
+            "SKR_butterfly",
+            "SKR_marksman",
+            "SKR_557",
+
+            "SKR_tumbleweed",
+            "SKR_bullhorn",
+
+            "SKR_malet",
+            "SKR_adze",
+            "SKR_halligan",
+        ],
+    },
+
+    "knownShips":{
+        "hulls":[
+            "SKR_butterfly",
+            "SKR_marksman",
+            "SKR_557",
+
+            "SKR_tumbleweed",
+            "SKR_bullhorn",
+
+            "SKR_cassowary",
+
+            "SKR_malet",
+            "SKR_adze",
+            "SKR_halligan",
+        ],
+    },
+
+    "knownFighters":{
+        "fighters":[
+            "SKR_erasmus_wing",
+        ],
+    },
+
+    "knownWeapons":{
+        "weapons":[
+            "SKR_minigun",
+            "SKR_ravager",
+
+            "SKR_kaleidoscope",
+            "SKR_gatlingLance",
+
+            "SKR_stepMissilesLauncher",
+            "SKR_stepMissilesRack",
+            "SKR_accelMissilesLauncher",
+            "SKR_accelMissileRack",
+        ],
+    },
+},

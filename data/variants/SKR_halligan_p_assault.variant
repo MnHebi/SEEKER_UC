@@ -1,0 +1,54 @@
+{
+    "displayName": "Assault",
+    "fluxCapacitors": 0,
+    "fluxVents": 9,
+    "goalVariant": true,
+    "hullId": "SKR_halligan_pirate",
+    "hullMods": ["safetyoverrides"],
+    "permaMods": [],
+    "variantId": "SKR_halligan_p_assault",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0009": "sabot",
+                "WS0010": "sabot",
+                "WS0011": "sabot",
+                "WS0012": "sabot",
+                "WS0013": "sabot",
+                "WS0014": "sabot"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "chaingun",
+                "WS0002": "chaingun"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "heavymg",
+                "WS0006": "heavymg",
+                "WS0017": "vulcan"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "heavymg",
+                "WS0004": "heavymg"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0007": "flak"}
+        }
+    ]
+}

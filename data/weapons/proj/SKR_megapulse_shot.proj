@@ -1,0 +1,17 @@
+{
+	"id":"SKR_megapulse_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":200.0,
+	"width":12.0,
+	"hitGlowRadius":75,
+	"fadeTime":0.05,
+	"fringeColor":[50,255,150,255],
+	"coreColor":[200,255,230,255],
+	"textureType":"WEAVE",  # only needed for BEAM spawnType
+	"textureScrollSpeed":-256.0,
+	"pixelsPerTexel":1.0,
+	#"onHitEffect":"data.scripts.weapons.",
+}

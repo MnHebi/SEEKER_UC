@@ -1,0 +1,58 @@
+{
+    "displayName": "Silent Sniper",
+    "fluxCapacitors": 50,
+    "fluxVents": 16,
+    "goalVariant": true,
+    "hullId": "SKR_quicksilver",
+    "hullMods": [
+        "targetingunit",
+        "advancedoptics",
+        "pointdefenseai"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "SKR_quicksilver_silentSniper",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "hil"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "ionbeam",
+                "WS0013": "ionbeam"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "taclaser",
+                "WS0006": "taclaser",
+                "WS0011": "taclaser",
+                "WS0012": "taclaser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "gravitonbeam",
+                "WS0004": "gravitonbeam"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "taclaser",
+                "WS0008": "taclaser",
+                "WS0009": "taclaser",
+                "WS0010": "taclaser"
+            }
+        }
+    ]
+}

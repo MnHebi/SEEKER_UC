@@ -1,0 +1,201 @@
+{
+  "hullName": "Augur",
+  "hullId": "SKR_augur",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/SEEKER/ships/hidden/SKR_augur.png",
+  "style": "HIGH_TECH",
+  "height": 78,
+  "width": 70,
+  "center": [39, 34],
+  "collisionRadius": 53,
+  "shieldCenter": [6, -0],
+  "shieldRadius": 46.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "high_maintenance",
+    "ecm",
+    "eccm"
+  ],
+  "builtInWeapons": {
+    "WS0009": "SKR_ZaugurGlow"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS 001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 30,
+      "angle": 0,
+      "locations": [17, 19]
+    },
+    {
+      "id": "WS 002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 235,
+      "angle": -135,
+      "locations": [-16, -13]
+    },
+    {
+      "id": "WS 003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 235,
+      "angle": 135,
+      "locations": [-11, 22]
+    },
+    {
+      "id": "WS 004",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 0,
+      "locations": [32, -6]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 0,
+      "locations": [31, -3]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 0,
+      "locations": [30, -0]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 0,
+      "locations": [31, -9]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 0,
+      "locations": [30, -12]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 0,
+      "locations": [29, 3]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 0,
+      "locations": [29, -15]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 0,
+      "locations": [28, 6]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 0,
+      "locations": [28, -18]
+    },
+    {
+      "id": "WS0009",
+      "size": "MEDIUM",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 0,
+      "locations": [13, -6]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 5,
+      "angle": 45,
+      "locations": [-1, 30]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-30, 17.5],
+      "length": 23,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-33, 7],
+      "length": 35,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 14,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-29.5, -2.5],
+      "length": 28,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-33, -11],
+      "length": 35,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 14,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -33, -14.5,
+    -27.5, 1,
+    -33, 3,
+    -28.5, 18,
+    -10.5, 31,
+    16, 28.5,
+    25.5, 22.5,
+    36, 22,
+    40, 12.5,
+    26, 11,
+    32, 3,
+    32, -15,
+    25, -23.5,
+    30, -28,
+    -9, -27
+  ]
+}

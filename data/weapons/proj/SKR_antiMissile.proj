@@ -1,0 +1,39 @@
+{
+	"id":"SKR_antiMissile",
+	"specClass":"missile",	
+	"missileType":"MISSILE",
+	"sprite":"graphics/SEEKER/missiles/SKR_antiMissile.png",
+	"size":[6,15],	
+	"center":[3,7],
+	"collisionRadius":16,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[173,252,251,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":100, # purely visual
+	"engineSpec":{"turnAcc":1000,
+                      "turnRate":500,
+                      "maxSpeed":400,
+                      "acc":1000,
+                      "dec":500},
+	"engineSlots":[             				    
+			{"id":"ES1",
+                        "loc":[-5,0],
+                        "style":"CUSTOM",
+                        "styleSpec":{
+                                "mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+                                "engineColor":[100,165,255,255],
+                                "contrailDuration":1f,
+                                "contrailWidthMult":1f,
+                                "contrailWidthAddedFractionAtEnd":-1f,  # can be negative. makes trail spread out/narrow at the end
+                                "contrailMinSeg":15f, # min segment length, in pixels
+                                "contrailMaxSpeedMult":0.1f,
+                                "contrailAngularVelocityMult":0.1f,
+                                "contrailColor":[100,165,255,75],
+                                "type":"SMOKE" # GLOW or SMOKE; additive or regular blend mode
+                                },
+                        "width":7.0,
+			"length":40.0,
+			"angle":180.0
+                        }],        
+	"onHitEffect":"data.scripts.weapons.SKR_flakEffect",
+        "renderTargetIndicator":false,
+}

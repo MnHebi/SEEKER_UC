@@ -1,0 +1,50 @@
+{
+    "displayName": "Outdated",
+    "fluxCapacitors": 5,
+    "fluxVents": 20,
+    "goalVariant": true,
+    "hullId": "SKR_adze_pirate",
+    "hullMods": ["heavyarmor"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "SKR_adze_p_outdated",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0006": "atropos_single",
+                "WS0007": "atropos_single"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0002": "shredder",
+                "WS0003": "shredder"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0008": "lightag",
+                "WS0009": "lightag"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "flak"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0010": "vulcan",
+                "WS0011": "vulcan"
+            }
+        }
+    ]
+}

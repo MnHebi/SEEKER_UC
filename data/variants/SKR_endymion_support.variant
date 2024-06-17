@@ -1,0 +1,40 @@
+{
+    "displayName": "Support",
+    "fluxCapacitors": 10,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "SKR_endymion",
+    "hullMods": [
+        "hardenedshieldemitter",
+        "magazines"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "SKR_endymion_support",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "ionpulser",
+                "WS 004": "ionpulser"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 005": "heatseeker",
+                "WS 006": "heatseeker"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "lrpdlaser",
+                "WS 002": "lrpdlaser"
+            }
+        }
+    ]
+}

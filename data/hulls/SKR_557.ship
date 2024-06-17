@@ -1,0 +1,168 @@
+{
+  "hullName": "557",
+  "hullId": "SKR_557",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/SEEKER/ships/SKR_557.png",
+  "style": "MIDLINE",
+  "height": 138,
+  "width": 146,
+  "center": [73, 57],
+  "collisionRadius": 97.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 90,
+  "viewOffset": 0,
+  "builtInWeapons": {
+    "WS0001": "SKR_557Gun"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [49, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [22, 35]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [22, -35]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 30,
+      "locations": [21, 13]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": -30,
+      "locations": [21, -13]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": 120,
+      "locations": [-29, 63]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": -120,
+      "locations": [-29, -63]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": 180,
+      "locations": [-38, -0]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 45,
+      "locations": [-0.5, 66.5]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -45,
+      "locations": [-0.5, -66.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-53, 19.5],
+      "length": 48,
+      "width": 13,
+      "angle": 180,
+      "contrailSize": 13,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-53, -19.5],
+      "length": 48,
+      "width": 13,
+      "angle": -180,
+      "contrailSize": 13,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-55, 9],
+      "length": 74,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 20,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-55, -9],
+      "length": 74,
+      "width": 20,
+      "angle": -180,
+      "contrailSize": 20,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    79, -7.5,
+    69, -20.5,
+    27.5, -19.5,
+    38, -35,
+    20, -56.5,
+    -14, -63.5,
+    -18, -70,
+    -34, -70,
+    -51.5, -57,
+    -31.5, -35,
+    -48, -25,
+    -48, 25,
+    -31.5, 35,
+    -51.5, 57,
+    -34, 70,
+    -18, 70,
+    -14, 63.5,
+    20, 56.5,
+    38, 35,
+    27.5, 19.5,
+    69, 20.5,
+    79, 7.5,
+    38.5, -0
+  ]
+}

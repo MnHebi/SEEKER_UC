@@ -1,0 +1,58 @@
+{
+    "displayName": "Elite",
+    "fluxCapacitors": 10,
+    "fluxVents": 30,
+    "hullId": "SKR_bullhorn",
+    "hullMods": [
+        "ballistic_rangefinder",
+        "targetingunit",
+        "heavyarmor",
+        "reinforcedhull"
+    ],
+    "permaMods": [
+        "ballistic_rangefinder",
+        "targetingunit",
+	],
+    "sMods": [
+        "ballistic_rangefinder",
+        "targetingunit",
+	],
+    "variantId": "SKR_bullhorn_elite",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "mark9",
+                "WS0002": "mark9"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0009": "swarmer",
+                "WS0010": "swarmer",
+                "WS0011": "swarmer"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "heavymortar",
+                "WS0004": "heavymortar"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "vulcan",
+                "WS0006": "vulcan",
+                "WS0007": "vulcan",
+                "WS0008": "vulcan"
+            }
+        }
+    ]
+}

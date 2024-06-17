@@ -1,0 +1,28 @@
+{
+	"id":"SKR_assaultRevolver",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"BALLISTIC",
+	"size":"MEDIUM",
+	"turretSprite":"graphics/SEEKER/weapons/plague/SKR_assaultRevolverT.png",
+	"turretGunSprite":"graphics/SEEKER/weapons/plague/SKR_assaultRevolverTB.png",
+	"hardpointSprite":"graphics/SEEKER/weapons/plague/SKR_assaultRevolverH.png",
+	"hardpointGunSprite":"graphics/SEEKER/weapons/plague/SKR_assaultRevolverHB.png",
+	"visualRecoil":1.0,  # the gun sprites are only used if this is non-0
+	"renderHints":[RENDER_BARREL_BELOW, SUSPEND_RECOIL],
+	"turretOffsets":[26, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[34, 0],
+	"hardpointAngleOffsets":[0],	
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"MUZZLE_FLASH",  # NONE, GLOW, MUZZLE_FLASH, SMOKE
+	"muzzleFlashSpec":{"length":45.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":10.0,
+					   "particleSizeMin":6.0,
+					   "particleSizeRange":40.0,
+					   "particleDuration":0.1,
+					   "particleCount":20,
+					   "particleColor":[255,150,65,128]},	
+	"projectileSpecId":"SKR_assaultRevolver_shot",  # projectile that will be fired
+	"fireSoundTwo":"SKR_assaultRevolver_fire",
+        "everyFrameEffect":"data.scripts.weapons.SKR_smoothRecoilEffect",
+}

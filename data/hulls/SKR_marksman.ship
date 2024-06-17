@@ -1,0 +1,131 @@
+{
+  "hullName": "Marksman",
+  "hullId": "SKR_marksman",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/SEEKER/ships/SKR_marksman.png",
+  "style": "LOW_TECH",
+  "height": 154,
+  "width": 190,
+  "center": [95, 51],
+  "collisionRadius": 114.5,
+  "shieldCenter": [8, -0],
+  "shieldRadius": 106.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "ground_support"
+  ],
+  "builtInWeapons": {
+    "WS0001": "SKR_executioner"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 20,
+      "angle": 0,
+      "locations": [31, -20]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [17, 47]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [17, -47]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 45,
+      "locations": [18, 74]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -45,
+      "locations": [18, -74]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 225,
+      "angle": 180,
+      "locations": [-23.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-40, 29.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-40, -29.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-40, 21.5],
+      "length": 38,
+      "width": 13,
+      "angle": 180,
+      "contrailSize": 13,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-40, -21.5],
+      "length": 38,
+      "width": 13,
+      "angle": -180,
+      "contrailSize": 13,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    22.5, 38.5,
+    22.5, 54.5,
+    39, 75,
+    19.5, 93,
+    -26.5, 57,
+    -37.5, 35.5,
+    -37.5, -35.5,
+    -26.5, -57,
+    19.5, -93,
+    39, -75,
+    22.5, -54.5,
+    22.5, -38.5,
+    100.5, -24.5,
+    100.5, -15.5,
+    47.5, -4.5,
+    44.5, 11.5,
+    60.5, 13.5,
+    60.5, 22.5,
+    50.5, 23.5
+  ]
+}

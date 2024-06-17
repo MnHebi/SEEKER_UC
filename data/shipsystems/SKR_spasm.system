@@ -1,0 +1,13 @@
+{
+	"id":"SKR_spasm",
+	"type":"FAST_RELOAD",
+	#"aiType":"FAST_RELOAD",
+	"aiType":"CUSTOM",
+	"aiScript":"data.shipsystems.scripts.ai.SKR_spasmAI",
+	
+	"weaponTypes":[MISSILE,BALLISTIC,ENERGY],
+	"minFractionToReload":0.5,
+	
+	"useSound":"SKR_spasm",
+	"outOfUsesSound":"gun_out_of_ammo",
+}

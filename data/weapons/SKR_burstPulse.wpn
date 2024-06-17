@@ -1,0 +1,31 @@
+{
+	"id":"SKR_burstPulse",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"ENERGY",
+	"size":"SMALL",
+	"turretSprite":"graphics/SEEKER/weapons/plague/SKR_burstPulseT.png",
+	"turretGlowSprite":"graphics/SEEKER/weapons/plague/SKR_burstPulseTG.png",
+	"hardpointSprite":"graphics/SEEKER/weapons/plague/SKR_burstPulseH.png",
+	"hardpointGlowSprite":"graphics/SEEKER/weapons/plague/SKR_burstPulseHG.png",
+	"glowColor":[255,100,100,255],
+	"turretOffsets":[10, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[14, 0],
+	"hardpointAngleOffsets":[0],
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	#"animationType":"GLOW",
+	"animationType":"GLOW_AND_FLASH",
+	"muzzleFlashSpec":{"length":23.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":60.0,
+					   "particleSizeMin":5.0,
+					   "particleSizeRange":15.0,
+					   "particleDuration":0.12,
+					   "particleCount":8,
+					   "particleColor":[255,100,100,255]},	
+	"autocharge":true,  # whether the weapon will continue charging and fire if the LMB is tapped instead of held
+	"requiresFullCharge":false,  # for pulse weapons - whether the weapon will fire at a lower strength partial charge
+	"projectileSpecId":"irpulse_shot",  # projectile that will be fired
+        "fireSoundOne":"SKR_burstPulseLaser_charge",
+	"fireSoundTwo":"ir_pulse_laser_fire",
+	"everyFrameEffect":"data.scripts.weapons.SKR_addPlagueEffect",
+}

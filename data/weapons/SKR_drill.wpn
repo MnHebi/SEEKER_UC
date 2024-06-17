@@ -1,0 +1,29 @@
+{
+	"specClass":"projectile",
+	"id":"SKR_drill",
+	"type":"ENERGY",
+	"size":"LARGE",
+	"everyFrameEffect":"data.scripts.weapons.SKR_drillEffect",
+	"turretSprite":"graphics/SEEKER/weapons/SKR_trailblazerDrill.png",
+	"turretGlowSprite":"",
+	"hardpointSprite":"",
+	"hardpointGlowSprite":"graphics/SEEKER/weapons/SKR_trailblazerDrillG.png",
+	"glowColor":[255,255,255,128],
+	"turretOffsets":[0, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[-15, 0],
+	"hardpointAngleOffsets":[0],
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"GLOW_AND_FLASH",
+	"muzzleFlashSpec":{"length":30.0,   # only used if animationType = MUZZLE_FLASH
+                            "spread":90.0,
+                            "particleSizeMin":50.0,
+                            "particleSizeRange":150.0,
+                            "particleDuration":0.25,
+                            "particleCount":10,
+                            "particleColor":[100,25,75,200]},
+	"interruptibleBurst":true,
+	"autocharge":false,  # whether the weapon will continue charging and fire if the LMB is tapped instead of held
+	"projectileSpecId":"SKR_drill_shot",  # projectile that will be fired
+	"fireSoundTwo":"SKR_drill_fire",
+}

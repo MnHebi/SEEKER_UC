@@ -1,0 +1,26 @@
+{
+    "baseHullId":"SKR_malet",
+    "skinHullId":"SKR_malet_pather",
+    "hullName":"Malet (LP)",
+    "descriptionId":"SKR_malet",
+	"descriptionPrefix":"Fanatics of the Luddic Path have made this ship their own, stripping out all unnecessary furnishing and transforming it into a haphazard vehicle of holy war.",
+    "spriteName": "graphics/SEEKER/ships/gunships/SKR_malet_body_lp.png",
+    "baseValueMult":0.8,
+	"fleetPoints":5,
+	"ordnancePoints":50,
+    #"restoreToBaseHull":true,
+    "addHints":[],
+    "tags":["rare_bp"],
+	"tech":"Luddic Path",
+    "removeWeaponSlots":[],
+    "removeEngineSlots":[],
+    "removeBuiltInMods":["missleracks"],
+    "removeBuiltInWeapons":[],
+	"builtInMods":["safetyoverrides","ill_advised"],
+    "builtInWeapons":{
+		"WS0007": "SKR_Xmalet_leftWisker_lp",
+		"WS0008": "SKR_Xmalet_rightWisker_lp"
+	},
+    #"systemId":"burndrive",
+    "weaponSlotChanges":{},
+}

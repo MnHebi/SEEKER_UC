@@ -1,0 +1,272 @@
+{
+  "hullName": "Bullhorn",
+  "hullId": "SKR_bullhorn",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/SEEKER/ships/SKR_bullhorn.png",
+  "style": "LOW_TECH",
+  "height": 243,
+  "width": 170,
+  "center": [85, 126],
+  "collisionRadius": 145,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 143,
+  "viewOffset": 0,
+  "builtInMods": [
+    "armoredweapons",
+    "missleracks"
+  ],
+  "builtInWeapons": {
+    "ARMOR_FL": "SKR_bullhornArmorFL",
+    "ARMOR_FR": "SKR_bullhornArmorFR",
+    "ARMOR_L": "SKR_bullhornArmorL",
+    "ARMOR_R": "SKR_bullhornArmorR",
+    "THRUSTER_L": "SKR_bullhornEngine",
+    "THRUSTER_R": "SKR_bullhornEngine"
+  },
+  "weaponSlots": [
+    {
+      "id": "ARMOR_L",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 12.5,
+      "locations": [46.5, 54],
+      "renderOrderMod": 11
+    },
+    {
+      "id": "ARMOR_R",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": -12.5,
+      "locations": [46.5, -54],
+      "renderOrderMod": 11
+    },
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": -12.5,
+      "locations": [46.5, -54],
+      "renderOrderMod": 10
+    },
+    {
+      "id": "WS0002",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 12.5,
+      "locations": [46.5, 54],
+      "renderOrderMod": 10
+    },
+    {
+      "id": "ARMOR_FL",
+      "size": "MEDIUM",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 45,
+      "locations": [98, 34],
+      "renderOrderMod": -4
+    },
+    {
+      "id": "ARMOR_FR",
+      "size": "MEDIUM",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": -45,
+      "locations": [98, -34],
+      "renderOrderMod": -4
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 45,
+      "locations": [98, 34],
+      "renderOrderMod": -5
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -45,
+      "locations": [98, -34],
+      "renderOrderMod": -5
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 25.5,
+      "locations": [88, 13],
+      "renderOrderMod": 5
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -25.5,
+      "locations": [88, -13],
+      "renderOrderMod": 5
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 125,
+      "locations": [-26, 44]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -125,
+      "locations": [-26, -44]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [103, 13],
+      "renderOrderMod": -10
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [103, -13],
+      "renderOrderMod": -10
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [103, -0],
+      "renderOrderMod": -9
+    },
+    {
+      "id": "THRUSTER_L",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 180,
+      "locations": [-116.5, 6]
+    },
+    {
+      "id": "THRUSTER_R",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 180,
+      "locations": [-116.5, -6]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-124, -23.5],
+      "length": 57,
+      "width": 23,
+      "angle": 180,
+      "contrailSize": 19,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-124, 23.5],
+      "length": 57,
+      "width": 23,
+      "angle": -180,
+      "contrailSize": 19,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-124, -44.5],
+      "length": 53,
+      "width": 23,
+      "angle": 180,
+      "contrailSize": 19,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-124, 44.5],
+      "length": 53,
+      "width": 23,
+      "angle": -180,
+      "contrailSize": 19,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    111.5, 43.5,
+    103, 50,
+    76, 50,
+    76, 61,
+    64, 63,
+    57, 74.5,
+    29.5, 74.5,
+    43, 82,
+    29, 80,
+    13, 70,
+    0, 52,
+    -21, 51,
+    -22, 62,
+    -44, 56.5,
+    -81, 56,
+    -85, 64,
+    -107, 64,
+    -110, 54,
+    -124, 53,
+    -124, 15,
+    -115, 13,
+    -115, -13,
+    -124, -15,
+    -124, -53,
+    -110, -54,
+    -107, -64,
+    -85, -64,
+    -81, -56,
+    -40, -57,
+    -21, -61,
+    -21, -51,
+    0, -52,
+    13, -70,
+    29, -80,
+    43, -82,
+    29.5, -74.5,
+    57, -74.5,
+    64, -63,
+    76, -61,
+    76, -50,
+    103, -50,
+    111.5, -43.5
+  ]
+}

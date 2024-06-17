@@ -1,0 +1,129 @@
+{
+  "hullName": "Follower",
+  "hullId": "SKR_follower",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/SEEKER/ships/hidden/SKR_follower.png",
+  "style": "ANTIC_TECH",
+  "height": 56,
+  "width": 110,
+  "center": [55, 25],
+  "collisionRadius": 61.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 60.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "high_maintenance",
+    "SKR_plagueCultist"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [24, 15]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": -0,
+      "locations": [24, -15]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [19, 29]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": -0,
+      "locations": [19, -29]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 45,
+      "locations": [5, 47]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -45,
+      "locations": [5, -47]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 235,
+      "angle": 180,
+      "locations": [-12, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-22, 28],
+      "length": 38.5,
+      "width": 20,
+      "angle": -180,
+      "contrailSize": 20,
+      "style": "SHIP_ORANGE"
+    },
+    {
+      "location": [-23, 28],
+      "length": 64,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "SMOKY_RED"
+    },
+    {
+      "location": [-23, -28],
+      "length": 64,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "SMOKY_RED"
+    },
+    {
+      "location": [-22, -28],
+      "length": 38.5,
+      "width": 20,
+      "angle": -180,
+      "contrailSize": 20,
+      "style": "SHIP_ORANGE"
+    }
+  ],
+  "bounds": [
+    18, 35,
+    -1, 52.5,
+    -21, 44,
+    -16, 38,
+    -22.5, 0,
+    -16, -38,
+    -21, -44,
+    -1, -52.5,
+    18, -35,
+    27, -0
+  ]
+}

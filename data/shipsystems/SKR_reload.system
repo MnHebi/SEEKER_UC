@@ -1,0 +1,11 @@
+{
+	"id":"SKR_reload",
+	"type":"AMMO_RELOAD",
+	"aiType":"AMMO_RELOAD",
+	
+	"weaponTypes":[ENERGY],
+	"minFractionToReload":0.25,
+	
+	"useSound":"SKR_reload_activate",
+	"outOfUsesSound":"gun_out_of_ammo",
+}

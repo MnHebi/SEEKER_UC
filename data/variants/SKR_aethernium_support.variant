@@ -1,0 +1,33 @@
+{
+    "displayName": "Support",
+    "fluxCapacitors": 2,
+    "fluxVents": 20,
+    "goalVariant": true,
+    "hullId": "SKR_aethernium",
+    "hullMods": [
+        "pointdefenseai",
+        "targetingunit"
+    ],
+    "permaMods": [],
+    "variantId": "SKR_aethernium_support",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "SKR_ravagerBI",
+                "WS0002": "SKR_ravagerBI"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "lightneedler"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0004": "vulcan"}
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "displayName": "Vengeance",
+    "fluxCapacitors": 8,
+    "fluxVents": 10,
+    "hullId": "cerberus_d_pirates",
+    "hullMods": [
+        "frontshield",
+        "magazines"
+    ],
+    "permaMods": [
+		"comp_structure",
+		"comp_storage"
+	],
+    "variantId": "SKR_cerberusP_start",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "vulcan",
+                "WS 002": "vulcan",
+                "WS 003": "vulcan"
+            }
+        }
+    ]
+}

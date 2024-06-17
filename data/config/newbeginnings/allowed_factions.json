@@ -1,0 +1,39 @@
+{
+	"independent":[
+            "SKR_gawon",
+            "SKR_clipper",
+            "SKR_clipper_d",
+            "SKR_dawn",
+            "SKR_onyx",
+            "SKR_trailblazer",
+            "CIV_titanic",
+            "CIV_demeter",
+        ],
+	"tritachyon":[
+            "SKR_clipper",
+            "SKR_balisong",
+            "SKR_quicksilver",
+            "SKR_dawn",
+            "SKR_onyx",
+            "SKR_trailblazer",
+        ],
+	"sindrian_diktat":[
+            "SKR_clipper_d",
+            "SKR_trailblazer",
+        ],
+	"pirates":[
+            "SKR_clipper_d",
+            "SKR_poisonivy",
+            "SKR_cassowaryRH",
+
+            "SKR_guardian",
+            "SKR_guardian_atc",
+            "SKR_guardian_broadside",
+        ],
+	"persean":[
+            "SKR_trailblazer",
+            "SKR_gawon",
+            "CIV_titanic",
+            "CIV_demeter",
+        ],
+}

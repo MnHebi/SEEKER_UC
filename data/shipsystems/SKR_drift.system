@@ -1,0 +1,23 @@
+{
+	"id":"SKR_drift",
+	"type":"ENGINE_MOD",
+	"aiType":"MANEUVERING_JETS",
+	
+	"statsScript":"data.shipsystems.scripts.SKR_driftStats",
+
+	"clampTurnRateAfter":true,
+	"clampMaxSpeedAfter":false,
+
+	#"useSound":"SKR_drift_charge",
+	#"loopSound":"diableavionics_drift",
+	#"outOfUsesSound":"engine_disabled",
+	
+	"aiHints":{
+		"averageSpeedIncrease":0,
+		"burstMovementPotential":400,		
+		"threatRange":800,
+		"threatAmount":1000,
+		"threatAngle":0,
+		"threatArc":180,		
+	}
+}

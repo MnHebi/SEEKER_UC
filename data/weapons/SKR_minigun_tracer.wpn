@@ -1,0 +1,17 @@
+{
+	"id":"SKR_minigun_tracer",
+	"specClass":"projectile",
+	"type":"BALLISTIC",
+	"size":"MEDIUM",	
+	"turretSprite":"",
+	"hardpointSprite":"",
+
+	"turretOffsets":[34, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[39, 0],
+	"hardpointAngleOffsets":[0],
+
+	"barrelMode":"ALTERNATING",
+	"animationType":"NONE",
+	"projectileSpecId":"SKR_minigun_tracer",
+}

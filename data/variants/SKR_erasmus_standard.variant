@@ -1,0 +1,24 @@
+{
+  "displayName": "Saturation",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "hullId": "SKR_erasmus",
+  "hullMods": [],
+  "variantId": "SKR_erasmus_standard",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "SKR_rocketRack"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "SKR_accelMissileRack"
+      }
+    }
+  ]
+}

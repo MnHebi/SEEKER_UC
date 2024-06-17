@@ -1,0 +1,382 @@
+{
+  "bounds": [
+    151.5,
+    6.5,
+    142,
+    18,
+    104,
+    26,
+    19,
+    30,
+    -11,
+    56,
+    -38,
+    57,
+    -56,
+    68,
+    -107.5,
+    59,
+    -107.5,
+    21.5,
+    -94.5,
+    17,
+    -104,
+    -0,
+    -94.5,
+    -17,
+    -107.5,
+    -21.5,
+    -107.5,
+    -59,
+    -56,
+    -68,
+    -38,
+    -57,
+    -11,
+    -56,
+    19,
+    -30,
+    104,
+    -26,
+    142,
+    -18,
+    151.5,
+    -6.5
+  ],
+  "builtInMods": [
+    "hiressensors",
+    "surveying_equipment"
+  ],
+  "builtInWings": [],
+  "builtInWeapons": {},
+  "center": [
+    89,
+    112
+  ],
+  "collisionRadius": 171,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -110,
+        22
+      ],
+      "style": "MIDLINE",
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -110,
+        -22
+      ],
+      "style": "MIDLINE",
+      "width": 10
+    },
+    {
+      "angle": 180,
+      "contrailSize": 15,
+      "length": 37.5,
+      "location": [
+        -111,
+        33
+      ],
+      "style": "MIDLINE",
+      "width": 15
+    },
+    {
+      "angle": -180,
+      "contrailSize": 15,
+      "length": 37.5,
+      "location": [
+        -111,
+        -33
+      ],
+      "style": "MIDLINE",
+      "width": 15
+    },
+    {
+      "angle": 180,
+      "contrailSize": 15,
+      "length": 37.5,
+      "location": [
+        -111,
+        47
+      ],
+      "style": "MIDLINE",
+      "width": 15
+    },
+    {
+      "angle": -180,
+      "contrailSize": 15,
+      "length": 37.5,
+      "location": [
+        -111,
+        -47
+      ],
+      "style": "MIDLINE",
+      "width": 15
+    },
+    {
+      "angle": 180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -110,
+        58
+      ],
+      "style": "MIDLINE",
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -110,
+        -58
+      ],
+      "style": "MIDLINE",
+      "width": 10
+    }
+  ],
+  "height": 274,
+  "hullId": "SKR_tumbleweed",
+  "hullName": "Tumbleweed",
+  "hullSize": "CRUISER",
+  "shieldCenter": [
+    18,
+    -0
+  ],
+  "shieldRadius": 148.5,
+  "spriteName": "graphics/SEEKER/ships/SKR_tumbleweed.png",
+  "style": "MIDLINE",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 90,
+      "id": "WS0001",
+      "locations": [
+        15,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "LARGE",
+      "type": "HYBRID"
+    },
+    {
+      "angle": 0,
+      "arc": 300,
+      "id": "WS0002",
+      "locations": [
+        66,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 0,
+      "arc": 270,
+      "id": "WS0003",
+      "locations": [
+        86,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 0,
+      "arc": 240,
+      "id": "WS0004",
+      "locations": [
+        119,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": -60,
+      "arc": 150,
+      "id": "WS0005",
+      "locations": [
+        -10,
+        -40
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": 60,
+      "arc": 150,
+      "id": "WS0006",
+      "locations": [
+        -10,
+        40
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": 90,
+      "arc": 200,
+      "id": "WS0007",
+      "locations": [
+        -59,
+        56
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -90,
+      "arc": 200,
+      "id": "WS0008",
+      "locations": [
+        -59,
+        -56
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 180,
+      "arc": 135,
+      "id": "WS0009",
+      "locations": [
+        -83,
+        -40
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": -180,
+      "arc": 135,
+      "id": "WS0010",
+      "locations": [
+        -83,
+        40
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "LB 1",
+      "locations": [
+        48.5,
+        27.5,
+        43.5,
+        27.5
+      ],
+      "mount": "HIDDEN",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "LB 2",
+      "locations": [
+        41,
+        -26.5,
+        49.5,
+        -26.5
+      ],
+      "mount": "HIDDEN",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY"
+    },
+    {
+      "angle": -90,
+      "arc": 29,
+      "id": "DRONE1",
+      "locations": [
+        45.5,
+        -28
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    },
+    {
+      "angle": 90,
+      "arc": 29,
+      "id": "DRONE2",
+      "locations": [
+        45.5,
+        28
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    },
+    {
+      "angle": -90,
+      "arc": 29,
+      "id": "FLARE1",
+      "locations": [
+        -22.5,
+        -49
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 90,
+      "arc": 29,
+      "id": "FLARE2",
+      "locations": [
+        -22.5,
+        49
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 90,
+      "arc": 29,
+      "id": "FLARE3",
+      "locations": [
+        -20.5,
+        49
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": -90,
+      "arc": 29,
+      "id": "FLARE4",
+      "locations": [
+        -20.5,
+        -49
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    }
+  ],
+  "width": 178
+}

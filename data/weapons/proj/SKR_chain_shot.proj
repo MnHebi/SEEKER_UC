@@ -1,0 +1,17 @@
+{
+	"id":"SKR_chain_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":240.0,
+	"width":24.0,
+	"hitGlowRadius":250,
+	"fadeTime":0.15,
+	"fringeColor":[50,150,250,255],
+	"coreColor":[200,255,230,255],
+	"textureType":"WEAVE",  # only needed for BEAM spawnType
+	"textureScrollSpeed":-256.0,
+	"pixelsPerTexel":1.0,
+	"onHitEffect":"data.scripts.weapons.SKR_chain_hitEffect",
+}

@@ -1,0 +1,111 @@
+{
+  "bounds": [
+    13,
+    5,
+    -3,
+    19.5,
+    -12,
+    -0,
+    -3,
+    -19.5,
+    13,
+    -5
+  ],
+  "builtInWeapons": {
+    "WS0001": "SKR_heavymg",
+    "WS0002": "swarmer_fighter",
+    "WS0003": "swarmer_fighter"
+  },
+  "center": [
+    22,
+    14
+  ],
+  "collisionRadius": 31.5,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 10,
+      "length": 22,
+      "location": [
+        -13,
+        9
+      ],
+      "style": "HIGH_TECH",
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 10,
+      "length": 22,
+      "location": [
+        -13,
+        -9
+      ],
+      "style": "HIGH_TECH",
+      "width": 10
+    }
+  ],
+  "height": 42,
+  "hullId": "SKR_fireant",
+  "hullName": "Fire-ant",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    2,
+    -0
+  ],
+  "shieldRadius": 26,
+  "spriteName": "graphics/SEEKER/ships/hidden/SKR_fireant.png",
+  "style": "HIGH_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0001",
+      "locations": [
+        22,
+        -0
+      ],
+      "mount": "HIDDEN",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 45,
+      "arc": 0,
+      "id": "WS0002",
+      "locations": [
+        -2,
+        10.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -45,
+      "arc": 0,
+      "id": "WS0003",
+      "locations": [
+        -2,
+        -10.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 180,
+      "arc": 0,
+      "id": "WS0004",
+      "locations": [
+        -9,
+        -0
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    }
+  ],
+  "width": 44
+}

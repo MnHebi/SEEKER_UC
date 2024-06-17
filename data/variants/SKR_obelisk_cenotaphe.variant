@@ -1,0 +1,35 @@
+{
+    "displayName": "Cenotaphe",
+    "fluxCapacitors": 0,
+    "fluxVents": 20,
+    "goalVariant": true,
+    "hullId": "SKR_obelisk",
+    "hullMods": [],
+    "permaMods": [],
+    "quality": 0.5,
+    "variantId": "SKR_obelisk_cenotaphe",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {"WS0001": "locust"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "irpulse",
+                "WS0004": "irpulse",
+                "WS0005": "irpulse",
+                "WS0006": "irpulse",
+                "WS0007": "irpulse",
+                "WS0008": "irpulse"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "pdburst"}
+        }
+    ]
+}

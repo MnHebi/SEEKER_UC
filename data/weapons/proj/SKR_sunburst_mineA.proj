@@ -1,0 +1,67 @@
+{
+	"id":"SKR_sunburst_mineA",
+	"specClass":"missile",	
+	"missileType":"PHASE_MINE",
+	"sprite":"graphics/SEEKER/missiles/SKR_sunburstMine.png",
+	"glowSprite":"graphics/SEEKER/missiles/SKR_sunburstMineG.png",
+	"glowColor":[255,100,200,255],
+	"size":[24,24],	
+	"center":[12,12],
+	"collisionRadius":6,
+	"collisionClass":"MISSILE_FF",
+	"explosionColor":[255,75,75,128],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":60, 
+	"engineSpec":{
+                        "turnAcc":720,
+                        "turnRate":180,
+                        "acc":20,
+                        "dec":8
+                    },
+	"flameoutTime":1.05f, # total time from flameout to full fadeout
+	"engineSlots":[{
+                        "id":"ES1",
+			"loc":[0, 0],
+			"style":"CUSTOM",
+			"styleSpec":{
+                            "mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+                            "engineColor":[255,75,165,255],
+                            "contrailDuration":0,
+                            "contrailWidthMult":0,
+                            "contrailWidthAddedFractionAtEnd":-0.5f,  # can be negative. makes trail spread out/narrow at the end
+                            "contrailMinSeg":15, # min segment length, in pixels
+                            "contrailMaxSpeedMult":0.5f,
+                            "contrailAngularVelocityMult":0.5f,
+                            "contrailSpawnDistMult":1, # how far away from engine it starts
+                            "contrailColor":[255,75,165,150],
+                            "type":"GLOW" # GLOW or SMOKE; additive or regular blend mode
+			},
+			"width":5.0,
+			"length":0,
+			"angle":180.0}],
+	"behaviorSpec":{
+                    "behavior":"PROXIMITY_FUSE",
+                    "range":60,
+                    "slowToMaxSpeed":true,
+                    "delay":1.4f,
+                    "pingSound":"SKR_sunburst_trigger",
+                    "pingColor":[150,100,100,64],
+                    "pingRadius":100,
+                    "pingDuration":0.25,
+                    #"windupSound":"mine_windup_heavy",
+                    "windupDelay":0.7,
+                    "explosionSpec":{
+                        "duration":0.1f,
+                        "radius":120,
+                        "coreRadius":60, # full damage within core radius
+                        "collisionClass":PROJECTILE_FF,
+                        "collisionClassByFighter":PROJECTILE_FIGHTER,
+                        "particleSizeMin":3.0,
+                        "particleSizeRange":8.0,
+                        "particleDuration":2,
+                        "particleCount":10,
+                        "particleColor":[150,25,250,255],
+                        "explosionColor":[100,25,75,64],
+                        "useDetailedExplosion":true,
+                        "sound":"devastator_explosion"},
+                    }
+}

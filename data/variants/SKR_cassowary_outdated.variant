@@ -1,0 +1,69 @@
+{
+    "displayName": "Outdated",
+    "fluxCapacitors": 0,
+    "fluxVents": 19,
+    "goalVariant": true,
+    "hullId": "SKR_cassowary",
+    "hullMods": [
+        "heavyarmor",
+        "reinforcedhull",
+        "autorepair",
+        "blast_doors"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "SKR_cassowary_outdated",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "SKR_modsL",
+                "WS0002": "SKR_modsR"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0007": "annihilatorpod",
+                "WS0008": "annihilatorpod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "hellbore",
+                "WS0004": "mark9"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "shredder",
+                "WS0006": "shredder"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0009": "mininglaser",
+                "WS0010": "mininglaser",
+                "WS0011": "mininglaser",
+                "WS0012": "mininglaser",
+                "WS0013": "mininglaser",
+                "WS0014": "mininglaser",
+                "WS0015": "mininglaser",
+                "WS0016": "mininglaser",
+                "WS0017": "mininglaser"
+            }
+        }
+    ],
+    "wings": [
+        "talon_wing",
+        "piranha_wing"
+    ]
+}

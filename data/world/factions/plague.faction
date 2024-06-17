@@ -1,0 +1,233 @@
+{
+    # only used for fleet creation, not an actual faction
+    "id":"plague",
+
+    "color":[100,0,50,255],
+
+    "secondaryUIColor":[1,1,1,255],
+    "secondarySegments":10,
+
+
+
+    "displayName":"plague-bearer",
+    "displayNameWithArticle":"the plagued",
+    "personNamePrefixAOrAn":"a",
+    "displayNameIsOrAre":"are",
+
+	"logo":"graphics/SEEKER/factions/skr_plague.png",
+	"crest":"graphics/SEEKER/factions/skr_crest_plague.png",
+
+	"showInIntelTab":false,
+	"shipNamePrefix":"XXX",
+	"shipNameSources":{
+		"DERELICT_DRONE":1,
+	},
+
+	"names":{
+		"ai":1,
+	},
+
+	"variantOverrides":{
+	},
+
+	# multiplier for how often hulls show up in the faction's fleets
+	"hullFrequency":{
+		"tags":{
+		},
+		"hulls":{
+		},
+	},
+
+	# ships the faction gets access to when importing S&W out-of-faction
+	"shipsWhenImporting":{
+		"tags":[],
+		"hulls":[
+		],
+	},
+
+	"knownShips":{
+		"tags":[],
+		"hulls":[
+			"SKR_devotee",
+			"SKR_follower",
+			"SKR_believer",
+			"SKR_doctrinaire",
+			"SKR_cultist",
+			"SKR_zealot",
+			"SKR_fanatic",
+			"SKR_guru",
+		],
+	},
+
+	# listing ships here will make the faction mostly use them even if other hulls become available
+	"priorityShips":{
+		"tags":[],
+		"hulls":[
+			"SKR_devotee",
+			"SKR_follower",
+			"SKR_believer",
+			"SKR_doctrinaire",
+			"SKR_cultist",
+			"SKR_zealot",
+			"SKR_fanatic",
+			"SKR_guru",
+		],
+	},
+	"knownFighters":{
+            "tags":[],
+            "fighters":[
+                "SKR_beetle_wing",
+                "SKR_fireant_wing",
+                "SKR_pillbug_wing",
+            ],
+	},
+	"priorityFighters":{
+            "tags":[],
+            "fighters":[
+                "SKR_beetle_wing",
+                "SKR_fireant_wing",
+                "SKR_pillbug_wing",
+            ],
+	},
+	"knownWeapons":{
+		"tags":["base_bp", "lowtech_bp", "midline_bp", "missile_bp", "hightech_bp", "scavengers"],
+		"weapons":[
+			"railgun",
+			"dualflak",
+			"heavymauler",
+			"hveldriver",
+			"gauss",
+			"mjolnir",
+			"sabotpod",
+			"phasecl",
+			"cyclone",
+			"hurricane",
+			"squall",
+			"locust",
+			"pdburst",
+			"amblaster",
+			"phasebeam",
+			"heavyblaster",
+			"heavyburst",
+			"ionpulser",
+			"ionbeam",
+			"plasma",
+			"guardian",
+                    "SKR_pdCharger",
+                    "SKR_pdGrenade",
+                    "SKR_burstPulse",
+                    "SKR_assaultRevolver",
+                    "SKR_intercept",
+                    "SKR_hvBlaster",
+                    "SKR_lightspark",
+                    "SKR_lightstreak",
+                    "SKR_heavyLightstreak",
+                    "SKR_sling",
+                    "SKR_dainsleif",
+                    "SKR_fauchard",
+		],
+	},
+	"priorityWeapons":{
+		"tags":[],
+		"weapons":[
+                    "SKR_pdCharger",
+                    "SKR_pdGrenade",
+                    "SKR_burstPulse",
+                    "SKR_assaultRevolver",
+                    "SKR_intercept",
+                    "SKR_hvBlaster",
+                    "SKR_lightspark",
+                    "SKR_lightstreak",
+                    "SKR_heavyLightstreak",
+                    "SKR_sling",
+                    "SKR_dainsleif",
+                    "SKR_fauchard",
+		],
+	},
+	"knownHullMods":{
+		"tags":["base_bp", "scavengers"],
+		"hullMods":[
+			"advancedshieldemitter", # accelerated
+			"turretgyros",
+			"armoredweapons",
+			"augmentedengines",
+			"autorepair",
+			"converted_hangar",
+			"eccm",
+			"ecm",
+			"expanded_deck_crew",
+			"magazines",
+			"missleracks",
+			"extendedshieldemitter",
+			"frontemitter",
+			"frontshield",  # makeshift
+			"hardenedshieldemitter",
+			"heavyarmor",
+			"insulatedengine",
+			"targetingunit",
+			"nav_relay",
+			"adaptiveshields", # omni
+			"operations_center",
+			"recovery_shuttles",
+			"fluxbreakers",
+			"stabilizedshieldemitter",
+			"surveying_equipment",
+		],
+	},
+	"factionDoctrine":{
+		"warships":4,
+		"carriers":3,
+		"phaseShips":1,
+		
+		"officerQuality":3,
+		"shipQuality":5,
+		"numShips":2,
+		
+		"shipSize":4,
+		
+		"aggression":4,
+		
+		"combatFreighterProbability":0,     				# instead of some portion of the freighters in a fleet
+		"combatFreighterCombatUseFraction":0,				# as part of the normal combat lineup
+		"combatFreighterCombatUseFractionWhenPriority":1,   # as part of normal combat lineup, when marked as priority ship
+		"autofitRandomizeProbability":0,
+
+		"commanderSkillsShuffleProbability":0.5,
+		"commanderSkills":[
+			"crew_training",
+			"officer_training",
+			"coordinated_maneuvers",
+			"electronic_warfare",
+			"fighter_uplink",
+			"carrier_group",
+			"flux_regulation",
+		],
+	},
+
+	"music":{
+		"theme":"SKR_plaguebearer_interaction",
+		"market_neutral":"SKR_plaguebearer_interaction",
+		"market_hostile":"SKR_plaguebearer_interaction",
+		"market_friendly":"SKR_plaguebearer_interaction",
+		"encounter_neutral":"SKR_plaguebearer_interaction",
+		"encounter_hostile":"SKR_plaguebearer_interaction",
+		"encounter_friendly":"SKR_plaguebearer_interaction",
+	},	
+
+	"portraits":{
+		"standard_male":[
+			"graphics/SEEKER/portraits/SKR_plagueCultist.png",
+		],
+		"standard_female":[
+			"graphics/SEEKER/portraits/SKR_plagueCultist.png",
+		],
+	},
+	
+	"fleetTypeNames":{
+		"patrolSmall":"Nodule",
+		"patrolMedium":"Rash",
+		"patrolLarge":"Infection",
+		"battlestation":"Chyst",
+	},
+
+},	

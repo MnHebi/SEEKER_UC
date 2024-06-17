@@ -1,0 +1,48 @@
+{
+    "displayName": "Decisive",
+    "fluxCapacitors": 0,
+    "fluxVents": 15,
+    "hullId": "SKR_bullhorn",
+    "hullMods": ["safetyoverrides"],
+    "permaMods": [],
+    "variantId": "SKR_bullhorn_assault",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0009": "reaper",
+                "WS0010": "reaper",
+                "WS0011": "reaper"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {"WS0001": "multineedler"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "hephag"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "heavymg",
+                "WS0004": "chaingun"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "vulcan",
+                "WS0006": "vulcan",
+                "WS0007": "vulcan",
+                "WS0008": "vulcan"
+            }
+        }
+    ]
+}

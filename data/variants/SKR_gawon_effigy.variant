@@ -1,0 +1,52 @@
+{
+    "displayName": "Effigy",
+    "fluxCapacitors": 44,
+    "fluxVents": 50,
+    "goalVariant": true,
+    "hullId": "SKR_gawon",
+    "hullMods": [
+        "missleracks",
+        "eccm",
+        "hardenedshieldemitter"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "SKR_gawon_effigy",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"MAIN": "SKR_gawk"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "locust",
+                "WS0002": "locust"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "shredder"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "LEFT": "devastator",
+                "RIGHT": "devastator"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "flak",
+                "WS0005": "flak",
+                "WS0006": "flak"
+            }
+        }
+    ]
+}

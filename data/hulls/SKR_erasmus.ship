@@ -1,0 +1,94 @@
+{
+  "bounds": [
+    -4,
+    17.5,
+    8.5,
+    13,
+    8.5,
+    -13,
+    -4,
+    -17.5,
+    -14.5,
+    -0
+  ],
+  "builtInWings": [],
+  "center": [
+    19,
+    15.5
+  ],
+  "collisionRadius": 23,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 6,
+      "length": 17,
+      "location": [
+        -15.5,
+        -10.5
+      ],
+      "style": "HIGH_TECH",
+      "width": 6
+    },
+    {
+      "angle": -180,
+      "contrailSize": 6,
+      "length": 17,
+      "location": [
+        -15.5,
+        10.5
+      ],
+      "style": "HIGH_TECH",
+      "width": 6
+    },
+    {
+      "angle": 180,
+      "contrailSize": 10,
+      "length": 28.5,
+      "location": [
+        -15.5,
+        -0
+      ],
+      "style": "HIGH_TECH",
+      "width": 10
+    }
+  ],
+  "height": 31,
+  "hullId": "SKR_erasmus",
+  "hullName": "Erasmus",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 22,
+  "spriteName": "graphics/SEEKER/ships/hidden/SKR_erasmus.png",
+  "style": "HIGH_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0001",
+      "locations": [
+        7.5,
+        -8
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0002",
+      "locations": [
+        0,
+        8
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "MISSILE"
+    }
+  ],
+  "width": 38
+}

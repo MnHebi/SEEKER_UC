@@ -1,0 +1,65 @@
+{
+    "displayName": "Starlight",
+    "fluxCapacitors": 7,
+    "fluxVents": 50,
+    "goalVariant": true,
+    "hullId": "SKR_dawn",
+    "hullMods": [
+        "turretgyros",
+        "advancedoptics",
+        "targetingunit",
+        "pointdefenseai",
+        "fluxbreakers"
+    ],
+    "permaMods": [],
+    "variantId": "SKR_dawn_starlight",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "hil",
+                "WS0002": "hil"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "BUILTIN_L": "SKR_sunburst",
+                "BUILTIN_R": "SKR_sunburst"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "taclaser",
+                "WS0004": "ionbeam",
+                "WS0005": "ionbeam",
+                "WS0008": "gravitonbeam",
+                "WS0009": "gravitonbeam",
+                "WS0010": "taclaser",
+                "WS0011": "taclaser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "gravitonbeam",
+                "WS0007": "gravitonbeam"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0012": "taclaser",
+                "WS0013": "taclaser",
+                "WS0014": "taclaser",
+                "WS0015": "taclaser"
+            }
+        }
+    ]
+}

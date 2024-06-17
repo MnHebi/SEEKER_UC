@@ -1,0 +1,52 @@
+{
+    "displayName": "Combat",
+    "fluxCapacitors": 0,
+    "fluxVents": 20,
+    "goalVariant": true,
+    "hullId": "SKR_fresnel",
+    "hullMods": [
+        "missleracks",
+        "targetingunit"
+    ],
+    "permaMods": [],
+    "quality": 1,
+    "variantId": "SKR_fresnel_combat",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "SKR_fuscina",
+                "WS0002": "SKR_fuscina",
+                "WS0003": "SKR_fuscina"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0005": "sabot",
+                "WS0006": "sabot"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0004": "amblaster"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "lrpdlaser",
+                "WS0008": "lrpdlaser",
+                "WS0009": "pdburst",
+                "WS0010": "pdburst"
+            }
+        }
+    ],
+    "wings": [
+        "flash_wing",
+        "flash_wing"
+    ]
+}

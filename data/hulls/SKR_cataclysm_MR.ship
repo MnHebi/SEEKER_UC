@@ -1,0 +1,112 @@
+{
+  "hullName": "Gun Module",
+  "hullId": "SKR_cataclysm_MR",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/SEEKER/ships/hidden/SKR_cataclysm_MgunR.png",
+  "style": "ANTIC_TECH",
+  "height": 92,
+  "width": 100,
+  "center": [50, 46],
+  "collisionRadius": 68,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 67,
+  "viewOffset": 0,
+  "builtInMods": [
+    "SKR_plagueBearer",
+    "advancedcore",
+    "always_detaches",
+    "automated",
+    "reduced_explosion",
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 0,
+      "locations": [6, -16]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": -0,
+      "locations": [3, 16]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": 0,
+      "locations": [36, -32]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": 0,
+      "locations": [33, -0]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": 0,
+      "locations": [29.5, 32]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 0,
+      "locations": [-15, -32]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 0,
+      "locations": [-18, -0]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 0,
+      "locations": [-21, 32]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    -32.5, -43.5,
+    -39.5, 43.5,
+    20.5, 45.5,
+    37.5, 35.5,
+    37.5, 28.5,
+    25.5, 20.5,
+    25.5, 12.5,
+    40.5, 3.5,
+    40.5, -3.5,
+    28.5, -11.5,
+    28.5, -19.5,
+    43.5, -28.5,
+    43.5, -35.5,
+    25.5, -45.5
+  ]
+}

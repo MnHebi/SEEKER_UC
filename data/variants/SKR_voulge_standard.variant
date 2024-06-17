@@ -1,0 +1,50 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 14,
+    "fluxVents": 50,
+    "goalVariant": true,
+    "hullId": "SKR_voulge",
+    "hullMods": [
+        "fluxbreakers",
+        "targetingunit"
+    ],
+    "permaMods": [],
+    "variantId": "SKR_voulge_standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "LEFT": "hephag",
+                "RIGHT": "hephag"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "hurricane",
+                "WS0002": "hurricane"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"MAIN": "multineedler"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0010": "chaingun"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "dualflak",
+                "WS0006": "flak",
+                "WS0007": "flak"
+            }
+        }
+    ]
+}

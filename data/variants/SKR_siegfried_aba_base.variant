@@ -1,0 +1,63 @@
+{
+    "displayName": "Fast Response",
+    "fluxCapacitors": 4,
+    "fluxVents": 50,
+    "goalVariant": true,
+    "hullId": "SKR_siegfried_aba",
+    "hullMods": [],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "SKR_siegfried_aba_base",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "FIRECANE1": "SKR_firecane",
+                "FIRECANE2": "SKR_firecane"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "MEDIUM1": "hveldriver",
+                "MEDIUM2": "hveldriver",
+                "MEDIUM3": "hveldriver",
+                "MEDIUM4": "hveldriver",
+                "MEDIUM5": "hveldriver",
+                "MEDIUM6": "hveldriver",
+                "MEDIUM7": "hveldriver",
+                "MEDIUM8": "hveldriver"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"LARGE1": "devastator"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0012": "vulcan",
+                "WS0013": "vulcan",
+                "WS0014": "vulcan",
+                "WS0015": "vulcan",
+                "WS0016": "vulcan",
+                "WS0017": "vulcan",
+                "WS0018": "vulcan",
+                "WS0019": "vulcan",
+                "WS0020": "vulcan",
+                "WS0021": "vulcan",
+                "WS0022": "vulcan",
+                "WS0023": "vulcan",
+                "WS0024": "vulcan"
+            }
+        }
+    ],
+    "wings": [
+        "thunder_wing",
+        "thunder_wing"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+	"specClass":"projectile",
+	"id":"SKR_blackoutEMP",
+	"type":"ENERGY",
+	"size":"LARGE",
+	"turretSprite":"",
+	"hardpointSprite":"",
+	"turretOffsets":[0, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[0, 0],
+	"hardpointAngleOffsets":[0],
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"NONE",
+	"autocharge":false,  # whether the weapon will continue charging and fire if the LMB is tapped instead of held
+	"projectileSpecId":"SKR_blackoutEMP_shot",  # projectile that will be fired
+	#"fireSoundTwo":"SKR_balisongBushwhacker_05",
+}

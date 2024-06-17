@@ -1,0 +1,52 @@
+{
+    "id":"SKR_pdbomb_proj",
+    "specClass":"missile",
+    "missileType":"BOMB_WITH_SLOW",
+    "sprite":"graphics/missiles/bomblet0.png",
+    "size":[9,11],	
+    "center":[4.5,5.5],
+    "collisionRadius":9,
+    "collisionClass":"MISSILE_NO_FF",
+    "explosionColor":[211,100,25,255],
+    "explosionRadius":100,
+
+    "maxFlightTime":3.5,
+    "armingTime":0.5,	
+    "flameoutTime":0.05,
+    "noEngineGlowTime":0.05,
+    "fadeTime":0.05,
+
+    "explosionSpec":{
+        "duration":0.1f,
+        "radius":150,
+        "coreRadius":75,
+        "collisionClass":MISSILE_FF,
+        "collisionClassByFighter":MISSILE_FF
+    },
+
+    "engineSpec":{
+        "turnAcc":100,
+        "turnRate":10,
+        "acc":100,
+        "dec":100,
+    },
+	
+    "behaviorSpec":{
+        "behavior":"PROXIMITY_FUSE",
+        "range":50,
+        "slowToMaxSpeed":true,
+        "explosionSpec":{
+            "duration":0.1f,
+            "radius":125,
+            "coreRadius":75,
+            "collisionClass":PROJECTILE_FF,
+            "collisionClassByFighter":PROJECTILE_FIGHTER,
+            "particleSizeMin":3.0,
+            "particleSizeRange":6.0,
+            "particleDuration":1,
+            "particleCount":20,
+            "particleColor":[211,100,25,255],
+            "sound":"explosion_flak"
+        },
+    },
+}

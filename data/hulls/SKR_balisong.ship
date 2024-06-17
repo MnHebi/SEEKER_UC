@@ -1,0 +1,266 @@
+{
+  "bounds": [
+    124.5,
+    9.5,
+    59.5,
+    20.5,
+    38.5,
+    29.5,
+    25.5,
+    45.5,
+    20.5,
+    66.5,
+    -20.5,
+    66.5,
+    -27.5,
+    45.5,
+    -39.5,
+    29.5,
+    -95.5,
+    18.5,
+    -89,
+    -0,
+    -95.5,
+    -18.5,
+    -39.5,
+    -29.5,
+    -27.5,
+    -45.5,
+    -20.5,
+    -66.5,
+    20.5,
+    -66.5,
+    25.5,
+    -45.5,
+    38.5,
+    -29.5,
+    59.5,
+    -20.5,
+    124.5,
+    -9.5,
+    90,
+    -0
+  ],
+  "builtInMods": [
+    "high_maintenance",
+    "SKR_overdrive"
+  ],
+  "builtInWeapons": {
+    "LEFT": "SKR_balisongPulse",
+    "RIGHT": "SKR_balisongPulse",
+    "SYSTEM": "SKR_balisongCharge",
+    "WS0003": "SKR_balisongTip"
+  },
+  "builtInWings": [],
+  "center": [
+    74,
+    98
+  ],
+  "collisionRadius": 185,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 16,
+      "length": 50.5,
+      "location": [
+        -97,
+        14
+      ],
+      "style": "HIGH_TECH",
+      "width": 16
+    },
+    {
+      "angle": -180,
+      "contrailSize": 16,
+      "length": 50.5,
+      "location": [
+        -97,
+        -14
+      ],
+      "style": "HIGH_TECH",
+      "width": 16
+    },
+    {
+      "angle": 180,
+      "contrailSize": 6,
+      "length": 37,
+      "location": [
+        -90,
+        5
+      ],
+      "style": "HIGH_TECH",
+      "width": 6
+    },
+    {
+      "angle": 180,
+      "contrailSize": 6,
+      "length": 37,
+      "location": [
+        -90,
+        -0
+      ],
+      "style": "HIGH_TECH",
+      "width": 6
+    },
+    {
+      "angle": 180,
+      "contrailSize": 6,
+      "length": 37,
+      "location": [
+        -90,
+        -5
+      ],
+      "style": "HIGH_TECH",
+      "width": 6
+    }
+  ],
+  "height": 224,
+  "hullId": "SKR_balisong",
+  "hullName": "Balisong",
+  "hullSize": "CRUISER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 175,
+  "spriteName": "graphics/SEEKER/ships/hidden/SKR_balisongBODY.png",
+  "style": "HIGH_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "MAIN1",
+      "locations": [
+        83,
+        -0
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "MAIN2",
+      "locations": [
+        97,
+        -0
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 45,
+      "id": "LEFT",
+      "locations": [
+        0,
+        60
+      ],
+      "mount": "HARDPOINT",
+      "size": "LARGE",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 0,
+      "arc": 45,
+      "id": "RIGHT",
+      "locations": [
+        0,
+        -60
+      ],
+      "mount": "HARDPOINT",
+      "size": "LARGE",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 5,
+      "arc": 90,
+      "id": "MODULE_LEFT",
+      "locations": [
+        0,
+        60
+      ],
+      "mount": "TURRET",
+      "size": "LARGE",
+      "type": "STATION_MODULE"
+    },
+    {
+      "angle": -5,
+      "arc": 90,
+      "id": "MODULE_RIGHT",
+      "locations": [
+        0,
+        -60
+      ],
+      "mount": "TURRET",
+      "size": "LARGE",
+      "type": "STATION_MODULE"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "WS0001",
+      "locations": [
+        30,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "LB 1",
+      "locations": [
+        -19,
+        -0
+      ],
+      "mount": "HIDDEN",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY"
+    },
+    {
+      "angle": 180,
+      "arc": 270,
+      "id": "WS0002",
+      "locations": [
+        -45,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "SYSTEM",
+      "locations": [
+        7,
+        0
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "DECORATIVE",
+      "renderOrderMod":-9,
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0003",
+      "locations": [
+        98.5,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "DECORATIVE",
+      "renderOrderMod":-10,
+    },
+  ],
+  "width": 148
+}

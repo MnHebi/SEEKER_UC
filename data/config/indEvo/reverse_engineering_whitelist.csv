@@ -1,0 +1,39 @@
+id
+# NOTES
+# Ship IDs entered here will be allowed by the Engineering hub (Reverse Engineering ship hulls)
+# Ships that would break the game (Balance/Technical/Lore) if the player could produce them via blueprint should not be on this list.
+SKR_hedone
+SKR_endymion
+SKR_augur
+SKR_malet
+
+SKR_marksman
+SKR_butterfly
+SKR_obelisk
+SKR_aethernium
+SKR_557
+SKR_adze
+
+SKR_bullhorn
+#SKR_poisonivy
+SKR_tumbleweed
+SKR_halligan
+
+SKR_clipper
+SKR_retiarius
+#SKR_trailblazer
+#SKR_balisong
+
+SKR_cassowary
+#SKR_quicksilver
+#SKR_dawn
+#SKR_onyx
+SKR_voulge
+#SKR_gawon
+
+#SKR_siegfried
+
+CIV_titanic
+CIV_blitzkrieg
+CIV_demeter
+

@@ -1,0 +1,83 @@
+{
+    "displayName": "Mobile Barrage",
+    "fluxCapacitors": 33,
+    "fluxVents": 50,
+    "goalVariant": true,
+    "hullId": "SKR_siegfried_abb",
+    "hullMods": [
+        "nav_relay",
+        "turretgyros",
+        "SKR_siegfried_axx",
+        "SKR_siegfried_xbx",
+        "SKR_siegfried_xxb"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "SKR_siegfried_abb_base",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"LARGE1": "gauss"}
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "LARGE2": "mark9",
+                "LARGE3": "mark9"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "LARGE4": "mark9",
+                "LARGE5": "mark9"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "MEDIUM1": "heavymortar",
+                "MEDIUM3": "heavymortar",
+                "MEDIUM5": "heavymortar",
+                "MEDIUM7": "heavymortar"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "MEDIUM2": "heavymortar",
+                "MEDIUM4": "heavymortar",
+                "MEDIUM6": "heavymortar",
+                "MEDIUM8": "heavymortar"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0012": "lightmg",
+                "WS0013": "lightmg",
+                "WS0014": "lightmg",
+                "WS0015": "lightmg",
+                "WS0016": "lightmg",
+                "WS0017": "lightmg",
+                "WS0018": "lightmg",
+                "WS0019": "lightmg",
+                "WS0020": "lightmg",
+                "WS0021": "lightmg",
+                "WS0022": "lightmg",
+                "WS0023": "lightmg",
+                "WS0024": "lightmg"
+            }
+        }
+    ],
+    "wings": [
+        "perdition_wing",
+        "perdition_wing"
+    ]
+}

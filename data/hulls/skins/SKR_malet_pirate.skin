@@ -1,0 +1,30 @@
+{
+    "baseHullId":"SKR_malet",
+    "skinHullId":"SKR_malet_pirate",
+    "hullName":"Malet (P)",
+    "descriptionId":"SKR_malet",
+    "descriptionPrefix":"This ship has been heavily modified - and poorly maintained - by its pirate crew. Despite its concerning state, a proper passage in a dry-dock could restore this ship to its original specs.",
+    "spriteName": "graphics/SEEKER/ships/gunships/SKR_malet_body_p.png",
+    "baseValueMult":0.9,
+	"fleetPoints":5,
+	"ordnancePoints":50,
+    "restoreToBaseHull":true,
+    "addHints":[],
+    "tags":["rare_bp"],
+    "tech":"Pirate",
+    "removeWeaponSlots":[],
+    "removeEngineSlots":[],
+    "removeBuiltInMods":["missleracks"],
+    "removeBuiltInWeapons":[],
+    "builtInMods":[],
+    "builtInWeapons":{
+		"WS0007": "SKR_Xmalet_leftWisker_p",
+		"WS0008": "SKR_Xmalet_rightWisker_p"
+	},
+    "systemId":"burndrive",
+    "weaponSlotChanges":{
+        "WS0001":{
+            "type": "COMPOSITE"
+        },
+    },
+}

@@ -1,0 +1,55 @@
+{
+    "displayName": "Assault",
+    "fluxCapacitors": 11,
+    "fluxVents": 30,
+    "goalVariant": true,
+    "hullId": "SKR_guru",
+    "hullMods": [],
+    "permaMods": [],
+    "variantId": "SKR_guru_assault",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0008": "SKR_lightspark",
+                "WS0009": "SKR_lightspark"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0006": "SKR_lightspark",
+                "WS0007": "SKR_lightspark"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "plasma"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "SKR_hvBlaster",
+                "WS0003": "SKR_hvBlaster",
+                "WS0004": "SKR_burstPulse",
+                "WS0005": "SKR_burstPulse"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0010": "SKR_pdGrenade",
+                "WS0011": "SKR_pdGrenade"
+            }
+        }
+    ],
+    "wings": [
+        "SKR_beetle_wing",
+        "SKR_beetle_wing"
+    ]
+}

@@ -1,0 +1,99 @@
+{
+    "plugins":{
+    },
+	
+    "designTypeColors":{
+        "Exotic Tech":[0,255,150,255],
+        "Plague-bearer Tech":[150,100,100,255],
+    },
+	
+    "graphics":{	
+        "ui":{
+            "SKR_interference":"graphics/SEEKER/icons/hullsys/SKR_interference.png",
+            "SKR_panik":"graphics/SEEKER/icons/hullsys/SKR_cataDebuff.png",
+            "SKR_shield":"graphics/SEEKER/icons/hullsys/SKR_twinShield.png",
+        },
+        "shields":{
+        },
+		"abilities":{
+			"skr_neutrinoA" : "graphics/SEEKER/fx/SKR_neutrino_detector_d.png",
+		},
+        "fx":{   
+			
+            "skr_marksman_ui0":"graphics/SEEKER/fx/marksman_systemUI_bracket.png",
+            "skr_marksman_ui1":"graphics/SEEKER/fx/marksman_systemUI_arrow.png",
+            "skr_marksman_ui2":"graphics/SEEKER/fx/marksman_systemUI_circle.png",
+		
+            #"SKR_beamTrio_core":"graphics/SEEKER/fx/SKR_beamTrio_core.png", 
+            #"SKR_beamTrio_fringe":"graphics/SEEKER/fx/SKR_beamTrio_fringe.png",
+
+            "flakFlash":"graphics/SEEKER/fx/flak_flash.png",		
+            "flakPuff":"graphics/SEEKER/fx/flak_puff.png",		
+
+            "skr_can_burn":"graphics/SEEKER/fx/SKR_can_burn.png",
+            "skr_can_glow":"graphics/SEEKER/fx/SKR_can_glow.png",
+            "skr_can_smoke":"graphics/SEEKER/fx/SKR_can_smoke.png",
+            "skr_can_wave":"graphics/SEEKER/fx/SKR_can_wave.png",
+
+            "zap_00":"graphics/SEEKER/fx/zap_00.png",	
+            "zap_01":"graphics/SEEKER/fx/zap_01.png",		
+            "zap_02":"graphics/SEEKER/fx/zap_02.png",		
+            "zap_03":"graphics/SEEKER/fx/zap_03.png",		
+            "zap_04":"graphics/SEEKER/fx/zap_04.png",		
+            "zap_05":"graphics/SEEKER/fx/zap_05.png",		
+            "zap_06":"graphics/SEEKER/fx/zap_06.png",		
+            "zap_07":"graphics/SEEKER/fx/zap_07.png",    
+
+            "SKR_zapTrail_0":"graphics/SEEKER/fx/SKR_zapTrail_00.png", 
+            "SKR_zapTrail_1":"graphics/SEEKER/fx/SKR_zapTrail_01.png",
+            "SKR_zapTrail_2":"graphics/SEEKER/fx/SKR_zapTrail_02.png",
+            "SKR_zapTrail_3":"graphics/SEEKER/fx/SKR_zapTrail_03.png",
+            "SKR_zapTrail_4":"graphics/SEEKER/fx/SKR_zapTrail_04.png",
+            "SKR_zapTrail_5":"graphics/SEEKER/fx/SKR_zapTrail_05.png", 
+
+            "glowRing_01":"graphics/SEEKER/fx/SKR_ringHardGlow.jpg",
+            "glowRing_02":"graphics/SEEKER/fx/SKR_ringSoftGlow.jpg",
+
+            "target_BL":"graphics/SEEKER/fx/SKR_target_bottomLeft.png",
+            "target_TL":"graphics/SEEKER/fx/SKR_target_topLeft.png",
+
+            "sweetener":"graphics/SEEKER/fx/SKR_sweetener.png",   
+            "SKR_flare":"graphics/SEEKER/fx/SKR_flareA.png", 
+            "SKR_hueShift":"graphics/SEEKER/fx/SKR_hueShift.png", 
+            
+            "bar":"graphics/SEEKER/fx/SKR_debug2.png",
+
+            "SKR_drill_aura":"graphics/SEEKER/fx/SKR_drill_aura.png", 
+            "SKR_drill_swoosh":"graphics/SEEKER/fx/SKR_drill_swoosh2.png",
+            "SKR_drill_shadow":"graphics/SEEKER/fx/SKR_drill_trail3.png",  
+            "SKR_drill_trail":"graphics/SEEKER/fx/SKR_drill_trail2.png",
+            "SKR_drill_cloud":"graphics/SEEKER/fx/SKR_drill_cloud.png",
+            "SKR_drill_sweetener":"graphics/SEEKER/fx/SKR_drill_sweetener.png",
+
+            #"SKR_plasma_splash_A":"graphics/SEEKER/fx/SKR_plasma_splash_00.png",
+            #"SKR_plasma_splash_B":"graphics/SEEKER/fx/SKR_plasma_splash_01.png",
+            #"SKR_plasma_splash_C":"graphics/SEEKER/fx/SKR_plasma_splash_02.png",
+            "SKR_plasma_muzzle":"graphics/SEEKER/fx/SKR_plasma_shot.png",
+            "SKR_plasma_sparks":"graphics/SEEKER/fx/SKR_plasma_sparks.png",
+			
+            #"SKR_shieldIN":"graphics/SEEKER/fx/SKR_derelictShield_halfspin.png", 
+            #"SKR_shieldIN":"graphics/SEEKER/fx/SKR_derelictShield_noise.png", 		
+            "SKR_shieldIN":"graphics/SEEKER/fx/SKR_derelictShield_in.png", 			
+            "SKR_shieldOUT":"graphics/SEEKER/fx/SKR_derelictShield_ring.png",  
+ 
+            "SKR_shockwave":"graphics/SEEKER/fx/SKR_shockwave.png", 
+        },
+		"characters":{
+			"SKR_plagueA":"graphics/SEEKER/portraits/SKR_plagueA.png",
+			"SKR_plagueB":"graphics/SEEKER/portraits/SKR_plagueB.png",
+			"SKR_plagueC":"graphics/SEEKER/portraits/SKR_plagueC.png",
+			"SKR_plagueD":"graphics/SEEKER/portraits/SKR_plagueD.png",
+			"SKR_cultist":"graphics/SEEKER/portraits/SKR_plagueCultist.png",
+			"SKR_AIcore":"graphics/SEEKER/portraits/SKR_plagueAI.png",
+			
+			"SKR_retiarius":"graphics/portraits/portrait16.png",
+			"SKR_siegfried":"graphics/portraits/portrait_mercenary07.png",
+			"SKR_demeter":"graphics/portraits/portrait_corporate10.png",
+		},
+	}
+}

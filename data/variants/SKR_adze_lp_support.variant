@@ -1,0 +1,43 @@
+{
+    "displayName": "Support",
+    "fluxCapacitors": 0,
+    "fluxVents": 19,
+    "goalVariant": true,
+    "hullId": "SKR_adze_pather",
+    "hullMods": [],
+    "permaMods": [],
+    "variantId": "SKR_adze_lp_support",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "heavyneedler"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0006": "heatseeker",
+                "WS0007": "heatseeker"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "lightag",
+                "WS0003": "lightag",
+                "WS0008": "lightag",
+                "WS0009": "lightag"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0010": "lightmg",
+                "WS0011": "lightmg"
+            }
+        }
+    ]
+}

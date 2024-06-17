@@ -1,0 +1,45 @@
+{
+    "displayName": "Combat",
+    "fluxCapacitors": 6,
+    "fluxVents": 30,
+    "goalVariant": true,
+    "hullId": "SKR_tumbleweed",
+    "hullMods": ["targetingunit"],
+    "permaMods": [],
+    "variantId": "SKR_tumbleweed_combat",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "mjolnir"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "heatseeker",
+                "WS0006": "heatseeker"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "lightneedler",
+                "WS0003": "lightneedler"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "dualflak",
+                "WS0007": "taclaser",
+                "WS0008": "taclaser",
+                "WS0009": "vulcan",
+                "WS0010": "vulcan"
+            }
+        }
+    ],
+    "wings": ["gladius_wing"]
+}

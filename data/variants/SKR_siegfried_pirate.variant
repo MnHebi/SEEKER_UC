@@ -1,0 +1,65 @@
+{
+    "displayName": "Recovered",
+    "fluxCapacitors": 9,
+    "fluxVents": 50,
+    "hullId": "SKR_siegfried_baa",
+    "hullMods": [
+		"glitched_sensors",
+        "SKR_siegfried_bxx",
+        "SKR_siegfried_xax",
+        "SKR_siegfried_xxa",
+        "targetingunit",
+        "reinforcedhull"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "SKR_siegfried_pirate",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "FIRECANE1": "SKR_firecane",
+                "FIRECANE2": "SKR_firecane"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "MEDIUM1": "arbalest",
+                "MEDIUM2": "arbalest",
+                "MEDIUM3": "arbalest",
+                "MEDIUM4": "arbalest",
+                "MEDIUM5": "arbalest",
+                "MEDIUM6": "arbalest",
+                "MEDIUM7": "arbalest",
+                "MEDIUM8": "arbalest"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"LARGE1": "devastator"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0012": "vulcan",
+                "WS0013": "vulcan",
+                "WS0014": "vulcan",
+                "WS0015": "vulcan",
+                "WS0016": "vulcan",
+                "WS0017": "vulcan",
+                "WS0018": "vulcan",
+                "WS0019": "vulcan",
+                "WS0020": "vulcan",
+                "WS0021": "vulcan",
+                "WS0022": "vulcan",
+                "WS0023": "vulcan",
+                "WS0024": "vulcan"
+            }
+        }
+    ]
+}

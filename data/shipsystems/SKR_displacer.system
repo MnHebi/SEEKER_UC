@@ -1,0 +1,31 @@
+{
+	"id":"SKR_displacer",
+	"type":"DISPLACER",
+	"aiType":"PHASE_DISPLACER",
+	
+	
+	"jitterColor":[255,165,100,155],
+	"jitterCopies":10,
+	"jitterRange":0,
+	"jitterRangeRadiusFraction":0.5,
+	
+	"weaponGlowColor":[255,165,100,0],
+	"weaponTypes":[ENERGY],
+	
+	"engineGlowColor":[255,165,100,125],
+
+	"range":100,
+	"randomRange":25,
+	
+	"renderCopyDuringTeleport":true,
+	
+	"fadeActivationSoundOnChargedown":false,
+	"useSound":"SKR_blitzSkimmer",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+		"activeSpeedIncrease":0,
+		"burstMovementPotential":100,
+		"averageSpeedIncrease":300,
+	}
+}

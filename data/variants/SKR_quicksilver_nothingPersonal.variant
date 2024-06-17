@@ -1,0 +1,54 @@
+{
+    "displayName": "Nothing Personal",
+    "fluxCapacitors": 50,
+    "fluxVents": 44,
+    "goalVariant": true,
+    "hullId": "SKR_quicksilver",
+    "hullMods": [],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "SKR_quicksilver_nothingPersonal",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "plasma"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "heavyneedler",
+                "WS0011": "lightneedler",
+                "WS0012": "lightneedler",
+                "WS0013": "heavyneedler"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "ionpulser",
+                "WS0004": "ionpulser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "pdburst",
+                "WS0006": "pdburst",
+                "WS0009": "pdburst",
+                "WS0010": "pdburst"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "lrpdlaser",
+                "WS0008": "lrpdlaser"
+            }
+        }
+    ]
+}

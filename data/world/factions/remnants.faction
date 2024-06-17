@@ -1,0 +1,36 @@
+{
+    "hullFrequency":{
+        "hulls":{
+            "SKR_fresnel":0.5,
+        },
+    },
+
+    "shipsWhenImporting":{
+        "hulls":[
+            "SKR_fresnel",
+        ],
+    },
+
+    "knownShips":{
+        "hulls":[
+            "SKR_fresnel",
+        ],
+    },
+
+    "knownWeapons":{
+        "weapons":[
+            "SKR_ravager",
+
+            "SKR_kaleidoscope",
+            "SKR_gatlingLance",
+
+            "SKR_glare",
+            "SKR_blackout",
+
+            "SKR_stepMissilesLauncher",
+            "SKR_stepMissilesRack",
+            "SKR_accelMissilesLauncher",
+            "SKR_accelMissileRack",
+        ],
+    },
+},

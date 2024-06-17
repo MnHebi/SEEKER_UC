@@ -1,0 +1,172 @@
+{
+  "bounds": [
+    57.5,
+    7.5,
+    35.5,
+    13.5,
+    14,
+    15,
+    -6,
+    24,
+    9.5,
+    33,
+    -12.5,
+    44.5,
+    -41.5,
+    37,
+    -40.5,
+    14.5,
+    -31.5,
+    13,
+    -44,
+    -0,
+    -31.5,
+    -13,
+    -40.5,
+    -14.5,
+    -41.5,
+    -37,
+    -12.5,
+    -44.5,
+    9.5,
+    -33,
+    -6,
+    -24,
+    14,
+    -15,
+    35.5,
+    -13.5,
+    57.5,
+    -7.5,
+    61.5,
+    -0
+  ],
+  "builtInMods": [
+    "civgrade",
+  ],
+  "builtInWings": [],
+  "center": [
+    46,
+    46
+  ],
+  "collisionRadius": 77,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -42,
+        17
+      ],
+      "style": "HIGH_TECH",
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -42,
+        -17
+      ],
+      "style": "HIGH_TECH",
+      "width": 10
+    },
+    {
+      "angle": 180,
+      "contrailSize": 10,
+      "length": 41.5,
+      "location": [
+        -43,
+        25
+      ],
+      "style": "HIGH_TECH",
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 10,
+      "length": 41.5,
+      "location": [
+        -43,
+        -25
+      ],
+      "style": "HIGH_TECH",
+      "width": 10
+    },
+    {
+      "angle": 180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -43,
+        33
+      ],
+      "style": "HIGH_TECH",
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -43,
+        -33
+      ],
+      "style": "HIGH_TECH",
+      "width": 10
+    }
+  ],
+  "height": 109,
+  "hullId": "SKR_hedone",
+  "hullName": "Hedone",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    5,
+    -0
+  ],
+  "shieldRadius": 70.5,
+  "spriteName": "graphics/SEEKER/ships/SKR_hedone.png",
+  "style": "HIGH_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 180,
+      "arc": 360,
+      "id": "WS0001",
+      "locations": [
+        -25,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 22.5,
+      "id": "WS0002",
+      "locations": [
+        -2,
+        24
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": -0,
+      "arc": 22.5,
+      "id": "WS0003",
+      "locations": [
+        -2,
+        -24
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    }
+  ],
+  "width": 92
+}

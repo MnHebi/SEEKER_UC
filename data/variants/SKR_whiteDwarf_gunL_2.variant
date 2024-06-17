@@ -1,0 +1,41 @@
+{
+    "displayName": "Left Gun",
+    "fluxCapacitors": 0,
+    "fluxVents": 2,
+    "goalVariant": true,
+    "hullId": "SKR_whiteDwarf_gunL",
+    "hullMods": [
+        "autorepair",
+        "turretgyros",
+        "pointdefenseai",
+        "targetingunit",
+        "fluxbreakers",
+        "advancedoptics"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "SKR_whiteDwarf_gunL_2",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "SKR_burstPulse",
+                "WS0004": "SKR_burstPulse"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0005": "ioncannon"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "SKR_pdCharger",
+                "WS0002": "SKR_pdCharger"
+            }
+        }
+    ]
+}

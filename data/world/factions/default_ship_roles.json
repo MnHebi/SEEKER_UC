@@ -1,0 +1,139 @@
+{
+	"combatSmall":{
+            "SKR_hedone_deluxe":3,
+            "SKR_hedone_dreamcaster":3,
+            "SKR_hedone_premium":3,
+            "SKR_hedone_razorback":1,
+
+            "SKR_malet_standard":3,
+            "SKR_malet_support":3,
+            "SKR_malet_assault":2,
+            "SKR_malet_outdated":2,
+            "SKR_malet_p_standard":3,
+            "SKR_malet_p_support":3,
+            "SKR_malet_p_assault":2,
+            "SKR_malet_p_outdated":2,
+            "SKR_malet_lp_standard":3,
+            "SKR_malet_lp_support":3,
+            "SKR_malet_lp_assault":2,
+            "SKR_malet_lp_outdated":2,
+
+
+			"SKR_follower_assault":2,
+			"SKR_follower_support":3,
+			"SKR_follower_standard":4,
+
+			"SKR_believer_assault":2,
+			"SKR_believer_support":3,
+			"SKR_believer_standard":4,
+
+			"SKR_devotee_assault":2,
+			"SKR_devotee_support":3,
+			"SKR_devotee_standard":4,
+	},
+	"combatMedium":{
+            "SKR_butterfly_assault":2,
+            "SKR_butterfly_brawler":2,
+            "SKR_butterfly_standard":3,
+            "SKR_butterfly_support":3,
+
+            "SKR_aethernium_assault":2,
+            "SKR_aethernium_messenger":2,
+            "SKR_aethernium_standard":3,
+            "SKR_aethernium_support":3,
+
+            "SKR_marksman_support":3,
+            "SKR_marksman_striker":2,
+            "SKR_marksman_combat":3,
+            "SKR_marksman_bomber":2,
+
+            "SKR_557_assault":2,
+            "SKR_557_outdated":2,
+            "SKR_557_standard":3,
+            "SKR_557_support":3,
+
+            "SKR_adze_standard":3,
+            "SKR_adze_support":3,
+            "SKR_adze_assault":2,
+            "SKR_adze_outdated":2,
+            "SKR_adze_p_standard":3,
+            "SKR_adze_p_support":3,
+            "SKR_adze_p_assault":2,
+            "SKR_adze_p_outdated":2,
+            "SKR_adze_lp_standard":3,
+            "SKR_adze_lp_support":3,
+            "SKR_adze_lp_assault":2,
+            "SKR_adze_lp_outdated":2,
+
+			"SKR_cultist_assault":1,
+			"SKR_cultist_support":3,
+			"SKR_cultist_standard":5,
+
+			"SKR_fanatic_assault":1,
+			"SKR_fanatic_support":3,
+			"SKR_fanatic_standard":5,
+
+			"SKR_doctrinaire_assault":3,
+			"SKR_doctrinaire_support":3,
+			"SKR_doctrinaire_standard":3,
+	},
+	"combatLarge":{
+            "SKR_bullhorn_combat":2,
+            "SKR_bullhorn_outdated":2,
+            "SKR_bullhorn_standard":2,
+            "SKR_bullhorn_standoff":1,
+            "SKR_bullhorn_assault":1,
+            "SKR_bullhorn_support":2,
+
+            "SKR_tumbleweed_assault":2,
+            "SKR_tumbleweed_combat":2,
+            "SKR_tumbleweed_standard":3,
+            "SKR_tumbleweed_support":3,  
+
+            "SKR_tumbleweed_p_assault":2,
+            "SKR_tumbleweed_p_combat":2,
+            "SKR_tumbleweed_p_standard":3,
+            "SKR_tumbleweed_p_support":3, 
+
+            "SKR_halligan_standard":3,
+            "SKR_halligan_support":3,
+            "SKR_halligan_assault":2,
+            "SKR_halligan_outdated":2,
+            "SKR_halligan_p_standard":3,
+            "SKR_halligan_p_support":3,
+            "SKR_halligan_p_assault":2,
+            "SKR_halligan_p_outdated":2,
+            "SKR_halligan_lp_standard":3,
+            "SKR_halligan_lp_support":3,
+            "SKR_halligan_lp_assault":2,
+            "SKR_halligan_lp_outdated":2,
+
+
+			"SKR_zealot_assault":1,
+			"SKR_zealot_support":3,
+			"SKR_zealot_standard":5,
+	},
+	"combatCapital":{
+            "SKR_cassowary_assault":2,
+            "SKR_cassowary_outdated":2,
+            "SKR_cassowary_standard":3,
+            "SKR_cassowary_support":3,
+	},
+
+	"carrierMedium":{
+            "SKR_fresnel_combat":2,
+            "SKR_fresnel_outdated":5,
+            "SKR_fresnel_standard":3,
+
+			"SKR_guru_assault":1,
+			"SKR_guru_support":3,
+			"SKR_guru_standard":5,
+	},
+
+	"personnelMedium":{
+            "SKR_obelisk_arch":3,
+            "SKR_obelisk_cairn":3,
+            "SKR_obelisk_cenotaphe":2,
+            "SKR_obelisk_dolmen":2,
+	},
+}

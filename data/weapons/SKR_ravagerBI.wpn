@@ -1,0 +1,60 @@
+{
+	"id":"SKR_ravagerBI",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"ENERGY",
+	"size":"MEDIUM",
+	"everyFrameEffect":"data.scripts.weapons.SKR_ravagerEffect",
+	"turretSprite":"graphics/SEEKER/weapons/SKR_ravagerBI.png",
+	"hardpointSprite":"",
+	"turretOffsets":
+[
+0, 0,
+4, 0,
+8, 0,
+9, 0,
+5, 0,
+1, 0,
+],
+	"turretAngleOffsets":
+[
+-2.5,
+-1.5,
+-0.5,
+0.5,
+1.5,
+2.5,
+],
+	"hardpointOffsets":
+[
+0, 0,
+4, 0,
+8, 0,
+9, 0,
+5, 0,
+1, 0,
+],
+	"hardpointAngleOffsets":
+[
+-2.5,
+-1.5,
+-0.5,
+0.5,
+1.5,
+2.5,
+],
+	"barrelMode":"LINKED", #ALTERNATING or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"MUZZLE_FLASH",
+	"muzzleFlashSpec":{"length":30.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":5.0,
+					   "particleSizeMin":20.0,
+					   "particleSizeRange":10.0,
+					   "particleDuration":0.10,
+					   "particleCount":5,
+					   "particleColor":[50,155,255,255]},
+	"interruptibleBurst":true,
+	"autocharge":true,
+        "separateRecoilForLinkedBarrels":"TRUE",
+	"projectileSpecId":"SKR_ravager_shot",
+        "fireSoundOne":"SKR_ravager_chargeup",
+	"fireSoundTwo":"SKR_ravager_fire",
+}

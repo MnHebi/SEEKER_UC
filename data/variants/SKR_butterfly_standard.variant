@@ -1,0 +1,39 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 0,
+    "fluxVents": 19,
+    "goalVariant": true,
+    "hullId": "SKR_butterfly",
+    "hullMods": [
+        "targetingunit",
+        "fluxbreakers"
+    ],
+    "permaMods": [],
+    "variantId": "SKR_butterfly_standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "SKR_revolverBeam",
+                "WS0002": "SKR_revolverBeam"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "ioncannon",
+                "WS0004": "ioncannon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "irpulse",
+                "WS0006": "irpulse"
+            }
+        }
+    ]
+}

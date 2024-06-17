@@ -1,0 +1,35 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 17,
+    "fluxVents": 20,
+    "goalVariant": true,
+    "hullId": "SKR_doctrinaire",
+    "hullMods": [
+        "targetingunit",
+        "magazines"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "SKR_doctrinaire_standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "SKR_burstPulse",
+                "WS0002": "SKR_burstPulse",
+                "WS0003": "SKR_burstPulse",
+                "WS0004": "SKR_burstPulse"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "flak",
+                "WS0006": "flak"
+            }
+        }
+    ],
+    "wings": ["SKR_pillbug_wing"]
+}

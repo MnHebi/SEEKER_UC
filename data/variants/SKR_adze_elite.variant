@@ -1,0 +1,43 @@
+{
+    "displayName": "Elite",
+    "fluxCapacitors": 10,
+    "fluxVents": 20,
+    "hullId": "SKR_adze",
+    "hullMods": ["targetingunit"],
+    "permaMods": ["targetingunit"],
+    "sMods": ["targetingunit"],
+    "variantId": "SKR_adze_elite",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "heavymauler"}
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0006": "swarmer",
+                "WS0007": "swarmer"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "hveldriver",
+                "WS0003": "hveldriver"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0008": "vulcan",
+                "WS0009": "vulcan",
+                "WS0010": "vulcan",
+                "WS0011": "vulcan"
+            }
+        }
+    ]
+}

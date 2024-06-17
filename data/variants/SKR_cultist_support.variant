@@ -1,0 +1,45 @@
+{
+    "displayName": "Support",
+    "fluxCapacitors": 14,
+    "fluxVents": 20,
+    "goalVariant": true,
+    "hullId": "SKR_cultist",
+    "hullMods": [
+        "targetingunit",
+        "eccm"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "SKR_cultist_support",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0004": "amblaster",
+                "WS0005": "amblaster"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0002": "pilum",
+                "WS0003": "pilum"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "SKR_intercept"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "SKR_pdCharger",
+                "WS0007": "SKR_pdCharger"
+            }
+        }
+    ]
+}

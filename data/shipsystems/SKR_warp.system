@@ -1,0 +1,35 @@
+{
+	"id":"SKR_warp",
+	"type":"ENGINE_MOD",
+	"aiType":"NONE",
+	
+	"statsScript":"data.shipsystems.scripts.SKR_warpDriveStats",
+	
+	#"jitterColor":[255,255,255,35],
+	#"jitterCopies":4,
+	#"jitterRange":10,
+	#"jitterRangeRadiusFraction":0,
+	
+	"engineActivateHiddenNozzles":false,
+	"engineGlowColor":[128,64,196,255],
+	"engineGlowContrailColor":[64,0,128,128],
+	"engineGlowMaxBlend":0.5,
+	"engineGlowLengthMult":3,
+	"engineGlowWidthMult":2,
+	"engineGlowGlowMult":2,
+	
+	"flameoutOnImpactChance":0,
+
+	"clampTurnRateAfter":true,
+	"clampMaxSpeedAfter":true,
+	"alwaysAccelerate":true,
+
+	#"useSound":"system_travel_drive_activate",
+	"loopSound":"system_travel_drive_loop",
+	#"deactivateSound":"system_travel_drive_deactivate",
+	"outOfUsesSound":"engine_disabled",
+	
+	"aiHints":{
+		"averageSpeedIncrease":600,
+	}
+}

@@ -1,0 +1,8 @@
+{
+    "id":"SKR_module",
+    "type":"STAT_MOD",
+    "aiType":"CUSTOM",
+    "aiScript":"data.shipsystems.scripts.ai.SKR_moduleAI",
+    "aiHints":{
+    }
+}

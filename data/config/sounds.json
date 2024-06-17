@@ -1,0 +1,953 @@
+{
+
+                #PLAGUE WEAPONS
+              
+        "SKR_flak_fire":
+	[
+		{"file":"sounds/SEEKER/SKR_flak_fire1.ogg","pitch":0.95,"volume":0.5},
+		{"file":"sounds/SEEKER/SKR_flak_fire1.ogg","pitch":1.00,"volume":0.5},
+		{"file":"sounds/SEEKER/SKR_flak_fire1.ogg","pitch":1.05,"volume":0.5},
+		#{"file":"sounds/SEEKER/SKR_flak_fire2.ogg","pitch":0.95,"volume":0.6},
+		#{"file":"sounds/SEEKER/SKR_flak_fire2.ogg","pitch":1.00,"volume":0.6},
+		#{"file":"sounds/SEEKER/SKR_flak_fire2.ogg","pitch":1.05,"volume":0.6},
+		{"file":"sounds/SEEKER/SKR_flak_fire3.ogg","pitch":0.95,"volume":0.5},
+		{"file":"sounds/SEEKER/SKR_flak_fire3.ogg","pitch":1.00,"volume":0.5},
+		{"file":"sounds/SEEKER/SKR_flak_fire3.ogg","pitch":1.05,"volume":0.5},
+		{"file":"sounds/SEEKER/SKR_flak_fire4.ogg","pitch":0.95,"volume":0.5},
+		{"file":"sounds/SEEKER/SKR_flak_fire4.ogg","pitch":1.00,"volume":0.5},
+		{"file":"sounds/SEEKER/SKR_flak_fire4.ogg","pitch":1.05,"volume":0.5},
+        ], 
+
+        "SKR_burstPulseLaser_charge":
+	[
+		{"file":"sounds/SEEKER/SKR_burstPulseLaser_charge.ogg","pitch":0.95,"volume":0.4},
+		{"file":"sounds/SEEKER/SKR_burstPulseLaser_charge.ogg","pitch":1.00,"volume":0.4},
+		{"file":"sounds/SEEKER/SKR_burstPulseLaser_charge.ogg","pitch":1.05,"volume":0.4},
+        ],
+
+        "SKR_assaultRevolver_fire":
+	[
+		{"file":"sounds/SEEKER/SKR_assaultRevolver_fire1.ogg","pitch":0.95,"volume":0.5},
+		{"file":"sounds/SEEKER/SKR_assaultRevolver_fire1.ogg","pitch":1.00,"volume":0.5},
+		{"file":"sounds/SEEKER/SKR_assaultRevolver_fire1.ogg","pitch":1.05,"volume":0.5},
+		{"file":"sounds/SEEKER/SKR_assaultRevolver_fire2.ogg","pitch":0.95,"volume":0.5},
+		{"file":"sounds/SEEKER/SKR_assaultRevolver_fire2.ogg","pitch":1.00,"volume":0.5},
+		{"file":"sounds/SEEKER/SKR_assaultRevolver_fire2.ogg","pitch":1.05,"volume":0.5},
+		{"file":"sounds/SEEKER/SKR_assaultRevolver_fire3.ogg","pitch":0.95,"volume":0.5},
+		{"file":"sounds/SEEKER/SKR_assaultRevolver_fire3.ogg","pitch":1.00,"volume":0.5},
+		{"file":"sounds/SEEKER/SKR_assaultRevolver_fire3.ogg","pitch":1.05,"volume":0.5},
+        ],
+
+        "SKR_hvblaster_charge":
+	[
+		#{"file":"sounds/SEEKER/SKR_hvblaster_chargeup1.ogg","pitch":0.95,"volume":0.4},
+		{"file":"sounds/SEEKER/SKR_hvblaster_chargeup1.ogg","pitch":1.00,"volume":0.3},
+		#{"file":"sounds/SEEKER/SKR_hvblaster_chargeup1.ogg","pitch":1.05,"volume":0.4},
+        ],
+        "SKR_hvblaster_fire":
+	[
+		{"file":"sounds/SEEKER/SKR_hvblaster_fire1.ogg","pitch":0.95,"volume":0.6},
+		{"file":"sounds/SEEKER/SKR_hvblaster_fire1.ogg","pitch":1.00,"volume":0.6},
+		{"file":"sounds/SEEKER/SKR_hvblaster_fire1.ogg","pitch":1.05,"volume":0.6},
+		{"file":"sounds/SEEKER/SKR_hvblaster_fire2.ogg","pitch":0.95,"volume":0.6},
+		{"file":"sounds/SEEKER/SKR_hvblaster_fire2.ogg","pitch":1.00,"volume":0.6},
+		{"file":"sounds/SEEKER/SKR_hvblaster_fire2.ogg","pitch":1.05,"volume":0.6},
+		{"file":"sounds/SEEKER/SKR_hvblaster_fire3.ogg","pitch":0.95,"volume":0.6},
+		{"file":"sounds/SEEKER/SKR_hvblaster_fire3.ogg","pitch":1.00,"volume":0.6},
+		{"file":"sounds/SEEKER/SKR_hvblaster_fire3.ogg","pitch":1.05,"volume":0.6},
+		{"file":"sounds/SEEKER/SKR_hvblaster_fire4.ogg","pitch":0.95,"volume":0.6},
+		{"file":"sounds/SEEKER/SKR_hvblaster_fire4.ogg","pitch":1.00,"volume":0.6},
+		{"file":"sounds/SEEKER/SKR_hvblaster_fire4.ogg","pitch":1.05,"volume":0.6},
+	], 
+
+        "SKR_dainsleif_fire":
+	[
+		{"file":"sounds/sfx_wpn_guns/mjolnir_fire_01_loud.ogg","pitch":0.9,"volume":0.7},
+		{"file":"sounds/sfx_wpn_guns/mjolnir_fire_01_loud.ogg","pitch":1.0,"volume":0.7},
+		{"file":"sounds/sfx_wpn_guns/mjolnir_fire_01_loud.ogg","pitch":1.1,"volume":0.7},
+		{"file":"sounds/sfx_wpn_guns/mjolnir_fire_02_loud.ogg","pitch":0.9,"volume":0.7},
+		{"file":"sounds/sfx_wpn_guns/mjolnir_fire_02_loud.ogg","pitch":1.0,"volume":0.7},
+		{"file":"sounds/sfx_wpn_guns/mjolnir_fire_02_loud.ogg","pitch":1.1,"volume":0.7},
+		{"file":"sounds/sfx_wpn_guns/mjolnir_fire_03_loud.ogg","pitch":0.9,"volume":0.7},
+		{"file":"sounds/sfx_wpn_guns/mjolnir_fire_03_loud.ogg","pitch":1.0,"volume":0.7},
+		{"file":"sounds/sfx_wpn_guns/mjolnir_fire_03_loud.ogg","pitch":1.1,"volume":0.7},
+	], 
+
+        "SKR_fauchard_fire":
+	[
+		{"file":"sounds/SEEKER/SKR_fauchard_fire1.ogg","pitch":0.9,"volume":1},
+		{"file":"sounds/SEEKER/SKR_fauchard_fire1.ogg","pitch":1,"volume":1},
+		{"file":"sounds/SEEKER/SKR_fauchard_fire1.ogg","pitch":1.1,"volume":1},
+		{"file":"sounds/SEEKER/SKR_fauchard_fire2.ogg","pitch":0.9,"volume":1},
+		{"file":"sounds/SEEKER/SKR_fauchard_fire2.ogg","pitch":1,"volume":1},
+		{"file":"sounds/SEEKER/SKR_fauchard_fire2.ogg","pitch":1.1,"volume":1},
+		{"file":"sounds/SEEKER/SKR_fauchard_fire3.ogg","pitch":0.9,"volume":1},
+		{"file":"sounds/SEEKER/SKR_fauchard_fire3.ogg","pitch":1,"volume":1},
+		{"file":"sounds/SEEKER/SKR_fauchard_fire3.ogg","pitch":1.1,"volume":1},
+	], 
+
+	"SKR_arrival_shadow":
+	[
+		{"file":"sounds/SEEKER/SKR_bossShadow.ogg","pitch":1,"volume":1},
+	],
+
+	"SKR_arrival_ripple":
+	[
+		{"file":"sounds/SEEKER/SKR_ripple1.ogg","pitch":0.9,"volume":1},
+		{"file":"sounds/SEEKER/SKR_ripple1.ogg","pitch":1,"volume":1},
+		{"file":"sounds/SEEKER/SKR_ripple1.ogg","pitch":1.1,"volume":1},
+		{"file":"sounds/SEEKER/SKR_ripple2.ogg","pitch":0.9,"volume":1},
+		{"file":"sounds/SEEKER/SKR_ripple2.ogg","pitch":1,"volume":1},
+		{"file":"sounds/SEEKER/SKR_ripple2.ogg","pitch":1.1,"volume":1},
+		{"file":"sounds/SEEKER/SKR_ripple3.ogg","pitch":0.9,"volume":1},
+		{"file":"sounds/SEEKER/SKR_ripple3.ogg","pitch":1,"volume":1},
+		{"file":"sounds/SEEKER/SKR_ripple3.ogg","pitch":1.1,"volume":1},
+	], 
+
+                #CATACLYSM
+        "SKR_cataclysm_arrival":
+	[
+		{"file":"sounds/SEEKER/SKR_cataclysm_arrival.ogg","pitch":0.9,"volume":1},
+		{"file":"sounds/SEEKER/SKR_cataclysm_arrival.ogg","pitch":1,"volume":1},
+		{"file":"sounds/SEEKER/SKR_cataclysm_arrival.ogg","pitch":1.1,"volume":1},
+	], 
+        "SKR_pull_charge":
+	[
+		{"file":"sounds/SEEKER/SKR_pull_charge.ogg","pitch":0.9,"volume":0.7},
+		{"file":"sounds/SEEKER/SKR_pull_charge.ogg","pitch":1,"volume":0.7},
+		{"file":"sounds/SEEKER/SKR_pull_charge.ogg","pitch":1.1,"volume":0.7},
+	],  
+        "SKR_pull_fire":
+	[
+		{"file":"sounds/SEEKER/SKR_pull_fire1.ogg","pitch":0.9,"volume":0.7},
+		{"file":"sounds/SEEKER/SKR_pull_fire1.ogg","pitch":1,"volume":0.7},
+		{"file":"sounds/SEEKER/SKR_pull_fire1.ogg","pitch":1.1,"volume":0.7},
+		{"file":"sounds/SEEKER/SKR_pull_fire2.ogg","pitch":0.9,"volume":0.7},
+		{"file":"sounds/SEEKER/SKR_pull_fire2.ogg","pitch":1,"volume":0.7},
+		{"file":"sounds/SEEKER/SKR_pull_fire2.ogg","pitch":1.1,"volume":0.7},
+		{"file":"sounds/SEEKER/SKR_pull_fire3.ogg","pitch":0.9,"volume":0.7},
+		{"file":"sounds/SEEKER/SKR_pull_fire3.ogg","pitch":1,"volume":0.7},
+		{"file":"sounds/SEEKER/SKR_pull_fire3.ogg","pitch":1.1,"volume":0.7},
+		{"file":"sounds/SEEKER/SKR_pull_fire4.ogg","pitch":0.9,"volume":0.7},
+		{"file":"sounds/SEEKER/SKR_pull_fire4.ogg","pitch":1,"volume":0.7},
+		{"file":"sounds/SEEKER/SKR_pull_fire4.ogg","pitch":1.1,"volume":0.7},
+	],
+
+		#WHITE DWARF
+        "SKR_whiteDwarf_arrival":
+	[
+		{"file":"sounds/SEEKER/SKR_whiteDwarf_arrival.ogg","pitch":0.9,"volume":1},
+		{"file":"sounds/SEEKER/SKR_whiteDwarf_arrival.ogg","pitch":1,"volume":1},
+		{"file":"sounds/SEEKER/SKR_whiteDwarf_arrival.ogg","pitch":1.1,"volume":1},
+	], 
+		
+        "SKR_drift_charge":
+	[
+		{"file":"sounds/SEEKER/SKR_drift_charge.ogg","pitch":0.9,"volume":1},
+		{"file":"sounds/SEEKER/SKR_drift_charge.ogg","pitch":1,"volume":1},
+		{"file":"sounds/SEEKER/SKR_drift_charge.ogg","pitch":1.1,"volume":1},
+	], 
+        "SKR_drift_active":
+	[
+		{"file":"sounds/SEEKER/SKR_drift_active.ogg","pitch":0.9,"volume":1},
+		{"file":"sounds/SEEKER/SKR_drift_active.ogg","pitch":1,"volume":1},
+		{"file":"sounds/SEEKER/SKR_drift_active.ogg","pitch":1.1,"volume":1},
+	], 
+	
+        "SKR_chain_charge":
+	[
+		{"file":"sounds/SEEKER/SKR_chain_charge1.ogg","pitch":0.9,"volume":1},
+		{"file":"sounds/SEEKER/SKR_chain_charge1.ogg","pitch":1,"volume":1},
+		{"file":"sounds/SEEKER/SKR_chain_charge1.ogg","pitch":1.1,"volume":1},
+		{"file":"sounds/SEEKER/SKR_chain_charge2.ogg","pitch":0.9,"volume":1},
+		{"file":"sounds/SEEKER/SKR_chain_charge2.ogg","pitch":1,"volume":1},
+		{"file":"sounds/SEEKER/SKR_chain_charge2.ogg","pitch":1.1,"volume":1},
+		{"file":"sounds/SEEKER/SKR_chain_charge3.ogg","pitch":0.9,"volume":1},
+		{"file":"sounds/SEEKER/SKR_chain_charge3.ogg","pitch":1,"volume":1},
+		{"file":"sounds/SEEKER/SKR_chain_charge3.ogg","pitch":1.1,"volume":1},
+	], 
+        "SKR_chain_fire":
+	[
+		{"file":"sounds/SEEKER/SKR_chain_fire1.ogg","pitch":0.9,"volume":1},
+		{"file":"sounds/SEEKER/SKR_chain_fire1.ogg","pitch":1,"volume":1},
+		{"file":"sounds/SEEKER/SKR_chain_fire1.ogg","pitch":1.1,"volume":1},
+		{"file":"sounds/SEEKER/SKR_chain_fire2.ogg","pitch":0.9,"volume":1},
+		{"file":"sounds/SEEKER/SKR_chain_fire2.ogg","pitch":1,"volume":1},
+		{"file":"sounds/SEEKER/SKR_chain_fire2.ogg","pitch":1.1,"volume":1},
+		{"file":"sounds/SEEKER/SKR_chain_fire3.ogg","pitch":0.9,"volume":1},
+		{"file":"sounds/SEEKER/SKR_chain_fire3.ogg","pitch":1,"volume":1},
+		{"file":"sounds/SEEKER/SKR_chain_fire3.ogg","pitch":1.1,"volume":1},
+		{"file":"sounds/SEEKER/SKR_chain_fire4.ogg","pitch":0.9,"volume":1},
+		{"file":"sounds/SEEKER/SKR_chain_fire4.ogg","pitch":1,"volume":1},
+		{"file":"sounds/SEEKER/SKR_chain_fire4.ogg","pitch":1.1,"volume":1},
+	], 
+        "SKR_chain_hit":
+	[
+		{"file":"sounds/SEEKER/SKR_chain_hit1.ogg","pitch":0.9,"volume":1},
+		{"file":"sounds/SEEKER/SKR_chain_hit1.ogg","pitch":1,"volume":1},
+		{"file":"sounds/SEEKER/SKR_chain_hit1.ogg","pitch":1.1,"volume":1},
+		{"file":"sounds/SEEKER/SKR_chain_hit2.ogg","pitch":0.9,"volume":1},
+		{"file":"sounds/SEEKER/SKR_chain_hit2.ogg","pitch":1,"volume":1},
+		{"file":"sounds/SEEKER/SKR_chain_hit2.ogg","pitch":1.1,"volume":1},
+		{"file":"sounds/SEEKER/SKR_chain_hit3.ogg","pitch":0.9,"volume":1},
+		{"file":"sounds/SEEKER/SKR_chain_hit3.ogg","pitch":1,"volume":1},
+		{"file":"sounds/SEEKER/SKR_chain_hit3.ogg","pitch":1.1,"volume":1},
+		{"file":"sounds/SEEKER/SKR_chain_hit4.ogg","pitch":0.9,"volume":1},
+		{"file":"sounds/SEEKER/SKR_chain_hit4.ogg","pitch":1,"volume":1},
+		{"file":"sounds/SEEKER/SKR_chain_hit4.ogg","pitch":1.1,"volume":1},
+		{"file":"sounds/SEEKER/SKR_chain_hit5.ogg","pitch":0.9,"volume":1},
+		{"file":"sounds/SEEKER/SKR_chain_hit5.ogg","pitch":1,"volume":1},
+		{"file":"sounds/SEEKER/SKR_chain_hit5.ogg","pitch":1.1,"volume":1},
+	], 
+	
+        #RAMPAGE
+        "SKR_rampage_arrival":
+	[
+		{"file":"sounds/SEEKER/SKR_rampage_arrival.ogg","pitch":0.9,"volume":1},
+		{"file":"sounds/SEEKER/SKR_rampage_arrival.ogg","pitch":1,"volume":1},
+		{"file":"sounds/SEEKER/SKR_rampage_arrival.ogg","pitch":1.1,"volume":1},
+	], 
+        "SKR_rampage_grumpy":
+	[
+		{"file":"sounds/SEEKER/SKR_rampage_grumble1.ogg","pitch":0.9,"volume":0.5},
+		{"file":"sounds/SEEKER/SKR_rampage_grumble1.ogg","pitch":1,"volume":0.5},
+		{"file":"sounds/SEEKER/SKR_rampage_grumble1.ogg","pitch":1.1,"volume":0.5},
+		{"file":"sounds/SEEKER/SKR_rampage_grumble2.ogg","pitch":0.9,"volume":0.5},
+		{"file":"sounds/SEEKER/SKR_rampage_grumble2.ogg","pitch":1,"volume":0.5},
+		{"file":"sounds/SEEKER/SKR_rampage_grumble2.ogg","pitch":1.1,"volume":0.5},
+		{"file":"sounds/SEEKER/SKR_rampage_grumble3.ogg","pitch":0.9,"volume":0.5},
+		{"file":"sounds/SEEKER/SKR_rampage_grumble3.ogg","pitch":1,"volume":0.5},
+		{"file":"sounds/SEEKER/SKR_rampage_grumble3.ogg","pitch":1.1,"volume":0.5},
+		{"file":"sounds/SEEKER/SKR_rampage_grumble4.ogg","pitch":0.9,"volume":0.5},
+		{"file":"sounds/SEEKER/SKR_rampage_grumble4.ogg","pitch":1,"volume":0.5},
+		{"file":"sounds/SEEKER/SKR_rampage_grumble4.ogg","pitch":1.1,"volume":0.5},
+		{"file":"sounds/SEEKER/SKR_rampage_grumble5.ogg","pitch":0.9,"volume":0.5},
+		{"file":"sounds/SEEKER/SKR_rampage_grumble5.ogg","pitch":1,"volume":0.5},
+		{"file":"sounds/SEEKER/SKR_rampage_grumble5.ogg","pitch":1.1,"volume":0.5},
+		{"file":"sounds/SEEKER/SKR_rampage_grumble6.ogg","pitch":0.9,"volume":0.5},
+		{"file":"sounds/SEEKER/SKR_rampage_grumble6.ogg","pitch":1,"volume":0.5},
+		{"file":"sounds/SEEKER/SKR_rampage_grumble6.ogg","pitch":1.1,"volume":0.5},
+		{"file":"sounds/SEEKER/SKR_rampage_grumble7.ogg","pitch":0.9,"volume":0.5},
+		{"file":"sounds/SEEKER/SKR_rampage_grumble7.ogg","pitch":1,"volume":0.5},
+		{"file":"sounds/SEEKER/SKR_rampage_grumble7.ogg","pitch":1.1,"volume":0.5},
+	], 
+        "SKR_rampage_burst":
+	[
+		{"file":"sounds/SEEKER/SKR_rampage_shockwave.ogg","pitch":0.9,"volume":1},
+		{"file":"sounds/SEEKER/SKR_rampage_shockwave.ogg","pitch":1,"volume":1},
+		{"file":"sounds/SEEKER/SKR_rampage_shockwave.ogg","pitch":1.1,"volume":1},
+	], 
+        "SKR_rampage_ramCharge":
+	[
+		{"file":"sounds/SEEKER/SKR_rampage_boost_charge.ogg","pitch":0.9,"volume":1},
+		{"file":"sounds/SEEKER/SKR_rampage_boost_charge.ogg","pitch":1,"volume":1},
+		{"file":"sounds/SEEKER/SKR_rampage_boost_charge.ogg","pitch":1.1,"volume":1},
+	], 
+        "SKR_rampage_ramBurn":
+	[
+		{"file":"sounds/SEEKER/SKR_rampage_boost_loop.ogg","pitch":0.9,"volume":1},
+		{"file":"sounds/SEEKER/SKR_rampage_boost_loop.ogg","pitch":1,"volume":1},
+		{"file":"sounds/SEEKER/SKR_rampage_boost_loop.ogg","pitch":1.1,"volume":1},
+	], 
+
+        #KEEP
+        "SKR_keep_arrival":
+	[
+		{"file":"sounds/SEEKER/SKR_keep_arrival.ogg","pitch":0.9,"volume":1},
+		{"file":"sounds/SEEKER/SKR_keep_arrival.ogg","pitch":1,"volume":1},
+		{"file":"sounds/SEEKER/SKR_keep_arrival.ogg","pitch":1.1,"volume":1},
+	], 
+        "SKR_keep_cranky":
+	[
+		{"file":"sounds/SEEKER/SKR_keep_cranky1.ogg","pitch":0.9,"volume":0.5},
+		{"file":"sounds/SEEKER/SKR_keep_cranky1.ogg","pitch":1,"volume":0.5},
+		{"file":"sounds/SEEKER/SKR_keep_cranky1.ogg","pitch":1.1,"volume":0.5},
+		{"file":"sounds/SEEKER/SKR_keep_cranky2.ogg","pitch":0.9,"volume":0.5},
+		{"file":"sounds/SEEKER/SKR_keep_cranky2.ogg","pitch":1,"volume":0.5},
+		{"file":"sounds/SEEKER/SKR_keep_cranky2.ogg","pitch":1.1,"volume":0.5},
+		{"file":"sounds/SEEKER/SKR_keep_cranky3.ogg","pitch":0.9,"volume":0.5},
+		{"file":"sounds/SEEKER/SKR_keep_cranky3.ogg","pitch":1,"volume":0.5},
+		{"file":"sounds/SEEKER/SKR_keep_cranky3.ogg","pitch":1.1,"volume":0.5},
+		{"file":"sounds/SEEKER/SKR_keep_cranky4.ogg","pitch":0.9,"volume":0.5},
+		{"file":"sounds/SEEKER/SKR_keep_cranky4.ogg","pitch":1,"volume":0.5},
+		{"file":"sounds/SEEKER/SKR_keep_cranky4.ogg","pitch":1.1,"volume":0.5},
+		{"file":"sounds/SEEKER/SKR_keep_cranky5.ogg","pitch":0.9,"volume":0.5},
+		{"file":"sounds/SEEKER/SKR_keep_cranky5.ogg","pitch":1,"volume":0.5},
+		{"file":"sounds/SEEKER/SKR_keep_cranky5.ogg","pitch":1.1,"volume":0.5},
+	], 
+        "SKR_spasm":
+	[
+		{"file":"sounds/SEEKER/SKR_insta_loader.ogg","pitch":0.9,"volume":0.25},
+		{"file":"sounds/SEEKER/SKR_insta_loader.ogg","pitch":1,"volume":0.25},
+		{"file":"sounds/SEEKER/SKR_insta_loader.ogg","pitch":1.1,"volume":0.25},
+	], 
+        "SKR_canister_charge":
+	[
+		{"file":"sounds/SEEKER/SKR_canister_charge1.ogg","pitch":0.95,"volume":0.75},
+		{"file":"sounds/SEEKER/SKR_canister_charge1.ogg","pitch":1,"volume":0.75},
+		{"file":"sounds/SEEKER/SKR_canister_charge1.ogg","pitch":1.05,"volume":0.75},
+		{"file":"sounds/SEEKER/SKR_canister_charge2.ogg","pitch":0.95,"volume":0.75},
+		{"file":"sounds/SEEKER/SKR_canister_charge2.ogg","pitch":1,"volume":0.75},
+		{"file":"sounds/SEEKER/SKR_canister_charge2.ogg","pitch":1.05,"volume":0.75},
+		{"file":"sounds/SEEKER/SKR_canister_charge3.ogg","pitch":0.95,"volume":0.75},
+		{"file":"sounds/SEEKER/SKR_canister_charge3.ogg","pitch":1,"volume":0.75},
+		{"file":"sounds/SEEKER/SKR_canister_charge3.ogg","pitch":1.05,"volume":0.75},
+		{"file":"sounds/SEEKER/SKR_canister_charge4.ogg","pitch":0.95,"volume":0.75},
+		{"file":"sounds/SEEKER/SKR_canister_charge4.ogg","pitch":1,"volume":0.75},
+		{"file":"sounds/SEEKER/SKR_canister_charge4.ogg","pitch":1.05,"volume":0.75},
+	], 
+        "SKR_canister_fire":
+	[
+		{"file":"sounds/SEEKER/SKR_mega_cannon_fire.ogg","pitch":0.9,"volume":1},
+		{"file":"sounds/SEEKER/SKR_mega_cannon_fire.ogg","pitch":1,"volume":1},
+		{"file":"sounds/SEEKER/SKR_mega_cannon_fire.ogg","pitch":1.1,"volume":1},
+	], 
+        "SKR_canister_windup":
+	[
+		{"file":"sounds/SEEKER/SKR_canister_windup.ogg","pitch":0.9,"volume":0.75},
+		{"file":"sounds/SEEKER/SKR_canister_windup.ogg","pitch":1,"volume":0.75},
+		{"file":"sounds/SEEKER/SKR_canister_windup.ogg","pitch":1.1,"volume":0.75},
+	], 
+        "SKR_canister_explode":
+	[
+		{"file":"sounds/SEEKER/SKR_megaCannon_explosion2.ogg","pitch":0.9,"volume":1},
+		{"file":"sounds/SEEKER/SKR_megaCannon_explosion2.ogg","pitch":1,"volume":1},
+		{"file":"sounds/SEEKER/SKR_megaCannon_explosion2.ogg","pitch":1.1,"volume":1},
+		{"file":"sounds/SEEKER/SKR_megaCannon_explosion3.ogg","pitch":0.9,"volume":1},
+		{"file":"sounds/SEEKER/SKR_megaCannon_explosion3.ogg","pitch":1,"volume":1},
+		{"file":"sounds/SEEKER/SKR_megaCannon_explosion3.ogg","pitch":1.1,"volume":1},
+		{"file":"sounds/SEEKER/SKR_megaCannon_explosion4.ogg","pitch":0.9,"volume":1},
+		{"file":"sounds/SEEKER/SKR_megaCannon_explosion4.ogg","pitch":1,"volume":1},
+		{"file":"sounds/SEEKER/SKR_megaCannon_explosion4.ogg","pitch":1.1,"volume":1},
+		{"file":"sounds/SEEKER/SKR_megaCannon_explosion1.ogg","pitch":1,"volume":1},
+	], 
+        "SKR_mirv_launch":
+	[
+		{"file":"sounds/SEEKER/SKR_harpoon_mirv.ogg","pitch":0.9,"volume":0.75},
+		{"file":"sounds/SEEKER/SKR_harpoon_mirv.ogg","pitch":1,"volume":0.75},
+		{"file":"sounds/SEEKER/SKR_harpoon_mirv.ogg","pitch":1.1,"volume":0.75},
+	], 
+        
+		# 557
+		
+        "SKR_557_fire":
+	[
+		{"file":"sounds/SEEKER/SKR_557_fire01.ogg","pitch":0.95,"volume":0.2},
+		{"file":"sounds/SEEKER/SKR_557_fire01.ogg","pitch":1.00,"volume":0.2},
+		{"file":"sounds/SEEKER/SKR_557_fire01.ogg","pitch":1.05,"volume":0.2},
+		{"file":"sounds/SEEKER/SKR_557_fire02.ogg","pitch":0.95,"volume":0.2},
+		{"file":"sounds/SEEKER/SKR_557_fire02.ogg","pitch":1.00,"volume":0.2},
+		{"file":"sounds/SEEKER/SKR_557_fire02.ogg","pitch":1.05,"volume":0.2},
+		{"file":"sounds/SEEKER/SKR_557_fire03.ogg","pitch":0.95,"volume":0.2},
+		{"file":"sounds/SEEKER/SKR_557_fire03.ogg","pitch":1.00,"volume":0.2},
+		{"file":"sounds/SEEKER/SKR_557_fire03.ogg","pitch":1.05,"volume":0.2},
+	], 
+        "SKR_557_reload":
+	[
+		{"file":"sounds/SEEKER/SKR_557_reload01.ogg","pitch":0.95,"volume":0.5},
+		{"file":"sounds/SEEKER/SKR_557_reload01.ogg","pitch":1.00,"volume":0.5},
+		{"file":"sounds/SEEKER/SKR_557_reload01.ogg","pitch":1.05,"volume":0.5},
+		{"file":"sounds/SEEKER/SKR_557_reload02.ogg","pitch":0.95,"volume":0.5},
+		{"file":"sounds/SEEKER/SKR_557_reload02.ogg","pitch":1.00,"volume":0.5},
+		{"file":"sounds/SEEKER/SKR_557_reload02.ogg","pitch":1.05,"volume":0.5},
+	], 
+        "SKR_557_burst":
+	[
+		{"file":"sounds/SEEKER/SKR_557_burst1.ogg","pitch":1.4,"volume":0.1},
+		{"file":"sounds/SEEKER/SKR_557_burst1.ogg","pitch":1.3,"volume":0.1},
+		{"file":"sounds/SEEKER/SKR_557_burst1.ogg","pitch":1.2,"volume":0.1},
+		{"file":"sounds/SEEKER/SKR_557_burst2.ogg","pitch":1.4,"volume":0.1},
+		{"file":"sounds/SEEKER/SKR_557_burst2.ogg","pitch":1.3,"volume":0.1},
+		{"file":"sounds/SEEKER/SKR_557_burst2.ogg","pitch":1.2,"volume":0.1},
+		{"file":"sounds/SEEKER/SKR_557_burst3.ogg","pitch":1.4,"volume":0.1},
+		{"file":"sounds/SEEKER/SKR_557_burst3.ogg","pitch":1.3,"volume":0.1},
+		{"file":"sounds/SEEKER/SKR_557_burst3.ogg","pitch":1.2,"volume":0.1},
+		{"file":"sounds/SEEKER/SKR_557_burst4.ogg","pitch":1.4,"volume":0.1},
+		{"file":"sounds/SEEKER/SKR_557_burst4.ogg","pitch":1.3,"volume":0.1},
+		{"file":"sounds/SEEKER/SKR_557_burst4.ogg","pitch":1.2,"volume":0.1},
+	], 
+		
+		
+		
+		
+		
+		
+		
+        # Bullhorn
+        "SKR_boost_start":
+	[
+		{"file":"sounds/SEEKER/SKR_boost_start.ogg","pitch":0.95,"volume":0.5},
+		{"file":"sounds/SEEKER/SKR_boost_start.ogg","pitch":1,"volume":0.5},
+		{"file":"sounds/SEEKER/SKR_boost_start.ogg","pitch":1.05,"volume":0.5},
+	], 
+        "SKR_boost_loop":
+	[
+		{"file":"sounds/SEEKER/SKR_boost_loop.ogg","pitch":0.95,"volume":0.33},
+		{"file":"sounds/SEEKER/SKR_boost_loop.ogg","pitch":1,"volume":0.33},
+		{"file":"sounds/SEEKER/SKR_boost_loop.ogg","pitch":1.05,"volume":0.33},
+	], 
+        "SKR_boost_end":
+	[
+		{"file":"sounds/SEEKER/SKR_boost_end.ogg","pitch":0.95,"volume":0.5},
+		{"file":"sounds/SEEKER/SKR_boost_end.ogg","pitch":1,"volume":0.5},
+		{"file":"sounds/SEEKER/SKR_boost_end.ogg","pitch":1.05,"volume":0.5},
+	], 
+        "SKR_boost_discard":
+	[
+		{"file":"sounds/SEEKER/SKR_boost_discard.ogg","pitch":0.95,"volume":0.5},
+		{"file":"sounds/SEEKER/SKR_boost_discard.ogg","pitch":1,"volume":0.5},
+		{"file":"sounds/SEEKER/SKR_boost_discard.ogg","pitch":1.05,"volume":0.5},
+	], 
+        # Marksman
+        "SKR_executioner_super":
+	[
+		{"file":"sounds/SEEKER/SKR_marksmanGun_super.ogg","pitch":0.95,"volume":1},
+		{"file":"sounds/SEEKER/SKR_marksmanGun_super.ogg","pitch":1,"volume":1},
+		{"file":"sounds/SEEKER/SKR_marksmanGun_super.ogg","pitch":1.05,"volume":1},
+	], 
+        "SKR_executioner_fire":
+	[
+		{"file":"sounds/SEEKER/SKR_marksmanGun_fire1.ogg","pitch":0.95,"volume":0.85},
+		{"file":"sounds/SEEKER/SKR_marksmanGun_fire1.ogg","pitch":1,"volume":0.85},
+		{"file":"sounds/SEEKER/SKR_marksmanGun_fire1.ogg","pitch":1.05,"volume":0.85},
+		{"file":"sounds/SEEKER/SKR_marksmanGun_fire2.ogg","pitch":0.95,"volume":0.85},
+		{"file":"sounds/SEEKER/SKR_marksmanGun_fire2.ogg","pitch":1,"volume":0.85},
+		{"file":"sounds/SEEKER/SKR_marksmanGun_fire2.ogg","pitch":1.05,"volume":0.85},
+		{"file":"sounds/SEEKER/SKR_marksmanGun_fire3.ogg","pitch":0.95,"volume":0.85},
+		{"file":"sounds/SEEKER/SKR_marksmanGun_fire3.ogg","pitch":1,"volume":0.85},
+		{"file":"sounds/SEEKER/SKR_marksmanGun_fire3.ogg","pitch":1.05,"volume":0.85},
+	], 
+        "SKR_reload_activate":
+	[
+		{"file":"sounds/SEEKER/SKR_marksmanReload_activate2.ogg","pitch":0.95,"volume":0.75},
+		{"file":"sounds/SEEKER/SKR_marksmanReload_activate2.ogg","pitch":1,"volume":0.75},
+		{"file":"sounds/SEEKER/SKR_marksmanReload_activate2.ogg","pitch":1.05,"volume":0.75},
+	], 
+        "SKR_reload_deactivate":
+	[
+		{"file":"sounds/SEEKER/SKR_marksmanReload_deactivate2.ogg","pitch":0.95,"volume":0.75},
+		{"file":"sounds/SEEKER/SKR_marksmanReload_deactivate2.ogg","pitch":1,"volume":0.75},
+		{"file":"sounds/SEEKER/SKR_marksmanReload_deactivate2.ogg","pitch":1.05,"volume":0.75},
+	], 
+        "SKR_reload_perfect":
+	[
+		{"file":"sounds/SEEKER/SKR_marksmanReload_perfect2.ogg","pitch":0.95,"volume":0.85},
+		{"file":"sounds/SEEKER/SKR_marksmanReload_perfect2.ogg","pitch":1,"volume":0.85},
+		{"file":"sounds/SEEKER/SKR_marksmanReload_perfect2.ogg","pitch":1.05,"volume":0.85},
+	], 
+        "SKR_reload_failed":
+	[
+		{"file":"sounds/SEEKER/SKR_marksmanReload_failed.ogg","pitch":0.95,"volume":0.75},
+		{"file":"sounds/SEEKER/SKR_marksmanReload_failed.ogg","pitch":1,"volume":0.75},
+		{"file":"sounds/SEEKER/SKR_marksmanReload_failed.ogg","pitch":1.05,"volume":0.75},
+	], 
+        # Gawon
+        "SKR_gawk_fire":
+	[
+		{"file":"sounds/SEEKER/SKR_gawk_fire.ogg","pitch":0.95,"volume":0.75},
+		{"file":"sounds/SEEKER/SKR_gawk_fire.ogg","pitch":1,"volume":0.75},
+		{"file":"sounds/SEEKER/SKR_gawk_fire.ogg","pitch":1.05,"volume":0.75},
+	], 
+        "SKR_gawk_loop":
+	[
+		{"file":"sounds/SEEKER/SKR_gawk_loop.ogg","pitch":0.95,"volume":0.65},
+		{"file":"sounds/SEEKER/SKR_gawk_loop.ogg","pitch":1,"volume":0.65},
+		{"file":"sounds/SEEKER/SKR_gawk_loop.ogg","pitch":1.05,"volume":0.65},
+	], 
+        "SKR_alcubiere":
+	[
+		{"file":"sounds/SEEKER/SKR_alcubiere.ogg","pitch":0.95,"volume":1},
+		{"file":"sounds/SEEKER/SKR_alcubiere.ogg","pitch":1,"volume":1},
+		{"file":"sounds/SEEKER/SKR_alcubiere.ogg","pitch":1.05,"volume":1},
+	], 
+        # Dawn
+        "SKR_glare_fire":
+	[
+		{"file":"sounds/SEEKER/SKR_glare_fire01.ogg","pitch":1,"volume":1},
+		{"file":"sounds/SEEKER/SKR_glare_fire01.ogg","pitch":0.9,"volume":1},
+		{"file":"sounds/SEEKER/SKR_glare_fire01.ogg","pitch":0.95,"volume":1},
+		{"file":"sounds/SEEKER/SKR_glare_fire02.ogg","pitch":1,"volume":1},
+		{"file":"sounds/SEEKER/SKR_glare_fire02.ogg","pitch":0.9,"volume":1},
+		{"file":"sounds/SEEKER/SKR_glare_fire02.ogg","pitch":0.95,"volume":1},
+		{"file":"sounds/SEEKER/SKR_glare_fire03.ogg","pitch":1,"volume":1},
+		{"file":"sounds/SEEKER/SKR_glare_fire03.ogg","pitch":0.9,"volume":1},
+		{"file":"sounds/SEEKER/SKR_glare_fire03.ogg","pitch":0.95,"volume":1},
+	], 
+
+        # Onyx
+        "SKR_blackout_fire":
+	[
+		{"file":"sounds/SEEKER/SKR_blackout_fire.ogg","pitch":1,"volume":1},
+		{"file":"sounds/SEEKER/SKR_blackout_fire.ogg","pitch":0.9,"volume":1},
+		{"file":"sounds/SEEKER/SKR_blackout_fire.ogg","pitch":0.95,"volume":1},
+	], 
+        "SKR_obsidian_fire":
+	[
+		{"file":"sounds/SEEKER/SKR_sunburst_fire.ogg","pitch":1.6,"volume":0.4},
+		{"file":"sounds/SEEKER/SKR_sunburst_fire.ogg","pitch":1.55,"volume":0.4},
+		{"file":"sounds/SEEKER/SKR_sunburst_fire.ogg","pitch":1.5,"volume":0.4},
+	],  
+
+        # Fuscina
+        "SKR_fuscina_fire":
+	[
+		{"file":"sounds/SEEKER/SKR_fuscina_fire.ogg","pitch":1,"volume":0.8},
+		{"file":"sounds/SEEKER/SKR_fuscina_fire.ogg","pitch":1.05,"volume":0.8},
+		{"file":"sounds/SEEKER/SKR_fuscina_fire.ogg","pitch":0.95,"volume":0.8},
+	], 
+
+        # Dawn
+        "SKR_sunburst_fire":
+	[
+		{"file":"sounds/SEEKER/SKR_sunburst_fire.ogg","pitch":1,"volume":1},
+		{"file":"sounds/SEEKER/SKR_sunburst_fire.ogg","pitch":1.05,"volume":1},
+		{"file":"sounds/SEEKER/SKR_sunburst_fire.ogg","pitch":0.95,"volume":1},
+	],  
+        "SKR_sunburst_deploy":
+	[
+		{"file":"sounds/SEEKER/SKR_sunburst_deploy.ogg","pitch":1,"volume":1},
+		{"file":"sounds/SEEKER/SKR_sunburst_deploy.ogg","pitch":1.05,"volume":1},
+		{"file":"sounds/SEEKER/SKR_sunburst_deploy.ogg","pitch":0.95,"volume":1},
+	],  
+        "SKR_sunburst_trigger":
+	[
+		{"file":"sounds/SEEKER/SKR_mineCloud_trigger2.ogg","pitch":1.1,"volume":0.6},
+		{"file":"sounds/SEEKER/SKR_mineCloud_trigger2.ogg","pitch":1.05,"volume":0.6},
+		{"file":"sounds/SEEKER/SKR_mineCloud_trigger2.ogg","pitch":1,"volume":0.6},
+		{"file":"sounds/SEEKER/SKR_mineCloud_trigger2.ogg","pitch":0.95,"volume":0.6},
+		{"file":"sounds/SEEKER/SKR_mineCloud_trigger2.ogg","pitch":0.9,"volume":0.6},
+	],
+        "SKR_blitzSkimmer":
+	[
+		{"file":"sounds/SEEKER/SKR_blitzSkimmer_01.ogg","pitch":1,"volume":1},
+		{"file":"sounds/SEEKER/SKR_blitzSkimmer_01.ogg","pitch":1.05,"volume":1},
+		{"file":"sounds/SEEKER/SKR_blitzSkimmer_01.ogg","pitch":0.95,"volume":1},
+
+		{"file":"sounds/SEEKER/SKR_blitzSkimmer_02.ogg","pitch":1,"volume":1},
+		{"file":"sounds/SEEKER/SKR_blitzSkimmer_02.ogg","pitch":1.05,"volume":1},
+		{"file":"sounds/SEEKER/SKR_blitzSkimmer_02.ogg","pitch":0.95,"volume":1},
+
+		{"file":"sounds/SEEKER/SKR_blitzSkimmer_03.ogg","pitch":1,"volume":1},
+		{"file":"sounds/SEEKER/SKR_blitzSkimmer_03.ogg","pitch":1.05,"volume":1},
+		{"file":"sounds/SEEKER/SKR_blitzSkimmer_03.ogg","pitch":0.95,"volume":1},
+
+		{"file":"sounds/SEEKER/SKR_blitzSkimmer_04.ogg","pitch":1,"volume":1},
+		{"file":"sounds/SEEKER/SKR_blitzSkimmer_04.ogg","pitch":1.05,"volume":1},
+		{"file":"sounds/SEEKER/SKR_blitzSkimmer_04.ogg","pitch":0.95,"volume":1},
+
+		{"file":"sounds/SEEKER/SKR_blitzSkimmer_05.ogg","pitch":1,"volume":1},
+		{"file":"sounds/SEEKER/SKR_blitzSkimmer_05.ogg","pitch":1.05,"volume":1},
+		{"file":"sounds/SEEKER/SKR_blitzSkimmer_05.ogg","pitch":0.95,"volume":1},
+	],   
+	
+        # Gatling Lance
+        "SKR_gatling_fire":
+	[
+		{"file":"sounds/SEEKER/SKR_gatling_fire1.ogg","pitch":1,"volume":0.5},
+		{"file":"sounds/SEEKER/SKR_gatling_fire1.ogg","pitch":0.9,"volume":0.5},
+		{"file":"sounds/SEEKER/SKR_gatling_fire1.ogg","pitch":1.1,"volume":0.5},
+		{"file":"sounds/SEEKER/SKR_gatling_fire2.ogg","pitch":1,"volume":0.5},
+		{"file":"sounds/SEEKER/SKR_gatling_fire2.ogg","pitch":0.9,"volume":0.5},
+		{"file":"sounds/SEEKER/SKR_gatling_fire2.ogg","pitch":1.1,"volume":0.5},
+		{"file":"sounds/SEEKER/SKR_gatling_fire3.ogg","pitch":1,"volume":0.5},
+		{"file":"sounds/SEEKER/SKR_gatling_fire3.ogg","pitch":0.9,"volume":0.5},
+		{"file":"sounds/SEEKER/SKR_gatling_fire3.ogg","pitch":1.1,"volume":0.5},
+	],  
+        "SKR_gatling_spin":
+	[
+		{"file":"sounds/SEEKER/SKR_gatlingSpin2.ogg","pitch":1,"volume":0.75},
+	], 
+	
+	
+        # Inertia-less missiles
+        "SKR_inertialess_fire":
+	[
+		{"file":"sounds/SEEKER/SKR_inertiaLessMissile_fire01.ogg","pitch":1,"volume":0.5},
+		{"file":"sounds/SEEKER/SKR_inertiaLessMissile_fire01.ogg","pitch":0.9,"volume":0.5},
+		{"file":"sounds/SEEKER/SKR_inertiaLessMissile_fire02.ogg","pitch":1,"volume":0.5},
+		{"file":"sounds/SEEKER/SKR_inertiaLessMissile_fire02.ogg","pitch":0.9,"volume":0.5},
+		{"file":"sounds/SEEKER/SKR_inertiaLessMissile_fire03.ogg","pitch":1,"volume":0.5},
+	],  
+        "SKR_targetPainterSmall_fire":
+	[
+		{"file":"sounds/SEEKER/SKR_targetPainterSmall_loop.ogg","pitch":1,"volume":0.3},
+	], 
+        
+        # Firecane
+        
+        "SKR_firecane":
+	[
+		{"file":"sounds/SEEKER/SKR_firecane_fire01.ogg","pitch":1.1,"volume":1},
+		{"file":"sounds/SEEKER/SKR_firecane_fire01.ogg","pitch":1,"volume":1},
+		{"file":"sounds/SEEKER/SKR_firecane_fire01.ogg","pitch":0.9,"volume":1},
+                
+		{"file":"sounds/SEEKER/SKR_firecane_fire02.ogg","pitch":1.1,"volume":1},
+		{"file":"sounds/SEEKER/SKR_firecane_fire02.ogg","pitch":1,"volume":1},
+		{"file":"sounds/SEEKER/SKR_firecane_fire02.ogg","pitch":0.9,"volume":1},
+                
+		{"file":"sounds/SEEKER/SKR_firecane_fire03.ogg","pitch":1.1,"volume":1},
+		{"file":"sounds/SEEKER/SKR_firecane_fire03.ogg","pitch":1,"volume":1},
+		{"file":"sounds/SEEKER/SKR_firecane_fire03.ogg","pitch":0.9,"volume":1},
+                
+		{"file":"sounds/SEEKER/SKR_firecane_fire04.ogg","pitch":1.1,"volume":1},
+		{"file":"sounds/SEEKER/SKR_firecane_fire04.ogg","pitch":1,"volume":1},
+		{"file":"sounds/SEEKER/SKR_firecane_fire04.ogg","pitch":0.9,"volume":1},
+	],  
+ 
+        #Graviton Bolter
+
+        "SKR_gravBolter":
+	[
+		{"file":"sounds/SEEKER/SKR_gravBolter_fire01.ogg","pitch":1,"volume":0.3},
+		{"file":"sounds/SEEKER/SKR_gravBolter_fire01.ogg","pitch":0.9,"volume":0.3},
+		{"file":"sounds/SEEKER/SKR_gravBolter_fire01.ogg","pitch":1.1,"volume":0.3},
+		{"file":"sounds/SEEKER/SKR_gravBolter_fire02.ogg","pitch":1,"volume":0.3},
+		{"file":"sounds/SEEKER/SKR_gravBolter_fire02.ogg","pitch":0.9,"volume":0.3},
+		{"file":"sounds/SEEKER/SKR_gravBolter_fire02.ogg","pitch":1.1,"volume":0.3},
+		{"file":"sounds/SEEKER/SKR_gravBolter_fire03.ogg","pitch":1,"volume":0.3},
+		{"file":"sounds/SEEKER/SKR_gravBolter_fire03.ogg","pitch":0.9,"volume":0.3},
+		{"file":"sounds/SEEKER/SKR_gravBolter_fire03.ogg","pitch":1.1,"volume":0.3},
+	], 
+
+        #Revolver
+        "SKR_revolver_fire":
+	[
+		{"file":"sounds/SEEKER/SKR_megapulse01.ogg","pitch":1,"volume":1},
+		{"file":"sounds/SEEKER/SKR_megapulse01.ogg","pitch":0.9,"volume":1},
+		{"file":"sounds/SEEKER/SKR_megapulse01.ogg","pitch":1.1,"volume":1},
+		{"file":"sounds/SEEKER/SKR_megapulse02.ogg","pitch":1,"volume":1},
+		{"file":"sounds/SEEKER/SKR_megapulse02.ogg","pitch":0.9,"volume":1},
+		{"file":"sounds/SEEKER/SKR_megapulse02.ogg","pitch":1.1,"volume":1},
+		{"file":"sounds/SEEKER/SKR_megapulse03.ogg","pitch":1,"volume":1},
+		{"file":"sounds/SEEKER/SKR_megapulse03.ogg","pitch":0.9,"volume":1},
+		{"file":"sounds/SEEKER/SKR_megapulse03.ogg","pitch":1.1,"volume":1},
+		{"file":"sounds/SEEKER/SKR_megapulse04.ogg","pitch":1,"volume":1},
+		{"file":"sounds/SEEKER/SKR_megapulse04.ogg","pitch":0.9,"volume":1},
+		{"file":"sounds/SEEKER/SKR_megapulse04.ogg","pitch":1.1,"volume":1},
+		{"file":"sounds/SEEKER/SKR_megapulse05.ogg","pitch":1,"volume":1},
+		{"file":"sounds/SEEKER/SKR_megapulse05.ogg","pitch":0.9,"volume":1},
+		{"file":"sounds/SEEKER/SKR_megapulse05.ogg","pitch":1.1,"volume":1},
+	],
+        "SKR_revolverLance_fire":
+	[
+		{"file":"sounds/SEEKER/SKR_revolverLance_01.ogg","pitch":1,"volume":0.5},
+		{"file":"sounds/SEEKER/SKR_revolverLance_01.ogg","pitch":0.9,"volume":0.5},
+		{"file":"sounds/SEEKER/SKR_revolverLance_01.ogg","pitch":1.1,"volume":0.5},
+		{"file":"sounds/SEEKER/SKR_revolverLance_02.ogg","pitch":1,"volume":0.5},
+		{"file":"sounds/SEEKER/SKR_revolverLance_02.ogg","pitch":0.9,"volume":0.5},
+		{"file":"sounds/SEEKER/SKR_revolverLance_02.ogg","pitch":1.1,"volume":0.5},
+		{"file":"sounds/SEEKER/SKR_revolverLance_03.ogg","pitch":1,"volume":0.5},
+		{"file":"sounds/SEEKER/SKR_revolverLance_03.ogg","pitch":0.9,"volume":0.5},
+		{"file":"sounds/SEEKER/SKR_revolverLance_03.ogg","pitch":1.1,"volume":0.5},
+		{"file":"sounds/SEEKER/SKR_revolverLance_04.ogg","pitch":1,"volume":0.5},
+		{"file":"sounds/SEEKER/SKR_revolverLance_04.ogg","pitch":0.9,"volume":0.5},
+		{"file":"sounds/SEEKER/SKR_revolverLance_04.ogg","pitch":1.1,"volume":0.5},
+	],
+
+        #Ravager
+        "SKR_ravager_fire":
+	[
+		{"file":"sounds/SEEKER/SKR_ravager_fire1.ogg","pitch":1,"volume":0.6},
+		{"file":"sounds/SEEKER/SKR_ravager_fire1.ogg","pitch":0.9,"volume":0.6},
+		{"file":"sounds/SEEKER/SKR_ravager_fire1.ogg","pitch":1.1,"volume":0.6},
+		{"file":"sounds/SEEKER/SKR_ravager_fire2.ogg","pitch":1,"volume":0.6},
+		{"file":"sounds/SEEKER/SKR_ravager_fire2.ogg","pitch":0.9,"volume":0.6},
+		{"file":"sounds/SEEKER/SKR_ravager_fire2.ogg","pitch":1.1,"volume":0.8},
+	],
+        "SKR_ravager_chargeup":
+	[
+		{"file":"sounds/SEEKER/SKR_ravager_chargeup.ogg","pitch":1,"volume":0.7},
+		{"file":"sounds/SEEKER/SKR_ravager_chargeup.ogg","pitch":0.9,"volume":0.7},
+		{"file":"sounds/SEEKER/SKR_ravager_chargeup.ogg","pitch":1.1,"volume":0.7},
+	],
+        "SKR_ravager_cooldown":
+	[
+		{"file":"sounds/SEEKER/SKR_ravager_cooldown2.ogg","pitch":1,"volume":0.7},
+		{"file":"sounds/SEEKER/SKR_ravager_cooldown2.ogg","pitch":0.9,"volume":0.7},
+		{"file":"sounds/SEEKER/SKR_ravager_cooldown2.ogg","pitch":1.1,"volume":0.7},
+	],
+
+        # Guardian venting system
+        "SKR_fluxTorp":
+	[
+		{"file":"sounds/SEEKER/SKR_fluxTorp_launch01.ogg","pitch":1,"volume":0.75},
+		{"file":"sounds/SEEKER/SKR_fluxTorp_launch01.ogg","pitch":0.9,"volume":0.75},
+		{"file":"sounds/SEEKER/SKR_fluxTorp_launch01.ogg","pitch":1.1,"volume":0.75},
+		{"file":"sounds/SEEKER/SKR_fluxTorp_launch02.ogg","pitch":1,"volume":0.75},
+		{"file":"sounds/SEEKER/SKR_fluxTorp_launch02.ogg","pitch":0.9,"volume":0.75},
+		{"file":"sounds/SEEKER/SKR_fluxTorp_launch02.ogg","pitch":1.1,"volume":0.75},
+		{"file":"sounds/SEEKER/SKR_fluxTorp_launch03.ogg","pitch":0.9,"volume":0.75},
+		{"file":"sounds/SEEKER/SKR_fluxTorp_launch03.ogg","pitch":1.1,"volume":0.75},
+		{"file":"sounds/SEEKER/SKR_fluxTorp_launch03.ogg","pitch":1,"volume":0.75},
+        ],	
+        
+        # Balisong
+        "SKR_balisongPulse_fire":
+	[
+		{"file":"sounds/SEEKER/SKR_balisongPulse_fire.ogg","pitch":1,"volume":1},
+		{"file":"sounds/SEEKER/SKR_balisongPulse_fire.ogg","pitch":0.9,"volume":1},
+		{"file":"sounds/SEEKER/SKR_balisongPulse_fire.ogg","pitch":1.1,"volume":1},
+	],
+        "SKR_balisongSystem_charging":
+	[
+		{"file":"sounds/SEEKER/SKR_balisongSystem_charging.ogg","pitch":1,"volume":1.5},
+	],
+        "SKR_balisongSystem_maxCharge":
+	[
+		{"file":"sounds/SEEKER/SKR_balisongSystem_maxCharge.ogg","pitch":1,"volume":1.5},
+	],
+        "SKR_balisongSystem_charged":
+	[
+		{"file":"sounds/SEEKER/SKR_balisongSystem_charged.ogg","pitch":1,"volume":1},
+	],
+        "SKR_balisongSystem_activation":
+	[
+		{"file":"sounds/SEEKER/SKR_balisongSystem_activation.ogg","pitch":1,"volume":1},
+	],
+        "SKR_balisongSystem_active":
+	[
+		{"file":"sounds/SEEKER/SKR_balisongSystem_active.ogg","pitch":1,"volume":1.5},
+	],
+
+        "SKR_balisongBushwhacker_charge":
+	[
+		{"file":"sounds/SEEKER/SKR_balisongBushwhacker_charge.ogg","pitch":1,"volume":1},
+	],
+
+        "SKR_balisongBushwhacker_threshold":
+	[
+		{"file":"sounds/SEEKER/SKR_balisongBushwhacker_threshold.ogg","pitch":1,"volume":1},
+	],
+
+        "SKR_balisongBushwhacker_05":
+	[
+		{"file":"sounds/SEEKER/SKR_balisongBushwhacker_fire05.ogg","pitch":1,"volume":1},
+		{"file":"sounds/SEEKER/SKR_balisongBushwhacker_fire05.ogg","pitch":1.1,"volume":1},
+		{"file":"sounds/SEEKER/SKR_balisongBushwhacker_fire05.ogg","pitch":0.9,"volume":1},
+	],
+        "SKR_balisongBushwhacker_04":
+	[
+		{"file":"sounds/SEEKER/SKR_balisongBushwhacker_fire04.ogg","pitch":1,"volume":0.9},
+		{"file":"sounds/SEEKER/SKR_balisongBushwhacker_fire04.ogg","pitch":1.1,"volume":0.9},
+		{"file":"sounds/SEEKER/SKR_balisongBushwhacker_fire04.ogg","pitch":0.9,"volume":0.9},
+	],
+        "SKR_balisongBushwhacker_03":
+	[
+		{"file":"sounds/SEEKER/SKR_balisongBushwhacker_fire03.ogg","pitch":1,"volume":0.8},
+		{"file":"sounds/SEEKER/SKR_balisongBushwhacker_fire03.ogg","pitch":1.1,"volume":0.8},
+		{"file":"sounds/SEEKER/SKR_balisongBushwhacker_fire03.ogg","pitch":0.9,"volume":0.8},
+	],
+        "SKR_balisongBushwhacker_02":
+	[
+		{"file":"sounds/SEEKER/SKR_balisongBushwhacker_fire02.ogg","pitch":1,"volume":0.7},
+		{"file":"sounds/SEEKER/SKR_balisongBushwhacker_fire02.ogg","pitch":1.1,"volume":0.7},
+		{"file":"sounds/SEEKER/SKR_balisongBushwhacker_fire02.ogg","pitch":0.9,"volume":0.7},
+	],
+        "SKR_balisongBushwhacker_01":
+	[
+		{"file":"sounds/SEEKER/SKR_balisongBushwhacker_fire01.ogg","pitch":1,"volume":0.6},
+		{"file":"sounds/SEEKER/SKR_balisongBushwhacker_fire01.ogg","pitch":1.1,"volume":0.6},
+		{"file":"sounds/SEEKER/SKR_balisongBushwhacker_fire01.ogg","pitch":0.9,"volume":0.6},
+	],
+        
+        "SKR_balisong_open":
+	[
+		{"file":"sounds/SEEKER/SKR_balisongOpen.ogg","pitch":1,"volume":0.5},
+	],
+
+        "SKR_balisong_close":
+	[
+		{"file":"sounds/SEEKER/SKR_balisongClose.ogg","pitch":1,"volume":0.5},
+	],
+
+        "SKR_remotePD":
+	[
+		{"file":"sounds/sfx_wpn_energy/phase_beam_loop.ogg","pitch":1.1,"volume":0.5},
+	],	
+
+        # Clipper system
+
+        "SKR_missileFab_start":
+	[
+		{"file":"sounds/SEEKER/SKR_clipper_systemStart.ogg","pitch":1,"volume":1},
+	],
+        
+        "SKR_missileFab_stop":
+	[
+		{"file":"sounds/SEEKER/SKR_clipper_systemStop.ogg","pitch":1,"volume":1},
+	],
+        
+        "SKR_missileFab_loop":
+	[
+		{"file":"sounds/SEEKER/SKR_clipper_systemLoop.ogg","pitch":1,"volume":0.75},
+	],
+        
+        # Quicksilver pulse
+        "SKR_pulse_in":
+	[
+		{"file":"sounds/SEEKER/SKR_pulseIN2.ogg","pitch":1,"volume":1},
+	],
+        
+        "SKR_pulse_out":
+	[
+		{"file":"sounds/SEEKER/SKR_pulseOUT.ogg","pitch":1,"volume":1},
+	],
+		
+	#Reality Drill
+	"SKR_drill_charge":
+	[
+		{"file":"sounds/SEEKER/SKR_drill_charge.ogg","pitch":1,"volume":0.5},
+	],
+	"SKR_drill_fire":
+	[
+		{"file":"sounds/SEEKER/SKR_drill_fire.ogg","pitch":1,"volume":0.5},
+	],
+	"SKR_drill_loop":
+	[
+		{"file":"sounds/SEEKER/SKR_drill_loop.ogg","pitch":1,"volume":0.5},
+	],
+	"SKR_drill_explosion":
+	[
+		{"file":"sounds/SEEKER/SKR_drill_explosion.ogg","pitch":1,"volume":0.5},
+	],
+
+        "CIV_fireworks_01":
+	[
+		{"file":"sounds/SEEKER/CIV_fireworks_01.ogg","pitch":1,"volume":1},
+		{"file":"sounds/SEEKER/CIV_fireworks_01.ogg","pitch":1.1,"volume":1},
+		{"file":"sounds/SEEKER/CIV_fireworks_01.ogg","pitch":0.9,"volume":1},
+	],
+        "CIV_fireworks_02":
+	[
+		{"file":"sounds/SEEKER/CIV_fireworks_02.ogg","pitch":1,"volume":1},
+		{"file":"sounds/SEEKER/CIV_fireworks_02.ogg","pitch":1.1,"volume":1},
+		{"file":"sounds/SEEKER/CIV_fireworks_02.ogg","pitch":0.9,"volume":1},
+	],
+        "CIV_fireworks_03":
+	[
+		{"file":"sounds/SEEKER/CIV_fireworks_03.ogg","pitch":1,"volume":1},
+		{"file":"sounds/SEEKER/CIV_fireworks_03.ogg","pitch":1.1,"volume":1},
+		{"file":"sounds/SEEKER/CIV_fireworks_03.ogg","pitch":0.9,"volume":1},
+	],
+        "CIV_fireworks_04":
+	[
+		{"file":"sounds/SEEKER/CIV_fireworks_04.ogg","pitch":1,"volume":1},
+		{"file":"sounds/SEEKER/CIV_fireworks_04.ogg","pitch":1.1,"volume":1},
+		{"file":"sounds/SEEKER/CIV_fireworks_04.ogg","pitch":0.9,"volume":1},
+	],
+        "CIV_fireworks_05":
+	[
+		{"file":"sounds/SEEKER/CIV_fireworks_05.ogg","pitch":1,"volume":1},
+		{"file":"sounds/SEEKER/CIV_fireworks_05.ogg","pitch":1.1,"volume":1},
+		{"file":"sounds/SEEKER/CIV_fireworks_05.ogg","pitch":0.9,"volume":1},
+	],
+        "CIV_shield":
+	[
+		{"file":"sounds/SEEKER/CIV_shieldUnfold.ogg","pitch":1,"volume":1},
+		{"file":"sounds/SEEKER/CIV_shieldUnfold.ogg","pitch":1.1,"volume":1},
+		{"file":"sounds/SEEKER/CIV_shieldUnfold.ogg","pitch":0.9,"volume":1},
+	],
+
+        #BURST JET
+        "SKR_burstJet_start":
+        [
+		{"file":"sounds/SEEKER/SKR_burstJet_start.ogg","pitch":1.00,"volume":0.5},
+		{"file":"sounds/SEEKER/SKR_burstJet_start.ogg","pitch":1.05,"volume":0.5},
+		{"file":"sounds/SEEKER/SKR_burstJet_start.ogg","pitch":0.95,"volume":0.5},
+        ],
+        "SKR_burstJet_loop":
+        [
+		{"file":"sounds/SEEKER/SKR_burstJet_loop.ogg","pitch":1.00,"volume":0.65},
+		{"file":"sounds/SEEKER/SKR_burstJet_loop.ogg","pitch":1.05,"volume":0.65},
+		{"file":"sounds/SEEKER/SKR_burstJet_loop.ogg","pitch":0.95,"volume":0.65},
+        ],
+        "SKR_burstJet_stop":
+        [
+		{"file":"sounds/SEEKER/SKR_burstJet_out.ogg","pitch":1.00,"volume":0.5},
+		{"file":"sounds/SEEKER/SKR_burstJet_out.ogg","pitch":1.05,"volume":0.5},
+		{"file":"sounds/SEEKER/SKR_burstJet_out.ogg","pitch":0.95,"volume":0.5},
+        ],
+
+        #MINIGUN
+        "SKR_minigun_fire":
+        [
+		#{"file":"sounds/SEEKER/SKR_minigun_fire1.ogg","pitch":1.00,"volume":0.4},
+		#{"file":"sounds/SEEKER/SKR_minigun_fire1.ogg","pitch":0.95,"volume":0.4},
+		#{"file":"sounds/SEEKER/SKR_minigun_fire1.ogg","pitch":1.05,"volume":0.4},
+		#{"file":"sounds/SEEKER/SKR_minigun_fire2.ogg","pitch":1.00,"volume":0.4},
+		#{"file":"sounds/SEEKER/SKR_minigun_fire2.ogg","pitch":0.95,"volume":0.4},
+		#{"file":"sounds/SEEKER/SKR_minigun_fire2.ogg","pitch":1.05,"volume":0.4},
+		#{"file":"sounds/SEEKER/SKR_minigun_fire3.ogg","pitch":1.00,"volume":0.4},
+		#{"file":"sounds/SEEKER/SKR_minigun_fire3.ogg","pitch":0.95,"volume":0.4},
+		#{"file":"sounds/SEEKER/SKR_minigun_fire3.ogg","pitch":1.05,"volume":0.4},
+		#{"file":"sounds/SEEKER/SKR_minigun_fire4.ogg","pitch":1.00,"volume":0.4},
+		#{"file":"sounds/SEEKER/SKR_minigun_fire4.ogg","pitch":0.95,"volume":0.4},
+		#{"file":"sounds/SEEKER/SKR_minigun_fire4.ogg","pitch":1.05,"volume":0.4},
+		{"file":"sounds/SEEKER/SKR_minigun_fireB1.ogg","pitch":1.00,"volume":0.4},
+		{"file":"sounds/SEEKER/SKR_minigun_fireB1.ogg","pitch":1.05,"volume":0.4},
+		{"file":"sounds/SEEKER/SKR_minigun_fireB1.ogg","pitch":0.95,"volume":0.4},
+		{"file":"sounds/SEEKER/SKR_minigun_fireB2.ogg","pitch":1.00,"volume":0.4},
+		{"file":"sounds/SEEKER/SKR_minigun_fireB2.ogg","pitch":1.05,"volume":0.4},
+		{"file":"sounds/SEEKER/SKR_minigun_fireB2.ogg","pitch":0.95,"volume":0.4},
+		{"file":"sounds/SEEKER/SKR_minigun_fireB3.ogg","pitch":1.00,"volume":0.4},
+		{"file":"sounds/SEEKER/SKR_minigun_fireB3.ogg","pitch":1.05,"volume":0.4},
+		{"file":"sounds/SEEKER/SKR_minigun_fireB3.ogg","pitch":0.95,"volume":0.4},
+		{"file":"sounds/SEEKER/SKR_minigun_fireB4.ogg","pitch":1.00,"volume":0.4},
+		{"file":"sounds/SEEKER/SKR_minigun_fireB4.ogg","pitch":1.05,"volume":0.4},
+		{"file":"sounds/SEEKER/SKR_minigun_fireB4.ogg","pitch":0.95,"volume":0.4},
+		{"file":"sounds/SEEKER/SKR_minigun_fireB5.ogg","pitch":1.00,"volume":0.4},
+		{"file":"sounds/SEEKER/SKR_minigun_fireB5.ogg","pitch":1.05,"volume":0.4},
+		{"file":"sounds/SEEKER/SKR_minigun_fireB5.ogg","pitch":0.95,"volume":0.4},
+        ],
+        "SKR_minigun_trail":
+        [
+		#{"file":"sounds/SEEKER/SKR_minigun_trail.ogg","pitch":1.00,"volume":0.4},
+		#{"file":"sounds/SEEKER/SKR_minigun_trail.ogg","pitch":0.95,"volume":0.4},
+		#{"file":"sounds/SEEKER/SKR_minigun_trail.ogg","pitch":1.05,"volume":0.4},
+		{"file":"sounds/SEEKER/SKR_minigun_trailB1.ogg","pitch":1.00,"volume":0.4},
+		{"file":"sounds/SEEKER/SKR_minigun_trailB1.ogg","pitch":1.05,"volume":0.4},
+		{"file":"sounds/SEEKER/SKR_minigun_trailB1.ogg","pitch":0.95,"volume":0.4},
+		{"file":"sounds/SEEKER/SKR_minigun_trailB2.ogg","pitch":1.00,"volume":0.4},
+		{"file":"sounds/SEEKER/SKR_minigun_trailB2.ogg","pitch":1.05,"volume":0.4},
+		{"file":"sounds/SEEKER/SKR_minigun_trailB2.ogg","pitch":0.95,"volume":0.4},
+		{"file":"sounds/SEEKER/SKR_minigun_trailB3.ogg","pitch":1.00,"volume":0.4},
+		{"file":"sounds/SEEKER/SKR_minigun_trailB3.ogg","pitch":1.05,"volume":0.4},
+		{"file":"sounds/SEEKER/SKR_minigun_trailB3.ogg","pitch":0.95,"volume":0.4},
+		{"file":"sounds/SEEKER/SKR_minigun_trailB4.ogg","pitch":1.00,"volume":0.4},
+		{"file":"sounds/SEEKER/SKR_minigun_trailB4.ogg","pitch":1.05,"volume":0.4},
+		{"file":"sounds/SEEKER/SKR_minigun_trailB4.ogg","pitch":0.95,"volume":0.4},
+        ],
+
+#HULL_HULL_HULL_HULL_HULL_HULL_HULL_HULL_HULL_HULL_HULL_HULL_HULL_HULL_HULL_HULL_HULL_HULL_HULL_HULL_HULL_HULL_HULL_HULL_
+
+        "SKR_layer_start":
+	[
+		{"file":"sounds/SEEKER/SKR_layer_start.ogg","pitch":0.8,"volume":0.2},
+	],
+	"SKR_layer_loop":
+	[
+		{"file":"sounds/SEEKER/SKR_layer_loop.ogg","pitch":0.8,"volume":0.1},
+	],
+        "SKR_layer_end":
+	[
+		{"file":"sounds/SEEKER/SKR_layer_end.ogg","pitch":0.8,"volume":0.2},
+	],
+
+	"music":{				
+		"SKR_plaguebearer_interaction":[
+			{
+				"file":"seeker_plague_bearer_interaction_alt.ogg",
+				"source":"sounds/SEEKER/",
+				"volume":1.0,
+				"randomStart":true
+			},
+		],
+	},
+}
+
+
+
+
+
+
+

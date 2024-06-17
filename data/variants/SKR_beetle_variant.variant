@@ -1,0 +1,22 @@
+{
+  "displayName": "Blaster",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "goalVariant": true,
+  "hullId": "SKR_beetle",
+  #"hullMods": ["SKR_plagueLPC"],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "SKR_beetle_variant",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "SKR_heavyblaster_fighter"
+      }
+    }
+  ],
+  "wings": []
+}

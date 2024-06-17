@@ -1,0 +1,87 @@
+name,id,tier,rarity,tech/manufacturer,tags,uiTags,base value,unlocked,hidden,hiddenEverywhere,cost_frigate,cost_dest,cost_cruiser,cost_capital,script,desc,short,sprite
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+Overdriven Systems,SKR_overdrive,4,1,,defensive,,10000,,TRUE,,0,0,0,0,data.hullmods.SKR_overdrive,Opening circuit. Sealing emergency vents. Activating force injector. Final safety released. Target scope open. Tachyon particle pressure rising in chamber. Energy charge at 120 percent. Engage anti-shock and anti-flare defenses. All systems go.,,graphics/SEEKER/hullmods/SKR_overdrive.png
+,,,,,,,,,,,,,,,,,,
+Ancient Armor,SKR_ancientArmor,4,1,,defensive,,10000,,TRUE,,0,0,0,0,data.hullmods.SKR_ancientArmor,"Heavy armor predating shield technology. At that time most weapons where High Explosives and armors where designed to counter that particular threat, whith low brittleness to avoid spalling. In addition, their segmentation and layering of different materials reduced the effectiveness of EMP disruptions. They are however less effective at stopping other types of projectiles, in particular kinetic/energy ones.
+%s EMP damage taken,
+%s High Explosive damage taken,
+%s Energy damage taken,
+%s Kinetic damage taken.",,graphics/SEEKER/hullmods/SKR_ancientArmor.png
+,,,,,,,,,,,,,,,,,,
+Shield Upgrade,SKR_shieldUpgrade,4,1,,defensive,,10000,,TRUE,,0,0,0,0,data.hullmods.SKR_shieldUpgrade,"With a proper passage in a dry-dock, a proper shield can be installed in hulls that would otherwise be too old or too large to have one. However due to the bulk of such system, it usually comes at the expense of other systems.",,graphics/SEEKER/hullmods/SKR_shieldUpgrade.png
+,SKR_noDeck,,,,dmod,,,,TRUE,TRUE,0,0,0,0,data.hullmods.SKR_noDeck,,,graphics/SEEKER/hullmods/SKR_destroyedDeck.png
+,,,,,,,,,,,,,,,,,,
+Drone Conversion,SKR_remote,3,0.75,,special,Fighters,10000,FALSE,FALSE,FALSE,5,8,15,20,data.hullmods.SKR_remote," Fits all fighter wings with AVATAR remote controls, reducing pilot losses by %s. Slows the production of replacement fighters by %s.",,graphics/SEEKER/hullmods/SKR_remote.png
+,,,,,,,,,,,,,,,,,,
+Ship Module,SKR_module,,,,,,,,TRUE,TRUE,0,0,0,0,data.hullmods.SKR_module,,,graphics/icons/intel/investigation.png
+Destroyed Fighter Gantry,SKR_destroyedDeck,,,,dmod,,,,TRUE,,0,0,0,0,data.hullmods.SKR_destroyedDeck,"A strikecraft autofab has been critically damaged and is no longer operable, reducing the number of available flight deck on the ship by one.",,graphics/SEEKER/hullmods/SKR_destroyedDeck.png
+
+,SKR_moreDecks,,,,,,,,TRUE,TRUE,0,0,0,0,data.hullmods.SKR_moreDecks,,,graphics/icons/intel/investigation.png
+Economical Maintenance,SKR_economic,,,,,,,,TRUE,,0,0,0,0,data.hullmods.SKR_economic,"Reduces the monthly maintenance supply cost by %s.",,graphics/SEEKER/hullmods/SKR_economic.png
+
+Spaceborne Farm,SKR_farm,,,,,,,,TRUE,,0,0,0,0,data.hullmods.SKR_farm,"When located in an inhabited system with a bright star, this ship will generate some revenue from worlds with high population. The higher the population, the richer the elites, the more profitable selling them extremely high quality farm products become.",,graphics/SEEKER/hullmods/SKR_farm.png
+
+Makeshift Bubble Shield Emitter,SKR_shield,,,,dmod,,,,TRUE,,0,0,0,0,data.hullmods.SKR_shield,"The shield emitter on that ship has been hazaphardly modified to expand its coverage into a full 360 degrees coverage at the cost of its integrity.",,graphics/hullmods/front_shield_generator.png
+
+#,SKR_warpEffect,,,,,,,,TRUE,TRUE,0,0,0,0,data.hullmods.SKR_warpEffect,,,graphics/icons/intel/investigation.png
+
+
+
+Plague Bearer,SKR_plagueBearer,,,,,,,,TRUE,,0,0,0,0,data.hullmods.SKR_plagueBearer,"This twisted monstrosity of a ship is oozing Black Nanomachine-plague. The internal structure looks too organic, its drone crew too animal. Plagued weapons fit just nicely in its emplacement, they even seems... Eager(?) to be mounted there.
+
+%s",,graphics/SEEKER/hullmods/SKR_plagueBearer.png
+
+Plague Bearer Cultist,SKR_plagueCultist,,,,,,,,TRUE,,0,0,0,0,data.hullmods.SKR_plagueCultist,"This ships has been molded by the Nanomachine-plague, and somehow enhanced by it instead of broken down. It can safely use plagued weapons without issue and it is unclear why its crew does not suffer the grimm fate of non-cultist boarders.
+
+%s",,graphics/SEEKER/hullmods/SKR_plagueBearer.png
+
+
+
+Quarantined Flight Deck,SKR_plagueLPC,10,10,Exotic,"special, req_spaceport","Fighters, Requires Dock",10000,FALSE,TRUE,,0,0,0,0,data.hullmods.SKR_plagueLPC,"%s, nano-plague contaminant detected.
+
+Modifies the maintenance bays to operate as a Clean Room with extensive decontamination protocols and remote operations whenever possible. Required for the fabrication of strike-crafts using LPCs infected with the Nano-Plague.
+
+The additional constraints on the normal operation of the decks will incur a reduction of the maximum Combat Readiness by %s percentage points.
+
+That effect can be mitigated by %s when installing the %s hullmod.
+
+%s",,graphics/SEEKER/hullmods/SKR_plagueLPC.png
+
+
+
+CONTAMINATION DANGER,SKR_plagueWarning,,,,special,,,,TRUE,,0,0,0,0,data.hullmods.SKR_plague,"%s, nano-plague contaminant detected.
+
+Some special weapons and LCPs salvaged from plague-borne entities can be mounted on regular ships, however containing the spread of the corrupted nano-machines takes a heavy toll on the maintenance personnel.
+
+The rate of infection from a given source is rated %s, %s or %s, and will incur a reduction of the maximum Combat Readiness by %s/%s/%s percentage points.
+
+That effect can be mitigated by %s when installing the %s hullmod.",,graphics/SEEKER/hullmods/SKR_plague.png
+
+
+
+Modular Design,SKR_siegfriedLoadout,,,,"special, req_spaceport",,,,TRUE,,0,0,0,0,data.hullmods.SKR_siegfriedLoadout,"This antic ship dates back to a time when hulls were assembled from modules instead of extruded in auto-factories. As such its structure can be significantly altered in dry-docks.
+
+To swap between systems, remove any of the three ""toggle"" hullmods.",,graphics/SEEKER/hullmods/SKR_siegfried_modular.png
+
+
+Advanced Targeting Core Fitting,SKR_siegfried_axx,,,,"special, req_spaceport, no_build_in",,,,TRUE,,0,0,0,0,data.hullmods.SKR_flavorHullmod_order1,"Fits the core section of the ship with an ATC module.
+
+Remove this hullmod to install a Shield Emmiter instead.",,graphics/hullmods/advanced_targeting_core.png
+Shield Generator Fitting,SKR_siegfried_bxx,,,,"special, req_spaceport, no_build_in",,,,TRUE,,0,0,0,0,data.hullmods.SKR_shieldUpgrade,"Fits the core section of the ship with a modern shield emmiter module.
+
+Remove this hullmod to install an Advanced Targeting Core instead.",,graphics/SEEKER/hullmods/SKR_shieldUpgrade.png
+
+Flux Torpedoes System Fitting,SKR_siegfried_xax,,,,"special, req_spaceport, no_build_in",,,,TRUE,,0,0,0,0,data.hullmods.SKR_flavorHullmod_order2,"Modifies the flux grid with a diverter to accomodate a Flux Torpedoes system.
+
+Remove this hullmod to install two flight decks instead.",,graphics/SEEKER/hullmods/SKR_siegfried_fluxTorpedoes.png
+Flight Decks Fitting,SKR_siegfried_xbx,,,,"special, req_spaceport, no_build_in",,,,TRUE,,0,0,0,0,data.hullmods.SKR_twoDecks,"Modifies the rear section of the ship to accomodate a small autofactory and a pair of flight decks.
+
+Remove this hullmod to install a Flux Torpedoes system instead.",,graphics/hullmods/converted_hangar.png
+
+Firecane Loadout,SKR_siegfried_xxa,,,,"special, req_spaceport, no_build_in",,,,TRUE,,0,0,0,0,data.hullmods.SKR_flavorHullmod_order3," Fits the hull with two Firecane artillery turrets.
+
+Remove this hullmod to install broadside turret mounts instead.",,graphics/SEEKER/hullmods/SKR_siegfried_firecane.png
+Broadside Loadout,SKR_siegfried_xxb,,,,"special, req_spaceport, no_build_in",,,,TRUE,,0,0,0,0,data.hullmods.SKR_flavorHullmod_order3," Fits the hull with additional modular mounts in a broadside configuration.
+
+Remove this hullmod to install two Firecane artillery turrets instead.",,graphics/SEEKER/hullmods/SKR_siegfried_broadside.png

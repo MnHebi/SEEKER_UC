@@ -1,0 +1,35 @@
+{
+    "displayName": "Dolmen",
+    "fluxCapacitors": 0,
+    "fluxVents": 13,
+    "goalVariant": true,
+    "hullId": "SKR_obelisk",
+    "hullMods": [],
+    "permaMods": [],
+    "quality": 1,
+    "variantId": "SKR_obelisk_dolmen",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {"WS0001": "cyclone"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "ioncannon"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "lrpdlaser",
+                "WS0004": "lrpdlaser",
+                "WS0005": "lrpdlaser",
+                "WS0006": "lrpdlaser",
+                "WS0007": "lrpdlaser",
+                "WS0008": "lrpdlaser"
+            }
+        }
+    ]
+}

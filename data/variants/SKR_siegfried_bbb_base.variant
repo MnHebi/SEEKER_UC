@@ -1,0 +1,82 @@
+{
+    "displayName": "Defender",
+    "fluxCapacitors": 41,
+    "fluxVents": 50,
+    "goalVariant": true,
+    "hullId": "SKR_siegfried_bbb",
+    "hullMods": [
+        "hardenedshieldemitter",
+        "SKR_siegfried_bxx",
+        "SKR_siegfried_xbx",
+        "SKR_siegfried_xxb"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "SKR_siegfried_bbb_base",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"LARGE1": "mark9"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "LARGE2": "mark9",
+                "LARGE3": "mark9"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "LARGE4": "mark9",
+                "LARGE5": "mark9"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "MEDIUM2": "heavymortar",
+                "MEDIUM4": "heavymortar",
+                "MEDIUM6": "heavymortar",
+                "MEDIUM8": "heavymortar"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "MEDIUM1": "heavymortar",
+                "MEDIUM3": "heavymortar",
+                "MEDIUM5": "heavymortar",
+                "MEDIUM7": "heavymortar"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0012": "vulcan",
+                "WS0013": "vulcan",
+                "WS0014": "vulcan",
+                "WS0015": "vulcan",
+                "WS0016": "vulcan",
+                "WS0017": "vulcan",
+                "WS0018": "vulcan",
+                "WS0019": "vulcan",
+                "WS0020": "vulcan",
+                "WS0021": "vulcan",
+                "WS0022": "vulcan",
+                "WS0023": "vulcan",
+                "WS0024": "vulcan"
+            }
+        }
+    ],
+    "wings": [
+        "xyphos_wing",
+        "xyphos_wing"
+    ]
+}

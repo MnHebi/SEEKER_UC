@@ -1,0 +1,80 @@
+{
+    "displayName": "End Times",
+    "fluxCapacitors": 14,
+    "fluxVents": 50,
+    "goalVariant": true,
+    "hullId": "SKR_cataclysm",
+    "hullMods": [
+        "turretgyros",
+    ],
+    "modules": [
+        {"M_FL": "SKR_cataclysm_ML_1"},
+        {"M_ML": "SKR_cataclysm_ML_1"},
+        {"M_RL": "SKR_cataclysm_ML_1"},
+        {"M_FR": "SKR_cataclysm_MR_1"},
+        {"M_MR": "SKR_cataclysm_MR_1"},
+        {"M_RR": "SKR_cataclysm_MR_1"}
+    ],
+    "permaMods": [],
+    "variantId": "SKR_cataclysm_1",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "SKR_fauchard"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "SKR_dainsleif",
+                "WS0002": "SKR_dainsleif",
+                "WS0004": "SKR_dainsleif"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "ARRAY": "SKR_tusk",
+                "WS0005": "SKR_heavyLightstreak",
+                "WS0006": "SKR_heavyLightstreak",
+                "WS0007": "SKR_lightstreak"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0008": "SKR_hvBlaster",
+                "WS0009": "SKR_hvBlaster",
+                "WS0010": "SKR_hvBlaster",
+                "WS0011": "SKR_hvBlaster"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0012": "SKR_pdCharger",
+                "WS0013": "SKR_pdGrenade",
+                "WS0014": "SKR_pdGrenade",
+                "WS0015": "SKR_pdCharger",
+                "WS0016": "SKR_pdCharger",
+                "WS0017": "SKR_pdCharger",
+                "WS0018": "SKR_pdCharger",
+                "WS0019": "SKR_pdGrenade",
+                "WS0020": "SKR_pdGrenade",
+                "WS0021": "SKR_pdCharger",
+                "WS0022": "SKR_pdCharger",
+                "WS0023": "SKR_pdCharger"
+            }
+        }
+    ],
+    "wings": [
+        "SKR_beetle_wing",
+        "SKR_pillbug_wing",
+        "SKR_fireant_wing",
+        "SKR_fireant_wing"
+    ]
+}

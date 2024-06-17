@@ -1,0 +1,58 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 3,
+    "fluxVents": 30,
+    "goalVariant": true,
+    "hullId": "SKR_guru",
+    "hullMods": [
+        "expanded_deck_crew",
+        "fluxbreakers"
+    ],
+    "permaMods": [],
+    "variantId": "SKR_guru_standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "SKR_dainsleif"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0008": "sabot",
+                "WS0009": "sabot"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "SKR_assaultRevolver",
+                "WS0003": "SKR_assaultRevolver"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "SKR_pdCharger",
+                "WS0005": "SKR_pdCharger",
+                "WS0006": "SKR_pdCharger",
+                "WS0007": "SKR_pdCharger"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0010": "SKR_pdGrenade",
+                "WS0011": "SKR_pdGrenade"
+            }
+        }
+    ],
+    "wings": [
+        "SKR_beetle_wing",
+        "SKR_fireant_wing"
+    ]
+}

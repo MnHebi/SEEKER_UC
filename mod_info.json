@@ -1,0 +1,20 @@
+{
+  "id":"SEEKER", 
+	"name":"Seeker - Unidentified Contact", 
+	"author":"Tartiflette",
+	"version": {"major":'0', "minor":'5', "patch":'3rc1'},
+	"description":"Space, the ultimate frontier. Embark on a journey to unveil it's most hidden treasures.",
+    "gameVersion": "0.95.1a-RC6",
+    "dependencies": [
+        {
+            "id": "lw_lazylib",
+            "name": "LazyLib",
+        },
+        {
+            "id": "MagicLib",
+            "name": "MagicLib",
+        },
+    ],
+    "jars":["jar/SEEKER.jar"],
+    "modPlugin":"data.scripts.SKR_modPlugin",
+}

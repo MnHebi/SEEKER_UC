@@ -1,0 +1,36 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 10,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "SKR_follower",
+    "hullMods": [],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "SKR_follower_standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0005": "SKR_lightspark",
+                "WS0006": "SKR_lightspark"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "SKR_burstPulse",
+                "WS0002": "SKR_burstPulse",
+                "WS0003": "SKR_burstPulse",
+                "WS0004": "SKR_burstPulse"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0007": "SKR_pdCharger"}
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "displayName": "Right Deck",
+    "fluxCapacitors": 0,
+    "fluxVents": 20,
+    "goalVariant": true,
+    "hullId": "SKR_whiteDwarf_deckR",
+    "hullMods": [
+        "eccm",
+        "missleracks",
+        "expanded_deck_crew",
+        "pointdefenseai",
+        "turretgyros",
+        "magazines",
+        "advancedoptics"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "SKR_whiteDwarf_deckR_1",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "pdburst",
+                "WS0005": "pdburst"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "SKR_stepMissilesLauncher",
+                "WS0002": "SKR_stepMissilesLauncher",
+                "WS0003": "SKR_stepMissilesLauncher"
+            }
+        }
+    ],
+    "wings": [
+        "SKR_beetle_wing",
+        "SKR_pillbug_wing",
+        "SKR_pillbug_wing",
+        "SKR_fireant_wing"
+    ]
+}

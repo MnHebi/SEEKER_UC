@@ -1,0 +1,21 @@
+{
+    "startShipsSolo":[
+      ["SKR_aethernium_standard"],
+      ["SKR_adze_standard"],
+    ],
+
+    "startShipsCombatSmall":[
+        ["SKR_butterfly_assault", "brawler_Assault", "brawler_Assault"],
+        ["SKR_557_standard", "vigilance_Standard", "wayfarer_Standard"],
+        ["SKR_adze_standard", "SKR_malet_support", "SKR_malet_assault", "wayfarer_Standard"],
+    ],
+
+    "startShipsCombatLarge":[
+      ["SKR_tumbleweed_combat", "shepherd_Frontier", "shepherd_Frontier", "shepherd_Frontier"],
+      ["SKR_halligan_standard", "SKR_adze_support", "SKR_malet_standard", "buffalo_Standard"],
+    ],
+
+    #"startShipsTradeLarge":[["CIV_blitzkrieg_standard", "vigilance_AP", "brawler_Assault"],],
+
+    #"startShipsSuper":[["SKR_clipper_recovered"],],
+}

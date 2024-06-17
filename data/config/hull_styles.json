@@ -1,0 +1,26 @@
+{
+	# The following hull style ids are reserved and can not be used:
+	# "sounds", "DEFAULT", "FIGHTER", "FRIGATE", "DESTROYER", "CRUISER", "CAPITAL_SHIP"
+        "ANTIC_TECH":{
+		"hyperspaceJitterColor":[255,150,100,200],
+		"baseCampaignExplosionColor":[255,100,25,255],
+		"baseCombatExplosionColor":[255,100,25,255],
+		"fighterRepairFlickerColor":[255,150,100,250],
+		"weaponDisabledExplosionColor":[255,150,100,205],
+		"shieldRingColor":[255,100,50,255],
+		"shieldInnerColor":[255,0,0,10],
+		"fluxVentCoreColor":[100,0,0,50],
+		"fluxVentFringeColor":[150,75,0,75],
+	},
+        "PARASITE_TECH":{
+		"hyperspaceJitterColor":[255,50,50,200],
+		"baseCampaignExplosionColor":[255,200,25,255],
+		"baseCombatExplosionColor":[255,150,25,255],
+		"fighterRepairFlickerColor":[255,200,100,250],
+		"weaponDisabledExplosionColor":[255,150,100,205],
+		"shieldRingColor":[255,150,50,255],
+		"shieldInnerColor":[255,100,0,50],
+		"fluxVentCoreColor":[100,0,0,50],
+		"fluxVentFringeColor":[150,75,0,75],
+	},
+}

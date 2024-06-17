@@ -1,0 +1,46 @@
+{
+    "displayName": "Assault",
+    "fluxCapacitors": 0,
+    "fluxVents": 47,
+    "goalVariant": true,
+    "hullId": "SKR_voulge",
+    "hullMods": [
+        "missleracks",
+        "targetingunit"
+    ],
+    "permaMods": [],
+    "variantId": "SKR_voulge_assault",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {"WS0003": "typhoon"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "squall",
+                "WS0002": "squall"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "LEFT": "mjolnir",
+                "MAIN": "mjolnir",
+                "RIGHT": "mjolnir"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "dualflak",
+                "WS0007": "dualflak",
+                "WS0010": "dualflak"
+            }
+        }
+    ]
+}

@@ -1,0 +1,772 @@
+{
+	"SKR_augur": {
+		"trigger_marketFaction_none": ["tritachyon"],
+		"trigger_marketFaction_enemyWith": true,
+		"trigger_weight_mult": 0.5,
+
+		"job_name": "Help with a 'testing incident'",
+		"job_description": "Rumors would have the Tri-Tachyon corporation devellopping a couple of new frigate-sized ship classes that could significantly improve the performance of their light patrols. My employer would be rather pleased if such project could be delayed until contengency plans are in place. The first trial of one of those new classes will soon start in a remote location with a limited escort to avoid drawing unwanted attention. This would be a perfect opportunity to cause a 'testing incident'.",
+		"job_deadline": 120,
+		"job_credit_reward": 50000,
+		"job_reward_scaling": 0,
+		"job_show_captain": false,
+		"job_show_fleet": true,
+		"job_show_arrow": false,
+		"job_pick_option": "Accept the job",
+		"job_memKey": "$skr_augur",
+
+		"target_level": 3,
+		"target_skill_preference": "GENERIC",
+
+		"fleet_name": "Unconspicuous Tri-Tachyon Fleet",
+		"fleet_faction": "tritachyon",
+		"fleet_flagship_variant": "medusa_Starting",
+		"fleet_flagship_recoverable": false,
+		"fleet_preset_ships": {
+			"shrike_Attack": 1,
+			"SKR_augur_assault": 1,
+			"SKR_augur_harasser": 1,
+			"SKR_augur_standard": 1,
+			"SKR_augur_support": 1,
+			"buffalo_tritachyon_Standard": 1
+		},
+		"fleet_transponder": false,
+		"fleet_behavior": "GUARDED",
+
+		"location_distance": "CLOSE",
+		"location_themes": [
+			"theme_core_unpopulated",
+			"theme_interesting_minor",
+			"theme_ruins_secondary",
+			"theme_derelict_probes",
+			"procgen_no_theme_pulsar_blackhole"
+		],
+		"location_prioritizeUnexplored": true,
+		"location_defaultToAnyEntity": true
+	},
+
+	"SKR_endymion": {
+		"trigger_marketFaction_none": ["tritachyon"],
+		"trigger_marketFaction_enemyWith": true,
+		"trigger_weight_mult": 0.5,
+		"trigger_memKeys_all": {
+			"$skr_augur": true
+		},
+
+		"job_name": "Further help with ANOTHER 'testing incident'",
+		"job_description": "Another new ship design from the Tri-Tachyon corporation has beemn cleared for field testing. My employer would be very happy if those tests would turn out to be 'unconclusive'. Security might be somewhat tight given how their previous field operation was unfortunately disrupted. This window of opportunity is very short, anyone wanting the reward must gather their forces post haste.",
+		"job_deadline": 90,
+		"job_credit_reward": 70000,
+		"job_reward_scaling": 0,
+		"job_show_captain": false,
+		"job_show_fleet": true,
+		"job_show_arrow": false,
+		"job_pick_option": "Accept the job",
+		"job_memKey": "$skr_endymion",
+
+		"target_level": 5,
+		"target_skill_preference": "GENERIC",
+
+		"fleet_name": "Guarded Tri-Tachyon Fleet",
+		"fleet_faction": "tritachyon",
+		"fleet_flagship_variant": "aurora_Balanced",
+		"fleet_flagship_recoverable": false,
+		"fleet_preset_ships": {
+			"medusa_Attack": 2,
+			"tempest_Attack": 2,
+			"SKR_endymion_assault": 1,
+			"SKR_endymion_harasser": 1,
+			"SKR_endymion_standard": 1,
+			"SKR_endymion_support": 1,
+			"buffalo_tritachyon_Standard": 1,
+			"buffalo_tritachyon_Standard": 1,
+			"dram_Light": 1
+		},
+		"fleet_transponder": false,
+		"fleet_behavior": "GUARDED",
+
+		"location_distance": "CLOSE",
+		"location_themes": [
+			"theme_core_unpopulated",
+			"theme_interesting_minor",
+			"theme_ruins_secondary",
+			"theme_derelict_probes",
+			"procgen_no_theme_pulsar_blackhole"
+		],
+		"location_prioritizeUnexplored": true,
+		"location_defaultToAnyEntity": true
+	},
+
+	"SKR_clipper": {
+
+		"trigger_marketFaction_any": ["independent"],
+		"trigger_marketFaction_alliedWith": true,
+		"trigger_weight_mult": 0.5,
+
+		"job_name": "Help finding a lost prospector",
+		"job_description": "I know this is unlikely to get any response but I'm compelled to ask: My father departed for the fringes with his fleet of scavengers more than a year ago, but never returned. He should have been back for months! I fear he might have found something dangerous, stumbled on pirates, or even worse: those old AI ships from the war. I don't know what's out there, and I can't really offer anything of much value, but if a kind soul is willing to help me a find him, I can point them toward the system my father said held untapped riches.",
+		"job_deadline": 180,
+		"job_credit_reward": 15000,
+		"job_reward_scaling": 0,
+		"job_show_captain": false,
+		"job_show_fleet": false,
+		"job_show_arrow": false,
+		"job_pick_option": "Contact the person to get the system's coordinates",
+		"job_memKey": "$skr_clipper",
+
+		"target_personality": "steady",
+		"target_isAI": false,
+		"target_level": 3,
+
+		"fleet_name": "Poachers",
+		"fleet_faction": "pirates",
+		"fleet_flagship_variant": "venture_Outdated",
+		"fleet_flagship_name": "Lucky Strike",
+		"fleet_flagship_recoverable": false,
+		"fleet_min_DP": 50,
+		"fleet_composition_faction": "scavengers",
+		"fleet_composition_quality": 0.5,
+		"fleet_transponder": false,
+		"fleet_behavior": "GUARDED",
+
+		"location_distance": "FAR",
+		"location_themes": [
+			"theme_interesting",
+			"theme_ruins",
+			"theme_ruins_main"
+		],
+		"location_entities": [
+			"station",
+			"wreck",
+			"debris"
+		],
+		"location_prioritizeUnexplored": true,
+		"location_defaultToAnyEntity": false
+	},
+
+	"SKR_blitzkrieg": {
+
+		"trigger_marketFaction_any": ["tritachyon"],
+		"trigger_player_minLevel": 4,
+		"trigger_min_days_elapsed": 120,
+
+		"job_name": "Preventing market manipulation",
+		"job_description": "The Tri-Tachyon Corporation and its affiliates are always on the lookout for investment opportunities, an important task in these troubled times when production shortages bring ruin to the life of millions. As the premier source of cash injection in the sector, the Tri-Tachyon corporation use advanced computation algorithms and centuries of expertise to analyse daily events as much as decades trends to anticipate future market movements./n/n While obviously not capable to predict events with 100 percent accuracy, these teams are quite good at their job. However at this jucture their work is threatened to be spoiled by a few actors. The $Name family operating a large modified freighter with a few escorts are curently running a commendable rapid response trading operation to struggling planets. Unfortunately their movements seemingly not being driven by profit make predictions difficult and could negatively impact the future of Tri-Tachyon's investment branch./n/n Any reduction in activity would inevitably have dire consequences on the economic future of the sector, thus the Tri-Tachion Corporation is looking for an individual able to convince the $Name family to stop their activity permanently. Such person would be handsomely rewarded for their efforts.",
+		"job_forFaction": "tritachyon",
+		"job_deadline": 180,
+		"job_credit_reward": 50000,
+		"job_reward_scaling": 0,
+		"job_requireTargetDestruction": false,
+		"job_show_captain": true,
+		"job_show_fleet": true,
+		"job_show_arrow": false,
+		"job_pick_option": "Accept the job",
+		"job_memKey": "$skr_blitzkrieg",
+
+		"target_first_name": "Eliziah",
+		"target_last_name": "Hoodson",
+		"target_portrait": "SKR_blitzkrieg",
+		"target_gender": "MALE",
+		"target_rank": "Captain",
+		"target_post": "Fleet Commander",
+		"target_personality": "cautious",
+		"target_isAI": false,
+		"target_level": 4,
+		"target_skill_preference": "GENERIC",
+
+		"fleet_name": "Hoodsons' Delivery Services",
+		"fleet_faction": "independent",
+		"fleet_flagship_variant": "CIV_blitzkrieg_standard",
+		"fleet_flagship_name": "ISS Economic Blitzkrieg",
+		"fleet_flagship_recoverable": true,
+		"fleet_preset_ships": {
+			"SKR_adze_standard": 1,
+			"SKR_adze_support": 1,
+			"SKR_malet_standard": 1,
+			"SKR_malet_support": 1,
+			"SKR_malet_assault": 1
+		},
+		"fleet_scaling_multiplier": 0,
+		"fleet_min_DP": 100,
+		"fleet_composition_faction": "independent",
+		"fleet_composition_quality": 1,
+		"fleet_transponder": true,
+		"fleet_behavior": "GUARDED",
+
+		"location_marketIDs": [
+			"eldfell"
+		],
+		"location_marketFactions": [
+			"independent"
+		],
+		"location_distance": "CLOSE",
+		"location_themes": [
+			"theme_core_populated"
+		],
+		"location_entities": [
+			"station",
+			"comm_relay",
+			"gas_giant",
+			"planet",
+			"jump_point"
+		],
+		"location_prioritizeUnexplored": false,
+		"location_defaultToAnyEntity": true
+	},
+
+	"SKR_poisonIvy": {
+
+		"trigger_marketFaction_none": ["pirates"],
+		"trigger_marketFaction_enemyWith": true,
+		"trigger_player_minLevel": 5,
+		"trigger_min_days_elapsed": 180,
+		"trigger_weight_mult": 0.5,
+
+		"job_name": "One last rodeo",
+		"job_description": "A clever band of pirates have been using three 'Poison-Ivy' modified Tumbleweed-class cruiser to lead three coordinated raiding parties for months while throwing our forces off balance. Their luck seems to have run out as we have recently been able to intercept two of these fleets while they were jumping to hyper. One of them remains and our intelligence determined it left the core, possibly to regroup before attempting another raid. Given these recent pirate raids, it would be politically unwise to detach a significant portion of our defense fleets to hunt them down. At the same time it would be even less advisable to let this fleet operate again. Therefore the Persean League is offering a reward for the neutralization of the last Poison-Ivy.",
+		"job_forFaction": "persean",
+		"job_deadline": 180,
+		"job_credit_reward": 90000,
+		"job_reward_scaling": 0.5,
+		"job_requireTargetDestruction": false,
+		"job_show_captain": false,
+		"job_show_fleet": true,
+		"job_show_arrow": false,
+		"job_pick_option": "Accept the job",
+		"job_memKey": "$skr_poisonIvy",
+
+		"target_personality": "aggressive",
+		"target_level": 5,
+		"target_elite_skills": 3,
+
+		"fleet_name": "Poison Ivy Raiders",
+		"fleet_faction": "pirates",
+		"fleet_flagship_variant": "SKR_poisonivy_standard",
+		"fleet_flagship_name": "Poison-Ivy",
+		"fleet_flagship_recoverable": true,
+		"fleet_preset_ships": {
+			"falcon_p_Strike": 2
+		},
+		"fleet_scaling_multiplier": 0.5,
+		"fleet_min_DP": 100,
+		"fleet_composition_faction": "pirates",
+		"fleet_composition_quality": 1,
+		"fleet_transponder": false,
+		"fleet_behavior": "ROAMING",
+
+		"location_distance": "CLOSE",
+		"location_themes": [
+			"theme_interesting_minor",
+			"theme_ruins_secondary",
+			"theme_derelict_survey_ship",
+			"theme_derelict_probes",
+			"procgen_no_theme_pulsar_blackhole"
+		],
+		"location_prioritizeUnexplored": true,
+		"location_defaultToAnyEntity": true
+	},
+
+	"SKR_retiarius": {
+		"trigger_marketFaction_any": ["hegemony"],
+		"trigger_marketFaction_alliedWith": true,
+		"trigger_marketFaction_none": ["tritachyon"],
+		"trigger_marketFaction_enemyWith": true,
+		"trigger_player_minLevel": 5,
+		"trigger_min_days_elapsed": 120,
+		"trigger_weight_mult": 0.5,
+
+		"job_name": "Closing the 2nd AI War's casket",
+		"job_description": "Hegemony intelligence got wind that an exceedingly rare Retiarius-class cruiser is now part of a scavenger group. This class of ships only showed up in the cycles leading to the Second AI War: They were test platforms for their future AI vessel designs masquerading as regularly crewed ships. Surely you understand that there is a significant chance those scavengers found yet another hidden Tri-Tachyon facility. The Hegemony cannot take the risk of a new wave of prospectors heading to the fringes trying once again to unearth the burried corpses of the AI wars, and has authorized the elimination of that fleet. Payment will be wired upon confirmation of the unfortunate demise of that fleet's captain an officer staf, as well as the execution of the provided data-wipe programs on any ship recovered.",
+		"job_forFaction": "hegemony",
+		"job_deadline": 180,
+		"job_credit_reward": 120000,
+		"job_reward_scaling": 0.5,
+		"job_requireTargetDestruction": false,
+		"job_show_captain": true,
+		"job_show_fleet": true,
+		"job_show_arrow": false,
+		"job_pick_option": "Agree to the contract terms",
+		"job_memKey": "$skr_retiarius",
+
+		"target_first_name": "Illia",
+		"target_last_name": "Barthelemy",
+		"target_portrait": "SKR_retiarius",
+		"target_gender": "FEMALE",
+		"target_rank": "Captain",
+		"target_post": "Fleet Commander",
+		"target_personality": "cautious",
+		"target_isAI": false,
+		"target_level": 5,
+		"target_skill_preference": "CARRIER",
+
+		"fleet_name": "Unfortunate Scavenger Fleet",
+		"fleet_faction": "scavengers",
+		"fleet_flagship_variant": "SKR_retiarius_standard",
+		"fleet_flagship_name": "ISS Lucky Charm",
+		"fleet_flagship_recoverable": true,
+		"fleet_scaling_multiplier": 0.5,
+		"fleet_min_DP": 100,
+		"fleet_composition_faction": "scavengers",
+		"fleet_composition_quality": 1,
+		"fleet_transponder": true,
+		"fleet_behavior": "ROAMING",
+
+		"location_distance": "FAR",
+		"location_themes": [
+			"theme_interesting",
+			"theme_ruins_main"
+		],
+		"location_prioritizeUnexplored": true,
+		"location_defaultToAnyEntity": true
+	},
+
+	"SKR_trailblazer": {
+
+		"trigger_marketFaction_any": ["persean"],
+		"trigger_marketFaction_alliedWith": false,
+		"trigger_player_minLevel": 7,
+		"trigger_min_days_elapsed": 360,
+		"trigger_weight_mult": 0.5,
+
+		"job_name": "Counter-heist",
+		"job_description": "Terrorists have stolen from us a valuable but dangerous artifact from the Domain. Despite our efforts to keep this vessel existance secret, they managed to breach our hidden Hyperspace Research Facilities, embark on it, and depart to the fringe. We have no idea if their intention is to ressel it to the highest bidder or to turn it against us but in either case that ship is dangerous and must be destroyed.",
+		"job_forFaction": "persean",
+		"job_deadline": 360,
+		"job_credit_reward": 130000,
+		"job_reward_scaling": 0.5,
+		"job_requireTargetDestruction": true,
+		"job_show_captain": false,
+		"job_show_fleet": true,
+		"job_show_arrow": false,
+		"job_pick_option": "Accept the job",
+		"job_memKey": "$skr_trailblazer",
+
+		"target_personality": "aggressive",
+		"target_isAI": false,
+		"target_level": 6,
+		"target_skill_preference": "GENERIC",
+
+		"fleet_name": "Luddic Church's Disposal Unit",
+		"fleet_faction": "luddic_church",
+		"fleet_flagship_variant": "SKR_trailblazer_combat",
+		"fleet_flagship_name": "PLS Domain Key",
+		"fleet_flagship_recoverable": true,
+		"fleet_preset_ships": {
+			"legion_Assault": 1,
+			"dominator_Support": 1,
+			"dominator_Assault": 1
+		},
+		"fleet_scaling_multiplier": 0.5,
+		"fleet_min_DP": 150,
+		"fleet_composition_faction": "luddic_church",
+		"fleet_composition_quality": 1,
+		"fleet_transponder": false,
+		"fleet_behavior": "AGGRESSIVE",
+
+		"location_distance": "CLOSE",
+		"location_themes": [
+			"theme_interesting_minor",
+			"theme_ruins_secondary",
+			"theme_derelict_survey_ship",
+			"theme_derelict_probes"
+		],
+		"location_prioritizeUnexplored": true
+	},
+
+	"SKR_redHand": {
+
+		"trigger_marketFaction_any": [
+			"sindriant_diktat",
+			"independent"
+		],
+		"trigger_marketFaction_alliedWith": true,
+		"trigger_market_minSize": 3,
+		"trigger_player_minLevel": 5,
+		"trigger_min_days_elapsed": 180,
+		"trigger_weight_mult": 0.25,
+		"trigger_relationships_atMost": {
+			"pirates": -0.5
+		},
+		"trigger_relationships_atLeast": {
+			"sindriant_diktat": 0.25
+		},
+
+		"job_name": "The Red Hand resurfaces",
+		"job_description": "   [EXCERPT FROM A MILITARY JOURNAL ARTICLE] The famous pirate ship 'Red Hand' has been spotted recently within an assembling pirate force in the $constellation region. [...] Rumors suggest that she got a new captain after her failed Bombardment attempt of a Hegemony stronghold a few cycles ago. The damaged ship managed to escape retribution then, and once again vanished to her hidding hole in the fringes. [...] Details are sparse but the Lion's Intelligence Services are emmitting the hypothesis that Sindria could be targetted by that unknown Pirate. Given the dedication and competence one must have to rise to the top rank of the 'Avatar of Vengeance' crew, they are taking this threat seriously. Mobilizing the Guard against a mere pirate however could be interpreted as a sign of weakness, thus a reward of $reward credits has been offered to select renowed mercenary outfits.",
+		"job_forFaction": "sindriant_diktat",
+		"job_deadline": 360,
+		"job_credit_reward": 250000,
+		"job_reward_scaling": 0.5,
+		"job_show_captain": false,
+		"job_show_fleet": true,
+		"job_show_arrow": false,
+		"job_pick_option": "Contact a Sindrian agent to throw your hat into the ring.",
+		"job_memKey": "$redHand",
+
+		"target_personality": "aggressive",
+		"target_level": 6,
+		"target_skill_preference": "CARRIER",
+
+		"fleet_name": "Avatar of Vengeance Armada",
+		"fleet_faction": "pirates",
+		"fleet_flagship_variant": "SKR_cassowaryRH_combat",
+		"fleet_flagship_name": "Red Hand",
+		"fleet_flagship_recoverable": true,
+		"fleet_preset_ships": {
+			"SKR_tumbleweed_p_standard": 1,
+			"SKR_halligan_p_standard": 1,
+			"SKR_adze_p_assault": 2,
+			"SKR_malet_p_assault": 3
+		},
+		"fleet_scaling_multiplier": 0.5,
+		"fleet_min_DP": 75,
+		"fleet_composition_faction": "pirates",
+		"fleet_composition_quality": 1,
+		"fleet_transponder": false,
+		"fleet_behavior": "AGGRESSIVE",
+
+		"location_distance": "CLOSE",
+		"location_themes": [
+			"theme_interesting",
+			"theme_interesting_minor",
+			"theme_ruins",
+			"theme_ruins_main",
+			"theme_ruins_secondary",
+			"procgen_no_theme_pulsar_blackhole"
+		],
+		"location_entities": [
+			"station",
+			"wreck",
+			"debris",
+			"stable_location",
+			"comm_relay",
+			"nav_buoy",
+			"sensor_array",
+			"gas_giant",
+			"planet",
+			"jump_point"
+		],
+		"location_prioritizeUnexplored": true,
+		"location_defaultToAnyEntity": true
+	},
+
+	"SKR_siegfried": {
+		"trigger_marketFaction_any": ["Hegemony"],
+		"trigger_player_minLevel": 10,
+		"trigger_min_days_elapsed": 360,
+		"trigger_weight_mult": 0.25,
+		"trigger_playerRelationship_atLeast": {
+			"hegemony": 0.2
+		},
+
+		"job_name": "Recovery job gone haywire",
+		"job_description": "A pirate warlord intercepted our scavenging expedition returning a precious data vault from a remote dig site before it could transmit its content. The delivery deadline of our contract with the Hegemony Admiralty is looming and we do not have time to gather a new fleet to get it back. While our company cannot afford to put out a huge reward, the expedition did unearthed a very special ship that is now in those pirates hands.",
+		"job_forFaction": "faction_offering_the_job",
+		"job_deadline": 180,
+		"job_credit_reward": 50000,
+		"job_reward_scaling": 1.0,
+		"job_requireTargetDestruction": false,
+		"job_show_captain": true,
+		"job_show_fleet": true,
+		"job_show_arrow": false,
+		"job_pick_option": "Ask for the Warlord's coordinates",
+		"job_memKey": "$skr_siegfried",
+
+		"target_first_name": "Jessica",
+		"target_last_name": "Tazerface",
+		"target_portrait": "SKR_siegfried",
+		"target_gender": "FEMALE",
+		"target_rank": "Captain",
+		"target_post": "Warlord",
+		"target_personality": "aggressive",
+		"target_isAI": false,
+		"target_level": 6,
+		"target_skill_preference": "GENERIC",
+
+		"fleet_name": "Warband",
+		"fleet_faction": "pirates",
+		"fleet_flagship_variant": "SKR_guardian_restored",
+		"fleet_flagship_name": "Unquencheable Bloodlust",
+		"fleet_flagship_recoverable": true,
+		"fleet_preset_ships": {
+			"atlas2_Standard": 2,
+			"SKR_halligan_p_standard": 1,
+			"SKR_halligan_p_support": 1,
+			"falcon_p_Strike": 1,
+			"colossus3_Pirate": 3,
+			"SKR_adze_p_support": 1,
+			"SKR_adze_p_standard": 2,
+			"SKR_malet_pirate": 3,
+			"SKR_malet_p_support": 1
+		},
+		"fleet_scaling_multiplier": 1,
+		"fleet_min_DP": 200,
+		"fleet_composition_faction": "pirates",
+		"fleet_composition_quality": 0.5,
+		"fleet_transponder": false,
+		"fleet_behavior": "AGGRESSIVE",
+
+		"location_distance": "CLOSE",
+		"location_themes": [
+			"theme_derelict_probes",
+			"procgen_no_theme_pulsar_blackhole"
+		],
+		"location_prioritizeUnexplored": false,
+		"location_defaultToAnyEntity": true
+	},
+
+	"SKR_balisong": {
+
+		"trigger_marketFaction_any": ["church"],
+		"trigger_player_minLevel": 10,
+		"trigger_min_days_elapsed": 360,
+		"trigger_weight_mult": 0.25,
+		"trigger_playerRelationship_atLeast": {
+			"church": 0.25
+		},
+
+		"job_name": "Cleansing the corruption",
+		"job_description": "My office gathered significant indications to the location of a machine blending the blight of AI corruption and Human servitude. My superiors would only send reconaissance teams to confirm the location of this abomination, but the machine is cunning and changes location regularly. I only wish to serve my Church, therefore I have gathered all the funds I could to finance a cleansing mission to eliminate this evil.",
+		"job_forFaction": "church",
+		"job_deadline": 360,
+		"job_credit_reward": 190000,
+		"job_reward_scaling": 0.5,
+		"job_requireTargetDestruction": true,
+		"job_show_captain": false,
+		"job_show_fleet": true,
+		"job_show_arrow": false,
+		"job_pick_option": "Accept the job",
+		"job_memKey": "$skr_balisong",
+
+		"target_personality": "aggressive",
+		"target_isAI": true,
+		"target_level": 8,
+		"target_elite_skills": 4,
+		"target_skill_preference": "GENERIC",
+
+		"fleet_name": "AI abomination",
+		"fleet_faction": "remnant",
+		"fleet_flagship_variant": "SKR_balisong_overdrive",
+		"fleet_flagship_name": "Hull 013",
+		"fleet_flagship_recoverable": true,
+		"fleet_preset_ships": {
+			"rampart_Standard": 2,
+			"brilliant_Standard": 1,
+			"bastillon_Standard": 3,
+			"scintilla_Strike": 1,
+			"berserker_Assault": 3,
+			"scintilla_Support": 1,
+			"defender_PD": 3,
+			"lumen_Standard": 3,
+			"picket_Assault": 3,
+			"sentry_FS": 3,
+			"glimmer_Assault": 1,
+			"glimmer_Support": 2,
+			"warden_Defense": 3,
+			"fulgent_Assault": 2,
+			"fulgent_Support": 1
+		},
+		"fleet_scaling_multiplier": 1,
+		"fleet_min_DP": 200,
+		"fleet_composition_faction": "remnant",
+		"fleet_composition_quality": 2,
+		"fleet_transponder": false,
+		"fleet_behavior": "GUARDED",
+
+		"location_distance": "FAR",
+		"location_themes": [
+			"theme_ruins_main",
+			"theme_derelict_survey_ship",
+			"theme_remnant_main",
+			"theme_remnant_suppressed"
+		],
+		"location_prioritizeUnexplored": true,
+		"location_defaultToAnyEntity": true
+	},
+
+	"SKR_dawn": {
+		"trigger_marketFaction_any": ["diktat"],
+		"trigger_player_minLevel": 10,
+		"trigger_min_days_elapsed": 360,
+		"trigger_weight_mult": 0.5,
+		"trigger_playerRelationship_atLeast": {
+			"diktat": 0.25
+		},
+
+		"job_name": "Traitors Hunt",
+		"job_description": "According to our intelligence, a group of defectors managed to get their hand on a 'Dawn-class' battlecruiser and are apparently planning to use it against Sindria. Not much is known for certain about that seemingly unique ship, but the little available from the info-sphere describe it to have been designed as a communication platform before getting militarized. The Lion cannot let those traitors run around spewing lies on all hyperwaves. Sindrian call to all its allies to hunt them down and cut them to pieces.",
+		"job_forFaction": "diktat",
+		"job_deadline": 360,
+		"job_credit_reward": 190000,
+		"job_reward_scaling": 1.0,
+		"job_show_captain": false,
+		"job_show_fleet": true,
+		"job_show_arrow": false,
+		"job_pick_option": "Partake in the hunt",
+		"job_memKey": "$skr_dawn",
+
+		"target_personality": "aggressive",
+		"target_isAI": false,
+		"target_level": 7,
+		"target_skill_preference": "GENERIC",
+
+		"fleet_name": "Freedom Fighters Force",
+		"fleet_faction": "pirates",
+		"fleet_flagship_variant": "SKR_dawn_sunlight",
+		"fleet_flagship_name": "Free Askonia",
+		"fleet_flagship_recoverable": true,
+		"fleet_preset_ships": {
+			"conquest_Elite": 1,
+			"champion_Assault": 1,
+			"champion_Elite": 1,
+			"gryphon_Standard": 1,
+			"gryphon_FS": 1,
+			"heron_Strike": 1,
+			"heron_Attack": 1
+		},
+		"fleet_scaling_multiplier": 1,
+		"fleet_min_DP": 200,
+		"fleet_composition_faction": "diktat",
+		"fleet_composition_quality": 1,
+		"fleet_transponder": true,
+		"fleet_behavior": "GUARDED",
+
+		"location_distance": "CLOSE",
+		"location_themes": [
+			"theme_interesting_minor",
+			"theme_ruins_secondary",
+			"theme_derelict_probes",
+			"procgen_no_theme_pulsar_blackhole"
+		],
+		"location_prioritizeUnexplored": true,
+		"location_defaultToAnyEntity": true
+	},
+
+	"SKR_gawon": {
+
+		"trigger_marketFaction_any": ["church"],
+		"trigger_player_minLevel": 10,
+		"trigger_min_days_elapsed": 360,
+		"trigger_weight_mult": 0.25,
+		"trigger_playerRelationship_atLeast": {
+			"church": 0.25
+		},
+		"trigger_memKeys_all": {
+			"$skr_balisong": true
+		},
+
+		"job_name": "A worse Evil may have been found",
+		"job_description": "Our recent improvements in cross referencing pattern methods revealed some suspicious Remnant activity in the fringes. My organization would like to hire a team to investigate that system and hopefully weed out that cursed nest. Every target must be eliminated.",
+		"job_forFaction": "church",
+		"job_deadline": 360,
+		"job_credit_reward": 300000,
+		"job_reward_scaling": 0.5,
+		"job_requireTargetDestruction": true,
+		"job_show_captain": false,
+		"job_show_fleet": true,
+		"job_show_arrow": false,
+		"job_pick_option": "Accept the job",
+		"job_memKey": "$skr_gawon",
+
+		"target_personality": "aggressive",
+		"target_isAI": true,
+		"target_level": 8,
+		"target_elite_skills": 4,
+		"target_skill_preference": "GENERIC",
+
+		"fleet_name": "AI anathema",
+		"fleet_faction": "remnant",
+		"fleet_flagship_variant": "SKR_gawon_totem",
+		"fleet_flagship_name": "Gawon",
+		"fleet_flagship_recoverable": true,
+		"fleet_preset_ships": {
+			"brilliant_Standard": 2,
+			"scintilla_Strike": 2,
+			"glimmer_Assault": 2,
+			"glimmer_Support": 3,
+			"lumen_Standard": 5
+		},
+		"fleet_scaling_multiplier": 1,
+		"fleet_min_DP": 200,
+		"fleet_composition_faction": "remnant",
+		"fleet_composition_quality": 2,
+		"fleet_transponder": false,
+		"fleet_behavior": "GUARDED",
+
+		"location_distance": "FAR",
+		"location_themes": [
+			"theme_ruins_main",
+			"theme_derelict_survey_ship",
+			"theme_remnant_main",
+			"theme_remnant_suppressed"
+		],
+		"location_prioritizeUnexplored": true,
+		"location_defaultToAnyEntity": true
+	},
+
+	"SKR_quicksilver": {
+
+		"trigger_marketFaction_any": ["independent"],
+		"trigger_marketFaction_alliedWith": true,
+		"trigger_market_minSize": 3,
+		"trigger_player_minLevel": 5,
+		"trigger_weight_mult": 0.25,
+
+		"job_name": "Ruining the parade",
+		"job_description": "   The Navy of $target has somehow managed to restore an old Quicksilver-class battlecruiser prototype into working condition. Records about that ship are spotty at best but all indicates that such an asset could significantly disrupt the balance of powers in the region, and this makes other nearby independent governments anxious. Furthermore given the costs associated with restoring and deploying this ship in combat, it is not excluded that the good governor of $target recieved finacial backings from a third party with their own motivations./n/n   In any case this ship's destruction as been deemed necessary and funds have been allocated for a reward. Fortunately, the ship has been revealed during a military parade and will be very visible while touring the system for the next few weeks. Please note that no 'lettre de marque' will be provided as to not further disrupt the current geo-political landscape.",
+		"job_forFaction": "independent",
+		"job_deadline": 90,
+		"job_credit_reward": 175000,
+		"job_reward_scaling": 0.5,
+		"job_requireTargetDestruction": true,
+		"job_show_captain": false,
+		"job_show_fleet": true,
+		"job_show_arrow": true,
+		"job_pick_option": "Accept the job",
+		"job_memKey": "$quicksilver",
+		"job_conclusion_script": "",
+
+		"target_personality": "aggressive",
+		"target_isAI": false,
+		"target_level": 6,
+		"target_skill_preference": "PHASE",
+
+		"fleet_name": "Military Parade",
+		"fleet_faction": "independent",
+		"fleet_flagship_variant": "SKR_quicksilver_nothingPersonal",
+		"fleet_flagship_name": "ISS A New Hope",
+		"fleet_flagship_recoverable": true,
+		"fleet_preset_ships": {
+			"gremlin_Strike": 6
+		},
+		"fleet_scaling_multiplier": 0.5,
+		"fleet_min_DP": 100,
+		"fleet_composition_faction": "independent",
+		"fleet_composition_quality": 0.5,
+		"fleet_transponder": true,
+		"fleet_behavior": "ROAMING",
+
+		"location_marketFactions": [
+			"independent"
+		],
+		"location_distance": "CORE",
+		"location_themes": [
+			"theme_core_unpopulated",
+			"theme_core_populated",
+			"theme_core"
+		],
+		"location_entities": [
+			"station",
+			"wreck",
+			"debris",
+			"stable_location",
+			"comm_relay",
+			"nav_buoy",
+			"sensor_array",
+			"planet",
+			"jump_point"
+		],
+		"location_prioritizeUnexplored": false,
+		"location_defaultToAnyEntity": true
+	},
+}

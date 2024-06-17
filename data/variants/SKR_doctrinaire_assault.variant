@@ -1,0 +1,32 @@
+{
+    "displayName": "Assault",
+    "fluxCapacitors": 12,
+    "fluxVents": 20,
+    "goalVariant": true,
+    "hullId": "SKR_doctrinaire",
+    "hullMods": [],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "SKR_doctrinaire_assault",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "SKR_intercept",
+                "WS0006": "SKR_intercept"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "SKR_lightspark",
+                "WS0002": "SKR_lightspark",
+                "WS0003": "SKR_lightspark",
+                "WS0004": "SKR_lightspark"
+            }
+        }
+    ],
+    "wings": ["SKR_beetle_wing"]
+}

@@ -1,0 +1,38 @@
+{
+    "displayName": "Vengeance",
+    "fluxCapacitors": 0,
+    "fluxVents": 5,
+    "goalVariant": true,
+    "hullId": "colossus3",
+    "hullMods": [],
+    "permaMods": [
+		"defective_manufactory",
+		"malfunctioning_comms",
+		"degraded_engines"
+	],
+    "variantId": "SKR_colossus3_start",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 015": "lightag"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 016": "railgun"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 013": "vulcan",
+                "WS 014": "vulcan"
+            }
+        }
+    ],
+    "wings": [
+        "perdition_wing",
+        "perdition_wing"
+    ]
+}

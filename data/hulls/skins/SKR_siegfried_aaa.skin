@@ -1,0 +1,46 @@
+{
+    "baseHullId":"SKR_siegfried",
+    "skinHullId":"SKR_siegfried_aaa",
+    "hullName":"Siegfried",
+    "descriptionId":"SKR_siegfried",
+    #"descriptionPrefix":"This ship has been heavily modified - and poorly maintained - by its pirate crew. Despite its concerning state, a proper passage in a dry-dock could restore this ship to its original specs.",
+
+    "baseValueMult":1,
+    "restoreToBaseHull":false,
+    "addHints":[],
+    "tech":"ANTIC_TECH",
+    "removeWeaponSlots":[
+        "LARGE2",
+        "LARGE3",
+        "LARGE4",
+        "LARGE5",
+    ],
+    "removeEngineSlots":[],
+    "removeBuiltInMods":[
+        #"SKR_shieldUpgrade",
+        #"hbi",
+    ],
+    "removeBuiltInWeapons":[
+        "MOUNTS1",
+        "MOUNTS2",
+    ],
+    "builtInMods":[
+        #"SKR_noDeck",
+        "advancedcore",
+        "high_maintenance",
+    ],
+    "builtInWeapons":{
+        "FIRECANE1": "SKR_firecane",
+        "FIRECANE2": "SKR_firecane",
+        "SYSTEM": "SKR_guardianShield",
+    },
+    "systemId":"SKR_fluxTorps",
+    "weaponSlotChanges":{
+        "FIRECANE1":{
+            "type": "BUILT_IN"
+        },
+        "FIRECANE2":{
+            "type": "BUILT_IN"
+        },
+    },
+}

@@ -1,0 +1,34 @@
+{
+    "displayName": "Support",
+    "fluxCapacitors": 0,
+    "fluxVents": 19,
+    "goalVariant": true,
+    "hullId": "SKR_butterfly",
+    "hullMods": [
+        "targetingunit",
+        "pointdefenseai",
+        "turretgyros"
+    ],
+    "permaMods": [],
+    "variantId": "SKR_butterfly_support",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "SKR_revolverBeam",
+                "WS0002": "SKR_revolverBeam"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "taclaser",
+                "WS0004": "taclaser",
+                "WS0005": "taclaser",
+                "WS0006": "taclaser"
+            }
+        }
+    ]
+}

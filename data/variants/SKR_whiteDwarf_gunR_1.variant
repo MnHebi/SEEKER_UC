@@ -1,0 +1,41 @@
+{
+    "displayName": "Right Gun",
+    "fluxCapacitors": 0,
+    "fluxVents": 6,
+    "goalVariant": true,
+    "hullId": "SKR_whiteDwarf_gunR",
+    "hullMods": [
+        "advancedoptics",
+        "autorepair",
+        "turretgyros",
+        "pointdefenseai",
+        "targetingunit",
+        "magazines"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "SKR_whiteDwarf_gunR_1",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0005": "ioncannon"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "pdburst",
+                "WS0002": "pdburst"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "lrpdlaser",
+                "WS0004": "lrpdlaser"
+            }
+        }
+    ]
+}

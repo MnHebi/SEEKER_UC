@@ -1,0 +1,115 @@
+{
+  "hullName": "Endymion",
+  "hullId": "SKR_endymion",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/SEEKER/ships/hidden/SKR_endymion.png",
+  "style": "HIGH_TECH",
+  "height": 79,
+  "width": 94,
+  "center": [47, 32],
+  "collisionRadius": 59.5,
+  "shieldCenter": [9, -0],
+  "shieldRadius": 50.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "high_maintenance"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS 001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 280,
+      "angle": 90,
+      "locations": [-11, 10]
+    },
+    {
+      "id": "WS 002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 280,
+      "angle": -90,
+      "locations": [-11, -10]
+    },
+    {
+      "id": "WS 003",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [6, 28]
+    },
+    {
+      "id": "WS 004",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [6, -28]
+    },
+    {
+      "id": "WS 005",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [20, 13]
+    },
+    {
+      "id": "WS 006",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [20, -13]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-24, 17.5],
+      "length": 64,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-26, -0],
+      "length": 67,
+      "width": 19,
+      "angle": 180,
+      "contrailSize": 19,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-24, -17.5],
+      "length": 64,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    11, 45,
+    -15, 37,
+    -28, 26,
+    -24, 17.5,
+    -28, 0,
+    -24, -17.5,
+    -28, -26,
+    -15, -37,
+    11, -45,
+    8, -39,
+    12, -23,
+    46, -0,
+    12, 23,
+    8, 39
+  ]
+}

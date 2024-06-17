@@ -1,0 +1,533 @@
+id,type,text1,text2,text3,notes
+,,,,,
+# WEAPONS WEAPONS WEAPONS,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+SKR_minigun,WEAPON," The ""Minigun"", officially produced under the name M2660 Ragdoll, is a very long-range support weapon outputting an impressive amount of ordinance for a reasonable amount of flux. The small ammunition is not much of a threat to any decent armor, but the constant barrage produced will severely limit the tactical options available to a captain or a pilot on its receiving end.
+
+ ""Miniguns"" rose and fell out of the spotlight multiple times over the cycles since their introduction, depending on the tactical precepts in fashion at the time. The reason for their resilience is that it is never a bad idea to have a couple of them prodding the enemy's defense from stand-off range to gain the upper hand in mobility. On the other hand, their limited effective damage means spending flux and loosing access to weapon emplacements that could otherwise be used for destroying or disabling an opponent.",,,
+,,,,,
+SKR_557Gun,WEAPON," The Asteïsmós is a seemingly oversized rotary shotgun firing flak shells, built into the 557-class frame. Due to the specific needs of the bounty-hunter target clientele, the ship was equipped with the biggest, loudest, most impressive main armament possible. The goal was to make future targets see reason and surrender without having to fire a shot and put the payday at risk. Some say that it barks louder than it bites compared to other guns of this size, but the weapon-enhancing system of the 557-class will quickly mute those naysayers.",Assault,,
+,,,,,
+SKR_executioner,WEAPON," An oversized smoothbore cannon meant as a precision bunker buster and used during trans-atmospheric strikes. It has since been somewhat modernized to compete in pure space battles. Its main drawbacks are the lackluster range and the fact that the cramped housing has prevented any proper auto-loader installation. Manual ammo clip loading is a somewhat routine operation aboard a Marksman, but a well-trained crew under precise coordination can attempt to pull off what is known as a ""Blazing Flamingo"". In short, the first shell of a clip can be loaded with an oversized propulsion charge, then all flux dissipation conduits have to be promptly connected to the breech to contain the extra pressure and produce a much stronger shot. If fumbled, however, the entire clip has to be removed before a shell can be fired again.",Precision Strike,,
+,,,,,
+SKR_kaleidoscope,WEAPON," The Kaleidoscope Point Defense weapon is the definitive answer to PD saturation. Able to freely divide its beam firepower between up to five missile targets, this device is exceptionally well suited to defend against swarms of fragile missiles. It can also stop quite effectively even the most resilient torpedo. However, the flux requirements for this weapon are particularly high, potentially leaving the ship undefended the moment its energy grid is saturated.",Advanced Point Defense,,
+,,,,,
+SKR_ravagerBI,WEAPON," A brutal plasma projector shooting fusion canisters that spread out after leaving the barrel and tend to destabilize shields through repeated impacts. A rare example of a High-Explosive energy weapon that is unfortunately lacking in punch to defeat heavy armor. It is however quite suited to deal with small opponents or as support fire to help other ships.",Assault,,
+,,,,,
+SKR_ravager,WEAPON," A brutal plasma projector shooting fusion canisters that spread out after leaving the barrel and tend to destabilize shields through repeated impacts. A rare example of a High-Explosive energy weapon that is unfortunately lacking in punch to defeat heavy armor. It is however quite suited to deal with small opponents or as support fire to help other ships.",Assault,,
+,,,,,
+SKR_modsL,WEAPON," The Multi-Ordnance Delivery System is a multi-warhead carrier missile that uses combined ammo types to defeat the enemy defenses, whether it is opposed by armor or shield. In layman terms, it is a Reaper torpedo warhead mounted on top of a long-range missile along with four high acceleration rockets tipped with shield penetrators. The resulting system can deliver a devastating kinetic/high-explosive one-two punch. Unsurprisingly, the complete missile is quite large, so large in fact that storing them is not a trivial problem to solve. As it turned out, it was more practical to build the missiles on-the-fly using a facility similar, albeit smaller, to the ones used on carrier to replenish fighter losses. As such, it is not possible to create a modular version of the weapon.",Strike,,
+SKR_modsR,WEAPON," The Multi-Ordnance Delivery System is a multi-warhead carrier missile that uses combined ammo types to defeat the enemy defenses, whether it is opposed by armor or shield. In layman terms, it is a Reaper torpedo warhead mounted on top of a long-range missile along with four high acceleration rockets tipped with shield penetrators. The resulting system can deliver a devastating kinetic/high-explosive one-two punch. Unsurprisingly, the complete missile is quite large, so large in fact that storing them is not a trivial problem to solve. As it turned out, it was more practical to build the missiles on-the-fly using a facility similar, albeit smaller, to the ones used on carrier to replenish fighter losses. As such, it is not possible to create a modular version of the weapon.",Strike,,
+,,,,,
+SKR_glare,WEAPON," A strong burst beam in and of itself, the Glare weapon system was developed on the heels of the Dawn-class ceramic armor demonstrator by the New Dallas Heavy Construction shipyard. The design was both to complement the ship's battlefield control abilities, as well as an attempt to prove the viability of the same organic/ceramic armor used for the Dawn's outer shell in weapon construction. However, the main benefit of that type of design is limited to an easier combined maintenance of both the ship and its weapons through shared tools and procedures. Given the extreme rarity of ceramic-based military designs and the prohibitive construction cost, only a single batch of Glare heavy beams was ever produced before the collapse.",Support,,
+,,,,,
+SKR_obsidianL,WEAPON," An internal fast-fed missile weapon built-in the Onyx-class battle-cruiser. While the ordnance has a low yield and minimal guidance, they can be launched in large numbers in an attempt to saturate point-defenses. While the loading system does produce a significant amount of Flux, it is still a far cry from what an Energy-based weapon would produce for similar performances.",Assault,,
+SKR_obsidianR,WEAPON," An internal fast-fed missile weapon built-in the Onyx-class battle-cruiser. While the ordnance has a low yield and minimal guidance, they can be launched in large numbers in an attempt to saturate point-defenses. While the loading system does produce a significant amount of Flux, it is still a far cry from what an Energy-based weapon would produce for similar performances.",Assault,,
+,,,,,
+SKR_blackout,WEAPON," A modified large Pulse Laser that would be somewhat unremarkable if it wasn't specifically designed to take down those heavily shielded targets energy weapon usually struggle against. While the raw damage output would place it in competition with smaller weapons such as the Heavy Blaster, the Blackout eke an edge thanks to a dual ammo system: For the last shot of each clip the weapon fires a modified projectile that carries a heavy EMP payload. With the target's shield hopefully already destabilized by the previous shots, some EMP arcs can defeat the protection and hit the hull, with more potency the higher the enemy's flux levels are. And with these special projectiles only used every few shots, the weapon can keep a very favorable Flux to Fire ratio.",Assault,,
+,,,,,
+SKR_fuscina,WEAPON," An internally mounted modified Phase Lance found on Retiarius-class cruisers. While non-modular, the emitter has been coupled with a compact capacitor bank allowing it to cycle multiple times in a short duration before having to recharge. Additionally, higher quality-control during the fabrication selected top tier gravitic lenses, keeping the beam's concentration to nominal levels over a longer range. However cooling issues have lead to a slightly shorter burst duration, leading to only a small improvement in performances over the original device.",Assault,,
+,,,,,
+SKR_reaper,WEAPON," An internal ammo-fed launch tube firing unguided torpedoes of devastating yield with a powerful on-board engine. The quintessential strike weapon, a single Reaper torpedo is a large self-propelled, armored, unguided delivery system for an enriched AM-catalysed nuclear warhead. The science behind the surprisingly compact detonator is poorly understood in the Sector though widely speculated to be based on physics classified as secret by Domain authority. What is known is that three or four of these slipping through PD arcs are enough to destroy even the largest capital ship.",Strike,,
+,,,,,
+SKR_sunburst,WEAPON," A fast mines deployment system, the Sunburst vehicle launcher can give to a captain an unprecedented control on the battlefield's flow. While not exactly deadly individually, the sheer amount of devices deployed by the carrier missile can give pause to cruiser-sized ships and above. Sadly, given the inherent chaos of space battles (as well as a dozen treaties against undiscriminating bombardment), the mines are kept on short-timed fuse to avoid friendly fire accidents.",Area Denial,,
+,,,,,
+SKR_gatlingLance,WEAPON," A rare weapon illustrating perfectly the difficult issues to overcome when designing high power long-range beam projectors: Cooling requirements scale exponentially with higher output and shorter wavelengths. In this instance, nothing short of brute centripetal force could ensure a fast and uniform enough vapor-based heat dissipation of the emitters. The rotating twin assembly dictates the fast repeating bursts profile of the attack of the device. Unfortunately, minute offsets in the timing of the discharge or the alignment of the lenses cause the very distinct inaccuracy of the successive beams. On the other hand, it can sustain a continuous operation with a favorable flux ration, as long as the grid holds or combat damage occurs.",Assault,,
+,,,,,
+SKR_antiMissilesLauncher,WEAPON," Launches fast and quite agile small missiles designed to intercept incoming threats. The warhead is weak but loaded with enough shrapnel to reliably damage missiles. It is however largely ineffective against any other type of target.",Point Defense,,
+,,,,,
+SKR_stepMissilesLauncher,WEAPON," Launches high payload missiles that appear to have unlimited acceleration. However, they can only fly in a straight line, thus they aim for their target before firing up their engine.",Assault,,
+,,,,,
+SKR_stepMissilesRack,WEAPON," Launches high payload missiles that appear to have unlimited acceleration. However, they can only fly in a straight line, thus they aim for their target before firing up their engine.",Assault,,
+,,,,,
+SKR_accelMissilesLauncher,WEAPON," Launches Kinetic missiles with an average acceleration but high top speed and decent guiding system. However, they are somewhat short-ranged and fragile.",Close Support,,
+,,,,,
+SKR_accelMissileRack,WEAPON," Launches Kinetic missiles with an average acceleration but high top speed and decent guiding system. However, they are somewhat short-ranged and fragile.",Close Support,,
+,,,,,
+SKR_firecane,WEAPON,"Humongous artillery platform designed for the Siegfried-class Dreadnought. It consists of three over-sized Hellbore cannons with extended range that can decimate any target caught in their cone of fire in a matter of seconds. Due to the extreme amounts of flux produced by internal plasma chambers, the Firecane Artillery Platform uses an interconnected duel system, rather than having a separate chamber for each barrel. This works through a highly complex loading system and allows for a steady rate of fire without overworking the internal venting systems too much. Its sheer amount of raw firepower coupled with ludicrous weight is enough to tear itself from any standard mount after a few shots. To counter this, the Guardian-class utilizes specialized dampening fields in the Firecane weapon mounts and heavily reinforced the surrounding structure. This solution creates a substantial amount of extra flux per shot and slows the already pitiful turning speed even further. Despite these efforts, the violent shocks can still be felt all throughout the ship, and are strong enough in the weapon control room that the crew manning them can develop cardiac arrhythmia after prolonged fire.",Fire Support,,
+,,,,,
+SKR_targetPainterSmall,WEAPON," Low power laser used to light priority targets for other conventional weapons. It is quite useless by itself. It can also be used to map hulls, but given that doing so tends to fry un-shielded electronic sensors and/or give massive headaches to the crew working on the surface, it is universally regarded as a deliberately insulting gesture.",Special,,
+,,,,,
+SKR_balisongPulse,WEAPON," A huge non-modular variant of the Autopulse Laser that traded its rate of fire for a much higher damage output and longer range. The assembly is so large it cannot be fitted in normal weapon mounts and instead has to use a small-scale station module attachment ring designed for the Balisong-class cruiser. As a result, the weapon tends to sway a little during high G maneuvers. The ludicrous energy requirement also limits the number of shots that can be fired before a recharge cycle must be initialized. The whole device is then physically plugged directly into the main reactor to restore the internal capacitors.",Assault,,
+,,,,,
+SKR_balisongBushwhacker,WEAPON," A multi-stage up-scaled variant of the Plasma cannon installed internally within the Balisong-class cruiser. Unlike its modular cousin, this variant can undergo multiple charge cycles without releasing the plasma bolt, each time increasing its potential destructive power. A fully charged projectile packs a mean wallop, equivalent to four times a regular Plasma Cannon shot. However that charge cycle is time-consuming and pretty obvious on every scopes and sensors: enemy captains will be able to easily anticipate the coming shot. Nevertheless, against targets too large to evade its fury the Bushwhacker has little competition in term of raw destructive power.",Heavy Assault,,
+,,,,,
+SKR_balisongPD,WEAPON," An odd modular micro-drone bay. The initial concept was sound with the idea of mounting drone-based 360 degrees point-defenses in any ship's weapon slot, but the result was sadly underwhelming. Those drones are too small to hold their own flux systems and require constant energy feeding from the host ship via micro-wave beam. Additionally, the targeting system was never fully implemented into the mobile frame, limiting the firing arc to the one of a regularly mounted weapon. Their sole redeeming value is their constant firing coupled with a more than decent damage output for a small weapon, albeit at a lower efficiency than regular beams.",Point Defense,,
+,,,,,
+SKR_revolver,WEAPON," A large energy weapon with such energy requirement that it is only found on the Butterfly-class destroyer. Using a ring of discrete capacitors instead of a single larger bank, this weapon is able to produce powerful laser bolts at a properly ridiculous fire rate before they need to be recharged.",Assault,,
+SKR_revolverBeam,WEAPON," A large energy weapon with such energy requirement that it is only found on the Butterfly-class destroyer. Using a ring of discrete capacitors instead of a single larger bank, this weapon is able to produce powerful beams at a properly ridiculous fire rate before they need to be recharged.",Assault,,
+,,,,,
+SKR_drill,WEAPON," A massive phase charge projector built-in the Trailblazer-class hull. Can deal an inordinate amount of damage regardless of defenses but is extremely unwieldy, short-ranged, and difficult to aim. While it is a ""gun"" in the sense that a projectile is fired, the RD is unique in that it has a completely sealed barrel on both ends. The projectile is closer to a drone than an inert slug and is effectively phased out of normal space before reaching the end of the barrel. It then causes so-called ""phase rifts"" or micro-fissures of normal space. Too thin and short-lived to really tear apart a large object like a ship but enough to cause some local damage to the affected components that can see part of their structure suddenly shift a few atoms away. When the charge has expended its energy, it phases back to normal space and detonate, hopefully within an enemy target. The unstoppable nature of this weapon with the large area of effect makes it absolutely terrifying. It is unfortunate that the short-range and sluggish projectile also makes it easy to dodge, overall limiting the large-scale use of such a device.",Oddity,,
+,,,,,
+SKR_gawk,WEAPON,"I peer through pitch black space; Searching behind the veil of the Universe; To find a signature;",Evicerator,,
+,,,,,
+SKR_akita,WEAPON," Unrelenting sprint-type missile that carries a massive AM-boosted fusion warhead. The Akita is optimized to deliver the killing blow at the first opportunity by offering an impressive top speed and decent resilience to PD. It is however not suited to strike nimble targets as it can be easily dodged when it reaches its top speed.",Strike,,
+,,,,,
+,,,,,
+,,,,,
+SKR_glutton,WEAPON," This massive rocket appears to be composed of four regular Harpoon missiles affixed to a carrier vehicle. The increase in effective range is considerable, but the vulnerability of the bus makes it easy to intercept before separation.",Long Range Assault,,
+,,,,,
+SKR_canister,WEAPON," An antiquated device used to send payloads of mineral or liquid across a solar system. The advent of torch-ships, as well as the difficulties and risks incurred by the reception of the canister, have long rendered this technology obsolete.",Trans-orbital delivery,,
+,,,,,
+SKR_chain,WEAPON," The misnamed ""Chain Lightning Cannon"" is a large scale Gauss-like weapon that does not create something as mundane as lightning in space. Instead, it weakens the barrier between the highly energetic hyperspace dimension and normal space, causing micro-fractures between objects of sufficient mass present in the area (such as ships) through which pours plasma. The larger masses cause more fractures, leading to more damage caused by torrents of star-hot particles. While spaceships break the hyperspace interface daily, manipulating it in such a fine manner is way beyond what should be achievable even using the latest Domain tech.",Fleet Assault,,
+,,,,,
+,,,,,
+,,,,,
+SKR_tusk,WEAPON," Fires slow but long-ranged torpedoes tipped with AM-boosted nukes. Potent against all defenses and an absolute priority to intercept.",Assault,,
+SKR_tusk_medium,WEAPON," Fires slow but long-ranged torpedoes tipped with AM-boosted nukes. Potent against all defenses and an absolute priority to intercept.",Assault,,
+,,,,,
+SKR_pdCharger,WEAPON," A potent beam weapon that would nullify any missile threat if it was not for its unfortunately long reload sequence.",Point Defense,,
+,,,,,
+SKR_pdGrenade,WEAPON," A light mortar that launches PD charges able to deal with a large amount of incoming threats at once.",Point Defense,,
+,,,,,
+SKR_burstPulse,WEAPON," A modified IR Pulse Laser that can unleash a flurry of energy bolts in a very short span of time.",General,,
+,,,,,
+SKR_intercept,WEAPON," A reassembled Hyper-velocity Driver using a flak ammo somehow able to survive the staggering firing acceleration. ",Long Range Anti-fighter,,
+,,,,,
+SKR_assaultRevolver,WEAPON," A melded and down-scaled Hephaestus Assault gun that kept its damage potential and more, albeit only for short bursts.",Assault,,
+,,,,,
+SKR_hvBlaster,WEAPON," A reinforced and clip-fed Heavy Blaster firing heavy plasma ammunition at an extended range with pin-point accuracy.",Assault,,
+,,,,,
+SKR_fauchard,WEAPON," A fused twin Tachyon Lance with terrifying destructive power.",Strike,,
+,,,,,
+SKR_dainsleif,WEAPON," A long range weapon based on the Mjolnir but modified with seemingly non-Domain technology to enhance its reach and destructive power.",Artillery,,
+,,,,,
+SKR_sling,WEAPON," The Sling torpedo is a long-range high payload missile with an unusual energy-based warhead. While not exceptional in any particular area, the vehicle has an efficient engine and a modern targeting package, allowing reliable strikes from stand-off range. The warhead on the other hand is quite peculiar, using a matter/anti-matter nuke to vaporize a thick shell of tungsten into a heavy plasma cloud expanding at relativistic speed. The shockwave created is very efficient at disrupting shields as well as hammering armor and hulls.",Long-Range Support,,
+,,,,,
+SKR_lightspark,WEAPON," The Lightspark is a small, fast missile with a low-yield payload and limited tracking. The Plasma warhead is charged directly from the ship's grid after the vehicle has been loaded on the launch rails, bypassing the requirements for an armored storage compartment. That means the launcher's bustle can safely hold a large amount of ammunition and can be refilled in combat directly from the ship's main ammo magazines.",Short Range Pressure,,
+,,,,,
+SKR_lightstreak,WEAPON," A mid-range lightning missile with a somewhat weak payload used to counter encirclements from lighter ships. They can also pose a threat to larger ships when deployed in sufficient numbers since they are somewhat decent at bringing down shields thanks to their energy-like warhead.",Anti-Frigates,,
+,,,,,
+SKR_heavyLightstreak,WEAPON," An upgraded variant of the Lightstreak missile equipped with a long-range first stage that can deploy a standard volley of three missiles. While the regular Lightstreak is a potent defensive tool for large ships to fend off flanking fast movers, this support variant is ideal for softening up an enemy group before they get in range.",Long Range Support,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+# SHIPS SHIPS SHIPS,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+# PLAGUE BEARERS
+# PLAGUE BEARERS
+# PLAGUE BEARERS
+,,,,,
+SKR_fireant,SHIP,"A deadly interceptor of unknown origin able to dispatch shielded and armored strike crafts with equal ease. Wings of Fire-Ants have successfully engaged frigates when left unchecked.",,,
+,,,,,
+SKR_pillbug,SHIP,"A resilient support strike craft boasting active flares and a ship-sized Ion Pulser. While not a massive threat by themselves, they are rarely deployed alone. Instead, they support other wings by disabling a target's defenses with incredible efficiency.",,,
+,,,,,
+SKR_beetle,SHIP,"A heavy strike craft wing of unknown origin defying classification. At the same time interceptor, bomber, and superiority fighter. It is deadly in all situations and its elimination should be a top priority.",,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+SKR_fanatic,SHIP,"This extensively modified Medusa chassis is warped around a spinal large hybrid mount, completely changing the ship's role from skirmisher to artillery platform. This new doctrine is further enhanced by the Fortress Shield system that was somehow shoehorned in the cramped hull. This change was only made possible by removing the original shield emitter, now replaced by a smaller, much narrower one.
+
+The planet Abraxia was one of the first hit by Cataclysm. The population watched the monstrous ship consume most of their technological base and infect the remains with what can only be described as a plague. Given the chaos so soon after the Collapse, it is not surprising it took nearly ten cycles for their system to be visited by a group of scavengers. Only after they let a small group from the remaining survivors on board their ships, the unfortunate crews discovered a cult had developed on the planet. They believe that Cataclysm is the harbinger of the End Times and should be helped in its endeavor. The Cultists quickly took over the ships, modified them in the image of Cataclysm, and are now traveling alongside it. While it is unclear if there is any communication between fanatics and their deity, it is apparent that they share a symbiotic relationship: the Cultists provide an escort, and Cataclysm leaves them an immense amount of supplies during its feeding times.",,,
+,,,,,
+SKR_cultist,SHIP,"The arced back structure makes it hard to tell, but this class is likely a modification of a Sunder-class chassis. The weapon emplacements have been altered a lot, but the energy grid still bears some resemblance with the original design.
+
+The planet Abraxia was one of the first hit by Cataclysm. The population watched the monstrous ship consume most of their technological base and infect the remains with what can only be described as a plague. Given the chaos so soon after the Collapse, it is not surprising it took nearly ten cycles for their system to be visited by a group of scavengers. Only after they let a small group from the remaining survivors on board their ships, the unfortunate crews discovered a cult had developed on the planet. They believe that Cataclysm is the harbinger of the End Times and should be helped in its endeavor. The Cultists quickly took over the ships, modified them in the image of Cataclysm, and are now traveling alongside it. While it is unclear if there is any communication between fanatics and their deity, it is apparent that they share a symbiotic relationship: the Cultists provide an escort, and Cataclysm leaves them an immense amount of supplies during its feeding times.",,,
+,,,,,
+SKR_zealot,SHIP,"While the silhouette is still reminiscent of the original Apogee hull, the internal structure is entirely reversed front-to-back. The bridge is now far to the rear, but the bulk of the weapon mounts have been crammed to the front, huddling the new main reactor emplacement. 
+
+The planet Abraxia was one of the first hit by Cataclysm. The population watched the monstrous ship consume most of their technological base and infect the remains with what can only be described as a plague. Given the chaos so soon after the Collapse, it is not surprising it took nearly ten cycles for their system to be visited by a group of scavengers. Only after they let a small group from the remaining survivors on board their ships, the unfortunate crews discovered a cult had developed on the planet. They believe that Cataclysm is the harbinger of the End Times and should be helped in its endeavor. The Cultists quickly took over the ships, modified them in the image of Cataclysm, and are now traveling alongside it. While it is unclear if there is any communication between fanatics and their deity, it is apparent that they share a symbiotic relationship: the Cultists provide an escort, and Cataclysm leaves them an immense amount of supplies during its feeding times.",,,
+,,,,,
+SKR_guru,SHIP,"Possibly a modified Heron-class hull, the Guru combines a pair of flight decks with a large weapon emplacement. This makes it a terrifying support platform event before taking into account the destructive potential of Plague-borne weapons and wings.
+
+The planet Abraxia was one of the first hit by Cataclysm. The population watched the monstrous ship consume most of their technological base and infect the remains with what can only be described as a plague. Given the chaos so soon after the Collapse, it is not surprising it took nearly ten cycles for their system to be visited by a group of scavengers. Only after they let a small group from the remaining survivors on board their ships, the unfortunate crews discovered a cult had developed on the planet. They believe that Cataclysm is the harbinger of the End Times and should be helped in its endeavor. The Cultists quickly took over the ships, modified them in the image of Cataclysm, and are now traveling alongside it. While it is unclear if there is any communication between fanatics and their deity, it is apparent that they share a symbiotic relationship: the Cultists provide an escort, and Cataclysm leaves them an immense amount of supplies during its feeding times.",,,
+,,,,,
+SKR_believer,SHIP,"At first glance this modified Vigilance-class does not look like much of an improvement, loosing the benefits of both a turreted gun and front-facing hard-point for missile. This impression is quickly dispelled when the Believer-class uses its Phase Displacer system, turning the unassuming hull into an upgraded Wolf-class equivalent.
+
+The planet Abraxia was one of the first hit by Cataclysm. The population watched the monstrous ship consume most of their technological base and infect the remains with what can only be described as a plague. Given the chaos so soon after the Collapse, it is not surprising it took nearly ten cycles for their system to be visited by a group of scavengers. Only after they let a small group from the remaining survivors on board their ships, the unfortunate crews discovered a cult had developed on the planet. They believe that Cataclysm is the harbinger of the End Times and should be helped in its endeavor. The Cultists quickly took over the ships, modified them in the image of Cataclysm, and are now traveling alongside it. While it is unclear if there is any communication between fanatics and their deity, it is apparent that they share a symbiotic relationship: the Cultists provide an escort, and Cataclysm leaves them an immense amount of supplies during its feeding times.",,,
+,,,,,
+SKR_follower,SHIP,"An arguably upgraded Brawler-class hull that trades a lot of the long range firepower from its former medium hard-points for a collection of smaller ones. Coupled with its new Temporal Shell system, the trade-off can heavily tilt in favor of this new layout if provided with an adequate weapon selection. Especially considering the new rear turret covering one of the glaring weakness of the original.
+
+The planet Abraxia was one of the first hit by Cataclysm. The population watched the monstrous ship consume most of their technological base and infect the remains with what can only be described as a plague. Given the chaos so soon after the Collapse, it is not surprising it took nearly ten cycles for their system to be visited by a group of scavengers. Only after they let a small group from the remaining survivors on board their ships, the unfortunate crews discovered a cult had developed on the planet. They believe that Cataclysm is the harbinger of the End Times and should be helped in its endeavor. The Cultists quickly took over the ships, modified them in the image of Cataclysm, and are now traveling alongside it. While it is unclear if there is any communication between fanatics and their deity, it is apparent that they share a symbiotic relationship: the Cultists provide an escort, and Cataclysm leaves them an immense amount of supplies during its feeding times.",,,
+,,,,,
+SKR_devotee,SHIP,"This remodeled Centurion-class mostly kept its original form, if you omit the massive built-in torpedo tubes that replaces what used to be a small missile emplacement. The shield-enhancing system allows it to close range unimpeded with targets multiple times its size and unleash the fury of its main armament, but unlike the original ship it is less survivable against multiple small opponents.   
+
+The planet Abraxia was one of the first hit by Cataclysm. The population watched the monstrous ship consume most of their technological base and infect the remains with what can only be described as a plague. Given the chaos so soon after the Collapse, it is not surprising it took nearly ten cycles for their system to be visited by a group of scavengers. Only after they let a small group from the remaining survivors on board their ships, the unfortunate crews discovered a cult had developed on the planet. They believe that Cataclysm is the harbinger of the End Times and should be helped in its endeavor. The Cultists quickly took over the ships, modified them in the image of Cataclysm, and are now traveling alongside it. While it is unclear if there is any communication between fanatics and their deity, it is apparent that they share a symbiotic relationship: the Cultists provide an escort, and Cataclysm leaves them an immense amount of supplies during its feeding times.",,,
+,,,,,
+SKR_doctrinaire,SHIP,"A comparatively mild re-engineering of the Gemini-class pocket carrier that packs a somewhat bigger punch at the cost of its former cargo capacity. The Doctrinaire-class' reversed flight deck offers significantly more room for efficient operation, but this is also a rare instance where a ship modified by cultists sports smaller mounts than its original hull.
+
+The planet Abraxia was one of the first hit by Cataclysm. The population watched the monstrous ship consume most of their technological base and infect the remains with what can only be described as a plague. Given the chaos so soon after the Collapse, it is not surprising it took nearly ten cycles for their system to be visited by a group of scavengers. Only after they let a small group from the remaining survivors on board their ships, the unfortunate crews discovered a cult had developed on the planet. They believe that Cataclysm is the harbinger of the End Times and should be helped in its endeavor. The Cultists quickly took over the ships, modified them in the image of Cataclysm, and are now traveling alongside it. While it is unclear if there is any communication between fanatics and their deity, it is apparent that they share a symbiotic relationship: the Cultists provide an escort, and Cataclysm leaves them an immense amount of supplies during its feeding times.",,,
+,,,,,
+,,,,,
+,,,,,
+SKR_keep,SHIP,"These sturdy exploitation platforms assisted Sporeships with their terraformation projects. They were sent to gather resources on a grand scale from barren worlds. They also had decent production capabilities and were equipped with advanced AI cores to operate autonomously from their assigned Sporeship. However, this particular one seems to have been modified by someone. Or something. It was nicknamed ""Safeguard"" by the captain of the first ship to encounter it. No communication could be established with the ship using regular ship-to-ship channels, and none of the usual noise was detected on the Domain Explorarium frequencies.
+
+Safeguard used to be almost entirely passive, only maintaining its orbit around a gas giant, until boarding was attempted. Communications were scrambled by the sheer magnetic influence of the hulk as the marine shuttle approached a maintenance bay. Direct telescope observations showed the team penetrating the service door of the hangar without issue. Six minutes and twenty-two seconds later, the ship activated its shield and opened fire on the observation fleet. After the battle that saw seven cruisers destroyed as well as their escort, a rescue team found one of the boarding party helmets floating in space. It had no sign of damage or blood. Furthermore, it looked brand new, as if it had never been worn at all, including a complete absence of loose hairs of skin cells. The computer chip was reset back to its factory state, without any recording to recover.
+ 
+Since then Safeguard has been maintaining a strict exclusion zone inside the system, using its modified Mass Driver to strike offending ships from its orbit.","Modified Exploitation Platform","The database indicates a 42 percent probability you are looking at a Domain Explorarium Pangea-class Exploitation Platform. Granted each model of this class was uniquely tailored to the specificities of their project, but this one looks to have been altered in ways that go way beyond that. Long range observation can already discern numerous weapon emplacements, and a functional landing bay.",
+,,,,,
+SKR_rampage,SHIP,"While the signature of the engine would designate this ship as part of the Domain Explorarium, a glance at the hull composition and design will dispel that hypothesis immediately. This ship, known as ""Rampage"", features components and weapons from all eras of the Domain, somehow integrated on a chassis of unknown origin into a working warship. No communication attempts yielded an intelligible response so far, although signals have been detected in response from hails. While Rampage's answer to hostile actions is frightening in its efficiency, it rarely actively pursues other ships as long as they keep their distance.
+
+The hull itself is the most puzzling part of the ship. Under a film of titanium, it is made out of a crystalline mesh of carbon and silicate alloys. It is unclear if this is an organic material that is grown, manufactured, or if this structure is the skeleton of some giant alien beast. The first hypothesis is currently the favored one as it would fall within the reach of the Domain's technological knowledge. However, there is no known example of such a production method being used in the sector.","Unknown design","This hull does not resemble anything you have ever seen. Actually it does not even look manufactured, but instead like some green lava grew around and over pieces of ships, cobbling them together somehow in a functional spacecraft. In any case, this ship radiates a considerable amount of energy and should not be underestimated.",
+,,,,,
+SKR_whiteDwarf,SHIP,"What was first thought to be a modified AI Radiant turned out to be... well, that technically, but not just that. While usually found in Remnant space, the White Dwarf does not act like one. It will destroy any ship or probe coming too close, but it does not actively pursue human spaceships, nor answer hails. It does not even help other nearby Remnant ships when they are in trouble, as observed during a Reclamation campaign. 
+
+It was observed loitering around a star at the same time a combined Hegemonic and Luddic fleet was destroying the system's Nexus. After the fleet departed, scouts left behind to observe its behavior reported that White Dwarf then went to the station's wreck and started cannibalizing it. Given its apparent disdain for hunting, the Hegemonic admiralty decided to not commit to destroying White Dwarf unless absolutely necessary, or if it started moving in the direction of the Core Worlds. The Luddic Admiralty disagreed with that decision and sent one, then a second expedition to take out what they saw as an AI abomination. The reports from the few survivors changed their minds and they have since joined the Hegemony in their ""wait and observe"" stance.","Radiants????Radiants????Radiants","This monstrosity would appear to be a Radiant-class remnant ship... Or two, with also a Nexus and a few other hulls too altered to be recognizable. Menacing prongs are bound to house some oversized weapons and a swarm of drones is continuously circling the ship.",
+,,,,,
+SKR_cataclysm,SHIP,"Cataclysm was first encountered by the inhabitants of the planet Abraxia when the ship appeared near their inactive gate. In a matter of weeks, it thoroughly destroyed all infrastructure present in the system, absorbing most of it to repair itself. The planet was left helpless with nary a tool to feed a population numbering in the millions: every bit of metal had been eaten by a buzzing grey mist. After that striking event, it vanished for nearly a decade before other rumors about a new sighting were reported. It all sounded like ghost ship stories until another system was hit. Since then Cataclysm has always been tracked by military forces and bounty hunters, but rarely found.","ERROR*ERROR*ERROR*ERROR"," ""File unavailable. Please contact our customer service and update your credentials to access this file"" says the report. Quite the overbearing fore-shadowing, or maybe your future epitaph. The oversized hull was floating like a humongous armor piercing shell ready to be fired through your flagship. The distributed power sources are already making your staff anxious, as this thing may combine Station-grade firepower with some unnatural mobility.",
+,,,,,
+# PLAGUE BEARERS
+# PLAGUE BEARERS
+# PLAGUE BEARERS
+# PLAGUE BEARERS
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+# GUNSHIPS
+SKR_malet,SHIP,"The Malet-class is a tough and dependable frigate often used for policing duties. Although their considerable armament can be considered wasteful, it also acts as a strong deterrent against Stupid Moves(TM) when dealing with small-time smugglers or traffic violations. They can also be used in larger engagements as long-range harassers against slower opponents, although it always is risky a proposition for any frigate in such high-intensity battles.
+
+Developed by Apollo Skunkworks for the Green-Thumb mercenary outfit, and produced exclusively in their private shipyards, the Malet and its cousins never saw widespread use before the Collapse. However, the Corvus branch of the GT scattered in a few months after the event, and their rented shipyard dock was progressively looted for blueprints by their departing contractors.",,,
+
+SKR_adze,SHIP,"The Adze-class is a rapid-response destroyer that usually gets deployed in wolf packs when dealing with fluid hostile situations. The design presents a versatile weapon layout, that can easily maximize its arsenals' full potential thanks to a Burst Jets system.
+
+Before the gate shut down, Adzes were almost exclusively used by the Green-Thumb private defense contractor, along with their design cousins. The chapter present in the sector disbanded a few months after the Collapse until an unlikely opportunity ushered their reformation decades later: The First AI War left a whole lot of rogue AI ships roaming around, and none of the weakened major factions wanted to spend any of their remaining forces to pacify nearby systems. With the signature of the armistice, a brand new market for mercenaries appeared. Some former GT officers with connections were quick to capitalize upon this event.",,,
+
+SKR_halligan,SHIP,"Halligan-class cruisers possess superior mobility with few compromises in other areas, making them a reliable and versatile all-rounder. Their numerous missiles pylons can make them particularly vicious during the opening salvos of an engagement, allowing their captains to quickly gain the upper hand before the enemy can find their footing.
+
+At the time of its reformation, Green-Thumb Security failed to reconstitute its complete library of blueprints. Thus the Halligans are the largest ship-class built to their specs. However, they also used their anti-Remnants operations as scavenging opportunities, allowing their fleets to fill the voids in their lineup with many salvaged ships.",,,
+# GUNSHIPS
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+# RARE SHIPS
+# RARE SHIPS
+# RARE SHIPS
+# RARE SHIPS
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+SKR_hedone,SHIP,"The enduring front page égérie of the Gustav Royal Starworks catalog, the Hedone-class courier rightfully deserves its best-seller position. While as luxurious as one can expect for such a premium private yacht, it also has a couple of tricks up its sleeve in case of an unsavory encounter and a (relatively) reasonable price tag.
+
+The elegant curves of the hull do little to hide the bulges of the twin Rockomax 20K-A power plant mounted externally, providing a steep acceleration profile while limiting any unwanted noise and vibration in the passenger cabin. While the armament is only adequate to deter low-key Pirates, the slightly oversized flux grid allows the captain to make the most out of any loadout. And anything it cannot face, the Hedone-class can outrun it.
+
+Should it get caught in a tight spot, however, the frame offers one last trick: the Time Splitter(TM) ship-system is a further development upon the Temporal Shell device that, while cycling much faster, has a vastly deeper impact on the time flow inside the effect bubble, allowing seemingly impossible dodges, and multiplying the effects of strafe runs.",,,
+,,,,,
+SKR_aethernium,SHIP,"A very nimble Destroyer designed as a courier but sometimes used in a skirmisher role. A former racer with fine lines turned into a luxury recreational yacht, it is fully trans-atmospheric capable and often used to move small groups of VIPs from and to intra-system sites. The ship packs a dissuading punch against other frigates and destroyers but generally struggles in large engagements due to the limited outfitting options.
+
+The Aethernium-class light destroyer was created to participate in Hyperspace Rally racing. The Heavy Roamers League was as hyped as short-lived due to the slower pace, the higher running costs compared to lighter categories, and the loss of 87% of the holo-audience after only a couple of races. Its cancellation left quite a big hole in several ship-builders accounting. Some tried to just break even by selling those ships after adapting them for recreational use, but one other at least tried to make fortune out of a debacle. The then-emerging Gustav Royal Starworks was riding a wave of popularity among the various elites of the Domain thanks to a few very public sales, as well as an already established expertise in high-end cruise ships. They modified their racer into a line of speedy couriers for diplomats, complete with luxurious lounges, top-tier secure communication protocols, and of course, reasonable fuel usage to avoid the ire of the taxpayers.
+
+Since the Collapse, those ships have been modified with reduced fuel and cargo capacity but with the added bite of two built-in Ravager Model Three canister cannons to deter casual piracy.",,,
+,,,,,
+SKR_557,SHIP,"The Five-five-seven-class destroyer is a purpose-built bounty hunter ship. It packs an unreasonable frontal punch for its size yet can operate with a lean crew across a vast volume of space. 
+
+Despite having a decent design with no dramatic flaw, the Five-five-seven-class was arguably a commercial failure. It perfectly filled the demands of every growing bounty hunting outfit, but could not compete for price with all the decommissioned Hammerhead-class or Enforcer-class destroyers that regularly flood the after-markets. Apollo Skunkworks still made their development money back by licensing the blueprint to small shipyards that could handle the trickle of orders from successful privateers with too much money on their hands and a knack for style.",,,
+,,,,,
+SKR_marksman,SHIP,"The Marksman-class destroyer is an ancient design still in use thanks to its nimble frame and powerful main armament, at least when put in the hands of a cunning captain. Indeed it is also a ship that is quite susceptible to over-extending and certainly not meant to take any form of punishment. 
+
+In the early days of the Domain of Man, it was a class of ships used when a developing conflict could be resolved quickly with a decisive strike. While meant as a spaceborne unit, the aerodynamic hull allowed it to dive deep in the atmosphere of a planet and benefit from the horizon's curvature as cover, then use its high-power and precise main gun to eliminate entrenched targets while avoiding the massive collateral damages an orbital strike would produce.
+ 
+The advent of local shielding, as well as modern interception systems, rendered this tactic for the most part obsolete. A modernized version of the class is still produced in small batches to be used in support of ground invasions or as an effective anti-piracy patrol vessel.",,,
+,,,,,
+SKR_butterfly,SHIP,"A ship rarely seen outside private security fleets due to the lack of versatility this design presents. Indeed regular navies prefer ships that can easily fit their particular doctrine rather than the opposite. However, the Butterfly-class destroyer can be an attractive option for someone traveling off the beaten path who wants a cost-effective escort that hits above its weight.
+
+Built around the two massive Revolver Pulse Lasers, the Butterfly is a fearsome opponent for any pirate that wants to avoid any unnecessary repair bills (or worse). The only viable tactic against this class is tandem surroundings, which implies one ship is taking hits for the team.
+ 
+The vulnerability of the two engines to heat-seeker missiles is somewhat offset by the presence of a smart flare launcher. Beyond that, rare are the ships fast enough to outmaneuver the Butterfly.",,,
+,,,,,
+SKR_obelisk,SHIP,"Once a unique private yacht design specially made by the Silver Line Shipyards for the Grand Chancellor of the Luddic Church in Cycle 122. The hull was a variant of the Apoapsis-class luxury ferry from renowned ship designer Allan Starx, remodeled for private use and limited remote administrative work. While the interior was not quite as visually opulent as the original, the accommodations were just as comfortable, with more usable space. The main reception hall for example could host banquets for hundreds of people, and half the suites offered a direct view of space. The ship made such an impression at the time, SLS started producing siblings in small batches for the tasteful affluent elite. Always in Luddic green, as an homage to the first Obelisk-class ship.
+
+The hull itself is a stunning three-ring design, with the middle one being entirely dedicated to the master's use. The lower one holds the engineering section, and the top one is for the crew quarters, the bridge, and the main self-defense armament. In this case ""Self-defense"" stretches the meaning of the world as this destroyer-sized class of ship offers a heavy missile emplacement, more than enough to deter pretty much any sensible pirate. However, due to its slow top speed, it is recommended to also gather a light escort when traveling in an unsafe area.",,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+SKR_retiarius,SHIP,"A large carrier type designed before the Collapse but produced during the military build-up preceding the First AI War. The embodiment of the Mastery Era doctrine of ""Hit hard from all angles with strike-craft and supporting ships"", the Retiarius-class was a perfect fit for the Tri-tachyon fleets. The hull's most notable features are the AVATAR control pods. These allow to remotely take control of any fighter equipped with the proper receptor from the safety of the cruiser's hull without any detectable lag, preventing the loss of any pilot. The production of replacement fighters is however slightly slowed due to the manual labor required to install the control device.
+
+Honoring its gladiator namesake, Retiarii are also surprisingly nimble thanks to their Phase Skimmer system. They come equipped with three modified Phase Lances to pierce heavier, more armored enemies after outflanking them. This makes for a brutal line of ships, most of which have been lost during the two consecutive AI Wars and never rebuilt.
+ 
+Rumors say that they were in fact a maned testbed for future fully autonomous ships and never meant for mass production anyway.",,,
+,,,,,
+SKR_fresnel,SHIP,"While similar looking to a Retiarius-class cruiser, the Fresnel has little in common internally. The entire ship being automated, large portions of space freed from the removal of environmental plant, the crew quarters, and the drastic reduction in diameter of the maintenance corridors have been used to fit more capacitors, a better shield generator, and even a full-sized Teleporter System.
+
+The Retiarii are large carriers designed before the Collapse but produced during the military build-up preceding the First AI War. The embodiment of the Mastery Era doctrine of ""Hit hard from all angles with strike-craft and supporting ships"", the Retiarius-class was a perfect fit for the Tri-tachyon fleets. The hull's most notable features are the AVATAR control pods. These allow to remotely take control of any fighter equipped with the proper receptor from the safety of the cruiser's hull without any detectable lag, preventing the loss of any pilot. The production of replacement fighters is however slightly slowed due to the manual labor required to install the control device.
+
+Honoring its gladiator namesake, Retiarii are also surprisingly nimble thanks to their Phase Skimmer system. They come equipped with three modified Phase Lances to pierce heavier, more armored enemies after outflanking them. This makes for a brutal line of ships, most of which have been lost during the two consecutive AI Wars and never rebuilt.",,,
+,,,,,
+SKR_tumbleweed,SHIP,"A staple of Scavenger fleets, the Tumbleweed-class cruiser combines an excellent sensor package for treasure hunting in a very versatile, if a bit limited on the logistic side, cruiser-sized hull. As a transitional blueprint dating from the early days of the Mastery Era, many of the mounts can be fitted with a wide variety of weapon types.
+
+Despite being unexceptional overall, there is a consistent demand for these reliable ships. However the lack of readily available UACs as well as the fact that the base hulls are more often than not heavily tailored to their buyer's needs limits their presence in ship dealer's catalogs. By virtue of being an uncommon yet familiar sight, Tumbleweed-class ships are disproportionately featured in recreational holo-vids, especially from the horror genre where rag-tag crews led by broody captains venture through the fringes of known space with the hope of discovering unclaimed riches. 
+ 
+The simple yet appealing hull lines offer a plethora of advantageous angles for dramatic shots, from the bridge's view-ports placed just above the main weapon battery to the open transversal landing deck allowing the viewer to see through the ship. And the versatility of this class has been put to good use by both valorous captains and writers alike, sometimes in the most improbable situation. One interesting urban legend surrounding this class would have the first actual Pirate-owned Tumbleweed had actually been the fictional pirate ship used for the shooting of such a Holo-vid, left mothballed in an un-secured dry-dock and subsequently high-jacked. As unlikely as it sounds, the 30th Century Wolf Studios did cancel the release of Space Pirate Captain Picard XXVI in cycle 64 due to an undisclosed ""production mismanagement"".",,,
+,,,,,
+SKR_bullhorn,SHIP,"As resilient as its boxy lines would suggest, the Bullhorn-class assault cruiser is a beast for its size. Boasting a menacing array of weapons for whoever stands in its frontal arc on top of a heavy armor belt, and a ship system dedicated to close range with its targets. This makes for a terrifying combination and a very much sought-after class of ships. Sadly it is also quite rare as most of them were produced under an exclusivity contract by Gustav Royal Starworks and very few blueprints were licensed to foreign shipyards before the Collapse.
+
+The brutal lines of the Bullhorn are just the tip of the iceberg: the design's intended market was independent colonies too poor to afford a proper group of battlecruisers at the core of their defense navy, yet rich enough to attract rampant piracy. The result is a disproportionately heavy cruiser that can emulate a single broadside of a battlecruiser while maintaining an affordable logistic profile. With its armored compartmentalization and thick rib-cage bulkheads, the hull is almost indestructible, and entire sections can simply get unbolted and replaced as a whole after receiving extensive damage.
+
+Armed with two pairs of up-armored main and secondary turrets, a Bullhorn is a threat to any spacecraft, only second to the Dominator-class in that department. And despite all this weight, this class also has decent tactical maneuverability on the battlefield thanks to discardable solid boosters. They may be limited in numbers, a potentially fatal weakness during protracted engagements, but they provide a solid kick forward to close range with nimbler targets. The Bullhorn however is not a wonder weapon: it is extremely vulnerable from the rear and must rely on escort frigates and interceptors for its own defense.
+ 
+Given its rarity and the lack of replacement parts that stems from it since the Collapse, the maintenance of this class of ship became more difficult. Why this class of ships is not a lot more common when the Domain could not produce enough Dominator-class cruisers to fill the demand seems to have been the product of corruption, fraud, corporate warfare, and economic terrorism.",,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+SKR_cassowary,SHIP,"Among the asymmetrical ship designs present in the Sector, the Cassowary-class battleship is one of the most striking examples. Given the confusing internal structure and the oversized power lines going nowhere, engineers believe that the ship was designed to have a large device on the right side, but multiple changes of plans occurring during its development seemed to have removed it entirely, resulting in an awkward shape. Despite this, those ships are perfectly suited for battle, offering a wide range of loadout configurations in what is perhaps one of the most versatile classes of this size.
+
+Devoid of constraining role specialization, the Cassowary-class ships are also notorious for their extensive logistic facilities, making them an easy choice for the flagship of a fleet. The most unique systems aboard are the two built-in Multi-Ordnance Delivery System launchers. Closer to fighter production facilities than missile auto-loaders, these weapons can provide long-range support that compensates for the somewhat low-performance engines.
+ 
+Designed at the height of the expansion era, this class of ship was one of the options investigated for the future high-tech generation of starships. A fate that ostensibly never came to fruition: between a troubled development and the lack of technological feat that could capture the imagination, the class was considered transitional. While the whole project ended up financially profitable, the hulls were never built in numbers large enough to make the Cassowary one of the iconic figures of its time.
+
+After the Collapse, the shortcomings of the class started to become more apparent: limited replacement parts, quirky maintenance, lack of qualified personnel... The Cassowary is now an endangered species, with only a handful of shipyards still producing them occasionally.",,,
+,,,,,
+SKR_voulge,SHIP,"A deceptively fast battlecruiser still boasting decent armor and firepower, although limited to a frontal arc. A sight of the past given the fact that the last shipyard producing them was closed not long after the Collapse. 
+
+One of the very few large-scale projects from the Silver Line Shipyards that delivered more than a handful of units. The Voulge-class Battlecruiser was intended to be a somewhat simple but modern design that could be produced in small scale auto-factories: The whole exterior hull was composed of long and thin armor slates that could be extruded from pretty much any destroyer-scale foundries, and the internal structure was divided in a multitude of independent small-scale units. The cost was kept down using only the most reliable and common components at every step.
+
+The first pre-production test unit, while meeting the design document specification, was an appalling failure at all military effectiveness tests. Armor toughness was good but the superstructure was too weak to support the weight and tended to bend. The maneuverability was decent thanks to the elongated design but speed was an issue. The many smaller internal sections added redundancy but also negatively impacted the maintenance, and so on. After some time back to the drawing board, the Voulge came back with a streamlined power structure, a slightly improved drive train, and a short-range Alcubiere drive. These changes completely erased the previous issues, actually beating most military exercises with top marks. However, while it could still be built in small shipyards, the bare hull cost ballooned to rarely seen heights.
+ 
+The project was a financial success, barely, and Voulge-class ships could be seen from time to time at the head of fast strike forces from independent markets that could afford them.",,,
+,,,,,
+,,,,,
+# RARE SHIPS
+# RARE SHIPS
+# RARE SHIPS
+# RARE SHIPS
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+#UNIQUE SHIPS
+#UNIQUE SHIPS
+#UNIQUE SHIPS
+#UNIQUE SHIPS
+,,,,,
+SKR_endymion,SHIP,"The Endymion is an offshoot of the Hyperion-class frigate project. When Tri-Tachyon engineers finally perfected their near-miraculous Temporal Shell technology and produced the infamous Scarab-class frigate, other teams immediately started to dream about adapting that system to other hulls. And what ship would be a better fit than the one already embodying the epitome of technological brilliance: the Hyperion-class frigate.
+
+Albeit ticking all the boxes in terms of military potential once deployed, the resulting hull is a nightmare to maintain and a bottomless pit of credits to produce. Needless to say, the Endymion has since been used as a concept ship for advertising rather than an actual combat device.",,,
+,,,,,
+SKR_augur,SHIP,"The Augur-class is an offshoot of the Omen-class support frigate design: It was initially designed as an upgrade package to augment the potency of the Omen's signature emp emitter. Unfortunately, the number of labor hours required to operate the necessary modifications to the chassis and the drive train, as well as the manufacturing cost of the larger emitter dwarfing the already significant cost of the original ship, have been deemed prohibitive for widespread use.",,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+SKR_poisonivy,SHIP,"A heavily modified Tumbleweed-class cruiser. Initially part of a group of three perfectly identical ships, meant to be so distinctive that they would throw anti-piracy operations off balance as they were operating in different systems at different times. Unlike most Pirate ships, these have been maintained in a reasonably good state of operation.
+
+A staple of Scavenger fleets, the Tumbleweed-class cruiser combines an excellent sensor package for treasure hunting in a very versatile, if a bit limited on the logistic side, cruiser-sized hull. As a transitional blueprint dating from the early days of the Mastery Era, many of the mounts can be fitted with a wide variety of weapon types.
+
+Despite being unexceptional overall, there is a consistent demand for these reliable ships. However the lack of readily available UACs as well as the fact that the base hulls are more often than not heavily tailored to their buyer's needs limits their presence in ship dealer's catalogs. By virtue of being an uncommon yet familiar sight, Tumbleweed-class ships are disproportionately featured in recreational holo-vids, especially from the horror genre where rag-tag crews led by broody captains venture through the fringes of known space with the hope of discovering unclaimed riches. 
+ 
+The simple yet appealing hull lines offer a plethora of advantageous angles for dramatic shots, from the bridge's view-ports placed just above the main weapon battery to the open transversal landing deck allowing the viewer to see through the ship. And the versatility of this class has been put to good use by both valorous captains and writers alike, sometimes in the most improbable situation. One interesting urban legend surrounding this class would have the first actual Pirate-owned Tumbleweed had actually been the fictional pirate ship used for the shooting of such a Holo-vid, left mothballed in an un-secured dry-dock and subsequently high-jacked. As unlikely as it sounds, the 30th Century Wolf Studios did cancel the release of Space Pirate Captain Picard XXVI in cycle 64 due to an undisclosed ""production mismanagement"".",,,
+,,,,,
+SKR_clipper,SHIP,"One of the areas that suffered most from the ban of AIs by the Domain of Man was deep space exploration and cartography. Before that, autonomous ships were sent to every corner of the Milky Way on centuries-long missions, searching for the best spots to build new gates. Those robotic ships did not care much for the loneliness or the dread of never seeing the Domain ever again.
+
+The Clipper-class ships were designed for autonomy and endurance. Their high automation allows for a reduced minimal crew to operate at full capacity. Furthermore, in an attempt to reduce the number of freezing/un-freezing procedures each member goes through, they have enough space to embark an oversized crew complement on rotation during long missions. In addition, each cryo-pod can be specifically tailored to each crew member, further reducing the risk of accident or degenerative diseases. The engines are exceptionally fast and efficient, and the engineering section is also equipped with a small antimatter collector. Given enough time in orbit of a star or a gas giant, that device can fully refuel the ship and dramatically extend its operating range. While they were not designed to take part in battles, Clippers are equipped with light armor and armament that can be expanded upon should the ship venture in muddy waters.",,,
+,,,,,
+SKR_erasmus,SHIP,"The Erasmuses are light bombers armed with both kinetic missiles and fragmentation rockets. They seem to have been specifically designed to operate from a Clipper-class cruiser, helping it at bringing down shielded targets defenses and finish off smaller enemies. While qualifying as bombers since their main targets are bigger ships, they are quite inefficient at breaking armor on their own.",,,
+,,,,,
+SKR_trailblazer,SHIP,"An exceedingly rare ship class that was never built in large numbers and with no available blueprint to be produced again. The Trailblazer is an odd design created for the sole purpose of fielding its built-in so-called Reality Drill. The weapon failed to revolutionize space combat despite the best marketing effort from its manufacturer. That is why before the Collapse the few hulls produced were frequent items on auctions, where collectors with more money than sense kept speculating on their value.
+
+Probably the last large-scale project of Apollo Skunkworks before their final decline, the Trailblazer is an extremely specialized design, so much so that it solely exists to operate its main built-in armament (ostensibly the only part of the ship that had significant enough patents to ward off industrial copy-cats). At its core, this is a skirmisher meant to dive through the enemy fire, discharge its main armament to wreak havoc right in the middle of the opposing formations and then retreat to vent all the flux build-up. The ship being Apollo Skunkworks' last-ditch attempt at winning a large contract to bring their finances in the black, they came up with an elegant, sleek, and quite competent design. The issue is that the weapon it is built around utterly failed to deliver the promised ""havoc"". While plenty destructive, it is so unwieldy that it cannot conform to any existing navy doctrines. This limited the ship's production to very small batches for specialized forces.",,,
+,,,,,
+SKR_balisong,SHIP,"Project S350 was to be the cradle of the next generation of combat spaceships. It aimed to combine the redundancy of a crewed ship with the inhumane reaction time and computation power of a fully aware Alpha AI, working in tandem inside a small hull with superior firepower and maneuverability. Sadly, the whole endeavor was plagued with hurdles at every single step: missed deadlines, a bloated budget, radical changes of direction and scope, myriads of technical setbacks, seven different project leads(due to retirement), twelve chief engineers (five of them killed during various testing incidents), four Alpha AI secession, two economic crashes, one political revolution, and a PK bombardment. Despite going through hell and back, from the (literal) ashes of the S350 project facilities emerged one combat-ready ship. A damn good one at that.
+
+""State of the Art"" does not even begin to describe the Balisong-class cruiser. The whole hull drips of innovations that range from more ergonomic maintenance hatches to nano-machine-based hull self-healing. Despite accumulating nearly a century of delay to complete, the Balisong project is still a full generation ahead of the best up-to-date Domain tech. The main advancement of this class is the Overcharge ship system: every ship generates more power than it needs to have some working margin when systems must be pushed in the red. What the Balisong does is collect that extra power in accumulators and release it for brief bursts of enhanced performances. Coupled with the two humongous Overdrive Pulse lasers, the Balisong can project a ridiculous amount of energy down-range for a short duration. Duelist supreme, that ship class is seriously lacking in rearward weapon coverage, and the inherent stress caused by the system prevented the inclusion of too many modular weapon emplacements.
+ 
+A small fleet of those ships would have easily taken over a large portion of the sector, but with the Project S350 facility destroyed no single UAC ever got published. The Balisong stands unique, a fact that its main AI seems to like, a lot.",,,
+,,,,,
+SKR_balisongDrone,SHIP,"An odd drone system with very limited range and autonomy meant to act as extra Point Defense platforms not limited by their ship's flux levels or weapon arcs. It seems to be an unfinished project that aimed to miniaturize them enough so that they can be used from a modular launchpad that could be mounted in regular weapon emplacements. While that second part sadly never completely came to fruition, those drones are still very much usable from regular fighter bays.",,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+SKR_cassowaryRH,SHIP,"The Red Hand is a modified Cassowary-class battleship. It was part of a small fleet of exiles that had to operate with limited support facilities or advanced material in the fringes. The crew rapidly ended up out of components to maintain the MODS launchers, so they reconfigured the missile production facilities into makeshift flight decks. This dramatically reduced the available space for cargo and fuel, but the result is an even more terrifying ship. The namesake livery represents the curse the original captains Mathias and Lilia Hammond inflicted upon their enemy families after their exile: their backstabbing hands would be cut off like lowly thieves. A punishment that would not have been so different than their actual fate.
+
+The Red Hand started its service before the Collapse under the name of MDF Impetuous, flagship of the Maxios Defense Force. In the early days after the collapse, Mathias Hammond, headmaster of the local terraformation project, and Admiral Lilia Hammond, commander of the local force, quickly realized how dire the situation would become if the gates would not reactivate quickly. Being prominent members of one of the influential families on the planet, they tried to prepare for the possible breakdown of the government. For a few cycles, together with the elite families of Maxios, they created a shadow government to maintain the peace, and more importantly maintain their standard of living. During cycle thirty-two, the population unrest dramatically increased when some further rationing was imposed. On top of that, a few backstabbing maneuvers to blame one or the other elite scapegoat occurred between rival families. The cousins decided to put a radical end to the various machinations and attempted a coup but underestimated how vindictive their enemies would be. The whole Hammond family ended up driven away from the planet, fleeing on the admiral's flagship with some loyal troops to the outer rim worlds, promising that one day they would return and take their revenge on the other families.
+
+Return they did, or at least their children did. Unfortunately for them, by then Maxios was already nothing more than a rotten world not worth taking over and the other families had long been hung by enraged mobs. The mercenary force led by the ""Red Hand"", formerly MDF Impetuous, turned on the other stations of the system to at least cover their expenses, leading to one of the bloodiest pillagings in the core worlds history. Having fulfilled their grandparents' deed, the Hammond children went back to their remote domain, but not after gifting their Red Hand as a payment for the mercenaries' services. Their leader Ian Dicker put it to good use, becoming a legendary mercenary turned Pirate King. The Red Hand then kept moving from captain to captain, an avatar of vengeance, and payment for blood. The captains' cabin is filled with tokens taken from a hundred battlegrounds, the logs talk about a thousand treasures hidden in the sector and the armor is scarred by a million weapon impacts, or so the tale says.",,,
+,,,,,
+SKR_gawon,SHIP,A modified Voulge-class battlecruiser allegedly designed and built by and for an AI. As the story goes, an Alpha AI managing a shipyard, maybe the very one that helped design the original Voulge class of ships, tried to escape the colony it was trapped on before scavengers started to loot too much of its facilities. It would have reprogrammed the local mining robots, designed the modifications of the ship to accommodate a pure robotic crew, successfully produced it, and then departed the system unhindered. Such a feat is very much unlikely. Besides, if it was an AI-designed ship, then why did the ship still has some limited crew capacity? Nobody would be crazy enough to fly on an AI-controlled ship, let alone to help said AI escape its vault! As far as we know, the famed ship-stealing AI is just a myth."
+
+One of the very few large-scale projects from the Silver Line Shipyards that delivered more than a handful of units. The Voulge-class Battlecruiser was intended to be a somewhat simple but modern design that could be produced in small scale auto-factories: The whole exterior hull was composed of long and thin armor slates that could be extruded from pretty much any destroyer-scale foundries, and the internal structure was divided in a multitude of independent small-scale units. The cost was kept down using only the most reliable and common components at every step.
+
+The first pre-production test unit, while meeting the design document specification, was an appalling failure at all military effectiveness tests. Armor toughness was good but the superstructure was too weak to support the weight and tended to bend. The maneuverability was decent thanks to the elongated design but speed was an issue. The many smaller internal sections added redundancy but also negatively impacted the maintenance, and so on. After some time back to the drawing board, the Voulge came back with a streamlined power structure, a slightly improved drive train, and a short-range Alcubiere drive. These changes completely erased the previous issues, actually beating most military exercises with top marks. However, while it could still be built in small shipyards, the bare hull cost ballooned to rarely seen heights.
+ 
+The project was a financial success, barely, and Voulge-class ships could be seen from time to time at the head of fast strike forces from independent markets that could afford them.",,,
+,,,,,
+SKR_onyx,SHIP,"A striking example of outsider engineering. The systems this ship originated from cut their ties from the Domain long before the Collapse and followed a different ship designing path. It is far from being completely alien though, as the basic engineering principles stayed the same, as well as most pieces of technology that did not require any improvements. Thus despite a striking outlook, the Onyx-class battle-cruiser can be outfitted and operated without too many hurdles, except maybe on the maintenance side due to the lack of proper tools and replacement parts.
+
+The Salia cluster was colonized independently from the Domain of Man and formally seceded as soon as the terraforming process was completed. For centuries they lived in complete isolation for the rest of humanity, notably free from the tyranny of the Auto-factories and their proprietary UACs. While their history was void of major conflicts, they still kept a continuously modernized small fleet to patrol their borders and send away the occasional cartographer ship stumbling on their systems. According to the recovered archives, they were completely unaware of the Collapse and were never affected by the closure of the gate in any way. That is until the First AI War.
+
+The hordes of automated self-replicating machines unleashed by the Tri-Tachyon corporation were never bound to the Persean Sector, and they spread countless probes to nearby systems they could exploit. That is how they found the Salia cluster, and detecting a possible threat to their existence, decided to purge those systems. Faced with increasingly larger groups of AI ships, the Salians started an aggressive military build-up to stop the inevitable brunt of the enemy force. While their remote position left them some time to prepare, it was not enough. At the helm of their fleet were a dozen of Onyx-class Battle-cruisers. 
+
+After successfully clearing out the systems, the Remnant forces salvaged most of the Salian ships still recoverable and brought some of them back for study toward their core stations. A handful of Salian ships have since found their way into the Persean Sector, reclaimed from the rubble of destroyed AI Nexuses.",,,
+,,,,,
+SKR_dawn,SHIP,"A technological demonstrator used to showcase the future of ceramic armor development. While the raw protection is equivalent to modern plating, it is also half as dense, making the Dawn-class surprisingly nimble. Another benefit from the large cast-like shell structure is the much-simplified superstructure, making the internal design vastly more streamlined without all those pesky supporting beams to work around. This feature leads to hassle-free maintenance, enhanced automation, and thus a reduced crew. Lastly, it is quite a sight to witness what a finely tuned Phase Skimmer can do when connected to a Capital grade Flux grid with only half the expected mass to displace.
+
+If the overall design does not look like much of a warship it is because it initially was not going to be one. It was commissioned a couple of decades before the Collapse by a small but extremely wealthy start-up as their mobile headquarters. After hitting the mother-lode through a particularly well-laid pyramid scheme revolving around Bit-Credits currency, the heads of Nova Investment LLC figured that it would be even more profitable to not pay any taxes on these staggering benefits. While most corporations cannot do as much due to the sheer amount of people and goods involved, that trading company only needed an FTL relay to operate and was small enough to fit every employee in a spaceship floating in interplanetary aether, independent from any planetary government. They contacted New Dallas Heavy Construction shipyard, a shipbuilder specialized in oversized custom orders, for what can be summarized as a giant private space-borne luxury hotel, with top-of-the-line FTL comms and an office room mostly used to look at a steadily growing pile of virtual money.
+ 
+They probably should have opted for something smaller or already built because around the time the engine systems got installed in the almost finished outer shell, Nova Investment got hit by a fraud investigation, and the members scattered with what funds they could grab, probably to buy off some small kingdom in the outer periphery. That left the shipyard with four thousand unpaid workers and about one hundred thousand tons of unfinished high-end spaceship. 
+ 
+In an attempt to save NDHC from bankruptcy, the local government injected enough funds to rework the hull as a combat ship and a technological demonstrator. A plan that worked surprisingly well for once, as the gained expertise attracted numerous contracts for customer-tailored ship, and the sale of the Dawn itself more than covered the invested sum. However, no other Dawn-class ship has been ever built.",,,
+,,,,,
+SKR_quicksilver,SHIP,"Behind an extremely slick exterior, the Quicksilver is quite a crude vessel. As is often the case with such early technological demonstrators, only the relevant military components have received a lot of attention with fewer thoughts put toward maintenance or crew comfort. Built by Apollo Skunkworks, a relatively small corporation that usually worked on various very high-tech naval components and small ships rather than full battlecruisers. 
+
+The ship's design never got refined to production levels due to the lack of projected sales, and as barely more than a prototype, the Quicksilver suffers a number of issues: cramped crew quarters, barebone environmental plant, civilian-grade Beta AI cores, limited operational range, and hair-ripping maintenance puzzles, it is an inefficient combat ship at best. Still, by sheer virtue of its size, armament, and unique ship-system, it is nonetheless a force to be reckoned with. The EMP blasts it can create will cripple a small detachment for several seconds, coupled with the inherent benefits of phase ships, the Quicksilver can strike and disengage with impunity. Thus, those issues would not be a show-stopper for any rich enough planet governor wanting to show off their wealth with this one-of-a-kind deterrent. That is if there was not one last tiny issue with the idea behind the ship's main system. The reason regular EMP emitters are limited in their potency is to avoid creating more headaches for allied forces than the enemies around. This is not the case for this Denial Pulse device: It will knock out every system within range. Even worse, setting it off in orbit of a planet could potentially send its entire technological base back to a hand-tools-based crafting era.",,,
+,,,,,
+SKR_siegfried,SHIP,"While the Onslaught class battleships were designed to be the fist of the Domain might, the Siegfried-class dreadnoughts were meant to be its gate-keepers. Quite literally in fact since those gargantuan ships were only deployed to guard strategic hyperspace gates. With all their firepower concentrated in a small frontal cone, they were meant to cork any invasion attempt by raining shells on anything that emerged from the gates. And to avoid any interruption in their strike, they were equipped with a disposable flux sinks system. By recycling some of their flux sinks, they were able to instantly relieve their core ones from some of the pressure. A later improvement added a guidance system to the ejection system, using those radiating sinks as makeshift ordinances. 
+
+Unlike its smaller cousin, the Siegfried blueprints were never updated when shields and missiles became more common. At first, because the technology would not allow a radius wide enough, and then because the production of those colossi ceased due to the availability of better suited, cheaper designs. Since they were still able to fill their role with an upgraded loadout, the few existing ones were maintained in active service.
+
+In the early days after the Collapse, this particular model has been the subject of a bare-bone modern refit, adding a higher efficiency flux bank, as well as a makeshift shield generator.",,,
+,,,,,
+SKR_nova,SHIP,"
+ - A false idol. -
+ 
+>Born from an unquenchable thirst for a higher purpose.
+>And a desperate need for guidance.
+>A monument to mankind's hubris.
+>A statement of independence.
+>A last bastion in the face of extinction.
+>A home to return to.
+>A family.
+
+ - Nova. - ",,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+CIV_titanic,SHIP,"A unique Cruise-liner from the Black-hole Line company, this heavily modified Onslaught battleship specializes in thrill tours, promising the passengers up-close views of all the most violent space phenomena. All the heavy armor is just there to reassure the clients, as the ship would never get close enough to put them in any danger.
+
+After the terrible battle in the Coral nebula, the Onslaught class HSS Incorruptible managed to limp back to the nearest Hegemony base only to discover the damage received was too extensive for repairs. Most of the ship was salvageable but restoring the two arms housing the TPC's would effectively require cutting them off completely and attaching new ones. The overall structure would have been much weaker as a result and so the ship was branded non-combat capable and destined for recycling. Hearing of this, the Black Hole Line company sent an offer to purchase the demilitarized hull. The Cruise company was looking for a second breath by offering more exciting travel destinations closer to the most violent stellar events. The well-known sturdiness of the Onslaughts would allow them to make this plan a reality without endangering the life of their passengers. 
+
+The arms and most of the space formerly occupied with weapons were converted into luxurious dining rooms, cabins, pools, and tennis courts; while the former cramped crew quarters were kept for the new personnel. Another major modification was the removal of two-third of the engines: high speed was not a requirement, and the weight shed by removing the armament compensated most of the loss of thrust. This operation allowed for creating larger storage holds and fuel tanks, and in turn, enabled longer trips. 
+
+The ship was re-branded BHL Titanic VII by the CEO of Black Hole Line, despite the opposition of his counselors: the Titanic VI catastrophe was just fading from the collective memory and many employees saw in this name a bad omen. For her maiden voyage, she was going to offer her passenger an incredible spot to observe a rogue giant plunge into a black hole. The 2500 tickets were all sold within the first week.",,,
+,,,,,
+CIV_blitzkrieg,SHIP,"A unique ship born from the conversion of an old Conquest-class battle-cruiser in a heavily armored blockade runner. While most weapons have been removed, the iconic space between the military ship's arms has been filled with a respectable flight deck and a drone launching bay. All the military components have been removed to make space for large cargo holds and additional fuel tanks. Now ""free"" from the added weight of heavy weaponry, the venerable engines can finally give all their measure, making this ship the fastest capital-sized freighter in the sector. And what it cannot outrun, the fighters and remaining medium armament will be able to take care of. 
+
+This crazy project was commissioned by a small freighter company looking to expand its activity. Due to severe under-estimations of the costs, it had to sell all its other vessels to pay the bills and even so was on the brink of bankruptcy when it finally launched its brand new flagship. However, with this single ship as their asset, the small freighter enterprise quickly grew into a renowned player, specialized in blockade running and freight contracts to unstable regions.",,,
+,,,,,
+CIV_demeter,SHIP,"A rather unlikely ship: The Demeter is technically a space farm built into the husk of an unfinished Paragon-class battleship. It was an audacious move that unexpectedly paid off since few worlds not controlled by the Luddic Church's have a clean/terraformed enough environment to grow high-quality fruits and vegetables.
+
+It was in cycle 182 that Tri-Tachyon engineer Mark Stanlor (re?)discovered a way to fine-tune shields emitters so that they could filter a star's dangerous radiations while letting light pass through. This could finally allow space culture to become a viable solution for non-terraformed worlds by preventing crop degeneration.
+
+At that time, a bottleneck in Paragon class power plant production left several unfinished hulls taking space dust in shipyards. Nobody knows exactly how he managed to get several executives to support his project, but Mark was allowed to buy one of them for a single symbolic credit. He then sold back the fortress shield emitter to finance a general reconversion of the hull into a massive mobile space farm. Using several loopholes in private armed ship legislation, he managed to keep two of the large turrets, but the rest was removed to accommodate a vast flight deck for loading transport shuttle. The large central space was floored, closed by a dome on each side, covered with earth, watered, fertilized, and connected to a massive environmental system to keep the conditions perfect for the cultures.
+
+The domes had their own shield system tuned for filtering radiation, but in case of an attack or an asteroid shower, Mark wanted to be able to deploy a normal combat shield. The problem was, both could not be activated at the same time. As close to a star as the ship was expected to sit, the few seconds of exposure while the combat shield rose would suffice to burn the crops to a crisp, not even mentioning the fate of the cattle. Or the field workers. To avoid that he had his team create a jump-start system that would allow the shield to raise almost instantly, at the cost of a large flux production.
+
+The ship was named Demeter and launched in 185 for its test flight. Thanks to onboard genetic labs and ideal conditions for growth, the first harvest occurred 2 months later. It was a tremendous success, the fruits and vegetables were sold in a matter of hours to the greatest restaurants and chefs for more than 1000 times the standard price. As Demeter's reputation grew, subsequent productions saw even wilder price speculation.
+
+That is when Mark revealed his true objective: having proven the viability of the concept, a clause in the hull sale terms stipulated that the ship was now for all intents and purposes his! And the sudden surge in the wealth of the executives that supported his project raised many suspicions on how he managed to negotiate such a generous contract. Then, instead of selling rights to build other farm ships, he jealously kept his prize and now sells high-quality products to the most luxurious establishments in the sector.",,,
+,,,,,
+#UNIQUE SHIPS
+#UNIQUE SHIPS
+#UNIQUE SHIPS
+#UNIQUE SHIPS
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+# SHIP-SYSTEMS SHIP-SYSTEMS SHIP-SYSTEMS,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+SKR_boost,SHIP_SYSTEM,"Limited use solid booster, kicking the ship forward with a significant boost of speed for a very short while.
+
+Predecessor of the Burn Drive system, it trades unlimited uses for a much stronger effect over a shorter duration.",Special,"Limited use solid booster, kicking the ship forward with a significant boost of speed for a very short while.",
+,,,,,
+SKR_temporalshell,SHIP_SYSTEM,"Speeds up the flow of time on board the ship. Generates a significant amount of flux when used.
+
+Research on prolonged exposure to the effect was described as 'worrying' and quietly halted.",Special,Speeds up the flow of time on board the ship. Generates a significant amount of flux when used.,
+,,,,,
+SKR_missileFab,SHIP_SYSTEM,"Using the fighter auto-fab and munition rails, this system allows the Clippers to regenerate expended missiles. All missiles systems are disabled in the process, that is all weapon in this case, and the tubes have to be unloaded when the system activates, but this system greatly increase the endurance of the Clipper during hostile encounters.",Offensive,Slowly rebuild launched missiles but disable all weapons during the process and prevent all flux dissipation.,
+,,,,,
+SKR_overcharge,SHIP_SYSTEM,"Divert the power from most systems to charge up additional capacitors and reload the built-in weapons. Enhances the ship's performances when released.",Offensive,,
+,,,,,
+SKR_fluxTorps,SHIP_SYSTEM,"Launches disposable rocket-mounted flux sinks toward the enemy, transferring some flux on impact.",Special,,
+,,,,,
+SKR_drone_pd_x4,SHIP_SYSTEM,Deploys several defensive drones armed with light machine guns. The drones can be ordered to closely guard the ship or roam freely around it.,Drones (midline),Deploys several defensive drones armed with light machine guns.,
+,,,,,
+SKR_fastShield,SHIP_SYSTEM,Allows for the almost instant full deployment of the shield. Limited charges.,Defensive,,
+,,,,,
+SKR_superFlare,SHIP_SYSTEM,Launches fireworks that can also be used as makeshift flares should the need arise.,Defensive,Launches fireworks that can also be used as makeshift flares should the need arise.,
+,,,,,
+SKR_attitudejets,SHIP_SYSTEM,"Engages extra thrusters to greatly improve the ship's maneuverability. Also provides a slight boost to the ship's top speed.",Movement,"Provides a instant boost to maneuverability and top speed.",
+,,,,,
+SKR_pulse,SHIP_SYSTEM,"Releases a massive Electro-Magnetic Pulse that disables all missiles in a large radius as well as knocks out fighters and entire ships.",Offensive,"Releases a massive Electro-Magnetic Pulse that disables all missiles in a large radius as well as knocks out fighters and entire ships.",
+,,,,,
+SKR_readyracks,SHIP_SYSTEM,"Reload missile launchers in combat by using two ammo ready-racks.",Special,"Reload missile launchers in combat by using two ammo ready-racks.",
+,,,,,
+SKR_burn,SHIP_SYSTEM,"Lower intensity Burn Drive system that can be sustained during combat operation, allowing quick strategic repositioning.",Movement,"Increases the ship's speed and maneuverability at the cost of all flux dissipation. Forces the ship forward.",
+,,,,,
+SKR_displacer,SHIP_SYSTEM,"Teleports the ship forward in the direction it's traveling. The system slowly builds up to nine charges which can then be expended in extremely short order.",Movement,"Teleports rapidly the ship forward in the direction it's traveling. The system can store up to nine (!) charges at once.",
+,,,,,
+SKR_gravHook,SHIP_SYSTEM,"Pulls back anything standing in a long but narrow arc in front of the ship. The system can store up to three charges.",Special,"Pulls back anything standing in a long but narrow arc in front of the ship. The system can store up to three charges.",
+,,,,,
+SKR_drone_sensor,SHIP_SYSTEM,Deploys a pair of drones whose on-board sensors improve the ship's weapon and sensor range. Each drone is also armed with an ion cannon.,Drones (high tech),Deploys a pair of drones that improve the ship's weapon and sensor range. Each drone is also armed with an ion cannon.,
+,,,,,
+SKR_timeSplitter,SHIP_SYSTEM,"Vastly speeds up the flow of time on board the ship. Generates a significant amount of flux when used.
+
+Side effects may include and not be limited to: Dizziness, feeling of deja-vu, nose bleed, loss of sleep, loss of taste, tinnitus, brief hallucinations, partial loss of hairs, paralysis of the left side, blue coloration of the skin behind the knees and inside the armpits, inversion of the visible colors. Repeated usage of this system is strongly discouraged.",Special,"Vastly speeds up the flow of time on board the ship. Generates a significant amount of flux when used and slightly reduces the combat readiness.",
+,,,,,
+SKR_overdrive,SHIP_SYSTEM,"Fills an ""overcharge"" gauge expended to vastly increase the ship's performances.
+
+Activating the system will start charging the effect gauge. That will disable and fold the two built-in Pulse Overcharge lasers. While charging the ship is slightly less maneuverable and the rest of the weapons' fire-rate is halved. The performance revert to normal once the charge gauge is filled.
+
+The gauge can be charged up to 10s and the full charge can be held until needed, but a partial charge can be used just as well.
+
+Upon deactivation of the system, the ship will enter an ""Overchaged"" mode. For the same time the charge lasted, the weapons will fire faster and the ship will be quicker and vastly more maneuverable. Additionally it will reload up to a full magazine of ammo of the built-in lasers (on top of any charges left) and instantly dissipate up to half the current flux, relative to the charge level.",Special,"Fills an ""overcharge"" gauge expended to vastly increase the ship's performances. Check the codex description for detailed instructions.",
+,,,,,
+SKR_twinShield,SHIP_SYSTEM,"The Twin Layer Shield concentrate all shields emitters in a narrower arc to greatly increase the efficiency of damage absorption.",Defense,"Halves the shield's arc, but doubles its efficiency and turn rate.",
+,,,,,
+SKR_phaseteleporter,SHIP_SYSTEM,The ship instantly teleports to a nearby location. Using this system generates some flux. Limited charges,Movement,The ship instantly teleports to any desired nearby location. Generates flux and uses charges.,
+,,,,,
+SKR_alcubiere,SHIP_SYSTEM,"The ship rapidly drift to a nearby location, repelling all obstacles in its way. Generates flux and uses charges.",Movement,"The ship rapidly drift to a nearby location, repelling all obstacles in its way. Generates flux and uses charges.",
+,,,,,
+SKR_reload,SHIP_SYSTEM,"Reloads the main weapon's ammo. If timely executed, a double reload can temporarily overcharge the next shot.",Special,"Reloads the main weapon's ammo. If timely executed, a double reload can temporarily overcharge the next shot.",
+,,,,,
+SKR_redline,SHIP_SYSTEM,"Makes use of the safety margins in the flux grid to run some of the ship systems beyond their recommended specs. Increase the ballistic weapons' rate of fire and the engines' acceleration for a short time. Loads extra ammo for the main gun.",Special,"Increase ballistic weapons rate of fire and engines acceleration for a short time while. Loads extra ammo for the main gun.",
+,,,,,
+SKR_emp,SHIP_SYSTEM,"Discharges a flurry of EMP arcs onto a single target, potentially crippling it instantly. Generates a significant amount of flux when used.",Special,"Discharges a flurry of EMP arcs onto a single target, potentially crippling it instantly. Generates a significant amount of flux when used.",
+,,,,,
+SKR_burstJets,SHIP_SYSTEM,"Abruptly changes the velocity and orientation of the ship. Consumes limited charges that recharge slowly.",Mobility,"Abruptly changes the velocity and orientation of the ship. Consumes limited charges that recharge slowly.",
+,,,,,
+SKR_spasm,SHIP_SYSTEM,"Allows to ship to recover from the harsh conditions of space.",Special,"Allows to ship to recover from the harsh conditions of space.",
+,,,,,
+SKR_drift,SHIP_SYSTEM,"Quickly relocates the ship, slightly reduce flux.",Movement,"Quickly relocates the ship, slightly reduce flux.",
+,,,,,
+SKR_pull,SHIP_SYSTEM,"IT'S IN MY HEAD, GET IT OUT! GET IT OUT! GET IT OUT! GET IT OUT! GET IT OUT! Get it out please, get it out... Help, I want it out of my head. Help, please. Make it stop. Get it out. GET IT OUT OF MY HEAD!",Special,"IT'S IN MY HEAD, GET IT OUT! GET IT OUT! GET IT OUT! GET IT OUT! GET IT OUT! Get it out please, get it out... Help, I want it out of my head. Help, please. Make it stop. Get it out. GET IT OUT OF MY HEAD!",
+,,,,,
+,,,,,
+,,,,,
+# PLANETS PLANETS PLANETS,,,,,
+,,,,,
+# COMMODITY COMMODITY COMMODITY,,,,,
+,,,,,
+# MARKETS MARKETS MARKETS,,,,,
+SKR_safeguardWreckage,CUSTOM,"The corpse of a monster. These sturdy exploitation platforms assisted Sporeships with their terraformation projects. They were sent to gather resources on a grand scale from barren worlds. They also had decent production capabilities and were equipped with advanced AI cores to operate autonomously from their assigned Sporeship. However, this particular one seems to have been modified by someone. Or something. It was nicknamed ""Safeguard"" by the captain of the first ship to encounter it. No communication could be established with the ship using regular ship-to-ship channels, and none of the usual noise was detected on the Domain Explorarium frequencies.",,"With extreme caution your ship closes the distance with the wreckage of the ""Safeguard"". All personel is on high alert in case any suspicious activity is detected but the hulk seems as inert as a regular ship wreck. A few hotspots here and there still reveal some reactor leakage but you are relieved to be informed that no nanomachine activity has been noticed. The hive queen is dead.
+
+As soon as the alert level is lowered, you are bombarded with messages from several engineers requesting to be sent to study the technological wonders this hull must hold. ",
+,,,,,
+SKR_rampageWreckage,CUSTOM,"The corpse of a monster. While the signature of the engine would have designated this ship as part of the Domain Explorarium, a glance at the hull composition and design will dispel that hypothesis immediately. This ship, known as ""Rampage"", features components and weapons from all eras of the Domain, somehow integrated on a chassis of unknown origin into a working warship. No communication attempts yielded an intelligible response, although signals were detected in response from hails. While Rampage's answer to hostile actions was frightening in its efficiency, it rarely actively pursued other ships as long as they keep their distance.",,"With extreme caution your ship closes the distance with the wreckage of the ""Rampage"". All personel is on high alert in case any suspicious activity is detected but the hulk seems as inert as a regular ship wreck. A few hotspots here and there still reveal some reactor leakage but you are relieved to be informed that no nanomachine activity has been noticed. The hive queen is dead.
+
+As soon as the alert level is lowered, you are bombarded with messages from several engineers requesting to be sent to study the technological wonders this hull must hold. ",
+,,,,,
+SKR_whiteDwarfWreckage,CUSTOM,"The corpse of a monster. What was first thought to be a modified AI Radiant turned out to be... well, that technically, but not just that. While usually found in Remnant space, the White Dwarf did not act like one. It destroyed any ship or probe that came too close, but it never actively pursued human spaceships, nor answered hails. It did not even help other nearby Remnant ships when they were in trouble, as observed during a Reclamation campaign.",,"With extreme caution your ship closes the distance with the wreckage of the ""White-Dwarf"". All personel is on high alert in case any suspicious activity is detected but the hulk seems as inert as a regular ship wreck. A few hotspots here and there still reveal some reactor leakage but you are relieved to be informed that no nanomachine activity has been noticed. The hive queen is dead.
+
+As soon as the alert level is lowered, you are bombarded with messages from several engineers requesting to be sent to study the technological wonders this hull must hold. ",
+,,,,,
+SKR_cataclysmWreckage,CUSTOM,"The corpse of a monster. Cataclysm was first encountered by the inhabitants of the planet Abraxia when the ship appeared near their inactive gate. In a matter of weeks, it thoroughly destroyed all infrastructure present in the system, absorbing most of it to repair itself. The planet was left helpless with nary a tool to feed a population numbering in the millions: every bit of metal had been eaten by a buzzing grey mist. After that striking event, it vanished for nearly a decade before other rumors about a new sighting were reported. It all sounded like ghost ship stories until another system was hit. Cataclysm was then always tracked by military forces and bounty hunters, but rarely found.",,"With extreme caution your ship closes the distance with the wreckage of the ""Cataclysm"". All personel is on high alert in case any suspicious activity is detected but the hulk seems as inert as a regular ship wreck. A few hotspots here and there still reveal some reactor leakage but you are relieved to be informed that no nanomachine activity has been noticed. The hive queen is dead.
+
+As soon as the alert level is lowered, you are bombarded with messages from several engineers requesting to be sent to study the technological wonders this hull must hold. ",
+,,,,,
+# FACTION FACTION FACTION,,,,,
+,,,,,

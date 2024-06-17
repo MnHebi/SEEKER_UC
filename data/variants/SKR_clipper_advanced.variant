@@ -1,0 +1,60 @@
+{
+    "displayName": "Advanced",
+    "fluxCapacitors": 0,
+    "fluxVents": 16,
+    "goalVariant": true,
+    "hullId": "SKR_clipper",
+    "hullMods": [
+        "eccm",
+        "missleracks"
+    ],
+    "permaMods": [],
+    "variantId": "SKR_clipper_advanced",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0005": "sabotpod",
+                "WS0006": "sabotpod"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "harpoon",
+                "WS0002": "harpoon",
+                "WS0003": "harpoon",
+                "WS0004": "harpoon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"TURRET": "SKR_targetPainterSmall"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "SKR_antiMissilesLauncher",
+                "WS0008": "SKR_antiMissilesLauncher",
+                "WS0009": "SKR_antiMissilesLauncher",
+                "WS0010": "SKR_antiMissilesLauncher",
+                "WS0011": "SKR_antiMissilesLauncher",
+                "WS0012": "SKR_antiMissilesLauncher",
+                "WS0013": "SKR_antiMissilesLauncher",
+                "WS0014": "SKR_antiMissilesLauncher",
+                "WS0015": "SKR_antiMissilesLauncher",
+                "WS0016": "SKR_antiMissilesLauncher",
+                "WS0017": "SKR_antiMissilesLauncher",
+                "WS0018": "SKR_antiMissilesLauncher"
+            }
+        }
+    ],
+    "wings": [
+        "SKR_erasmus_wing",
+        "SKR_erasmus_wing"
+    ]
+}

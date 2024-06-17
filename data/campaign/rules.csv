@@ -1,0 +1,15 @@
+id,trigger,conditions,script,text,options,notes
+"#RULESET_NAME Seeker UC",,,,,,
+,,,,,,
+# Plague-bearer fleet greeting lines,,,,,,
+greetingPlagueFriendly,OpenCommLink,"$faction.id == plague score:1000
+$faction.friendlyToPlayer","$menuState = fleetConvMain 0
+FireAll PopulateOptions","You cheater!",,
+greetingPlagueHostile,OpenCommLink,"$faction.id == plague score:1000
+$faction.isHostile","$ignorePlayerCommRequests = true 1","While $fleetName does not answers any hail, their hostile intentions are very clear. The deck crew nervously buckles up and stands ready. Sudenly an environment hazard alarm goes of. The enemy is way beyond weapon range but your fleet is already hitting tiny clumps of nano-machines floating in space that immediately try to pry their way through the hull. Their damage is negligible for now and your ships await further orders.","cutCommLink:Cut the comm link",
+greetingPlagueNeutral,OpenCommLink,"$faction.id == plague score:1000
+$faction.neutralToPlayer","$ignorePlayerCommRequests = true 1","Your communication officer stares frustratingly at their blank screen. $fleetName does not answer to any of their hails. It does not take any other action either, seemingly waiting for your fleet to do something first. The tension is palpable throughout the ship as some crewmembers heard rumors about those strange ships, none of them good. 
+
+However as your fleet close the distance, batteries of range-finding lasers and mapping radar start to thoroughly scan your fleet. The deck crew is now very nervous and ready to activate every firing solution at the first sign of  active hostility. The next move is yours to make.",,
+"#END Plague-bearer fleet greeting lines",,,,,,
+

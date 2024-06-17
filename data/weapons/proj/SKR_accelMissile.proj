@@ -1,0 +1,35 @@
+{
+	"id":"SKR_accelMissile",
+	"specClass":"missile",	
+	"missileType":"MISSILE",
+	"sprite":"graphics/SEEKER/missiles/SKR_accelMissile.png",
+	"size":[9,21],	
+	"center":[4.5,12],
+	"collisionRadius":12,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[100,100,255,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":150, # purely visual
+	"engineSpec":{"turnAcc":720,
+                      "turnRate":360,
+                      "acc":200,
+                      "dec":200},
+	"engineSlots":[{"id":"ES1",
+                        "loc":[-6, 0],
+                        "style":"CUSTOM",
+                        "styleSpec":{
+                                "mode":"QUAD_STRIP",
+                                "engineColor":[100,200,255,255],
+                                "contrailDuration":1,
+                                "contrailWidthMult":1,
+                                "contrailWidthAddedFractionAtEnd":-0.75,
+                                "contrailMinSeg":10,
+                                "contrailMaxSpeedMult":0f,
+                                "contrailAngularVelocityMult":0f,
+                                "contrailColor":[100,165,255,75],
+                                "type":"GLOW"
+                        },
+                        "width":10.0,
+                        "length":50.0,
+                        "angle":180.0},
+				    ]
+}

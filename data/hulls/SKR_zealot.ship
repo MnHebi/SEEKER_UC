@@ -1,0 +1,187 @@
+{
+  "hullName": "Zealot",
+  "hullId": "SKR_zealot",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/SEEKER/ships/hidden/SKR_zealot.png",
+  "style": "ANTIC_TECH",
+  "height": 274,
+  "width": 136,
+  "center": [68, 130],
+  "collisionRadius": 175,
+  "shieldCenter": [24, -0],
+  "shieldRadius": 167.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "high_maintenance",
+    "SKR_plagueCultist"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [123, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [133, 24]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [133, -24]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 45,
+      "locations": [97, 28]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -45,
+      "locations": [97, -28]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 45,
+      "locations": [-11, 36]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -45,
+      "locations": [-11, -36]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 136,
+      "angle": 60,
+      "locations": [65, 52]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 136,
+      "angle": -60,
+      "locations": [65, -52]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 110,
+      "locations": [-46, 55]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -110,
+      "locations": [-46, -55]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-126, 38.5],
+      "length": 53.5,
+      "width": 28,
+      "angle": 180,
+      "contrailSize": 28,
+      "style": "SHIP_ORANGE"
+    },
+    {
+      "location": [-126, -38.5],
+      "length": 53.5,
+      "width": 28,
+      "angle": -180,
+      "contrailSize": 28,
+      "style": "SHIP_ORANGE"
+    },
+    {
+      "location": [-128, 38.5],
+      "length": 87.5,
+      "width": 22,
+      "angle": 180,
+      "contrailSize": 22,
+      "style": "SMOKY_RED"
+    },
+    {
+      "location": [-128, -38.5],
+      "length": 87.5,
+      "width": 22,
+      "angle": -180,
+      "contrailSize": 22,
+      "style": "SMOKY_RED"
+    }
+  ],
+  "bounds": [
+    134, 37.5,
+    113, 58.5,
+    75.5, 55,
+    58, 63.5,
+    51, 53,
+    59.5, 30.5,
+    49.5, 23.5,
+    -6.5, 23,
+    -30, 47,
+    -31.5, 57.5,
+    -46, 67,
+    -62.5, 56,
+    -121, 49,
+    -118.5, 23.5,
+    -128, 17.5,
+    -120, 0,
+    -128, -17.5,
+    -118.5, -23.5,
+    -121, -49,
+    -62.5, -56,
+    -46, -67,
+    -31.5, -57.5,
+    -30, -47,
+    -6.5, -23,
+    49.5, -23.5,
+    59.5, -30.5,
+    51, -53,
+    58, -63.5,
+    75.5, -55,
+    113, -58.5,
+    134, -37.5,
+    124.5, -0
+  ]
+}

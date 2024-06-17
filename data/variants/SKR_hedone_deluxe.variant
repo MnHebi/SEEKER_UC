@@ -1,0 +1,31 @@
+{
+    "displayName": "Deluxe",
+    "fluxCapacitors": 2,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "SKR_hedone",
+    "hullMods": [
+        "missleracks",
+        "reinforcedhull",
+        "heavyarmor",
+        "hardenedshieldemitter"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "SKR_hedone_deluxe",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0002": "harpoon",
+                "WS0003": "sabot"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "pdlaser"}
+        }
+    ]
+}

@@ -1,0 +1,327 @@
+{
+  "bounds": [
+    151.5,
+    -12.5,
+    118,
+    -13.5,
+    82.5,
+    -23,
+    163,
+    -21,
+    163,
+    -28.5,
+    97.5,
+    -45,
+    50.5,
+    -65,
+    14.5,
+    -88.5,
+    -9,
+    -87.5,
+    -28,
+    -70,
+    -85,
+    -75.5,
+    -93.5,
+    -70.5,
+    -70.5,
+    -58.5,
+    -72,
+    -26,
+    -118,
+    -23.5,
+    -136,
+    -7.5,
+    -128.5,
+    -0,
+    -136,
+    7.5,
+    -118,
+    23.5,
+    -72,
+    26,
+    -70.5,
+    58.5,
+    -93.5,
+    70.5,
+    -85,
+    75.5,
+    -28,
+    70,
+    -9,
+    87.5,
+    14.5,
+    88.5,
+    50.5,
+    65,
+    97.5,
+    45,
+    163,
+    28.5,
+    163,
+    21,
+    82.5,
+    23,
+    118,
+    13.5,
+    151.5,
+    12.5,
+    159,
+    7,
+    159,
+    -7
+  ],
+  "builtInMods": [
+    "SKR_remote"
+  ],
+  "builtInWeapons": {
+    "WS0001": "SKR_fuscina",
+    "WS0002": "SKR_fuscina",
+    "WS0003": "SKR_fuscina"
+  },
+  "builtInWings": [],
+  "center": [
+    92,
+    138
+  ],
+  "collisionRadius": 187.5,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 24,
+      "length": 70,
+      "location": [
+        -77,
+        -37
+      ],
+      "style": "HIGH_TECH",
+      "width": 24
+    },
+    {
+      "angle": -180,
+      "contrailSize": 24,
+      "length": 70,
+      "location": [
+        -77,
+        37
+      ],
+      "style": "HIGH_TECH",
+      "width": 24
+    },
+    {
+      "angle": 180,
+      "contrailSize": 20,
+      "length": 48.5,
+      "location": [
+        -76,
+        -49
+      ],
+      "style": "HIGH_TECH",
+      "width": 20
+    },
+    {
+      "angle": -180,
+      "contrailSize": 20,
+      "length": 48.5,
+      "location": [
+        -76,
+        49
+      ],
+      "style": "HIGH_TECH",
+      "width": 20
+    },
+    {
+      "angle": 180,
+      "contrailSize": 14,
+      "length": 32,
+      "location": [
+        -76,
+        -25
+      ],
+      "style": "HIGH_TECH",
+      "width": 14
+    },
+    {
+      "angle": -180,
+      "contrailSize": 14,
+      "length": 32,
+      "location": [
+        -76,
+        25
+      ],
+      "style": "HIGH_TECH",
+      "width": 14
+    }
+  ],
+  "height": 310,
+  "hullId": "SKR_retiarius",
+  "hullName": "Retiarius",
+  "hullSize": "CRUISER",
+  "shieldCenter": [
+    17,
+    0
+  ],
+  "shieldRadius": 170.5,
+  "spriteName": "graphics/SEEKER/ships/hidden/SKR_retiarius.png",
+  "style": "HIGH_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0001",
+      "locations": [
+        87,
+        -0
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0002",
+      "locations": [
+        57,
+        51
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -0,
+      "arc": 5,
+      "id": "WS0003",
+      "locations": [
+        57,
+        -51
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 0,
+      "arc": 225,
+      "id": "WS0004",
+      "locations": [
+        56,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -30,
+      "arc": 135,
+      "id": "WS0005",
+      "locations": [
+        32,
+        -46
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "SYNERGY"
+    },
+    {
+      "angle": 30,
+      "arc": 135,
+      "id": "WS0006",
+      "locations": [
+        32,
+        46
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "SYNERGY"
+    },
+    {
+      "angle": -60,
+      "arc": 135,
+      "id": "WS0007",
+      "locations": [
+        6,
+        -68
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 60,
+      "arc": 135,
+      "id": "WS0008",
+      "locations": [
+        6,
+        68
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 180,
+      "arc": 135,
+      "id": "WS0009",
+      "locations": [
+        -55.5,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 180,
+      "arc": 270,
+      "id": "WS0010",
+      "locations": [
+        -107.5,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "LB 1",
+      "locations": [
+        37.5,
+        30,
+        48.5,
+        25,
+        64.5,
+        19.5,
+        81,
+        17.5
+      ],
+      "mount": "HIDDEN",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "LB 2",
+      "locations": [
+        35.5,
+        -29.5,
+        46.5,
+        -24.5,
+        61.5,
+        -22.5,
+        77.5,
+        -19.5
+      ],
+      "mount": "HIDDEN",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY"
+    }
+  ],
+  "width": 184
+}

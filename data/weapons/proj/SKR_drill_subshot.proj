@@ -1,0 +1,16 @@
+{
+    "id":"SKR_drill_subshot",
+    "specClass":"projectile",
+    "spawnType":"BALLISTIC",
+    "collisionClass":"PROJECTILE_FF",
+    "collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":36.0,
+	"width":12.0,
+	"fadeTime":0.5,
+	"fringeColor":[25,0,75,25],
+	"coreColor":[75,0,25,10],
+	"hitGlowRadius":50,	
+	"textureScrollSpeed":1.0,
+	"pixelsPerTexel":1.0,
+	"bulletSprite":""
+}

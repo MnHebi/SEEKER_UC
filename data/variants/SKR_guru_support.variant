@@ -1,0 +1,55 @@
+{
+    "displayName": "Support",
+    "fluxCapacitors": 10,
+    "fluxVents": 30,
+    "goalVariant": true,
+    "hullId": "SKR_guru",
+    "hullMods": ["targetingunit"],
+    "permaMods": [],
+    "variantId": "SKR_guru_support",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "SKR_fauchard"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0008": "heatseeker",
+                "WS0009": "heatseeker"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "SKR_pdCharger",
+                "WS0007": "SKR_pdCharger"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "SKR_pdGrenade",
+                "WS0005": "SKR_pdGrenade",
+                "WS0010": "SKR_pdGrenade",
+                "WS0011": "SKR_pdGrenade"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "SKR_intercept",
+                "WS0003": "SKR_intercept"
+            }
+        }
+    ],
+    "wings": [
+        "SKR_pillbug_wing",
+        "SKR_fireant_wing"
+    ]
+}

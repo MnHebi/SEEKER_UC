@@ -1,0 +1,68 @@
+{
+	"id":"SKR_sunburstMissile",
+	"specClass":"missile",	
+	"missileType":"MIRV",
+	"sprite":"graphics/SEEKER/missiles/SKR_sunburstM.png",
+	"size":[40,40],	
+	"center":[20,20],
+	"collisionRadius":15,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[255,50,165,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":250, # purely visual
+	"engineSpec":{
+                        "turnAcc":90,
+                        "turnRate":90,
+                        "acc":2000,
+                        "dec":2000},
+	"engineSlots":[{
+                        "id":"ES1",
+			"loc":[-15, 0],
+			"style":"CUSTOM",
+			"styleSpec":{
+                            "mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+                            "engineColor":[255,75,165,255],
+                            "contrailDuration":5,
+                            "contrailWidthMult":1,
+                            "contrailWidthAddedFractionAtEnd":-0.5f,  # can be negative. makes trail spread out/narrow at the end
+                            "contrailMinSeg":15, # min segment length, in pixels
+                            "contrailMaxSpeedMult":0.5f,
+                            "contrailAngularVelocityMult":0.5f,
+                            "contrailSpawnDistMult":1, # how far away from engine it starts
+                            "contrailColor":[255,75,165,150],
+                            "type":"GLOW" # GLOW or SMOKE; additive or regular blend mode
+			},
+			"width":24.0,
+			"length":48.0,
+			"angle":180.0}],
+	"behaviorSpec":{
+                        "behavior":"MIRV",
+                        "splitRange":400,
+			"splitRangeRange":100,
+                        "minTimeToSplit":1,
+                        "numShots":20,
+                        "damage":500,
+                        "impact":0,
+                        "emp":0,
+                        "damageType":ENERGY,
+                        "hitpoints":150,
+                        "arc":225,
+                        "evenSpread":false,
+                        "spreadInaccuracy":15,
+                        "spreadSpeed":200,
+                        "spreadSpeedRange":200,
+                        "projectileRange":100,
+                        "projectileSpec":"SKR_sunburst_shot",
+                        "smokeSpec":{
+                            "particleSizeMin":20.0,
+                            "particleSizeRange":20.0,
+                            "cloudParticleCount":20,
+                            "cloudDuration":0.5f,
+                            "cloudRadius":50.0,
+                            "blowbackParticleCount":0,
+                            "blowbackDuration":0.5f,
+                            "blowbackLength":30,
+                            "blowbackSpread":180,
+                            "particleColor":[255,75,165,200]
+                        }
+                        }				    
+}

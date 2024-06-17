@@ -1,0 +1,77 @@
+{
+    "displayName": "Dakka",
+    "fluxCapacitors": 43,
+    "fluxVents": 50,
+    "goalVariant": true,
+    "hullId": "SKR_siegfried_aaa",
+    "hullMods": ["magazines"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "SKR_siegfried_aaa_base",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "FIRECANE1": "SKR_firecane",
+                "FIRECANE2": "SKR_firecane"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "MEDIUM1": "SKR_minigun",
+                "MEDIUM3": "SKR_minigun"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "MEDIUM2": "SKR_minigun",
+                "MEDIUM4": "SKR_minigun"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "MEDIUM5": "SKR_minigun",
+                "MEDIUM7": "SKR_minigun"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "MEDIUM6": "SKR_minigun",
+                "MEDIUM8": "SKR_minigun"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"LARGE1": "dualflak"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0012": "lightmg",
+                "WS0013": "lightmg",
+                "WS0014": "lightmg",
+                "WS0015": "lightmg",
+                "WS0016": "lightmg",
+                "WS0017": "lightmg",
+                "WS0018": "lightmg",
+                "WS0019": "lightmg",
+                "WS0020": "lightmg",
+                "WS0021": "lightmg",
+                "WS0022": "lightmg",
+                "WS0023": "lightmg",
+                "WS0024": "lightmg"
+            }
+        }
+    ]
+}

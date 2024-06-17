@@ -1,0 +1,19 @@
+{
+    "displayName": "Recovered",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "SKR_siegfried",
+    "hullMods": [],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "SKR_siegfried_base",
+    "weaponGroups": [{
+        "autofire": false,
+        "mode": "LINKED",
+        "weapons": {
+            "FIRECANE1": "SKR_firecane",
+            "FIRECANE2": "SKR_firecane"
+        }
+    }]
+}

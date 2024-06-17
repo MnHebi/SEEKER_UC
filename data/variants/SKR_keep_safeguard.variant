@@ -1,0 +1,85 @@
+{
+    "displayName": "Safeguard",
+    "fluxCapacitors": 14,
+    "fluxVents": 50,
+    "goalVariant": true,
+    "hullId": "SKR_keep",
+    "hullMods": [
+        "turretgyros",
+        "advancedshieldemitter",
+        "auxiliarythrusters",
+        "fluxbreakers",
+        "missleracks"
+    ],
+    "permaMods": [],
+    "variantId": "SKR_keep_safeguard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {"WS0001": "SKR_canister"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0002": "SKR_glutton",
+                "WS0003": "locust",
+                "WS0004": "locust"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0009": "SKR_lightstreak",
+                "WS0010": "SKR_lightstreak",
+                "WS0012": "SKR_lightstreak",
+                "WS0018": "heatseeker",
+                "WS0019": "heatseeker",
+                "WS0020": "heatseeker"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "mark9",
+                "WS0006": "hephag",
+                "WS0007": "hephag",
+                "WS0008": "SKR_dainsleif",
+                "WS0034": "mjolnir"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0011": "flak",
+                "WS0013": "flak",
+                "WS0014": "flak",
+                "WS0015": "flak",
+                "WS0016": "heavyac",
+                "WS0017": "SKR_intercept",
+                "WS0021": "vulcan",
+                "WS0022": "vulcan",
+                "WS0023": "SKR_pdGrenade",
+                "WS0024": "SKR_pdGrenade",
+                "WS0025": "vulcan",
+                "WS0026": "vulcan",
+                "WS0027": "vulcan",
+                "WS0028": "vulcan",
+                "WS0029": "vulcan",
+                "WS0030": "vulcan",
+                "WS0031": "SKR_pdGrenade",
+                "WS0032": "SKR_pdGrenade"
+            }
+        }
+    ],
+    "wings": [
+        "SKR_fireant_wing",
+        "SKR_fireant_wing",
+        "SKR_fireant_wing",
+        "SKR_fireant_wing"
+    ]
+}

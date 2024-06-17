@@ -1,0 +1,64 @@
+{
+    "displayName": "Vengeance",
+    "fluxCapacitors": 0,
+    "fluxVents": 34,
+    "hullId": "SKR_cassowaryRH",
+    "hullMods": [
+        "magazines",
+        "targetingunit",
+        "missleracks"
+    ],
+    "permaMods": [
+		"damaged_deck",
+		"defective_manufactory",
+		"malfunctioning_comms",
+		"faulty_grid",
+		"glitched_sensors",
+	],
+    "variantId": "SKR_cassowaryRH_start",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0007": "annihilatorpod",
+                "WS0008": "annihilatorpod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "hveldriver",
+                "WS0006": "hveldriver"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0009": "lrpdlaser",
+                "WS0010": "lrpdlaser",
+                "WS0011": "lrpdlaser",
+                "WS0012": "lrpdlaser",
+                "WS0013": "lrpdlaser",
+                "WS0014": "lrpdlaser",
+                "WS0015": "lrpdlaser",
+                "WS0016": "lrpdlaser",
+                "WS0017": "lrpdlaser"
+            }
+        }
+    ],
+    "wings": [
+        "piranha_wing",
+        "piranha_wing",
+        "broadsword_wing",
+        "broadsword_wing"
+    ]
+}

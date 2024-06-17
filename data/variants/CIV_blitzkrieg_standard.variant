@@ -1,0 +1,45 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 0,
+    "fluxVents": 12,
+    "goalVariant": true,
+    "hullId": "CIV_blitzkrieg",
+    "hullMods": ["magazines"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "CIV_blitzkrieg_standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0005": "salamanderpod",
+                "WS0010": "salamanderpod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "taclaser",
+                "WS0009": "taclaser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "pdburst",
+                "WS0002": "pdburst",
+                "WS0003": "pdburst",
+                "WS0006": "pdburst",
+                "WS0007": "pdburst",
+                "WS0008": "pdburst"
+            }
+        }
+    ],
+    "wings": [
+        "broadsword_wing",
+        "thunder_wing"
+    ]
+}

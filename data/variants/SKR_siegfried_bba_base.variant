@@ -1,0 +1,81 @@
+{
+    "displayName": "Cost-effective",
+    "fluxCapacitors": 45,
+    "fluxVents": 50,
+    "goalVariant": true,
+    "hullId": "SKR_siegfried_bba",
+    "hullMods": ["fluxbreakers"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "SKR_siegfried_bba_base",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "FIRECANE1": "SKR_firecane",
+                "FIRECANE2": "SKR_firecane"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"LARGE1": "multineedler"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "MEDIUM1": "shredder",
+                "MEDIUM3": "shredder"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "MEDIUM2": "shredder",
+                "MEDIUM4": "shredder"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "MEDIUM5": "shredder",
+                "MEDIUM7": "shredder"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "MEDIUM6": "shredder",
+                "MEDIUM8": "shredder"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0012": "vulcan",
+                "WS0013": "vulcan",
+                "WS0014": "vulcan",
+                "WS0015": "vulcan",
+                "WS0016": "vulcan",
+                "WS0017": "vulcan",
+                "WS0018": "vulcan",
+                "WS0019": "vulcan",
+                "WS0020": "vulcan",
+                "WS0021": "vulcan",
+                "WS0022": "vulcan",
+                "WS0023": "vulcan",
+                "WS0024": "vulcan"
+            }
+        }
+    ],
+    "wings": [
+        "gladius_wing",
+        "gladius_wing"
+    ]
+}

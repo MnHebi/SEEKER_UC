@@ -1,0 +1,64 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 7,
+    "fluxVents": 30,
+    "goalVariant": true,
+    "hullId": "SKR_halligan",
+    "hullMods": [
+        "targetingunit",
+        "fluxbreakers"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "SKR_halligan_standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0009": "swarmer",
+                "WS0010": "swarmer",
+                "WS0011": "swarmer",
+                "WS0012": "swarmer",
+                "WS0013": "swarmer",
+                "WS0014": "swarmer"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "heavymortar",
+                "WS0002": "heavymortar"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "heavyac",
+                "WS0006": "heavyac",
+                "WS0015": "railgun",
+                "WS0016": "railgun"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "SKR_minigun",
+                "WS0004": "SKR_minigun"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "dualflak",
+                "WS0017": "vulcan",
+                "WS0018": "vulcan",
+                "WS0019": "vulcan"
+            }
+        }
+    ]
+}

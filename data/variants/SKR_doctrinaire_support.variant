@@ -1,0 +1,38 @@
+{
+    "displayName": "Support",
+    "fluxCapacitors": 20,
+    "fluxVents": 20,
+    "goalVariant": true,
+    "hullId": "SKR_doctrinaire",
+    "hullMods": [],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "SKR_doctrinaire_support",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "SKR_intercept",
+                "WS0006": "SKR_intercept"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "SKR_pdCharger",
+                "WS0002": "SKR_pdCharger"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "SKR_pdGrenade",
+                "WS0004": "SKR_pdGrenade"
+            }
+        }
+    ],
+    "wings": ["SKR_fireant_wing"]
+}

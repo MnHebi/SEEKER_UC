@@ -1,0 +1,37 @@
+{
+	"id":"SKR_rocket",
+	"specClass":"missile",	
+	"missileType":"ROCKET",
+	"sprite":"graphics/SEEKER/missiles/SKR_rocket.png",
+	"size":[5,12],	
+	"center":[2.5,4],
+	"collisionRadius":10,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[173,252,251,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":100, # purely visual
+	"engineSpec":{"turnAcc":0,
+                      "turnRate":0,
+                      "maxSpeed":700,
+                      "acc":490,
+                      "dec":0},
+	"engineSlots":[             				    
+			{"id":"ES1",
+                        "loc":[-4,0],
+                        "style":"CUSTOM",
+                        "styleSpec":{
+                                "mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+                                "engineColor":[100,165,255,255],
+                                "contrailDuration":0.5,
+                                "contrailWidthMult":1,
+                                "contrailWidthAddedFractionAtEnd":-1,  # can be negative. makes trail spread out/narrow at the end
+                                "contrailMinSeg":15, # min segment length, in pixels
+                                "contrailMaxSpeedMult":0.1f,
+                                "contrailAngularVelocityMult":0.1f,
+                                "contrailColor":[100,165,255,75],
+                                "type":"SMOKE" # GLOW or SMOKE; additive or regular blend mode
+                                },
+                        "width":5.0,
+			"length":20.0,
+			"angle":180.0
+                        }],
+}

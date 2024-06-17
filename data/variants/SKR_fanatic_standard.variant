@@ -1,0 +1,42 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 7,
+    "fluxVents": 20,
+    "goalVariant": true,
+    "hullId": "SKR_fanatic",
+    "hullMods": ["hardenedshieldemitter"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "SKR_fanatic_standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "SKR_dainsleif"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0006": "SKR_lightspark",
+                "WS0007": "SKR_lightspark"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "SKR_pdCharger",
+                "WS0003": "SKR_pdCharger"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "SKR_pdCharger",
+                "WS0005": "SKR_pdCharger"
+            }
+        }
+    ]
+}

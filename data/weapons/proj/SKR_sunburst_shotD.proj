@@ -1,0 +1,60 @@
+{
+	"id":"SKR_sunburst_shotD",
+	"specClass":"missile",	
+	"missileType":"PHASE_CHARGE",
+	"sprite":"graphics/SEEKER/missiles/SKR_sunburstMine.png",
+	"glowSprite":"graphics/SEEKER/missiles/SKR_sunburstMineG.png",
+	"glowColor":[255,255,255,255],
+	"size":[24,24],	
+	"center":[12,12],
+	"collisionRadius":6,
+	"collisionClass":"MISSILE_FF",
+	"explosionColor":[255,75,165,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":150, 
+	"engineSpec":{
+                        "turnAcc":720,
+                        "turnRate":180,
+                        "acc":180,
+                        "dec":180
+                    },
+	"flameoutTime":1f, # total time from flameout to full fadeout
+	"engineSlots":[{
+                        "id":"ES1",
+			"loc":[0, 0],
+			"style":"CUSTOM",
+			"styleSpec":{
+                            "mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+                            "engineColor":[255,75,165,255],
+                            "contrailDuration":0,
+                            "contrailWidthMult":0,
+                            "contrailWidthAddedFractionAtEnd":-0.5f,  # can be negative. makes trail spread out/narrow at the end
+                            "contrailMinSeg":15, # min segment length, in pixels
+                            "contrailMaxSpeedMult":0.5f,
+                            "contrailAngularVelocityMult":0.5f,
+                            "contrailSpawnDistMult":1, # how far away from engine it starts
+                            "contrailColor":[255,75,165,150],
+                            "type":"GLOW" # GLOW or SMOKE; additive or regular blend mode
+			},
+			"width":5.0,
+			"length":0,
+			"angle":180.0}],
+	"behaviorSpec":{
+                        "behavior":"PROXIMITY_FUSE",
+                        "shotRangeVariance":0.9,
+			"slowToMaxSpeed":true,
+                        "range":90,
+                        "explosionSpec":{
+                            "duration":1.2f,
+                            "radius":60,
+                            "coreRadius":90, # full damage within core radius - also equal to proximity fuse range
+                            "collisionClass":PROJECTILE_FF,
+                            "collisionClassByFighter":PROJECTILE_FIGHTER,
+                            "particleSizeMin":3.0,
+                            "particleSizeRange":4.0,
+                            "particleDuration":2,
+                            "particleCount":10,
+                            "particleColor":[255,75,165,255],
+                            "explosionColor":[255,155,205,125],
+                            "sound":"devastator_explosion"},
+                        }
+}

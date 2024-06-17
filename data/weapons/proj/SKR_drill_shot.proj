@@ -1,0 +1,16 @@
+{
+    "id":"SKR_drill_shot",
+    "specClass":"projectile",
+    "spawnType":"PLASMA",
+    #"collisionClass":"NONE",
+    #"collisionClassByFighter":"NONE",
+    "collisionClass":"PROJECTILE_FF",
+    "collisionClassByFighter":"NONE",
+    "width":50,
+    "fadeTime":1,
+    "flameoutTime":0.25, # total time from flameout to full fadeout
+    "noEngineGlowTime":0.25, # time spent without the engine glow being rendered
+    "fringeColor":[32,24,64,64],
+    "coreColor":[0,0,0,255],
+        "renderTargetIndicator":false,
+}

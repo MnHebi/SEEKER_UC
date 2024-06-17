@@ -1,0 +1,11 @@
+{
+    "id":"SKR_pulse",
+    "type":"STAT_MOD",
+    "aiType":"CUSTOM",
+
+    "aiScript":"data.shipsystems.scripts.ai.SKR_pulseAI",
+    "statsScript":"data.shipsystems.scripts.SKR_pulseStats",
+
+    "useSound":"SKR_pulse_in",
+    "outOfUsesSound":"gun_out_of_ammo",
+}

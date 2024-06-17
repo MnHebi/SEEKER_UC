@@ -1,0 +1,271 @@
+{
+  "hullName": "Quicksilver",
+  "hullId": "SKR_quicksilver",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/SEEKER/ships/hidden/SKR_quicksilver.png",
+  "style": "HIGH_TECH",
+  "height": 451,
+  "width": 174,
+  "center": [87, 225.5],
+  "collisionRadius": 238,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 237.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "ecm",
+    "phasefield",
+    "high_maintenance",
+    "delicate"
+  ],
+  "builtInWeapons": {
+    "BLOCK_L": "SKR_quicksilverBlockL",
+    "BLOCK_R": "SKR_quicksilverBlockR",
+    "DOOR_L": "SKR_quicksilverDoorL",
+    "DOOR_R": "SKR_quicksilverDoorR",
+    "SHADOW": "SKR_quicksilverShadow",
+    "SYSTEM": "SKR_quicksilverSystem"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0002",
+      "size": "LARGE",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [95.5, -0]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 157.5,
+      "angle": 65,
+      "locations": [36.5, 23]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 157.509995,
+      "angle": -65,
+      "locations": [36.5, -23]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -60,
+      "locations": [208, -41]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 60,
+      "locations": [208, 41]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 235,
+      "angle": -45,
+      "locations": [105.5, -33]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 235,
+      "angle": 45,
+      "locations": [105.5, 33]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 157.5,
+      "angle": 115,
+      "locations": [-16.5, 22]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 157.5,
+      "angle": -115,
+      "locations": [-16.5, -22]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 235,
+      "angle": 135,
+      "locations": [-108.5, 43]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 235,
+      "angle": -135,
+      "locations": [-108.5, -43]
+    },
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [129.5, 20]
+    },
+    {
+      "id": "WS0013",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": -0,
+      "locations": [129.5, -20]
+    },
+    {
+      "id": "SYSTEM",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-15.5, -0]
+    },
+    {
+      "id": "SHADOW",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-8, -0]
+    },
+    {
+      "id": "DOOR_R",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [31.5, -57]
+    },
+    {
+      "id": "DOOR_L",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [31.5, 57]
+    },
+    {
+      "id": "BLOCK_R",
+      "size": "MEDIUM",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-15.5, -56]
+    },
+    {
+      "id": "BLOCK_L",
+      "size": "MEDIUM",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-15.5, 56]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-64.5, -6],
+      "length": 129,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-64.5, 6],
+      "length": 129,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-70.5, -0],
+      "length": 129,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    105, 17,
+    164.5, 27.5,
+    222, 27.5,
+    208, 46.5,
+    185, 46.5,
+    167, 51.5,
+    67, 51.5,
+    39, 68.5,
+    -73.5, 79.5,
+    -58, 65.5,
+    -151, 65.5,
+    -109, 59.5,
+    -197, 44.5,
+    -211, 34.5,
+    -157, 33.5,
+    -196, 26.5,
+    -220, 12.5,
+    -202, 10.5,
+    -168, 21.5,
+    -119, 21.5,
+    -78.5, 3.5,
+    -78.5, -3.5,
+    -119, -21.5,
+    -168, -21.5,
+    -202, -10.5,
+    -220, -12.5,
+    -196, -26.5,
+    -157, -33.5,
+    -211, -34.5,
+    -197, -44.5,
+    -109, -59.5,
+    -151, -65.5,
+    -58, -65.5,
+    -73.5, -79.5,
+    39, -68.5,
+    67, -51.5,
+    167, -51.5,
+    185, -46.5,
+    208, -46.5,
+    222, -27.5,
+    164.5, -27.5,
+    105, -17
+  ]
+}

@@ -1,0 +1,24 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 12,
+    "fluxVents": 0,
+    "hullId": "CIV_titanic",
+    "hullMods": ["heavyarmor"],
+    "permaMods": [],
+    "variantId": "CIV_titanic_standard",
+    "weaponGroups": [{
+        "autofire": true,
+        "mode": "LINKED",
+        "weapons": {
+            "WS0001": "flak",
+            "WS0002": "flak",
+            "WS0003": "flak",
+            "WS0004": "flak",
+            "WS0005": "flak"
+        }
+    }],
+    "wings": [
+        "talon_wing",
+        "gladius_wing"
+    ]
+}

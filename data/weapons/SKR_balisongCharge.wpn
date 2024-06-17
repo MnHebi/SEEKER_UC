@@ -1,0 +1,23 @@
+{
+	"id":"SKR_balisongCharge",  # this id must match what's in the spreadsheet
+	"specClass":"beam",
+	"type":"DECORATIVE",
+	"size":"MEDIUM",
+	"turretSprite":"graphics/SEEKER/weapons/deco/SKR_balisongCharge/SKR_balisongCharge_00.png",
+	"hardpointSprite":"graphics/SEEKER/weapons/deco/SKR_balisongCharge/SKR_balisongCharge_00.png",
+	"numFrames":12,
+	"frameRate":0,
+        "renderHints":["RENDER_ADDITIVE"],
+	"turretOffsets":[0, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[0, 0],
+	"hardpointAngleOffsets":[0],
+	"fringeColor":[255,255,255,255],
+	"coreColor":[255,255,255,255],
+	"glowColor":[255,255,255,255],
+	"width":1.0,
+	"textureType":ROUGH,
+	"textureScrollSpeed":1.0,
+	"pixelsPerTexel":5.0,		
+	"everyFrameEffect":"data.scripts.weapons.SKR_balisongEffect",
+}

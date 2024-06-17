@@ -1,0 +1,15 @@
+{
+	"id":"SKR_fastShield",
+	"type":"SHIELD_MOD",
+	"aiType":"CUSTOM",
+        "aiScript":"data.shipsystems.scripts.ai.SKR_fastShieldAI",
+	"statsScript":"data.shipsystems.scripts.SKR_fastShieldStats",
+	
+	"shieldRingColor":[255,255,255,255],
+	"shieldInnerColor":[255,100,255,75],
+	"shieldThicknessMult":1,
+	"shieldFluctuationMult":0,
+
+	"useSound":"CIV_shield",
+	"outOfUsesSound":"gun_out_of_ammo",	
+}

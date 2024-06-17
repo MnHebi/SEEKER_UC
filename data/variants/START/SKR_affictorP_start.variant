@@ -1,0 +1,28 @@
+{
+    "displayName": "Vengeance",
+    "fluxCapacitors": 10,
+    "fluxVents": 8,
+    "hullId": "afflictor_d_pirates",
+    "hullMods": [],
+    "permaMods": [
+		"unstable_coils",
+		"fragile_subsystems",
+		"increased_maintenance"
+	],
+    "variantId": "SKR_affictorP_start",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 002": "amblaster",
+                "WS 003": "amblaster"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 006": "pdlaser"}
+        }
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "displayName": "Outdated",
+    "fluxCapacitors": 11,
+    "fluxVents": 20,
+    "goalVariant": true,
+    "hullId": "SKR_557",
+    "hullMods": ["reinforcedhull"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "SKR_557_outdated",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "SKR_557Gun"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "shredder",
+                "WS0003": "shredder"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "irpulse",
+                "WS0005": "irpulse"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "pdlaser",
+                "WS0007": "pdlaser",
+                "WS0008": "pdlaser"
+            }
+        }
+    ]
+}

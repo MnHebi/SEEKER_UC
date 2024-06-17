@@ -1,0 +1,280 @@
+{
+  "bounds": [
+    242,
+    26,
+    231,
+    26,
+    98,
+    54,
+    79,
+    52,
+    72,
+    64,
+    49.5,
+    64,
+    42.5,
+    70,
+    19,
+    65,
+    3,
+    93,
+    17,
+    104,
+    -13,
+    105,
+    -52,
+    121,
+    -106,
+    124,
+    -160,
+    161,
+    -209,
+    165,
+    -232,
+    159,
+    -221,
+    126,
+    -198,
+    101,
+    -67,
+    40,
+    -56,
+    -0,
+    -67,
+    -40,
+    -198,
+    -101,
+    -221,
+    -126,
+    -232,
+    -159,
+    -209,
+    -165,
+    -160,
+    -161,
+    -106,
+    -124,
+    -52,
+    -121,
+    -13,
+    -105,
+    17,
+    -104,
+    3,
+    -93,
+    19,
+    -65,
+    42.5,
+    -70,
+    49.5,
+    -64,
+    72,
+    -64,
+    79,
+    -52,
+    98,
+    -54,
+    231,
+    -26,
+    242,
+    -26,
+    260.5,
+    -0
+  ],
+  "builtInWeapons": {
+    "SYSTEM": "SKR_voulgeSystem"
+  },
+  "center": [
+    168,
+    235
+  ],
+  "collisionRadius": 300,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 28,
+      "length": 159.5,
+      "location": [
+        -60,
+        -0
+      ],
+      "style": "LOW_TECH",
+      "width": 28
+    },
+    {
+      "angle": 178,
+      "contrailSize": 24.09963,
+      "length": 130.158752,
+      "location": [
+        -61,
+        15
+      ],
+      "style": "LOW_TECH",
+      "width": 24.09963
+    },
+    {
+      "angle": -178,
+      "contrailSize": 24.09963,
+      "length": 130.158752,
+      "location": [
+        -61,
+        -15
+      ],
+      "style": "LOW_TECH",
+      "width": 24.09963
+    },
+    {
+      "angle": 176.5,
+      "contrailSize": 16,
+      "length": 96.5,
+      "location": [
+        -66,
+        31
+      ],
+      "style": "LOW_TECH",
+      "width": 16
+    },
+    {
+      "angle": -176.5,
+      "contrailSize": 16,
+      "length": 96.5,
+      "location": [
+        -66,
+        -31
+      ],
+      "style": "LOW_TECH",
+      "width": 16
+    }
+  ],
+  "height": 497,
+  "hullId": "SKR_voulge",
+  "hullName": "Voulge",
+  "hullSize": "CAPITAL_SHIP",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 298,
+  "spriteName": "graphics/SEEKER/ships/hidden/SKR_voulge.png",
+  "style": "LOW_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "MAIN",
+      "locations": [
+        61,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "LARGE",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 30,
+      "arc": 90,
+      "id": "LEFT",
+      "locations": [
+        -49,
+        74
+      ],
+      "mount": "TURRET",
+      "size": "LARGE",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": -30,
+      "arc": 90,
+      "id": "RIGHT",
+      "locations": [
+        -49,
+        -74
+      ],
+      "mount": "TURRET",
+      "size": "LARGE",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 30,
+      "arc": 5,
+      "id": "WS0001",
+      "locations": [
+        2,
+        74
+      ],
+      "mount": "HARDPOINT",
+      "size": "LARGE",
+      "type": "MISSILE",
+      "renderOrderMod":-10,
+    },
+    {
+      "angle": -30,
+      "arc": 5,
+      "id": "WS0002",
+      "locations": [
+        2,
+        -74
+      ],
+      "mount": "HARDPOINT",
+      "size": "LARGE",
+      "type": "MISSILE",
+      "renderOrderMod":-10,
+    },
+    {
+      "angle": 0,
+      "arc": 90,
+      "id": "WS0003",
+      "locations": [
+        128,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "COMPOSITE"
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 125,
+      "locations": [-178, 125]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": -125,
+      "locations": [-178, -125]
+    },
+    {
+      "angle": 0,
+      "arc": 235,
+      "id": "WS0010",
+      "locations": [
+        231,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "SYSTEM",
+      "locations": [
+        61,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "DECORATIVE"
+    }
+  ],
+  "width": 336
+}

@@ -1,0 +1,63 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 0,
+    "fluxVents": 33,
+    "goalVariant": true,
+    "hullId": "SKR_cassowary",
+    "hullMods": ["targetingunit"],
+    "permaMods": [],
+    "variantId": "SKR_cassowary_standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "SKR_modsL",
+                "WS0002": "SKR_modsR"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "salamanderpod",
+                "WS0008": "salamanderpod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "hephag",
+                "WS0004": "multineedler"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "ionbeam",
+                "WS0006": "ionbeam"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0009": "pdburst",
+                "WS0010": "pdburst",
+                "WS0011": "pdburst",
+                "WS0012": "pdburst",
+                "WS0013": "pdburst",
+                "WS0014": "pdburst",
+                "WS0015": "pdburst",
+                "WS0016": "pdburst",
+                "WS0017": "pdburst"
+            }
+        }
+    ],
+    "wings": [
+        "gladius_wing",
+        "gladius_wing"
+    ]
+}

@@ -1,0 +1,189 @@
+{
+  "hullName": "Obelisk",
+  "hullId": "SKR_obelisk",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/SEEKER/ships/SKR_obelisk.png",
+  "style": "LOW_TECH",
+  "height": 161,
+  "width": 124,
+  "center": [62, 96],
+  "collisionRadius": 107.5,
+  "shieldCenter": [-13, -0],
+  "shieldRadius": 94.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "civgrade"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 235,
+      "angle": 0,
+      "locations": [35, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 235,
+      "angle": 180,
+      "locations": [-7, -0]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 85,
+      "locations": [-25, 53]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -85,
+      "locations": [-25, -53]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 110,
+      "locations": [-43, 47]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -110,
+      "locations": [-43, -47]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 135,
+      "locations": [-59, 37]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -135,
+      "locations": [-59, -37]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-93, -0],
+      "length": 53.5,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-94, 10],
+      "length": 45,
+      "width": 10,
+      "angle": 177,
+      "contrailSize": 10,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-94, -10],
+      "length": 45,
+      "width": 10,
+      "angle": -177,
+      "contrailSize": 10,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-91.5, 16],
+      "length": 30.5,
+      "width": 6,
+      "angle": 173.5,
+      "contrailSize": 6,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-91.5, -16],
+      "length": 30.5,
+      "width": 6,
+      "angle": -173.5,
+      "contrailSize": 6,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-93, 6],
+      "length": 29,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-93, -6],
+      "length": 29,
+      "width": 4,
+      "angle": -180,
+      "contrailSize": 4,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -13.5, 22,
+    7, 35.5,
+    -24.5, 25,
+    -35.5, 0,
+    -54.5, 0,
+    -48, 24.5,
+    -16.5, 46.5,
+    -42, 42,
+    -66.5, 19.5,
+    -69.5, 0,
+    -92.5, 0,
+    -89, 17.5,
+    -78, 35,
+    -55, 51,
+    -27.5, 59.5,
+    4.5, 57.5,
+    32.5, 45.5,
+    53.5, 25,
+    62.5, -0,
+    53.5, -25,
+    32.5, -45.5,
+    4.5, -57.5,
+    -27.5, -59.5,
+    -55, -51,
+    -78, -35,
+    -89, -17.5,
+    -92.5, -0,
+    -69.5, -0,
+    -66.5, -19.5,
+    -42, -42,
+    -16.5, -46.5,
+    -48, -24.5,
+    -54.5, -0,
+    -35.5, -0,
+    -24.5, -25,
+    7, -35.5,
+    -13.5, -22,
+    -22, -0
+  ]
+}

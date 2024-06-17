@@ -1,0 +1,54 @@
+{
+    "displayName": "Support",
+    "fluxCapacitors": 0,
+    "fluxVents": 18,
+    "goalVariant": true,
+    "hullId": "SKR_retiarius",
+    "hullMods": [
+        "targetingunit",
+        "advancedoptics"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "SKR_retiarius_support",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "SKR_fuscina",
+                "WS0002": "SKR_fuscina",
+                "WS0003": "SKR_fuscina"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0005": "heatseeker",
+                "WS0006": "heatseeker"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "taclaser",
+                "WS0007": "taclaser",
+                "WS0008": "taclaser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0009": "pdburst",
+                "WS0010": "pdburst"
+            }
+        }
+    ],
+    "wings": [
+        "xyphos_wing",
+        "xyphos_wing"
+    ]
+}

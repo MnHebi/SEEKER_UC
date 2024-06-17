@@ -1,0 +1,21 @@
+{
+	"id":"SKR_blackoutEMP_shot",
+	"specClass":"projectile",
+	#"spawnType":"BALLISTIC_AS_BEAM",
+	#"collisionClass":"RAY",
+	#"collisionClassByFighter":"RAY_FIGHTER",
+	"spawnType":"BALLISTIC",
+        "collisionClass":"PROJECTILE_FF",
+        "collisionClassByFighter":"PROJECTILE_FF",
+	"length":200.0,
+	"width":32.0,
+	"hitGlowRadius":75,
+	"fadeTime":0.25,
+	"fringeColor":[50,50,150,200],
+	"coreColor":[50,120,150,200],
+	"textureType":"WEAVE",  # only needed for BEAM spawnType
+	"textureScrollSpeed":4.0,
+	"pixelsPerTexel":1.0,
+	#"bulletSprite":"graphics/SEEKER/missiles/SKR_blackoutP.png",
+	"onHitEffect":"data.scripts.weapons.SKR_blackoutEMP_effect",
+}

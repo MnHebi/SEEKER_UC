@@ -1,0 +1,20 @@
+{
+	"id":"SKR_ZcassowaryDeckL",  # this id must match what's in the spreadsheet
+	"specClass":"beam",
+	"type":"DECORATIVE",
+	"size":"LARGE",
+	"turretSprite":"graphics/SEEKER/weapons/deco/SKR_deck_L.png",
+	"hardpointSprite":"graphics/SEEKER/weapons/deco/SKR_deck_L.png",
+	"renderBelowAllWeapons":"true",
+	"turretOffsets":[0, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[0, 0],
+	"hardpointAngleOffsets":[0],
+	"fringeColor":[255,255,255,255],
+	"coreColor":[255,255,255,255],
+	"glowColor":[255,255,255,255],
+	"width":1.0,
+	"textureType":ROUGH,
+	"textureScrollSpeed":1.0,
+	"pixelsPerTexel":5.0,		
+}

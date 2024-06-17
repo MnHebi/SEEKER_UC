@@ -1,0 +1,49 @@
+{
+    "displayName": "Outdated",
+    "fluxCapacitors": 9,
+    "fluxVents": 30,
+    "hullId": "SKR_bullhorn",
+    "hullMods": [
+        "heavyarmor",
+        "reinforcedhull"
+    ],
+    "permaMods": [],
+    "variantId": "SKR_bullhorn_outdated",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0009": "sabot",
+                "WS0010": "sabot",
+                "WS0011": "sabot"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "hellbore",
+                "WS0002": "hellbore"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "arbalest",
+                "WS0004": "arbalest"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "vulcan",
+                "WS0006": "vulcan",
+                "WS0007": "vulcan",
+                "WS0008": "vulcan"
+            }
+        }
+    ]
+}

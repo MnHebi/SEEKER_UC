@@ -1,0 +1,23 @@
+{
+	"id":"SKR_revolverBeam",  # this id must match what's in the spreadsheet
+	"specClass":"beam",
+	"type":"ENERGY",
+	"size":"LARGE",
+	"turretSprite":"",
+	"hardpointSprite":"",
+	"turretOffsets":[0, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[0, 0],
+	"hardpointAngleOffsets":[0],
+	"barrelMode":"ALTERNATING", #ALTERNATING or LINKED.  whether barrels fire at the same time or alternate.
+	"fringeColor":[220,190,25,255],
+	"coreColor":[255,240,200,255],
+	"glowColor":[225,100,255,255],
+	"width":20.0,
+	"textureType":["graphics/SEEKER/fx/SKR_beamRadiate.png","graphics/fx/beam_rough2_core.png"],
+	"textureScrollSpeed":320.0,
+	"pixelsPerTexel":16.0,
+	"pierceSet":[PROJECTILE_FF,PROJECTILE_NO_FF,PROJECTILE_FIGHTER,MISSILE_FF,MISSILE_NO_FF],
+	"fireSoundOne":"SKR_revolverLance_fire",
+        "beamEffect":"data.scripts.weapons.SKR_revolverEffect",
+}

@@ -1,0 +1,31 @@
+{
+    "displayName": "Premium",
+    "fluxCapacitors": 7,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "SKR_hedone",
+    "hullMods": [
+        "fluxbreakers",
+        "hardenedshieldemitter",
+        "auxiliarythrusters",
+        "unstable_injector"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "SKR_hedone_premium",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "lightag",
+                "WS0003": "lightdualac"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "lrpdlaser"}
+        }
+    ]
+}

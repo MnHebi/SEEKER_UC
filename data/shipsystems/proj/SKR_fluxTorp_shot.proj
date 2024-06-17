@@ -1,0 +1,52 @@
+{
+	"id":"SKR_fluxTorp_shot",
+	"specClass":"missile",	
+	"missileType":"MISSILE",
+	"sprite":"graphics/SEEKER/missiles/SKR_fluxP.png",
+	"size":[11,43],	
+	"center":[5.5,30],
+	"collisionRadius":18,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[255,100,10,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":150, # purely visual
+	"engineSpec":{"turnAcc":180,
+                      "turnRate":180,
+                      "acc":100,
+                      "dec":40},
+	"engineSlots":[
+                        {"id":"ES1",
+                        "loc":[0, 0],
+                        "style":"CUSTOM",
+                        "styleSpec":{
+                                "mode":"QUAD_STRIP",
+                                "engineColor":[255,0,0,0],
+                                "contrailDuration":1,
+                                "contrailWidthMult":1,
+                                "contrailWidthAddedFractionAtEnd":1,
+                                "contrailMinSeg":10,
+                                "contrailMaxSpeedMult":0f,
+                                "contrailAngularVelocityMult":0f,
+                                "contrailColor":[155,50,10,75],
+                                "type":"SMOKE"
+                        },
+                        "width":10.0,
+                        "length":10.0,
+                        "angle":180.0},
+
+                        {"id":"ES2",
+                        "loc":[0, 5],
+                        "style":"NO_SMOKE",
+                        "width":5.0,
+                        "length":20.0,
+                        "angle":155.0},
+
+                        {"id":"ES3",
+                        "loc":[0, -5],
+                        "style":"NO_SMOKE",
+                        "width":5.0,
+                        "length":20.0,
+                        "angle":205.0},
+		    ],
+
+	"onHitEffect":"data.scripts.weapons.SKR_fluxTorp_effect",
+}

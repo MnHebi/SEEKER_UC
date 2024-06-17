@@ -1,0 +1,30 @@
+{
+	"id":"SKR_firecane_R",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"BALLISTIC",
+	"size":"LARGE",
+	"displayArcRadius":1200,
+	"turretSprite":"graphics/SEEKER/weapons/SKR_firecane_turret.png",
+	"turretGunSprite":"graphics/SEEKER/weapons/SKR_firecane_barrel.png",
+	"hardpointSprite":"graphics/SEEKER/weapons/SKR_firecane_turret.png",
+	"hardpointGunSprite":"graphics/SEEKER/weapons/SKR_firecane_barrel.png",	
+	"visualRecoil":10.0,  # the gun sprites are only used if this is non-0
+	"renderHints":[RENDER_BARREL_BELOW],
+	"turretOffsets":[59, 22, 62, 0, 59, -22],
+	"turretAngleOffsets":[0,0,0],
+	"hardpointOffsets":[59, 22, 62, 0, 59, -22],
+	"hardpointAngleOffsets":[0,0,0],
+	"barrelMode":"ALTERNATING",
+        "separateRecoilForLinkedBarrels":"TRUE",
+	"interruptibleBurst":true,
+	"animationType":"MUZZLE_FLASH",
+	"muzzleFlashSpec":{"length":85.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":15.0,
+					   "particleSizeMin":10.0,
+					   "particleSizeRange":45.0,
+					   "particleDuration":1.5,
+					   "particleCount":75,
+					   "particleColor":[255,70,50,245]},
+	"projectileSpecId":"hellbore_shot",  # projectile that will be fired
+	"fireSoundTwo":"SKR_firecane",
+}

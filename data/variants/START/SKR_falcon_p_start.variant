@@ -1,0 +1,47 @@
+{
+    "displayName": "Assault",
+    "fluxCapacitors": 15,
+    "fluxVents": 30,
+    "goalVariant": true,
+    "hullId": "falcon_p",
+    "hullMods": ["hardenedshieldemitter"],
+    "permaMods": [
+		"degraded_engines",
+		"glitched_sensors"
+		],
+    "variantId": "SKR_falcon_p_start",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 007": "typhoon",
+                "WS 008": "typhoon"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 001": "swarmer",
+                "WS 002": "swarmer"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "heavyac",
+                "WS 006": "heavyac"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 009": "pdburst",
+                "WS 010": "pdburst"
+            }
+        }
+    ]
+}

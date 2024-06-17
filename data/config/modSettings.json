@@ -1,0 +1,166 @@
+{
+	"seeker":{
+	
+		"graphicLib_lights":"data/config/modFiles/SKR_light_data.csv",
+		"graphicLib_maps":"data/config/modFiles/SKR_texture_data.csv",
+	
+        "plague_rates":{
+            # "id" : (float)rate,
+            # id = amount of interference caused by the weapon,
+            # rate = severity of the ship's loss of CR for each plagued weapon installed with that rate
+            # default : 
+            # "WEAK":3,
+            # "MILD":6,
+            # "STRONG":12,
+            # Technically mods can add new custom rates but those will NOT be mentioned in the hullmod description
+            "WEAK":3,
+            "MILD":6,
+            "STRONG":12,
+        },
+
+        "plague_HSSmult":0.666,	
+        # The Hardened Sub-systems hullmod reduces the impact of the plague containment. Default : 0.666
+
+        "plague_weapons":{
+            # List weapons that are contaminated with the nano-plague and reduce the ship's max CR from the extra containment work.
+            # "id" : "intensity",
+            # id = weapon.csv id
+            # intensity = plague_rates id in Seeker's settings. By default it can be WEAK MILD STRONG.
+            # "sample_weapon1":"WEAK",
+            # "sample_weapon2":"MILD",
+            # "sample_weapon3":"STRONG",
+            #smalls
+			"SKR_pdCharger":"WEAK",
+			"SKR_pdGrenade":"WEAK",
+			"SKR_burstPulse":"WEAK",
+			"SKR_lightspark":"WEAK",
+			#mediums
+			"SKR_intercept":"MILD",
+			"SKR_assaultRevolver":"MILD",
+			"SKR_hvBlaster":"MILD",
+			"SKR_lightstreak":"MILD",
+			#larges
+			"SKR_dainsleif":"STRONG",
+			"SKR_fauchard":"STRONG",
+			"SKR_heavyLightstreak":"STRONG",
+			"SKR_sling":"MILD",
+        },
+		
+		"plague_LPC":[
+			# List wing LPC that are contaminated with the nano-plague and reduce the ship's max CR from the extra containment work.
+            "SKR_fireant_wing",
+			"SKR_pillbug_wing",
+			"SKR_beetle_wing",
+		],
+	
+		"plaguebearer_warp":{
+			"SKR_keep":"SKR_keep_arrival",
+			"SKR_rampage":"SKR_rampage_arrival",
+			"SKR_whiteDwarf":"SKR_whiteDwarf_arrival",
+			"SKR_cataclysm":"SKR_cataclysm_arrival",
+		},
+	},
+
+	"diableavionics":{	
+		"missile_resist_derecho": [
+			# Lists missiles id that should loose guidance but not get flamed out by the Derecho ECM system
+			"SKR_modsMissile",
+			# plague weapons are resistant to ECM
+			"SKR_lightsparkMissile",
+			"SKR_lightstreakCarrier",
+			"SKR_lightstreakMissile",
+			"SKR_slingMissile",
+			"SKR_tuskMissile",
+			"SKR_pdbomb_proj",
+		],
+		"missile_immune_derecho": [
+			# Lists missiles id that should not get affected at all by the Derecho ECM system
+			# Please be mindful to not break player expectations, only very special projectiles should be immune
+			# Such as phased missiles or "smart" bullets
+			"SKR_bullhornDiscard_shot",
+			"SKR_can",
+			"SKR_drill_shot",
+		],
+    },
+	
+    "MagicLib":{
+        "interferences_weapons":{
+            "SKR_blackout":"STRONG",
+            "SKR_glare":"MILD",
+            "SKR_ravager":"MILD",
+            "SKR_targetPainterSmall":"WEAK",
+            "SKR_targetPainterMedium":"WEAK",
+            "SKR_kaleidoscope":"WEAK",
+            "SKR_gatlingLance":"STRONG",
+        },
+		
+	"merged_themes_blacklist":[
+		"theme_plaguebearers",
+		"theme_domres",
+		"theme_hmi_nightmare",
+		"theme_hmi_mess_remnant",
+		"theme_messrem",
+		"theme_domresboss",
+		"theme_domres",
+	],
+},
+		
+	"SCY":{
+		#"amity_factionWhitelist":[
+		#	# Lists factions that should have their known ships and weapons sold in Amity's Freeport discount trader.
+		#],
+		"amity_blacklist":[
+			# Lists ships, weapons and wing ids that should be culled from Amity's Freeport discount trader.
+			# Consider that tier 3 weapons/wings and ships above 5/10/14/23 FP are already culled from that store.
+			"SKR_targetPainterSmall",
+			"SKR_mod_dissipator2",
+			"SKR_beetle_wing",
+			"SKR_fireant_wing",
+			"SKR_pillbug_wing",
+			"SKR_lightspark",
+			"SKR_pdCharger",
+			"SKR_pdGrenade",
+			"SKR_burstPulse",
+			"SKR_lightstreak",
+			"SKR_intercept",
+			"SKR_assaultRevolver",
+			"SKR_hvBlaster",
+			"SKR_heavyLightstreak",
+			"SKR_sling",
+			"SKR_dainsleif",
+			"SKR_fauchard",
+			
+			"SKR_poisonivy",
+			"SKR_guardian",
+			"SKR_guardian_atc",
+			"SKR_guardian_broadside",
+			"SKR_quicksilver",
+			"SKR_balisong",
+			"SKR_dawn",
+			"SKR_onyx",
+			"SKR_cassowaryRH",
+			"SKR_gawon",
+			"SKR_voulge",
+			"SKR_keep",
+			"SKR_rampage",
+			"SKR_whiteDwarf",
+			"SKR_cataclysm",
+			"SKR_cultist",
+			"SKR_zealoth",
+			"SKR_guru",
+		],
+	},
+
+	"the_vass":{
+		"do_not_clone_projs":[
+			# A list of projectiles which will not be cloned by the Isochronal Field under any circumstances
+			# Can be practical for some very-heavily scripted weapons, but do check if it works without this 
+			# setting first; the code has some built-in attempts to be compatible with many scripted projectiles
+			#   Example:
+		    # mySuperCoolScriptedMissile,
+			"SKR_drill_subshot",
+			"SKR_drill_shot",
+		],
+    },
+
+}

@@ -1,0 +1,21 @@
+{
+	"id":"SKR_pull",
+	"type":"STAT_MOD",
+	"aiType":"CUSTOM",
+	
+        "aiScript":"data.shipsystems.scripts.ai.SKR_pullAI",
+	"statsScript":"data.shipsystems.scripts.SKR_pullStats",
+
+	"runScriptWhileIdle":true, # unapply() never gets called
+		
+	"fadeActivationSoundOnChargedown":true,
+	"useSound":"SKR_pull_charge",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+	}
+}
+
+
+
+

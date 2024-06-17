@@ -1,0 +1,13 @@
+{
+    "startShipsSuper":[
+        ["SKR_hedone_premium", "mercury_Standard"],
+        ["SKR_endymion_standard", "mercury_PD"],
+        ["SKR_augur_standard", "mercury_Attack"],
+    ],
+
+    "startShipsCombatSmall":[
+      ["SKR_butterfly_standard", "wolf_CS", "omen_PD"],
+    ],
+	
+    #"startShipsCarrierLarge":[["SKR_retiarius_standard", "buffalo_tritachyon_Standard", "brawler_tritachyon_Standard"],],
+}

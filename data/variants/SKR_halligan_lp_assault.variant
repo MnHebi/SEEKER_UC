@@ -1,0 +1,59 @@
+{
+    "displayName": "Assault",
+    "fluxCapacitors": 2,
+    "fluxVents": 30,
+    "goalVariant": true,
+    "hullId": "SKR_halligan_pather",
+    "hullMods": ["hardened_subsystems"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "SKR_halligan_lp_assault",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0009": "sabot",
+                "WS0010": "sabot",
+                "WS0011": "sabot",
+                "WS0012": "sabot",
+                "WS0013": "sabot",
+                "WS0014": "sabot"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0005": "chaingun",
+                "WS0006": "chaingun"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "lightag",
+                "WS0002": "lightag"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0007": "railgun"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "heavymg",
+                "WS0004": "heavymg",
+                "WS0015": "lightdualmg",
+                "WS0016": "lightdualmg",
+                "WS0017": "vulcan",
+                "WS0018": "vulcan",
+                "WS0019": "vulcan"
+            }
+        }
+    ]
+}

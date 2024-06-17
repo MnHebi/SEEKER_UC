@@ -1,0 +1,16 @@
+{
+	"id":"SKR_overdrive",
+	"type":"STAT_MOD",
+	"aiType":"CUSTOM",
+	
+	"aiScript":"data.shipsystems.scripts.ai.SKR_overdriveAI",
+	"statsScript":"data.shipsystems.scripts.SKR_overdriveStats",
+	
+	#"weaponGlowColor":[255,0,255,255],
+	#"weaponTypes":[ENERGY],
+	
+	"useSound":"system_high_energy_focus_activate",
+	#"deactivateSound":"system_high_energy_focus_deactivate",	
+	"outOfUsesSound":"gun_out_of_ammo",
+	#"loopSound":"system_high_energy_focus_loop",
+}

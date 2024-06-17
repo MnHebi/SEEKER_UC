@@ -1,0 +1,28 @@
+{
+	"id":"SKR_canister",
+	"specClass":"projectile",
+	"type":"ENERGY",
+	"size":"LARGE",
+	"turretSprite":"",
+	"turretGlowSprite":"",
+	"hardpointSprite":"",
+	"hardpointGlowSprite":"",
+	"turretOffsets":[
+0, 0
+],
+	"turretAngleOffsets":[
+0
+],
+	"hardpointOffsets":[ 
+0, 0
+],
+	"hardpointAngleOffsets":[
+0
+],
+	"barrelMode":"ALTERNATING",
+        "separateRecoilForLinkedBarrels":"TRUE",
+        "animationType":"NONE",				   
+	"projectileSpecId":"SKR_can",
+	"fireSoundOne":"SKR_canister_charge",
+	"fireSoundTwo":"SKR_canister_fire",
+}

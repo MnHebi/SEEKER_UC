@@ -1,0 +1,22 @@
+{
+    "baseHullId":"SKR_clipper",
+    "skinHullId":"SKR_clipper_d",
+    "hullName":"Clipper (D)",
+    "descriptionId":"SKR_clipper",
+    "descriptionPrefix":"The DCS Lookout has spent decades if not a century in the harshest conditions possible for a space ship: Intense radiations from the star, Sulfuric acid pouring from the sky, vast temperature gap between day and night... The fact that the ship is still space-worthy, though barely, is a testament of the Domain engineers elite craftsmanship. Still, prolonged exposure to the residual radiation is dangerous, some sections are exposed to the vacuum, and the main reactor leak will force the crew to work in NBC suits until the ship can be restored to its former glory.",
+    "fleetPoints":14,
+    "ordnancePoints":70,
+    "baseValue":25000,
+    "restoreToBaseHull":true,
+    "spriteName":"graphics/SEEKER/ships/hidden/SKR_clipper(D).png",
+    "removeWeaponSlots":["TURRET"],
+    "removeEngineSlots":[],
+    "removeBuiltInMods":[
+                            "hiressensors",
+                            "surveying_equipment"
+                        ],
+    "removeBuiltInWeapons":["TURRET"],
+    "builtInMods":["destroyed_mounts","SKR_destroyedDeck"],
+    "builtInWeapons":{
+    },
+}

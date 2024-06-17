@@ -1,0 +1,185 @@
+{
+  "hullName": "Cultist",
+  "hullId": "SKR_cultist",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/SEEKER/ships/hidden/SKR_cultist.png",
+  "style": "ANTIC_TECH",
+  "height": 189,
+  "width": 112,
+  "center": [56, 75],
+  "collisionRadius": 128,
+  "shieldCenter": [19.5, 0],
+  "shieldRadius": 105,
+  "viewOffset": 0,
+  "builtInMods": [
+    "high_maintenance",
+    "SKR_plagueCultist"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "HARDPOINT",
+      "arc": 15,
+      "angle": 0,
+      "locations": [64, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 45,
+      "locations": [4, 40]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -45,
+      "locations": [4, -40]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 30,
+      "locations": [13, 21]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": -30,
+      "locations": [13, -21]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 220,
+      "angle": 100,
+      "locations": [-31, 14]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 220,
+      "angle": -100,
+      "locations": [-31, -14]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-68, -0],
+      "length": 29.5,
+      "width": 15,
+      "angle": 180,
+      "contrailSize": 15,
+      "style": "SHIP_ORANGE"
+    },
+    {
+      "location": [-73, 13],
+      "length": 43,
+      "width": 22,
+      "angle": 180,
+      "contrailSize": 22,
+      "style": "SHIP_ORANGE"
+    },
+    {
+      "location": [-73, -13],
+      "length": 43,
+      "width": 22,
+      "angle": -180,
+      "contrailSize": 22,
+      "style": "SHIP_ORANGE"
+    },
+    {
+      "location": [-75, 13],
+      "length": 50,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "SMOKY_RED3"
+    },
+    {
+      "location": [-75, -13],
+      "length": 50,
+      "width": 16,
+      "angle": -180,
+      "contrailSize": 16,
+      "style": "SMOKY_RED3"
+    },
+    {
+      "location": [-70.5, -0],
+      "length": 66.5,
+      "width": 18,
+      "angle": 180,
+      "contrailSize": 18,
+      "style": "SMOKY_RED"
+    },
+    {
+      "location": [-53, 37],
+      "length": 29,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 128,
+      "style": "MIDLINE_NO_SMOKE"
+    },
+    {
+      "location": [-53, -37],
+      "length": 29,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 128,
+      "style": "MIDLINE_NO_SMOKE"
+    },
+    {
+      "location": [-54.5, 31.5],
+      "length": 29,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 128,
+      "style": "MIDLINE_NO_SMOKE"
+    },
+    {
+      "location": [-54.5, -31.5],
+      "length": 29,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 128,
+      "style": "MIDLINE_NO_SMOKE"
+    }
+  ],
+  "bounds": [
+    92, 14.5,
+    31, 34.5,
+    24.5, 20,
+    6.5, 27,
+    4.5, 41,
+    -50.5, 40,
+    -53, 28,
+    -73, 17,
+    -63, -0,
+    -73, -17,
+    -53, -28,
+    -50.5, -39.5,
+    6, -42,
+    3, -28,
+    25, -19,
+    31, -34.5,
+    92, -14.5,
+    111.5, -0
+  ]
+}

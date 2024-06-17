@@ -1,0 +1,31 @@
+{
+    "hullFrequency":{
+        "hulls":{
+            "SKR_obelisk":0.25,
+            "SKR_marksman":0.5,
+            "SKR_557":0.33,
+
+            "SKR_bullhorn":1,
+        },
+    },
+
+    "shipsWhenImporting":{
+        "hulls":[
+            "SKR_obelisk",
+        ],
+    },
+
+    "knownShips":{
+        "hulls":[
+            "SKR_marksman",
+            "SKR_557",
+
+            "SKR_bullhorn",
+        ],
+    },
+    "knownWeapons":{
+        "weapons":[
+            "SKR_minigun",
+        ],
+    },
+}

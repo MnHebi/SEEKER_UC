@@ -1,0 +1,32 @@
+{
+	"id":"SKR_hvBlaster",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"ENERGY",
+	"size":"MEDIUM",
+	"turretSprite":"graphics/SEEKER/weapons/plague/SKR_hvblasterT.png",
+	"turretGlowSprite":"graphics/SEEKER/weapons/plague/SKR_hvblasterTG.png",
+	"hardpointSprite":"graphics/SEEKER/weapons/plague/SKR_hvblasterH.png",
+	"hardpointGlowSprite":"graphics/SEEKER/weapons/plague/SKR_hvblasterHG.png",
+	#"glowColor":[155,100,255,255],
+	"glowColor":[100,100,255,255],
+	"turretOffsets":[17, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[20, 0],
+	"hardpointAngleOffsets":[0],
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"GLOW_AND_FLASH",
+	"muzzleFlashSpec":{"length":40.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":15.0,
+					   "particleSizeMin":5.0,
+					   "particleSizeRange":30.0,
+					   "particleDuration":0.5,
+					   "particleCount":32,
+					   "particleColor":[100,150,255,255]},
+	#"requiresFullCharge":true,  # for pulse weapons - whether the weapon will fire at a lower strength partial charge
+	"interruptibleBurst":true,
+	"autocharge":true,
+	"projectileSpecId":"SKR_hvBlaster_shot",  # projectile that will be fired
+	#"fireSoundOne":"SKR_hvblaster_charge",
+	"fireSoundTwo":"SKR_hvblaster_fire",
+	"everyFrameEffect":"data.scripts.weapons.SKR_hvblasterEffect",
+}

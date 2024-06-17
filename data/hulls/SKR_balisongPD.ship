@@ -1,0 +1,65 @@
+{
+  "bounds": [
+    4.5,
+    2,
+    -0.5,
+    5.5,
+    -5.5,
+    3,
+    -5.5,
+    -3,
+    -0.5,
+    -5.5,
+    4.5,
+    -2
+  ],
+  "builtInWeapons": {
+    "WS0001": "pdlaser"
+  },
+  "builtInWings": [],
+  "center": [
+    6.5,
+    7
+  ],
+  "collisionRadius": 6.5,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 6,
+      "length": 18,
+      "location": [
+        -2.5,
+        -0
+      ],
+      "style": "HIGH_TECH",
+      "width": 6
+    }
+  ],
+  "height": 13,
+  "hullId": "SKR_balisongPD",
+  "hullName": "Staff",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 6.5,
+  "spriteName": "graphics/SEEKER/ships/hidden/SKR_balisongPD.png",
+  "style": "HIGH_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 15,
+      "id": "WS0001",
+      "locations": [
+        3.5,
+        -0
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    }
+  ],
+  "width": 13
+}

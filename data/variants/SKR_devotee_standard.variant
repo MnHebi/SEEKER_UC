@@ -1,0 +1,32 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 4,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "SKR_devotee",
+    "hullMods": [
+        "pointdefenseai",
+        "advancedoptics",
+        "targetingunit"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "SKR_devotee_standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "SKR_pdCharger",
+                "WS0003": "SKR_pdCharger",
+                "WS0004": "SKR_pdCharger",
+                "WS0005": "SKR_pdCharger"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "SKR_tusk_medium"}
+        }
+    ]
+}

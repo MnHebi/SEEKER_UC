@@ -1,0 +1,44 @@
+{
+    "displayName": "Left Deck",
+    "fluxCapacitors": 0,
+    "fluxVents": 6,
+    "goalVariant": true,
+    "hullId": "SKR_whiteDwarf_deckL",
+    "hullMods": [
+        "eccm",
+        "missleracks",
+        "expanded_deck_crew",
+        "advancedoptics",
+        "pointdefenseai",
+        "turretgyros",
+        "targetingunit"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "SKR_whiteDwarf_deckL_2",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "SKR_lightstreak",
+                "WS0002": "SKR_lightstreak",
+                "WS0003": "SKR_lightstreak"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "SKR_pdCharger",
+                "WS0005": "SKR_pdCharger"
+            }
+        }
+    ],
+    "wings": [
+        "SKR_beetle_wing",
+        "SKR_pillbug_wing",
+        "SKR_pillbug_wing",
+        "SKR_fireant_wing"
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "displayName": "Cairn",
+    "fluxCapacitors": 0,
+    "fluxVents": 2,
+    "goalVariant": true,
+    "hullId": "SKR_obelisk",
+    "hullMods": ["converted_hangar"],
+    "permaMods": [],
+    "variantId": "SKR_obelisk_cairn",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {"WS0001": "hammerrack"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "taclaser",
+                "WS0004": "taclaser",
+                "WS0005": "taclaser",
+                "WS0006": "taclaser",
+                "WS0007": "taclaser",
+                "WS0008": "taclaser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "pdburst"}
+        }
+    ],
+    "wings": ["broadsword_wing"]
+}

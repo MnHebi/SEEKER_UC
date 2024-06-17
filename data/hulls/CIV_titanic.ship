@@ -1,0 +1,372 @@
+{
+  "bounds": [
+    187.5,
+    9.5,
+    155.5,
+    21.5,
+    155.5,
+    62.5,
+    139.5,
+    62.5,
+    148,
+    78,
+    139.5,
+    92.5,
+    114,
+    92.5,
+    67,
+    126,
+    43.5,
+    126,
+    38.5,
+    109.5,
+    -15.5,
+    133,
+    -26,
+    120,
+    -101.5,
+    98,
+    -112.5,
+    73.5,
+    -156.5,
+    49.5,
+    -134.5,
+    42,
+    -134.5,
+    -42,
+    -156.5,
+    -49.5,
+    -112.5,
+    -73.5,
+    -101.5,
+    -98,
+    -26,
+    -120,
+    -15.5,
+    -133,
+    38.5,
+    -109.5,
+    43.5,
+    -126,
+    67,
+    -126,
+    114,
+    -92.5,
+    139.5,
+    -92.5,
+    148,
+    -78,
+    139.5,
+    -62.5,
+    155.5,
+    -62.5,
+    155.5,
+    -21.5,
+    187.5,
+    -9.5
+  ],
+  "builtInMods": [
+    "civgrade",
+    "advanced_ground_support"
+  ],
+  "builtInWeapons": {
+    "WS0010": "CIV_titanic_bays",
+    "WS0013": "SKR_blinkerGreenB",
+    "WS0014": "SKR_blinkerRedB",
+    "WS0015": "SKR_blinkerGreenB",
+    "WS0016": "SKR_blinkerRedB"
+  },
+  "builtInWings": [],
+  "center": [
+    144,
+    174
+  ],
+  "collisionRadius": 220,
+  "engineSlots": [
+    {
+      "angle": -180,
+      "contrailSize": 15,
+      "length": 63,
+      "location": [
+        -150,
+        -11
+      ],
+      "style": "LOW_TECH",
+      "width": 15
+    },
+    {
+      "angle": 180,
+      "contrailSize": 15,
+      "length": 63,
+      "location": [
+        -150,
+        11
+      ],
+      "style": "LOW_TECH",
+      "width": 15
+    },
+    {
+      "angle": -180,
+      "contrailSize": 10,
+      "length": 39.5,
+      "location": [
+        -139,
+        -40.5
+      ],
+      "style": "LOW_TECH",
+      "width": 10
+    },
+    {
+      "angle": 180,
+      "contrailSize": 10,
+      "length": 39.5,
+      "location": [
+        -139,
+        40.5
+      ],
+      "style": "LOW_TECH",
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 6,
+      "length": 21,
+      "location": [
+        -137,
+        -33.5
+      ],
+      "style": "LOW_TECH",
+      "width": 6
+    },
+    {
+      "angle": 180,
+      "contrailSize": 6,
+      "length": 21,
+      "location": [
+        -137,
+        33.5
+      ],
+      "style": "LOW_TECH",
+      "width": 6
+    },
+    {
+      "angle": 180,
+      "contrailSize": 6,
+      "length": 21,
+      "location": [
+        -138,
+        29
+      ],
+      "style": "LOW_TECH",
+      "width": 6
+    },
+    {
+      "angle": -180,
+      "contrailSize": 6,
+      "length": 21,
+      "location": [
+        -138,
+        -29
+      ],
+      "style": "LOW_TECH",
+      "width": 6
+    },
+    {
+      "angle": 180,
+      "contrailSize": 6,
+      "length": 21,
+      "location": [
+        -137,
+        24.5
+      ],
+      "style": "LOW_TECH",
+      "width": 6
+    },
+    {
+      "angle": -180,
+      "contrailSize": 6,
+      "length": 21,
+      "location": [
+        -137,
+        -24.5
+      ],
+      "style": "LOW_TECH",
+      "width": 6
+    }
+  ],
+  "height": 384,
+  "hullId": "CIV_titanic",
+  "hullName": "Titanic",
+  "hullSize": "CAPITAL_SHIP",
+  "shieldCenter": [
+    7,
+    -0
+  ],
+  "shieldRadius": 210,
+  "spriteName": "graphics/SEEKER/ships/hidden/CIV_titanic.png",
+  "style": "LOW_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": -0,
+      "arc": 180,
+      "id": "WS0001",
+      "locations": [
+        90,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 60,
+      "arc": 180,
+      "id": "WS0002",
+      "locations": [
+        42,
+        87.5
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": -60,
+      "arc": 180,
+      "id": "WS0003",
+      "locations": [
+        42,
+        -87.5
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": -135,
+      "arc": 180,
+      "id": "WS0004",
+      "locations": [
+        -44,
+        -65
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 135,
+      "arc": 180,
+      "id": "WS0005",
+      "locations": [
+        -44,
+        65
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "SYSTEM",
+      "locations": [
+        -30,
+        0
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "LB 1",
+      "locations": [
+        161.5,
+        -36.5,
+        146.5,
+        -36.5
+      ],
+      "mount": "HIDDEN",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "LB 2",
+      "locations": [
+        149.5,
+        -52.5,
+        161.5,
+        -52.5
+      ],
+      "mount": "HIDDEN",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0010",
+      "locations": [
+        75.5,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "LARGE",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": -0,
+      "arc": 0,
+      "id": "WS0013",
+      "locations": [
+        116.5,
+        101.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0014",
+      "locations": [
+        116.5,
+        -101.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0015",
+      "locations": [
+        -53.5,
+        118.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": -0,
+      "arc": 0,
+      "id": "WS0016",
+      "locations": [
+        -53.5,
+        -118.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    }
+  ],
+  "width": 288
+}

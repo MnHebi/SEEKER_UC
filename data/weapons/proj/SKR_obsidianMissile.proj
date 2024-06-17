@@ -1,0 +1,41 @@
+{
+	"id":"SKR_obsidianMissile",
+	"specClass":"missile",	
+	"missileType":"MISSILE",
+	"sprite":"graphics/missiles/missile_hydra_mdem_warhead.png",
+	"size":[11,16],	
+	"center":[5.5,8],
+	"collisionRadius":7,
+	"collisionClass":"MISSILE_FF",
+	#"flameoutTime":0.2f, # total time from flameout to full fadeout
+	#"fadeTime":0.15, # fadeout duration	
+	"explosionColor":[50,255,165,155],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":125, # purely visual
+	"engineSpec":{
+            "turnAcc":720,
+            "turnRate":60,
+            "acc":700,
+            "dec":50
+        },
+	"engineSlots":[{
+            "id":"ES1",
+            "loc":[-5, 0],
+            "style":"CUSTOM",
+            "styleSpec":{
+                "mode":"QUAD_STRIP",
+                "engineColor":[25,255,100,255],
+                "contrailDuration":1f,
+                "contrailWidthMult":1f,
+                "contrailWidthAddedFractionAtEnd":-0.5f,
+                "contrailMinSeg":30f,
+                "contrailMaxSpeedMult":0.5f,
+                "contrailAngularVelocityMult":0.5f,
+                "contrailSpawnDistMult":-0.5f,
+                "contrailColor":[70,100,70,150],
+                "type":"SMOKE"
+            },
+            "width":12.0,
+            "length":32.0,
+            "angle":180.0
+        }],	    
+}

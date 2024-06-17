@@ -1,0 +1,81 @@
+{
+  "hullName": "Believer",
+  "hullId": "SKR_believer",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/SEEKER/ships/hidden/SKR_believer.png",
+  "style": "ANTIC_TECH",
+  "height": 110,
+  "width": 66,
+  "center": [33, 54],
+  "collisionRadius": 61.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 60.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "high_maintenance",
+    "SKR_plagueCultist",
+        "eccm",
+        "missleracks"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [37, -14]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 45,
+      "locations": [14, 14]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 180,
+      "locations": [-24, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-51, 0],
+      "length": 45.5,
+      "width": 24,
+      "angle": -180,
+      "contrailSize": 24,
+      "style": "SHIP_ORANGE"
+    },
+    {
+      "location": [-52, 0],
+      "length": 64,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "SMOKY_RED"
+    }
+  ],
+  "bounds": [
+    40, 1.5,
+    15, 27.5,
+    -8, 16.5,
+    -23, 19,
+    -51, 9,
+    -51, -9,
+    -23, -19,
+    -8, -16.5,
+    7.5, -30,
+    41.5, -23.5,
+    42, -4.5,
+    33, -3.5
+  ]
+}

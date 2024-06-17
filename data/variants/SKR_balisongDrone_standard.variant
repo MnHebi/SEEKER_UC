@@ -1,0 +1,21 @@
+{
+  "displayName": "Defense",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "goalVariant": false,
+  "hullId": "SKR_balisongDrone",
+  "hullMods": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "SKR_balisongDrone_standard",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "pdburst"
+      }
+    }
+  ],
+  "wings": []
+}

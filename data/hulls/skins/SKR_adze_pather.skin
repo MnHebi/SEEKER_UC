@@ -1,0 +1,47 @@
+{
+    "baseHullId":"SKR_adze",
+    "skinHullId":"SKR_adze_pather",
+    "hullName":"Adze (LP)",
+    "descriptionId":"SKR_adze",
+	"descriptionPrefix":"Fanatics of the Luddic Path have made this ship their own, stripping out all unnecessary furnishing and transforming it into a haphazard vehicle of holy war.",
+    "spriteName": "graphics/SEEKER/ships/gunships/SKR_adze_body_lp.png",
+    "baseValueMult":0.8,
+	"fleetPoints":9,
+	"ordnancePoints":70,
+    #"restoreToBaseHull":true,
+    "addHints":[],
+    "tags":["rare_bp"],
+	"tech":"Luddic Path",
+    "removeWeaponSlots":[],
+    "removeEngineSlots":[4,5,6,7,8,9,10,11,12,13],
+    "removeBuiltInMods":["missleracks"],
+    "removeBuiltInWeapons":[
+    "jet0",
+    "jet1",
+    "jet2",
+    "jet3",
+    "jet4",
+    "jet5",
+    "jet6",
+    "jet7",
+    "jet8",
+    "jet9",
+	],
+	"builtInMods":["safetyoverrides","ill_advised"],
+    "builtInWeapons":{
+		"WS0004": "SKR_Xadze_leftWisker_lp",
+		"WS0005": "SKR_Xadze_rightWisker_lp",
+	},
+	"systemId":"ammofeed",
+    "weaponSlotChanges":{
+        "WS0003":{
+			"size": "SMALL",
+        },
+        "WS0002":{
+			"size": "SMALL",
+        },
+        "WS0001":{
+            "type": "BALLISTIC"
+        },
+	},
+}

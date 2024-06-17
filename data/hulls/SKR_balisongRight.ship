@@ -1,0 +1,63 @@
+{
+  "bounds": [
+    -92,
+    -8.5,
+    1,
+    -33.5,
+    97,
+    -7.5,
+    90.5,
+    0,
+    97,
+    7.5,
+    16,
+    26.5,
+    -35,
+    26.5,
+    -66,
+    14,
+    -66,
+    -8.5
+  ],
+  "builtInMods": [
+    "reduced_explosion",
+    "always_detaches"
+  ],
+  "builtInWeapons": {
+    #"WS0001": "SKR_balisongPD"
+  },
+  "builtInWings": [],
+  "center": [
+    38,
+    102.5
+  ],
+  "collisionRadius": 101,
+  "engineSlots": [],
+  "height": 205,
+  "hullId": "SKR_balisongRight",
+  "hullName": "Right Gun",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    0,
+    0
+  ],
+  "shieldRadius": 100,
+  "spriteName": "graphics/SEEKER/ships/hidden/SKR_balisongRIGHT.png",
+  "style": "HIGH_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": -90,
+      "arc": 270,
+      "id": "WS0001",
+      "locations": [
+        0,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    }
+  ],
+  "width": 76
+}

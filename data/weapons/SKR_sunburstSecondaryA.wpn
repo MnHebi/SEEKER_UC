@@ -1,0 +1,19 @@
+{
+	"id":"SKR_sunburstSecondaryA",
+	"specClass":"projectile",
+	"type":"BALLISTIC",
+	"size":"LARGE",
+	"turretSprite":"",
+	"turretGunSprite":"",
+	"hardpointSprite":"",
+	"hardpointGunSprite":"",	
+	"renderHints":[RENDER_BARREL_BELOW],
+	"turretOffsets":[0,0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[0,0],
+	"hardpointAngleOffsets":[0],
+	"barrelMode":"ALTERNATING", # LINKED or ALTERNATING.  whether barrels fire at the same time or alternate.
+	"animationType":"NONE",  # NONE, GLOW, MUZZLE_FLASH, SMOKE
+	#"projectileSpecId":"SKR_sunburst_shotA",  # projectile that will be fired
+	"projectileSpecId":"SKR_sunburst_mineA",  # projectile that will be fired
+}

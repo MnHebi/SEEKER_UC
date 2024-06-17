@@ -1,0 +1,73 @@
+{
+    "displayName": "Vengeance",
+    "fluxCapacitors": 0,
+    "fluxVents": 38,
+    "hullId": "SKR_cassowaryRH",
+    "hullMods": [
+        "magazines",
+        "targetingunit",
+        "damaged_deck",
+        "defective_manufactory",
+        "malfunctioning_comms",
+        "faulty_grid",
+        "glitched_sensors",
+        "missleracks"
+    ],
+    "permaMods": [
+        "damaged_deck",
+        "defective_manufactory",
+        "malfunctioning_comms",
+        "faulty_grid",
+        "glitched_sensors"
+    ],
+    "variantId": "SKR_cassowaryRH_start",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0007": "sabotpod",
+                "WS0008": "sabotpod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "hellbore"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0004": "mark9"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "ionpulser",
+                "WS0006": "ionpulser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0009": "lrpdlaser",
+                "WS0010": "lrpdlaser",
+                "WS0011": "lrpdlaser",
+                "WS0012": "lrpdlaser",
+                "WS0013": "lrpdlaser",
+                "WS0014": "lrpdlaser",
+                "WS0015": "lrpdlaser",
+                "WS0016": "lrpdlaser",
+                "WS0017": "lrpdlaser"
+            }
+        }
+    ],
+    "wings": [
+        "piranha_wing",
+        "piranha_wing",
+        "broadsword_wing",
+        "broadsword_wing"
+    ]
+}

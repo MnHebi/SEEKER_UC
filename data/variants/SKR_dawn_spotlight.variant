@@ -1,0 +1,64 @@
+{
+    "displayName": "Spotlight",
+    "fluxCapacitors": 30,
+    "fluxVents": 50,
+    "goalVariant": true,
+    "hullId": "SKR_dawn",
+    "hullMods": [
+        "missleracks",
+        "magazines",
+        "hardenedshieldemitter"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "SKR_dawn_spotlight",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "autopulse",
+                "WS0002": "autopulse"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "BUILTIN_L": "SKR_sunburst",
+                "BUILTIN_R": "SKR_sunburst"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0008": "sabotpod",
+                "WS0009": "sabotpod"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0010": "annihilator",
+                "WS0011": "annihilator"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "pdburst",
+                "WS0004": "ionpulser",
+                "WS0005": "ionpulser",
+                "WS0006": "heavyburst",
+                "WS0007": "heavyburst",
+                "WS0012": "pdlaser",
+                "WS0013": "pdlaser",
+                "WS0014": "pdlaser",
+                "WS0015": "pdlaser"
+            }
+        }
+    ]
+}

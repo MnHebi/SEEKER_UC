@@ -1,0 +1,11 @@
+{
+	"id":"SKR_bushwhackerStrong_shot",
+	"specClass":"projectile",
+	"spawnType":"PLASMA",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"width":130.0,
+	"fadeTime":0.4,
+	"fringeColor":[0,0,240,255],
+	"coreColor":[125,225,255,255],
+}
