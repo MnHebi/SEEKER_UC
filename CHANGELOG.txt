@@ -3,6 +3,7 @@ SEEKER
 7M
  - Attempt to fix Rampage teleporting out at 0% hull by tweaking  SKR_warpDriveEffect.java, changed retreat warp out effect to consider if ship is alive. Alternative fix is waiting, just commented out of this does not work(alternative fix thanks to JamesTripleQ).
  - Attempt to fix Cataclysm invulnerable modules, gave each module a unique ship, variant, and graphics file(thanks JamesTripleQ)
+ - Fix missing _ on Red Hand start that caused player to start with a Nebula instead of a Falcon
 
 6M
  - Recompiled all java scripts, fixed deprecated magiclib import calls and methods(4 addTrailMemberAdvanced methods are unupdated since I have no idea on what to update them to).

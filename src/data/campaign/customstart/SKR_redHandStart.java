@@ -43,7 +43,7 @@ public class SKR_redHandStart extends CustomStart {
                                 "SKR_cassowaryRH_start",
                                 //"SKR_bonnetheadP_start",
                                 //"CIV_craneP_start",
-                                "SKR_falcon p_start",
+                                "SKR_falcon_p_start",
                                 "SKR_colossus3_start",
                                 //"SKR_bullyP_start",
                                 "SKR_buffalo2_start",
