@@ -211,7 +211,7 @@ public class SKR_seekerGen implements SectorGeneratorPlugin {
         */
             CampaignFleetAPI nova = MagicCampaign.createFleetBuilder()
                     .setFleetName(txt("nova_fleet"))
-                    .setFleetFaction(Factions.REMNANTS)
+                    .setFleetFaction("plague")
                     .setFleetType(FleetTypes.PERSON_BOUNTY_FLEET)
                     .setFlagshipName(txt("nova_boss"))
                     .setFlagshipVariant("SKR_nova_falseOmega")
@@ -635,7 +635,7 @@ public class SKR_seekerGen implements SectorGeneratorPlugin {
             
             CampaignFleetAPI hackedFleet = MagicCampaign.createFleetBuilder()
                     .setFleetName(txt("plague_AIFleet"))
-                    .setFleetFaction("remnant")
+                    .setFleetFaction("plague")
                     .setFleetType(FleetTypes.PATROL_MEDIUM)
                     .setFlagshipName(txt("plague_blank"))
                     .setFlagshipVariant(flagships.get(size-1))

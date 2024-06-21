@@ -4,10 +4,14 @@ SEEKER
  - Attempt to fix Rampage teleporting out at 0% hull by tweaking  SKR_warpDriveEffect.java, changed retreat warp out effect to consider if ship is alive. Alternative fix is waiting, just commented out of this does not work(alternative fix thanks to JamesTripleQ).
  - Attempt to fix Cataclysm invulnerable modules, gave each module a unique ship, variant, and graphics file(thanks JamesTripleQ)
  - Fix missing _ on Red Hand start that caused player to start with a Nebula instead of a Falcon
+ - Changed Nova name to Superluminant to avoid confusion with vanilla Nova
+ - Changed so Nova Fleet is Plague Bearer faction, instead of Remnant so you can avoid relations hit with Remnant if you pursuing Midnight questline in Nex
+ - Changed White Dwarf escorts to Plague Bearer faction as well, they have Plague Bearer ships in them so they should be Plague Bearer, and similarly to the Nova so player can pursue them without hits to relation with Remnants.
 
 0.56M
  - Recompiled all java scripts, fixed deprecated magiclib import calls and methods(4 addTrailMemberAdvanced methods are unupdated since I have no idea on what to update them to).
  - Fixed Seeker ship hulls dominating the factions.
+ - Fixed missing strings due to lack of " " encasing strings in strings.json
 
 0.53
 
