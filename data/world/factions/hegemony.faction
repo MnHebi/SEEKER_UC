@@ -1,8 +1,6 @@
 {
     "hullFrequency":{
         "hulls":{
-            "SKR_obelisk":0.12,
-            "SKR_marksman":0.25,
             "SKR_557":0.06,
 
             "SKR_bullhorn":0.5,
