@@ -9,4 +9,6 @@
         "minor":5,
         "patch":"7m"
     },
+	"directDownloadURL": "https://raw.githubusercontent.com/MnHebi/SEEKER_UC/0.57M/CHANGELOG.txt",
+	"changelogURL": "https://raw.githubusercontent.com/MnHebi/Torchships/main/CHANGELOGS.txt"	
 }
