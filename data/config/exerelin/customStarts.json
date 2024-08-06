@@ -44,7 +44,7 @@
 
         {
 			"id":"poisonStart",
-			"name":"Break-up hanghover",
+			"name":"Break-up hangover",
 			"difficulty":"Medium",
 			"desc":"\"You double-faced cowards! Lying pieces of sh...\" The opening door interrupts your rabid tirade at a blank screen, the young sailor is taken aback by your glare. You quickly recompose yourself, public outbursts can do wonders to keep a rowdy crew in line, but fume at the wrong time and it will shatter your all-important aura of authority. \"Get on the horn. Captains and First-officers meeting in 30!\"\n\nThe last pair enters the briefing room and you stop pretending to study the sensor readings of your former associates' fleets leaving the area. \"We are in a less-than-ideal situation. Without coordinated deceptions and our main source of intel, I'm canceling the next raid.\" Reserved nods confirm most of the team expected this announcement. \"However this is a mere temporary setback and a learning experience: Never rely on flaky people!\" The following shared grunt brings a thin grin to your face. \"This means we are back to the basics. I have a few ideas in mind for our next move, but before making a final decision I'm open to suggestions.\"\n\nMost officers are leaning forward, datapads connected to the briefing room network. A perfect exhibit about the benefits of hiring mainly disgruntled military types instead of psychopaths for higher positions: they are used to cooperative planning sessions like this one and for the most part won't try to undermine the chain of command. Smuggling, commerce raiding, exploration, rapidly several paths forward take shape. The next move is yours to make.",
 			"className":"data.campaign.customstart.SKR_poisonStart",
